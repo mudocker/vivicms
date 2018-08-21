@@ -1,4 +1,4 @@
 <?php
-$GLOBALS['debug'][] = '³ÌÐòÔËÐÐ×Ü¹²ÓÃÊ±£º' . round((debug_time() - RUN_TIME), 4) . 's';
-$GLOBALS['debug'][] = 'ÄÚ´æ¿ªÏú£º' . ((memory_get_usage() - $GLOBALS['_start_memory']) / 1024) . ' kb';
+$GLOBALS['debug'][] = 'ç¨‹åºè¿è¡Œæ€»å…±ç”¨æ—¶ï¼š' . round((debug_time() - RUN_TIME), 4) . 's';
+$GLOBALS['debug'][] = 'å†…å­˜å¼€é”€ï¼š' . ((memory_get_usage() - $GLOBALS['_start_memory']) / 1024) . ' kb';
 $v_config['web_debug'] == "on" and  echo_debug($GLOBALS['debug']);

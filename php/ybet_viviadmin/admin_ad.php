@@ -12,7 +12,7 @@ if($ac == 'save'){
     }
     $data = serialize($array);
     write($adsfile, $data);
-    ShowMsg("��ϲ��,�޸ĳɹ���", '?', 2000);
+    ShowMsg("恭喜你,修改成功！", '?', 2000);
     exit;
 }
 if($ac == 'insert'){
@@ -20,13 +20,13 @@ if($ac == 'insert'){
     $mark = trim($_POST['mark']);
     $body = get_magic(trim($_POST['body']));
     if('' == $mark){
-        ShowMsg("����д����ʶ", '-1', 3000);
+        ShowMsg("请填写广告标识", '-1', 3000);
         exit;
     }
     if($config_ads){
         foreach($config_ads as $k => $vo){
             if($vo['mark'] == $mark){
-                ShowMsg("����ʶ�Ѵ��ڣ�������һ��", '-1', 3000);
+                ShowMsg("广告标识已存在，请另起一个", '-1', 3000);
                 exit;
             }
         }
@@ -34,7 +34,7 @@ if($ac == 'insert'){
     $config_ads[] = array('mark' => $mark, 'body' => $body, 'sm' => $sm);
     $data = serialize($config_ads);
     write($adsfile, $data);
-    ShowMsg("��ϲ��,���ӳɹ���", '?', 2000);
+    ShowMsg("恭喜你,添加成功！", '?', 2000);
     exit;
 }
 if($ac == 'del'){
@@ -47,7 +47,7 @@ if($ac == 'del'){
     $config_ads = array_values($config_ads);
     $data = serialize($config_ads);
     write($adsfile, $data);
-    ShowMsg("��ϲ��,ɾ���ɹ���", '?', 2000);
+    ShowMsg("恭喜你,删除成功！", '?', 2000);
     exit;
 }
 echo ADMIN_HEAD;
@@ -81,15 +81,15 @@ echo ADMIN_HEAD;
 	<form action="?ac=save" method="post">
       <tbody>
 		<tr nowrap  class="tb_head">
-          <td colspan="6"><h2><font color="red">������ΪHTML��ʽ</font> - &nbsp;<a href="?ac=add"><font color="blue">���ӹ��</font></a></h2></td>
+          <td colspan="6"><h2><font color="red">广告代码为HTML格式</font> - &nbsp;<a href="?ac=add"><font color="blue">添加广告</font></a></h2></td>
         </tr>
 		<tr align='center' class="firstalt">
 			<td width="80">id</td>
-			<td width="120">����ʶ</td>
-			<td width="200">�滻��ǩ</td>
-			<td width="150">���˵��</td>
-			<td>�����루html���룩</td>
-			<td width="90">����</td>
+			<td width="120">广告标识</td>
+			<td width="200">替换标签</td>
+			<td width="150">广告说明</td>
+			<td>广告代码（html代码）</td>
+			<td width="90">操作</td>
 		</tr>
 <?php if($config_ads){
         krsort($config_ads);
@@ -112,10 +112,10 @@ echo ADMIN_HEAD;
 		  <td><textarea name="bodys[]" rows="3" style="width:98%"><?php echo _htmlspecialchars($vo['body']);
             ?></textarea></td>   
 		  <td align="center"><a href="?ac=preview&mark=<?php echo $vo['mark'];
-            ?>" target="_blank">Ԥ��</a>&nbsp;&nbsp;<?php if(!$readonly){
+            ?>" target="_blank">预览</a>&nbsp;&nbsp;<?php if(!$readonly){
                 ?><a href="?ac=del&mark=<?php echo $vo['mark'];
-                ?>" onClick="return confirm('ȷ��Ҫɾ����?')">ɾ��</a><?php }else{
-                echo '<font color="red">����</font>';
+                ?>" onClick="return confirm('确定要删除吗?')">删除</a><?php }else{
+                echo '<font color="red">内置</font>';
             }
             ?></td>
         </tr>
@@ -123,15 +123,15 @@ echo ADMIN_HEAD;
     }else{
         ?>
 	<tr nowrap class="firstalt" align='center'>
-		<td colspan="6">û�й��</td>
+		<td colspan="6">没有广告</td>
 	</tr>
 <?php }
     ?>
 		</tbody>
 		<tr class="firstalt">
           <td colspan="6" align="center">
-            <input class="bginput" type="submit" name="submit" value=" ���� " >
-            <input class="bginput" type="button" onclick="history.back();" name="Input" value=" ���� " >
+            <input class="bginput" type="submit" name="submit" value=" 保存 " >
+            <input class="bginput" type="button" onclick="history.back();" name="Input" value=" 返回 " >
           </td>
         </tr>
       </form>
@@ -141,25 +141,25 @@ echo ADMIN_HEAD;
 <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 <form action="?ac=insert" method="post">
 		<tr nowrap  class="tb_head">
-          <td colspan="2"><h2>���ӹ�� - <font color="red">������ΪHTML��ʽ</font></a></h2></td>
+          <td colspan="2"><h2>添加广告 - <font color="red">广告代码为HTML格式</font></a></h2></td>
         </tr>
 		<tr class="firstalt">
-		  <td width="120" align="right">����ʶ��</td>
-		  <td><input name="mark" type="text" class="input" maxlength="50" value="" style="width:200px"> * ע����ֹʹ������</td>
+		  <td width="120" align="right">广告标识：</td>
+		  <td><input name="mark" type="text" class="input" maxlength="50" value="" style="width:200px"> * 注：禁止使用中文</td>
 		</tr>
 		<tr class="firstalt">
-		  <td width="120" align="right">���˵����</td>
+		  <td width="120" align="right">广告说明：</td>
 		  <td><input name="sm" type="text" class="input" maxlength="50" value="" style="width:200px"></td>
 		</tr>
 		<tr class="firstalt">
-		  <td align="right">�����룺</td>
-		  <td><textarea name="body" cols="80" style="height:100px; width:400px"></textarea> * ע��������ΪHTML��ʽ</td>
+		  <td align="right">广告代码：</td>
+		  <td><textarea name="body" cols="80" style="height:100px; width:400px"></textarea> * 注：广告代码为HTML格式</td>
 		</tr>
 		<tr class="firstalt">
 			<td>&nbsp;</td>
           <td >
-            <input class="bginput" type="submit" name="submit" value=" ���� " >
-            <input class="bginput" type="button" onclick="history.back();" name="Input" value=" ���� " >
+            <input class="bginput" type="submit" name="submit" value=" 添加 " >
+            <input class="bginput" type="button" onclick="history.back();" name="Input" value=" 返回 " >
           </td>
         </tr>
 	</form>

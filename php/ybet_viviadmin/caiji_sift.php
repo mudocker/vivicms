@@ -15,24 +15,24 @@ if($id == ''){
   <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tr class="tb_head">  
 		<td colspan="2">
-			<h2>¹ýÂËÆÁ±ÎÉèÖÃ</h2>
+			<h2>è¿‡æ»¤å±è”½è®¾ç½®</h2>
 		</td>
 	</tr>
 	<tr nowrap class="firstalt">
-			<td width="260"><b>¹ýÂËÆÁ±Î¿ª¹Ø</b><br>
-			<font color="#666666">¹ýÂËÆÁ±Î</font></td>
+			<td width="260"><b>è¿‡æ»¤å±è”½å¼€å…³</b><br>
+			<font color="#666666">è¿‡æ»¤å±è”½</font></td>
 			<td><select name="con[sifton]">
 				<option value="1" <?php if($v_config['sifton'])echo "selected";
-    ?>>¿ªÆô</option>
+    ?>>å¼€å¯</option>
 				<option value="0" <?php if(!$v_config['sifton'])echo "selected";
-    ?>>¹Ø±Õ</option>
+    ?>>å…³é—­</option>
 			</select></td>
 		</tr>
 	<tr class="firstalt">
 		<td width="260">
-			<b>ÐèÒª¹ýÂËµÄÁ´½Ó</b></font>
+			<b>éœ€è¦è¿‡æ»¤çš„é“¾æŽ¥</b></font>
 		</td>  
-		<td>Ã¿ÐÐÒ»ÌõÁ´½Ó£¬µ±²É¼¯µ½´ËµØÖ·Ê±×Ô¶¯·µ»Ø404´íÎó´ïµ½ÆÁ±ÎÄ¿µÄ<br>
+		<td>æ¯è¡Œä¸€æ¡é“¾æŽ¥ï¼Œå½“é‡‡é›†åˆ°æ­¤åœ°å€æ—¶è‡ªåŠ¨è¿”å›ž404é”™è¯¯è¾¾åˆ°å±è”½ç›®çš„<br>
 		<textarea name="con[sifturl]" cols="80" style="height:120px; width:450px" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ><?php echo $v_config['sifturl'] ?></textarea>
 		</td>
 	</tr>
@@ -59,6 +59,6 @@ document.write(submit);
     if($config){
         arr2file(VV_DATA . "/config.php", $config);
     }
-    ShowMsg("¹§Ï²Äã,ÐÞ¸Ä³É¹¦£¡", 'caiji_sift.php', 2000);
+    ShowMsg("æ­å–œä½ ,ä¿®æ”¹æˆåŠŸï¼", 'caiji_sift.php', 2000);
 }
 ?>

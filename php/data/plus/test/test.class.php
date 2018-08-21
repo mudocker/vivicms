@@ -3,48 +3,48 @@ if(!defined('VV_PLUS')){
 	exit('Access Denied');
 }
 /*
-È«¾Ö±äÁ¿ËµÃ÷£º
+å…¨å±€å˜é‡è¯´æ˜ï¼š
 
-$GLOBALS['urlext']   ->  urlºó×ºÃû£¬Èç£ºphp£¬gif
-$GLOBALS['geturl']   ->  µ±Ç°µÄÄ¿±êÕ¾url
-$GLOBALS['html']     ->  Õû¸öÒ³ÃæµÄhtml´úÂë
+$GLOBALS['urlext']   ->  urlåç¼€åï¼Œå¦‚ï¼šphpï¼Œgif
+$GLOBALS['geturl']   ->  å½“å‰çš„ç›®æ ‡ç«™url
+$GLOBALS['html']     ->  æ•´ä¸ªé¡µé¢çš„htmlä»£ç 
 
-×¢£º¹³×Ó²»ĞèÒªreturn£¬Ö±½Ó¸Ä±äÁ¿Öµ¼´¿É
+æ³¨ï¼šé’©å­ä¸éœ€è¦returnï¼Œç›´æ¥æ”¹å˜é‡å€¼å³å¯
 
 */
 class test{
 	public $config;
 	public $config_file;
-	//²å¼şĞÅÏ¢
+	//æ’ä»¶ä¿¡æ¯
     public $info=array(
-        'name' => '²âÊÔ²å¼ş',
-        'info' => '²âÊÔ²å¼şËµÃ÷£¡',
+        'name' => 'æµ‹è¯•æ’ä»¶',
+        'info' => 'æµ‹è¯•æ’ä»¶è¯´æ˜ï¼',
         'status' => 1,
-        'author' => '×÷Õß',
+        'author' => 'ä½œè€…',
         'version' => '1.0',
     );
-	//³õÊ¼»¯²ÎÊı
+	//åˆå§‹åŒ–å‚æ•°
 	public function init(){
 		$this->config_file=dirname(__FILE__).'/config.php';
 		if(is_file($this->config_file)){
 			$this->config=require($this->config_file);
 		}
 	}
-	//²É¼¯Ö®Ç°Ö´ĞĞ
+	//é‡‡é›†ä¹‹å‰æ‰§è¡Œ
 	public function before_get(){
 		
 	}
-	//´¦ÀíÔ­Ê¼html
+	//å¤„ç†åŸå§‹html
 	public function source(){
 		$GLOBALS['html']=$GLOBALS['html'];
 	}
 
-	//´¦Àí»º´æÇ°µÄhtml
+	//å¤„ç†ç¼“å­˜å‰çš„html
 	public function before_cache(){
 
 	}
 
-	//´¦Àí×îÖÕhtml
+	//å¤„ç†æœ€ç»ˆhtml
 	public function end(){
 
 	}

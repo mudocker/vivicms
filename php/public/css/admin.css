@@ -76,7 +76,7 @@ ul li {
 	border:1px solid #3b8e1e;
 	padding:5px 10px;
 }
-/* Í¼¼¯ÈÈ¶È*/ 
+/* å›¾é›†çƒ­åº¦*/ 
 .hot_set a {
 	width:16px;
 	height:16px;
@@ -205,12 +205,12 @@ textarea {
 .upfile {
 	border:1px solid #7F9DB9;
 	width:300px;
-	font:normal 9pt Tahoma, MS Shell Dlg, ËÎÌå;
+	font:normal 9pt Tahoma, MS Shell Dlg, å®‹ä½“;
 	margin:5px;
 }
 /* base */
 
-/* ÄÚÈİÁĞ±í ·ÖÀàÁ´½Ó */
+/* å†…å®¹åˆ—è¡¨ åˆ†ç±»é“¾æ¥ */
 .conlist_cate a {
 	color: #003333
 }
@@ -231,7 +231,7 @@ textarea {
 #pic_hot {
 	color:#339900;
 }
-/* ºóÌ¨ showpic */
+/* åå° showpic */
 .showpic {
 	text-align:center;
 	line-height:150%;
@@ -258,7 +258,7 @@ textarea {
 .tr2 span a {
 	color:#006600;
 }
-/* ±í¸ñ */
+/* è¡¨æ ¼ */
 .tableoutline {
 	margin:5px;
 	background: #EBEBEB
@@ -283,8 +283,8 @@ textarea {
 	background: #fff;
 	height:30px;
 }
-/* ·ÖÒ³ */
-/* ·ÖÒ³ */
+/* åˆ†é¡µ */
+/* åˆ†é¡µ */
 .page {
 	margin:0 auto;
 	text-align:center;
@@ -407,7 +407,7 @@ a.progressCancel {
 a.progressCancel:hover {
 	background-position:0 0;
 }
-/* ÏûÏ¢¿ò */
+/* æ¶ˆæ¯æ¡† */
 #body_loading {
 	display:none;
 	width:200px;
@@ -417,7 +417,7 @@ a.progressCancel:hover {
 	padding:5px;
 	cursor:pointer
 }
-/* ÉÏ´«¿ò */
+/* ä¸Šä¼ æ¡† */
 #show_upload {
 	position:absolute;
 	display:none;
@@ -425,7 +425,7 @@ a.progressCancel:hover {
 	background: z-index:999;
 	background: #CCCCFF
 }
-/* Ìí¼ÓĞÂ·şÎñÆ÷ */
+/* æ·»åŠ æ–°æœåŠ¡å™¨ */
 .serverlist{
     cursor: pointer
 }

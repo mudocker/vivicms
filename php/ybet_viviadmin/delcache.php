@@ -13,65 +13,65 @@ if($id == ''){
 <table width="98%" cellspacing="1" cellpadding="4" border="0" class="tableoutline">
 	<tbody>
 		<tr class="tb_head">
-			<td><h2>»º´æÇå³ı£º</h2></td>
+			<td><h2>ç¼“å­˜æ¸…é™¤ï¼š</h2></td>
 		</tr>
 	</tbody>
 </table>
 <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tbody id="config2">
 		<tr align=center class="firstalt">
-          <td width="30%">»º´æËµÃ÷</td>
-          <td width="30%">»º´æÄ¿Â¼</td>
-		  <td width="20%">»º´æ´óĞ¡</td>
-          <td width="20%">²Ù×÷</td>
+          <td width="30%">ç¼“å­˜è¯´æ˜</td>
+          <td width="30%">ç¼“å­˜ç›®å½•</td>
+		  <td width="20%">ç¼“å­˜å¤§å°</td>
+          <td width="20%">æ“ä½œ</td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>Ê×Ò³»º´æ</td>
+          <td>é¦–é¡µç¼“å­˜</td>
           <td>../data/cache/index.html</td>
 		  <td style="color: #FF0000;"><?php echo@round(@filesize(VV_CACHE . "/index.html") / 1024, 2) ?> KB</td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=index';" name="Input"></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=index';" name="Input"></td>
         </tr>
         <tr align=center class="firstalt">
-          <td>ÄÚÒ³»º´æ</td>
+          <td>å†…é¡µç¼“å­˜</td>
           <td >../data/cache/html</td>
-		  <td style="color: #FF0000;" id="getdirsize"><a href="javascript:" onclick='getdirsize();'>µã»÷»ñÈ¡</a></td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=other';" name="Input"></td>
+		  <td style="color: #FF0000;" id="getdirsize"><a href="javascript:" onclick='getdirsize();'>ç‚¹å‡»è·å–</a></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=other';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>Í¼Æ¬»º´æ</td>
+          <td>å›¾ç‰‡ç¼“å­˜</td>
           <td >../data/cache/img</td>
-		  <td style="color: #FF0000;" id="getimgsize"><a href="javascript:" onclick='getimgsize();'>µã»÷»ñÈ¡</a></td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=img';" name="Input"></td>
+		  <td style="color: #FF0000;" id="getimgsize"><a href="javascript:" onclick='getimgsize();'>ç‚¹å‡»è·å–</a></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=img';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>css»º´æ</td>
+          <td>cssç¼“å­˜</td>
           <td >../data/cache/css</td>
-		  <td style="color: #FF0000;" id="getcsssize"><a href="javascript:" onclick='getcsssize();'>µã»÷»ñÈ¡</a></td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=css';" name="Input"></td>
+		  <td style="color: #FF0000;" id="getcsssize"><a href="javascript:" onclick='getcsssize();'>ç‚¹å‡»è·å–</a></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=css';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>js»º´æ</td>
+          <td>jsç¼“å­˜</td>
           <td >../data/cache/js</td>
-		  <td style="color: #FF0000;" id="getjssize"><a href="javascript:" onclick='getjssize();'>µã»÷»ñÈ¡</a></td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=js';" name="Input"></td>
+		  <td style="color: #FF0000;" id="getjssize"><a href="javascript:" onclick='getjssize();'>ç‚¹å‡»è·å–</a></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=js';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>URLÖØ¶¨Ïò»º´æ</td>
+          <td>URLé‡å®šå‘ç¼“å­˜</td>
           <td >../data/cache/redirect_url</td>
-		  <td style="color: #FF0000;" id="getredirectsize"><a href="javascript:" onclick='getredirectsize();'>µã»÷»ñÈ¡</a></td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=redirect';" name="Input"></td>
+		  <td style="color: #FF0000;" id="getredirectsize"><a href="javascript:" onclick='getredirectsize();'>ç‚¹å‡»è·å–</a></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=redirect';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td>Ö©ÖëÅÀĞĞ¼ÇÂ¼</td>
+          <td>èœ˜è››çˆ¬è¡Œè®°å½•</td>
           <td >../data/zhizhu.txt</td>
 		  <td style="color: #FF0000;"><?php echo@round(@filesize(VV_DATA . "/zhizhu.txt") / 1024, 2) ?> KB</td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=zhizhu';" name="Input"></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=zhizhu';" name="Input"></td>
         </tr>
 		<tr align=center class="firstalt">
-          <td >Ò»¼üÇå³ıÈ«²¿»º´æ</td>
+          <td >ä¸€é”®æ¸…é™¤å…¨éƒ¨ç¼“å­˜</td>
           <td >&nbsp;</td>
 		  <td>&nbsp;</td>
-          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="Çå³ı" onClick="javascript:location.href='?id=del&del=all';" name="Input"></td>
+          <td style="text-align:center"><input type="button" class="bginput" style="height:19px; font-size:12px" value="æ¸…é™¤" onClick="javascript:location.href='?id=del&del=all';" name="Input"></td>
         </tr>
 	</tbody>
 </table>
@@ -79,31 +79,31 @@ if($id == ''){
 </div>
 <script type="text/javascript">
 function getdirsize(){
-	$('#getdirsize').html('<img src="../public/img/load.gif"> ¼ÆËãÖĞ...');
+	$('#getdirsize').html('<img src="../public/img/load.gif"> è®¡ç®—ä¸­...');
 	$.get("?id=getdirsize&_t="+Math.random()*10,function(data){
 	  $('#getdirsize').html(data);
 	});
 }
 function getimgsize(){
-	$('#getimgsize').html('<img src="../public/img/load.gif"> ¼ÆËãÖĞ...');
+	$('#getimgsize').html('<img src="../public/img/load.gif"> è®¡ç®—ä¸­...');
 	$.get("?id=getimgsize&_t="+Math.random()*10,function(data){
 	  $('#getimgsize').html(data);
 	});
 }
 function getcsssize(){
-	$('#getcsssize').html('<img src="../public/img/load.gif"> ¼ÆËãÖĞ...');
+	$('#getcsssize').html('<img src="../public/img/load.gif"> è®¡ç®—ä¸­...');
 	$.get("?id=getcsssize&_t="+Math.random()*10,function(data){
 	  $('#getcsssize').html(data);
 	});
 }
 function getjssize(){
-	$('#getjssize').html('<img src="../public/img/load.gif"> ¼ÆËãÖĞ...');
+	$('#getjssize').html('<img src="../public/img/load.gif"> è®¡ç®—ä¸­...');
 	$.get("?id=getjssize&_t="+Math.random()*10,function(data){
 	  $('#getjssize').html(data);
 	});
 }
 function getredirectsize(){
-	$('#getredirectsize').html('<img src="../public/img/load.gif"> ¼ÆËãÖĞ...');
+	$('#getredirectsize').html('<img src="../public/img/load.gif"> è®¡ç®—ä¸­...');
 	$.get("?id=getredirectsize&_t="+Math.random()*10,function(data){
 	  $('#getredirectsize').html(data);
 	});
@@ -144,6 +144,6 @@ function getredirectsize(){
         @removedir(VV_CACHE);
         @unlink(VV_DATA . "/zhizhu.txt");
     }
-    ShowMsg("¹§Ï²Äã,»º´æÇå³ı³É¹¦£¡", 'delcache.php', 2000);
+    ShowMsg("æ­å–œä½ ,ç¼“å­˜æ¸…é™¤æˆåŠŸï¼", 'delcache.php', 2000);
 }
 ?>

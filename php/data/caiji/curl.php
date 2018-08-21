@@ -35,7 +35,7 @@ if(function_exists('curl_init') && function_exists('curl_exec')){
         write($btcachefile, $data);
         exit($data);
     }
-    $GLOBALS['debug'][] = 'ContentType£º' . $ContentType;
+    $GLOBALS['debug'][] = 'ContentTypeï¼š' . $ContentType;
     if(stripos($_SERVER['HTTP_ACCEPT'], 'application/json') > -1 || stripos($ContentType, 'application/json') > -1){
         header('Content-Type:application/json; charset=utf-8');
     }
@@ -111,7 +111,7 @@ if(function_exists('curl_init') && function_exists('curl_exec')){
     fclose($fp);
     if(preg_match("/Content-Length:.?(\d+)/", $data, $matches)){
         $data = substr($data, strlen($data) - $matches[1]);
-        $GLOBALS['debug'][] = 'ContentType£º' . $matches[1];
+        $GLOBALS['debug'][] = 'ContentTypeï¼š' . $matches[1];
     }else{
         $data = substr($data, strpos($data, '<'));
     }
@@ -133,13 +133,13 @@ if(function_exists('curl_init') && function_exists('curl_exec')){
                     $opt['header'] .= "CLIENT-IP: {$randip}\r\n";
                 }
                 $context = stream_context_create($opt);
-                $data = file_get_contents('compress.zlib://' . $url, false, $context)or die('·þÎñÆ÷²»Ö§³Ö²É¼¯');
-            }else $data = file_get_contents('compress.zlib://' . $url)or die('·þÎñÆ÷²»Ö§³Ö²É¼¯');
+                $data = file_get_contents('compress.zlib://' . $url, false, $context)or die('æœåŠ¡å™¨ä¸æ”¯æŒé‡‡é›†');
+            }else $data = file_get_contents('compress.zlib://' . $url)or die('æœåŠ¡å™¨ä¸æ”¯æŒé‡‡é›†');
 
             if($data){
                 $httpCode = substr($http_response_header[0], 9, 3);
                 break;
             }
         }
-    }else die('·þÎñÆ÷Î´¿ªÆôphp²É¼¯º¯Êý');
+    }else die('æœåŠ¡å™¨æœªå¼€å¯phpé‡‡é›†å‡½æ•°');
 }

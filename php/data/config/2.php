@@ -1,7 +1,7 @@
 <?php
 return array (
-  'name' => '²Ëµ¶¿Í',
-  'from_title' => '²Ëµ¶¿Í',
+  'name' => 'èœåˆ€å®¢',
+  'from_title' => 'èœåˆ€å®¢',
   'from_url' => 'http://www.caidaoke.com/',
   'charset' => 'utf-8',
   'other_url' => 'caidaoke.com',

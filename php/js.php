@@ -1,8 +1,5 @@
 <?php
-/*--------------------------
-С͵��վ����
-qq: 996948519
----------------------------*/
+
 define('SCRIPT','js');
 require(dirname(__FILE__)."/inc/common.inc.php");
 require(dirname(__FILE__)."/inc/caiji.class.php");

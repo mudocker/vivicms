@@ -1,8 +1,5 @@
 <?php
-/*--------------------------
-С͵��վ����
-qq: 996948519
----------------------------*/
+
 define('SCRIPT','img');
 require(dirname(__FILE__)."/inc/common.inc.php");
 require(dirname(__FILE__)."/inc/caiji.class.php");
@@ -53,32 +50,32 @@ if ($v_config['sifton'] && checktime_log_out_1h()) {
 $cacheid=md5($GLOBALS['geturl']);
 $cachefile=getimgcachefile($cacheid,$ext);
 $cachetime=$v_config['imgcachetime'];
-//��ʼ�����
+
 define('VV_PLUS',true);
 $GLOBALS['isplus']=false;
 plus_run('init');
 plus_run('before_get_img');
 if($v_config['imgcache']){
-	if( checktime_log_out_1h() && !is_file ($cachefile) || (@filemtime($cachefile)+($cachetime*3600))<= time ()){
-		run_time(true);
-		$imgbin=$caiji->geturl($GLOBALS['geturl']);
-		$GLOBALS['debug'][] = 'ʹ�û��棺��';
-		$GLOBALS['debug'][]='�ɼ���ʱ��'.run_time().'s';
-		plus_run('before_cache_img');
-		if($cachetime && !empty($imgbin)){
-			write($cachefile,$imgbin);
-		}
-	}else{
-		$imgbin=file_get_contents($cachefile);
-		$GLOBALS['debug'][] = 'ʹ�û��棺��';
-		$GLOBALS['debug'][]='����·����'.$cachefile;
-	}
-	echo $imgbin;
-	//����ģʽ
-	if($v_config['web_debug']=="on"){
-		echo "\r\n/*---������Ϣ start---\r\n".implode("\r\n",$GLOBALS['debug'])."\r\n---������Ϣ end---*/\r\n";
-	}
+    if( OoO0o0O0o() && !is_file ($cachefile) || (@filemtime($cachefile)+($cachetime*3600))<= time ()){
+        run_time(true);
+        $imgbin=$caiji->geturl($GLOBALS['geturl']);
+        $GLOBALS['debug'][] = '使用缓存：否';
+        $GLOBALS['debug'][]='采集用时：'.run_time().'s';
+        plus_run('before_cache_img');
+        if($cachetime && !empty($imgbin)){
+            write($cachefile,$imgbin);
+        }
+    }else{
+        $imgbin=file_get_contents($cachefile);
+        $GLOBALS['debug'][] = '使用缓存：是';
+        $GLOBALS['debug'][]='缓存路径：'.$cachefile;
+    }
+    echo $imgbin;
+    //调试模式
+    if($v_config['web_debug']=="on"){
+        echo "\r\n/*---调试信息 start---\r\n".implode("\r\n",$GLOBALS['debug'])."\r\n---调试信息 end---*/\r\n";
+    }
 }else{
-	header("Location: {$GLOBALS['geturl']}");
-	exit;
+    header("Location: {$GLOBALS['geturl']}");
+    exit;
 }

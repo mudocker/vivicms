@@ -1,8 +1,5 @@
 <?php
-/*--------------------------
-Ð¡ÍµÍøÕ¾¶¨ÖÆ
-qq: 996948519
----------------------------*/
+
 define('SCRIPT','search');
 require(dirname(__FILE__)."/inc/common.inc.php");
 $v_config = require(VV_DATA . "/config.php");

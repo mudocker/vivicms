@@ -16,24 +16,24 @@ if($id == ''){
   <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tr class="tb_head">  
 		<td colspan="2">
-			<h2>ÓÑÇéÁ´½ÓÉèÖÃ</h2>
+			<h2>å‹æƒ…é“¾æ¥è®¾ç½®</h2>
 		</td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td width="260"><b>ÊÇ·ñ×Ô¶¯¼Óµ½Ê×Ò³µ×²¿</b><br>
-		<font color="#666666">Èç²»×Ô¶¯Ìí¼Ó£¬Ôò¿ÉÒÔÊ¹ÓÃ{flinks}½øĞĞµ÷ÓÃ</font></td>
+		<td width="260"><b>æ˜¯å¦è‡ªåŠ¨åŠ åˆ°é¦–é¡µåº•éƒ¨</b><br>
+		<font color="#666666">å¦‚ä¸è‡ªåŠ¨æ·»åŠ ï¼Œåˆ™å¯ä»¥ä½¿ç”¨{flinks}è¿›è¡Œè°ƒç”¨</font></td>
 		<td><select name="flinks_auto_insert">
 			<option value="1" <?php if($v_config['flinks_auto_insert'] == 1 || $v_config['flinks_auto_insert'] == '')echo "selected";
-    ?>>ÊÇ</option>
+    ?>>æ˜¯</option>
 			<option value="2" <?php if($v_config['flinks_auto_insert'] == 2)echo "selected";
-    ?>>·ñ</option>
+    ?>>å¦</option>
 		</select></td>
 	</tr>
 	<tr class="firstalt">
 		<td width="260" align="center">
-			<b>ÓÑÇéÁ´½ÓÉèÖÃ</b>
+			<b>å‹æƒ…é“¾æ¥è®¾ç½®</b>
 		</td>  
-		<td>Ã¿ĞĞÒ»¸öÁ´½Ó<br>Èç£º&lt;a target="_blank" href='http://baidu.com' &gt;°Ù¶È&lt;/a&gt;<br>
+		<td>æ¯è¡Œä¸€ä¸ªé“¾æ¥<br>å¦‚ï¼š&lt;a target="_blank" href='http://baidu.com' &gt;ç™¾åº¦&lt;/a&gt;<br>
 		<textarea name="flink" cols="80" style="height:120px; width:450px" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ><?php echo $flink ?></textarea>
 		</td>
 	</tr>
@@ -53,7 +53,7 @@ document.write(submit);
     $con = get_magic(trim($_POST['flink']));
     $con = str_replace('<?', '***', $con);
     if(@preg_match("/require|include|REQUEST|eval|system|fputs/i", $con)){
-        ShowMsg("º¬ÓĞ·Ç·¨×Ö·û,ÇëÖØĞÂÉèÖÃ", '-1', 2000);
+        ShowMsg("å«æœ‰éæ³•å­—ç¬¦,è¯·é‡æ–°è®¾ç½®", '-1', 2000);
     }else{
         write($file, $con);
         extract($_POST);
@@ -61,7 +61,7 @@ document.write(submit);
         if($config){
             arr2file(VV_DATA . "/config.php", $config);
         }
-        ShowMsg("¹§Ï²Äã,ĞŞ¸Ä³É¹¦£¡", 'flink.php', 2000);
+        ShowMsg("æ­å–œä½ ,ä¿®æ”¹æˆåŠŸï¼", 'flink.php', 2000);
     }
 }
 ?>

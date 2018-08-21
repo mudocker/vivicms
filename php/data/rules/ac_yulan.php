@@ -13,17 +13,17 @@ if($ac == 'yulan'){
 	<table width=\"99%\" border=\"0\" cellpadding=\"4\" cellspacing=\"1\" class=\"tableoutline\">
 	<tbody>
 		<tr nowrap class=\"tb_head\">
-			<td><h2>Դ����鿴</h2></td>
+			<td><h2>源代码查看</h2></td>
 		</tr>
 	</tbody>
 	<tr nowrap class=\"firstalt\">
-		<td><b>����Ϊ�ɼ����� [{$caiji_config['name']}] ��Դ���룬����Ը��������д���˹���:</b></td>
+		<td><b>以下为采集规则 [{$caiji_config['name']}] 的源代码，你可以根据这个编写过滤规则:</b></td>
 	</tr>
 	<tr nowrap class=\"firstalt\">
 		<form method=\"get\" action=\"caiji_config.php\">
 		<input type=\"hidden\" name=\"ac\" value=\"{$ac}\" />
 		<input type=\"hidden\" name=\"collectid\" value=\"{$collectid}\" />
-		<td><input type=\"text\" name=\"url\" size=\"80\" value=\"{$from_url}\" onFocus=\"this.style.borderColor='#00CC00'\" onBlur=\"this.style.borderColor='#999999'\" > <input type=\"submit\" value=\"�鿴Դ����\" /></td>
+		<td><input type=\"text\" name=\"url\" size=\"80\" value=\"{$from_url}\" onFocus=\"this.style.borderColor='#00CC00'\" onBlur=\"this.style.borderColor='#999999'\" > <input type=\"submit\" value=\"查看源代码\" /></td>
 		</form>
 	</tr>
 	<tr nowrap class=\"firstalt\">

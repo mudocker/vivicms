@@ -1,9 +1,9 @@
 <?php
 return array (
-  'web_name' => 'ÍøÕ¾Ãû³Æ',
+  'web_name' => 'ç½‘ç«™åç§°',
   'web_url' => 'http://l.cn/',
-  'web_keywords' => 'Ê×Ò³¹Ø¼ü×Ö2',
-  'web_description' => 'Ê×Ò³ÍøÕ¾ÃèÊö',
+  'web_keywords' => 'é¦–é¡µå…³é”®å­—2',
+  'web_description' => 'é¦–é¡µç½‘ç«™æè¿°',
   'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
   'collectid' => '1',
   'sifton' => '1',
@@ -14,7 +14,7 @@ return array (
   'cacheon' => '1',
   'web_remark' => '',
   'web_404_url' => '/404.html',
-  'web_seo_name' => 'ÍøÕ¾³¤±êÌâ',
+  'web_seo_name' => 'ç½‘ç«™é•¿æ ‡é¢˜',
   'linkword_on' => '0',
   'web_urlencode' => '0',
   'web_urlencode_type' => 'base64',

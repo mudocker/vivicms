@@ -8,3 +8,6 @@ if($ac == 'yulan'){
     $collectid = intval($_COOKIE['collectid']);
     $v_config['cacheon'] = false;
 }
+
+
+$caiji_config = require(VV_DATA . "/config/{$collectid}.php");

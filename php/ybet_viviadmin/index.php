@@ -1,7 +1,7 @@
 <?php
 /**
  * --------------------------
- * viviĞ¡ÍµÍøÕ¾ÏµÍ³
+ * viviå°å·ç½‘ç«™ç³»ç»Ÿ
  * qq:996948519
  * ---------------------------
  */
@@ -9,16 +9,16 @@ header("Content-type: text/html; charset=gbk");
 ?>
 <html>
 <head>
-<title>Ğ¡ÍµºóÌ¨¹ÜÀíÏµÍ³</title>
+<title>å°å·åå°ç®¡ç†ç³»ç»Ÿ</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel='stylesheet' type='text/css' href='../public/css/admin.css'>
 <script language="JavaScript">
 function chk(){
 	if(document.login.adminname.value==""){
-		alert("ÓÃ»§Ãû²»ÄÜÎª¿Õ");
+		alert("ç”¨æˆ·åä¸èƒ½ä¸ºç©º");
 		return false;
 	}else if(document.login.password.value==""){
-		alert("ÃÜÂë²»ÄÜÎª¿Õ");
+		alert("å¯†ç ä¸èƒ½ä¸ºç©º");
 		return false;
 	}
 }
@@ -30,11 +30,11 @@ function chk(){
   <tr>
     <td align="center"><table width="502" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td><img src="../public/img/top1.gif" width="502" height="70"><?php // ¼ì²âºóÌ¨Ä¿Â¼ÊÇ·ñ¸üÃû
+    <td><img src="../public/img/top1.gif" width="502" height="70"><?php // æ£€æµ‹åå°ç›®å½•æ˜¯å¦æ›´å
 $cururl = $_SERVER['SCRIPT_NAME'];
 if(preg_match('/admin\/index/i', $cururl))
     {
-     $redmsg = '<div class=\'loginsafe\'>ÄúµÄ¹ÜÀíÄ¿Â¼°üº¬admin£¬ÎªÁËÍøÕ¾°²È«,vivi½¨ÒéÄãÔÚFTPÀï°ÑËüĞŞ¸ÄÎªÆäËüÃû³Æ£¡
+     $redmsg = '<div class=\'loginsafe\'>æ‚¨çš„ç®¡ç†ç›®å½•åŒ…å«adminï¼Œä¸ºäº†ç½‘ç«™å®‰å…¨,viviå»ºè®®ä½ åœ¨FTPé‡ŒæŠŠå®ƒä¿®æ”¹ä¸ºå…¶å®ƒåç§°ï¼
 
 </div>';
     }
@@ -50,11 +50,11 @@ echo $redmsg;
     <form method='post' action='login.php' name="login">
         <table width="400" border="0" align="right" cellpadding="0" cellspacing="4">
           <tr>
-            <td width="74" height="25" align="center">ÓÃ»§Ãû³Æ£º</td>
+            <td width="74" height="25" align="center">ç”¨æˆ·åç§°ï¼š</td>
             <td width="314"><input class='in_p' type='text' name='adminname' id="adminname"onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
           </tr>
           <tr>
-            <td height="25" align="center">ÃÜ  Âë£º</td>
+            <td height="25" align="center">å¯†  ç ï¼š</td>
             <td><input type='password' class='in_p' name='password' id="password" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
           </tr>
             <td height="25" align="center">&nbsp;</td>

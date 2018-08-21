@@ -1,19 +1,14 @@
 <?php
-/**
- * --------------------------
- * viviÐ¡ÍµÍøÕ¾ÏµÍ³
- * QQ:996948519
- * ---------------------------
- */
+
 require_once('data.php');
 $v_config = require_once('../data/config.php');
 require_once('../inc/common.inc.php');
 if(md5($_POST['password']) == $password && $_POST['adminname'] == $adminname){
      setcookie("y_Cookie", $password);
      setcookie("x_Cookie", $adminname);
-     ShowMsg('³É¹¦µÇÂ¼£¬2ÃëÖÓºó×ªÏò¹ÜÀíÖ÷Ò³£¡', "admin.php", 2000);
+     ShowMsg('æˆåŠŸç™»å½•ï¼Œ2ç§’é’ŸåŽè½¬å‘ç®¡ç†ä¸»é¡µï¼', "admin.php", 2000);
      exit;
     }else{
-     ShowMsg('ÓÃ»§Ãû»òÃÜÂë´íÎó!!!', -1, 0, 2000);
+     ShowMsg('ç”¨æˆ·åæˆ–å¯†ç é”™è¯¯!!!', -1, 0, 2000);
     }
 ?>

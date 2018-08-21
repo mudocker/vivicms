@@ -1,7 +1,7 @@
 <?php
-$GLOBALS['debug'][] = '²É¼¯url£º' . $url;
-$GLOBALS['debug'][] = '·µ»Ø×´Ì¬Âë£º' . $httpCode;
-$post and $GLOBALS['debug'][] = 'POST£º' . $post;
+$GLOBALS['debug'][] = 'é‡‡é›†urlï¼š' . $url;
+$GLOBALS['debug'][] = 'è¿”å›žçŠ¶æ€ç ï¼š' . $httpCode;
+$post and $GLOBALS['debug'][] = 'POSTï¼š' . $post;
 
 if(substr($httpCode, 0, 2) == '30'){
     $GLOBALS['get_redirect'] = $GLOBALS['get_redirect']?($GLOBALS['get_redirect'] + 1):1;

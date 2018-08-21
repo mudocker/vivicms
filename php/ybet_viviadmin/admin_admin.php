@@ -8,11 +8,11 @@ if($id == 'edit' || $id == ''){
 <script>
 function chk(){
 	if(form.adminname.value==''){
-		alert('¹ÜÀíÔ±ÕÊºÅÎª¿Õ');
+		alert('ç®¡ç†å‘˜å¸å·ä¸ºç©º');
 		return false;
 	}
 	if(form.password.value=='' || form.password.value!=form.password1.value){
-		alert('ÃÜÂëÎª¿Õ»òÔÙ´ÎÊäÈë²»Ò»ÖÂ');
+		alert('å¯†ç ä¸ºç©ºæˆ–å†æ¬¡è¾“å…¥ä¸ä¸€è‡´');
 		return false;
 	}
 }
@@ -27,21 +27,21 @@ function chk(){
   <form action="?id=save"  method="post" name="form" onsubmit="return chk();">
     <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline"> 
         <tr nowrap  class="tb_head">
-          <td colspan="2"><h2>ĞŞ¸ÄÃÜÂë£º</h2></td>
+          <td colspan="2"><h2>ä¿®æ”¹å¯†ç ï¼š</h2></td>
         </tr>
         <tr nowrap class="firstalt">
-          <td width="260"><b>ÓÃ»§Ãû</b><br><font color="#666666">²»ĞŞ¸Ä£¬Çë±£Áô</font></td>
+          <td width="260"><b>ç”¨æˆ·å</b><br><font color="#666666">ä¸ä¿®æ”¹ï¼Œè¯·ä¿ç•™</font></td>
           <td><input  type="text" name="adminname" size="33" value="<?php echo $adminname;
     ?>"onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >
           </td>
         </tr>
 		<tr nowrap class="firstalt">
-          <td width="260"><b>ĞÂÃÜÂë</b><br><font color="#666666">ÊäÈëĞÂµÄÃÜÂë</font></td>
+          <td width="260"><b>æ–°å¯†ç </b><br><font color="#666666">è¾“å…¥æ–°çš„å¯†ç </font></td>
           <td><input  type="password" name="password" size="37"onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >
           </td>
         </tr>
         <tr nowrap class="firstalt">
-          <td width="260"><b>ÖØ¸´ĞÂÃÜÂë</b><br><font color="#666666">ÖØ¸´ÊäÈëĞÂµÄÃÜÂë</font></td>
+          <td width="260"><b>é‡å¤æ–°å¯†ç </b><br><font color="#666666">é‡å¤è¾“å…¥æ–°çš„å¯†ç </font></td>
           <td><input  type="password" name="password1" size="37"onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >
           </td>
         </tr>
@@ -62,10 +62,10 @@ document.write(submit);
     $_POST['adminname'] = _htmlspecialchars($_POST['adminname']);
     $con = '<?php' . "\r\n" . '$adminname=' . '"' . trim($_POST['adminname']) . '"' . ";\r\n" . '$password=' . '"' . md5($_POST['password']) . '"' . ";\r\n?>";
     if(@preg_match("/require|include|REQUEST|eval|system|fputs/i", $con)){
-        ShowMsg("º¬ÓĞ·Ç·¨×Ö·û,ÇëÖØĞÂÉèÖÃ", '-1', 2000);
+        ShowMsg("å«æœ‰éæ³•å­—ç¬¦,è¯·é‡æ–°è®¾ç½®", '-1', 2000);
     }else{
         write("data.php", $con);
-        ShowMsg("ÕËºÅĞŞ¸Ä³É¹¦,ÇëÖØĞÂµÇÂ¼£¡", 'index.php', 2000);
+        ShowMsg("è´¦å·ä¿®æ”¹æˆåŠŸ,è¯·é‡æ–°ç™»å½•ï¼", 'index.php', 2000);
     }
 }
 ?>

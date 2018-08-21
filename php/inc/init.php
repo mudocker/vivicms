@@ -6,7 +6,7 @@ require(VV_INC . '/function.php');
 define('RUN_TIME', debug_time());
 require(VV_INC . '/init/memory_get_usage.php');
 require(VV_INC . '/init/get_REQUEST_URI.php');
-$version = "����С͵ϵͳ " . VV_VERSION;
+$version = "万能小偷系统 " . VV_VERSION;
 require(VV_INC . '/init/switch_action.php');
 $randtime = time();
 require(VV_INC . '/init/auth_tips_html.php');

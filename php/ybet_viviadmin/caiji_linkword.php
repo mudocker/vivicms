@@ -16,24 +16,24 @@ if($id == ''){
   <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tr class="tb_head">  
 		<td colspan="2">
-			<h2>╧ь╪Э╢йдза╢</h2>
+			<h2>Е┘ЁИ■╝Х╞█Е├┘И⌠╬</h2>
 		</td>
 	</tr>
 	<tr nowrap class="firstalt">
-			<td width="260"><b>╧ь╪Э╢йдза╢©╙╧ь</b> <br>
-			<font color="#666666">йг╥Я©╙фТ╧ь╪Э╢йдза╢ё╛╫ЖдзрЁ</font></td>
+			<td width="260"><b>Е┘ЁИ■╝Х╞█Е├┘И⌠╬Е╪─Е┘Ё</b> <br>
+			<font color="#666666">Ф≤╞Е░╕Е╪─Е░╞Е┘ЁИ■╝Х╞█Е├┘И⌠╬О╪▄Д╩┘Е├┘И║╣</font></td>
 			<td><select name="con[linkword_on]" >
 				<option value="1" <?php if($v_config['linkword_on'])echo " selected";
-    ?>>©╙фТ</option>
+    ?>>Е╪─Е░╞</option>
 				<option value="0" <?php if(!$v_config['linkword_on'])echo " selected";
-    ?>>╧ь╠у</option>
+    ?>>Е┘ЁИ≈╜</option>
 			</select></td>
 		</tr>
 	<tr class="firstalt">
 		<td width="260">
-			<b>иХжц╣да╢╫с</b></font>
+			<b>Х╝╬Г╫╝Г └И⌠╬Ф▌╔</b></font>
 		</td>  
-		<td>ц©ппр╩╦Ж╧ь╪Э╢й╨ма╢╫сё╛сц║╟,║╠╦Т©╙<br> хГё╨<br> ╟ы╤х,http://baidu.com<br>лзя╤,http://qq.com<br>
+		<td>Ф╞▐Х║▄Д╦─Д╦╙Е┘ЁИ■╝Х╞█Е▓▄И⌠╬Ф▌╔О╪▄Г■╗Б─°,Б─²И ■Е╪─<br> Е╕┌О╪ <br> Г≥╬Е╨╕,http://baidu.com<br>Х┘╬Х╝╞,http://qq.com<br>
 		<textarea name="link_config" cols="80" style="height:120px; width:450px" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ><?php echo $link_config ?></textarea>
 		</td>
 	</tr>
@@ -61,6 +61,6 @@ document.write(submit);
         arr2file(VV_DATA . "/config.php", $config);
     }
     write($linkwordfile, $link_config);
-    ShowMsg("╧╖о╡дЦ,пч╦дЁи╧╕ё║", 'caiji_linkword.php', 2000);
+    ShowMsg("Ф│╜Е√°Д╫═,Д©╝Ф■╧Ф┬░Е┼÷О╪│", 'caiji_linkword.php', 2000);
 }
 ?>

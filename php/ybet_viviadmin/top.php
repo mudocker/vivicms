@@ -1,7 +1,7 @@
 <?php
 /**
  * --------------------------
- * vivi小偷网站系统
+ * vivi灏忓伔缃戠珯绯荤粺
  * qq:996948519
  * ---------------------------
  */
@@ -10,7 +10,7 @@ require_once('checkAdmin.php');
 ?>
 <html>
 <head>
-<title>小偷后台管理系统 管理面版 v</title>
+<title>灏忓伔鍚庡彴绠＄悊绯荤粺 绠＄悊闈㈢増 v</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -23,7 +23,7 @@ require_once('checkAdmin.php');
 		  <a href="http://www.vxiaotou.com" target="_blank"><img src="../public/img/top21.gif" width="70" height="63" border="0"></a>
 		  <a href="update.php?t=update" target="content"><img src="../public/img/top22.gif" width="70" height="63" border="0"></a>
 		  <a href="http://www.vxiaotou.com/plugin.php?id=vivi_accr:accr" target="_blank"><img src="../public/img/top24.gif" width="70" height="63" border="0"></a>
-		  <a href="logout.php" onClick="return confirm('确定退出?')" target="_top"><img src="../public/img/top23.gif" width="70" height="63" border="0"></a>
+		  <a href="logout.php" onClick="return confirm('纭畾閫�鍑�?')" target="_top"><img src="../public/img/top23.gif" width="70" height="63" border="0"></a>
 		 </td>
         </tr>
       </table></td>

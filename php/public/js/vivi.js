@@ -1,9 +1,9 @@
-var a = 'undefined,body,,cache.php,replace.php,sift.php,GET,../inc/common.inc.php?action=c1&_t=,1,,POST,../inc/common.inc.php?action=c4,&qq=,http://www.vxiaotou.com/vip/?type=wanneng&u=,<tr class="firstalt"><td colspan="2" align="center"><input class="bginput" type="submit" name="submit" value=" Ìá½» ">&nbsp;&nbsp;<input class="bginput" type="reset" name="Input" value=" ÖØÖÃ "></td></tr>,sub,none,block,sub,none,none,contextmenu,<div class="keybox" style="line-height:30px;display:none"><font color=red>,</font><br> ±¾Ò³Ãæ¹¦ÄÜÊÇÉÌÒµ°æ¹¦ÄÜ£¬Ğè¹ºÂòÊÚÈ¨ºó·½¿ÉÊ¹ÓÃ¡£<br>¿Í·şQQ£º<a href="http://wpa.qq.com/msgrd?v=3&uin=996948519&site=qq&menu=yes" target="_blank"><font color=red>996948519</font></a> ¹ÙÍø£º<a href="http://www.vxiaotou.com" target="_blank"><font color=red>vxiaotou.com</font></a></div>,div,.keybox,viviÌáÊ¾Äú,input,disabled,disabled,textarea,disabled,disabled,.keybox input:disabled,disabled,GET,../inc/common.inc.php,action=c2&t=,#key,POST,../inc/common.inc.php?action=c3,code=,1,ÊÚÈ¨Âë²»ÕıÈ·£¡,ÑéÖ¤Ê§°Ü£¡,contextmenu,<div class="keybox" style="line-height:30px;display:none">ÇëÊäÈëÊÚÈ¨Âë(<a href="http://www.vxiaotou.com/plugin.php?id=vivi_accr:accr" target="_blank"><font color=red>µã»÷ÔÚÏß×ÔÖúÊÚÈ¨</font></a>) <br><textarea name="key" id="key" style="height: 50px; width: 304px" onFocus="this.style.borderColor=\'#00CC00\'" onBlur="this.style.borderColor=\'#dcdcdc\'" ></textarea> <p style="text-align:right">±¾Ò³Ãæ¹¦ÄÜÊÇÉÌÒµ°æ¹¦ÄÜ£¬Ğè¹ºÂòÊÚÈ¨Ê¹ÓÃ&nbsp;<button type="button" onclick="checkcode();"><span class="ui-button-text">È·¶¨</span></button></p>¿Í·şQQ£º<a href="http://wpa.qq.com/msgrd?v=3&uin=996948519&site=qq&menu=yes" target="_blank"><font color=red>996948519</font></a> ¹Ù·½ÍøÕ¾£º<a href="http://www.vxiaotou.com" target="_blank"><font color=red>vxiaotou.com</font></a></div>,div,.keybox,±¾¹¦ÄÜÊÚÈ¨ºó²ÅÄÜÊ¹ÓÃ<span style=\'font-size: 11px;color: #FF9900;\'>(viviÍòÄÜĞ¡Íµ³ÌĞò)</span>,input,disabled,disabled,textarea,disabled,disabled,.keybox textarea:disabled,disabled'.split(",");
+var a = 'undefined,body,,cache.php,replace.php,sift.php,GET,../inc/common.inc.php?action=c1&_t=,1,,POST,../inc/common.inc.php?action=c4,&qq=,http://www.vxiaotou.com/vip/?type=wanneng&u=,<tr class="firstalt"><td colspan="2" align="center"><input class="bginput" type="submit" name="submit" value=" æäº¤ ">&nbsp;&nbsp;<input class="bginput" type="reset" name="Input" value=" é‡ç½® "></td></tr>,sub,none,block,sub,none,none,contextmenu,<div class="keybox" style="line-height:30px;display:none"><font color=red>,</font><br> æœ¬é¡µé¢åŠŸèƒ½æ˜¯å•†ä¸šç‰ˆåŠŸèƒ½ï¼Œéœ€è´­ä¹°æˆæƒåæ–¹å¯ä½¿ç”¨ã€‚<br>å®¢æœQQï¼š<a href="http://wpa.qq.com/msgrd?v=3&uin=996948519&site=qq&menu=yes" target="_blank"><font color=red>996948519</font></a> å®˜ç½‘ï¼š<a href="http://www.vxiaotou.com" target="_blank"><font color=red>vxiaotou.com</font></a></div>,div,.keybox,viviæç¤ºæ‚¨,input,disabled,disabled,textarea,disabled,disabled,.keybox input:disabled,disabled,GET,../inc/common.inc.php,action=c2&t=,#key,POST,../inc/common.inc.php?action=c3,code=,1,æˆæƒç ä¸æ­£ç¡®ï¼,éªŒè¯å¤±è´¥ï¼,contextmenu,<div class="keybox" style="line-height:30px;display:none">è¯·è¾“å…¥æˆæƒç (<a href="http://www.vxiaotou.com/plugin.php?id=vivi_accr:accr" target="_blank"><font color=red>ç‚¹å‡»åœ¨çº¿è‡ªåŠ©æˆæƒ</font></a>) <br><textarea name="key" id="key" style="height: 50px; width: 304px" onFocus="this.style.borderColor=\'#00CC00\'" onBlur="this.style.borderColor=\'#dcdcdc\'" ></textarea> <p style="text-align:right">æœ¬é¡µé¢åŠŸèƒ½æ˜¯å•†ä¸šç‰ˆåŠŸèƒ½ï¼Œéœ€è´­ä¹°æˆæƒä½¿ç”¨&nbsp;<button type="button" onclick="checkcode();"><span class="ui-button-text">ç¡®å®š</span></button></p>å®¢æœQQï¼š<a href="http://wpa.qq.com/msgrd?v=3&uin=996948519&site=qq&menu=yes" target="_blank"><font color=red>996948519</font></a> å®˜æ–¹ç½‘ç«™ï¼š<a href="http://www.vxiaotou.com" target="_blank"><font color=red>vxiaotou.com</font></a></div>,div,.keybox,æœ¬åŠŸèƒ½æˆæƒåæ‰èƒ½ä½¿ç”¨<span style=\'font-size: 11px;color: #FF9900;\'>(viviä¸‡èƒ½å°å·ç¨‹åº)</span>,input,disabled,disabled,textarea,disabled,disabled,.keybox textarea:disabled,disabled'.split(",");
 window.onerror = function() {
 	return !0
 };
 $(function() {
-	//ÆÁ±ÎJS¼ì²â
+	//å±è”½JSæ£€æµ‹
 	checkupdate();
 	return;
 	typeof $.ui == a[0] && $(a[1]).html(a[2]);
@@ -118,25 +118,25 @@ function l() {
 }
 
 function checkupdate() {
-	$("#checkvip").html('ÒÑÊÚÈ¨×îĞÂ!');
+	$("#checkvip").html('å·²æˆæƒæœ€æ–°!');
 	return;
 	$("#checkvip").html('<img src="../public/img/load.gif" />');
 	$.ajax({
 		url: "http://www.vxiaotou.com/update.php?m=check&a=update&type=" + systype + "&vs=" + version + "&ajax=1&code=" + vipcode,
 		dataType: "jsonp",
 		success: function(g) {
-			g.status ? ($("#checkvip").html(g.title), g.msg && n(g.msg)) : "0" == g.status ? $("#checkvip").html(g.title) : $("#checkvip").html("ÇëÇóÊ§°Ü")
+			g.status ? ($("#checkvip").html(g.title), g.msg && n(g.msg)) : "0" == g.status ? $("#checkvip").html(g.title) : $("#checkvip").html("è¯·æ±‚å¤±è´¥")
 		}
 	})
 }
 
 function n(g) {
 	return;
-	$('<div class="keybox" style="line-height:30px;">' + g + '<p style="text-align:right"><button type="button" onclick="location.href=\'update.php?t=update\'"><span class="ui-button-text">Ç°ÍùÉı¼¶</span></button></p></div>').dialog({
+	$('<div class="keybox" style="line-height:30px;">' + g + '<p style="text-align:right"><button type="button" onclick="location.href=\'update.php?t=update\'"><span class="ui-button-text">å‰å¾€å‡çº§</span></button></p></div>').dialog({
 		width: 400,
 		height: 250,
 		modal: !0,
-		title: "Éı¼¶ÌáÊ¾",
+		title: "å‡çº§æç¤º",
 		closeOnEscape: !0
 	});
 	$(".ui-dialog-titlebar-close").show();
@@ -149,11 +149,11 @@ function n(g) {
 
 function o() {
 	return;
-	$('<div class="keybox" style="line-height:30px;">ÇëÊäÈëÊÚÈ¨Âë(<a href="http://www.vxiaotou.com/plugin.php?id=vivi_accr:accr" target="_blank"><font color=red>µã»÷ÔÚÏß×ÔÖúÊÚÈ¨</font></a>) <br><textarea name="vipkey" id="vipkey" style="height: 100px; width: 370px" onFocus="this.style.borderColor=\'#00CC00\'" onBlur="this.style.borderColor=\'#dcdcdc\'" ></textarea><p style="text-align:right">ÊÚÈ¨ºó½«¿ª·ÅËùÓĞ¹¦ÄÜ&nbsp;<button type="button" onclick="checkvip();"><span class="ui-button-text">È·¶¨</span></button></p></div>').dialog({
+	$('<div class="keybox" style="line-height:30px;">è¯·è¾“å…¥æˆæƒç (<a href="http://www.vxiaotou.com/plugin.php?id=vivi_accr:accr" target="_blank"><font color=red>ç‚¹å‡»åœ¨çº¿è‡ªåŠ©æˆæƒ</font></a>) <br><textarea name="vipkey" id="vipkey" style="height: 100px; width: 370px" onFocus="this.style.borderColor=\'#00CC00\'" onBlur="this.style.borderColor=\'#dcdcdc\'" ></textarea><p style="text-align:right">æˆæƒåå°†å¼€æ”¾æ‰€æœ‰åŠŸèƒ½&nbsp;<button type="button" onclick="checkvip();"><span class="ui-button-text">ç¡®å®š</span></button></p></div>').dialog({
 		width: 400,
 		height: 250,
 		modal: !0,
-		title: "Â¼ÈëÊÚÈ¨Âë",
+		title: "å½•å…¥æˆæƒç ",
 		closeOnEscape: !0
 	});
 	$(".ui-dialog-titlebar-close").show();
@@ -172,8 +172,8 @@ function checkvip() {
 		url: "../inc/common.inc.php?action=c3",
 		data: "code=" + g,
 		success: function(g) {
-			1 == g ? top.location.reload() : alert("ÊÚÈ¨Âë´íÎó£¬Çë¼ì²é")
+			1 == g ? top.location.reload() : alert("æˆæƒç é”™è¯¯ï¼Œè¯·æ£€æŸ¥")
 		}
 	})
 };
-var submit='<tr class="firstalt"><td colspan="2" align="center"><input class="bginput" type="submit" name="submit" value=" Ìá½» ">&nbsp;&nbsp;<input class="bginput" type="reset" name="Input" value=" ÖØÖÃ "></td></tr>';
+var submit='<tr class="firstalt"><td colspan="2" align="center"><input class="bginput" type="submit" name="submit" value=" æäº¤ ">&nbsp;&nbsp;<input class="bginput" type="reset" name="Input" value=" é‡ç½® "></td></tr>';

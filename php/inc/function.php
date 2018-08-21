@@ -442,13 +442,9 @@ function getalllink($html){
 function getallhref($html){
      $regx = "~(<a\s+[^>]+>)~iUs";
      preg_match_all($regx, $html, $match);
-     $linkArr = array();
+     $linkArr = [];
      if($match){
-         foreach($match[1]as $k => $vo){
-             if(preg_match('~href\s*=\s*(["|\']?)\s*([^"\'\s>\\\\]+)\s*\\1~i', $vo, $linkmatch)){
-                 $linkArr[] = $linkmatch[2];
-                 }
-             }
+         foreach($match[1]as $k => $vo) if(preg_match('~href\s*=\s*(["|\']?)\s*([^"\'\s>\\\\]+)\s*\\1~i', $vo, $linkmatch)) $linkArr[] = $linkmatch[2];
          $linkArr = array_unique($linkArr);
          }
      sort($linkArr);
@@ -458,39 +454,28 @@ function get_fullurl($srcurl, $baseurl = ''){
      !$baseurl && $baseurl = $GLOBALS['collect_baseurl'];
      if(!$baseurl)return $srcurl;
      $baseinfo = parse_url($baseurl);
-     if(substr($srcurl, 0, 1) == '?'){
-         $srcurl = $baseinfo['path'] . $srcurl;
-         }
+     if(substr($srcurl, 0, 1) == '?') $srcurl = $baseinfo['path'] . $srcurl;
+
      $srcinfo = parse_url($srcurl);
-     if(isset($srcinfo['scheme'])){
-         return $srcurl;
-         }
+     if(isset($srcinfo['scheme'])) return $srcurl;
+
      if(stripos($baseinfo['path'], '.') === false && stripos($baseinfo['path'], '?') === false)$baseinfo['path'] .= '/1';
      $url = $baseinfo['scheme'] . '://' . $baseinfo['host'];
-     if(substr($srcinfo['path'], 0, 1) == '/'){
-         $path = $srcinfo['path'];
-         }else{
-         $path = dirname($baseinfo['path']) . '/' . $srcinfo['path'];
-         }
-     $rst = array();
+     if(substr($srcinfo['path'], 0, 1) == '/') $path = $srcinfo['path'];
+         else $path = dirname($baseinfo['path']) . '/' . $srcinfo['path'];
+     $rst = [];
      $path_array = explode('/', $path);
-     if(!$path_array[0]){
-         $rst[] = '';
-         }
+     if(!$path_array[0]) $rst[] = '';
+
      foreach($path_array AS $key => $dir){
          if($dir == '..'){
-             if(end($rst) == '..'){
-                 $rst[] = '..';
-                 }elseif(!array_pop($rst)){
-                 $rst[] = '..';
-                 }
-             }elseif($dir && $dir != '.'){
-             $rst[] = $dir;
-             }
+                 if(end($rst) == '..')                                                                                          $rst[] = '..';
+                 elseif(!array_pop($rst))                                                                                   $rst[] = '..';
          }
-     if(!end($path_array)){
-         $rst[] = '';
+         elseif($dir && $dir != '.')                                                                                   $rst[] = $dir;
          }
+     !end($path_array) and  $rst[] = '';
+
      $url .= implode('/', $rst);
      $url = str_replace('\\', '/', $url);
      $url = preg_replace('~([\w]+)/{2,}~', '\\1/', $url);

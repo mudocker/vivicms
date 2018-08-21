@@ -1,5 +1,5 @@
 <?php
-if(in_array($GLOBALS['urlext'], $imgarr)){
+if(isset($GLOBALS['urlext'])&&in_array($GLOBALS['urlext'], $imgarr)){
     if(($v_config['imgcache'] || $caiji_config['collect_close']) && checktime_log_out_1h()){
         if($v_config['sifton']){
             $sifturl = explode('[cutline]', $v_config['sifturl']);
@@ -9,7 +9,7 @@ if(in_array($GLOBALS['urlext'], $imgarr)){
         $extarr = array_merge($extarr, $imgarr);
         @$_GET['debug'] != 'true'? header("Content-type: image/{$GLOBALS['urlext']}"): $GLOBALS['geturl'] = str_replace('?debug=true', '', $GLOBALS['geturl']);
         $iscollect = true;
-        if($caiji_config['collect_close'])                                                                              is_file($cachefile)? $iscollect = false: exit('not file');
+       $caiji_config['collect_close']                                                                                 and   is_file($cachefile)? $iscollect = false: exit('not file');
         require_once (VV_DATA.'./rules/urlext/in_imgarr/image_timeout.php');
         require_once (VV_DATA.'./rules/urlext/in_imgarr/web_debug.php');
 

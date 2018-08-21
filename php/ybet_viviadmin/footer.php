@@ -1,1 +1,1 @@
-<br /><center>Powered by�� viviС͵�����̨����ϵͳ</center>
+<br /><center>Powered by： vivi小偷程序后台管理系统</center>

@@ -4,7 +4,7 @@ require_once("checkAdmin.php");
 
  if(isset($_GET['del']) && $_GET['del'] == 'yes'){
     @unlink(VV_DATA . "/zhizhu.txt");
-    ShowMsg("Ö©Öë·ÃÎÊÇå³ýÍê±Ï£¡", 'zhizhu.php', 2000);
+    ShowMsg("èœ˜è››è®¿é—®æ¸…é™¤å®Œæ¯•ï¼", 'zhizhu.php', 2000);
 }
 echo ADMIN_HEAD;
 ?>
@@ -29,10 +29,10 @@ p {
 
  <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
  <tr nowrap  class="tb_head">
-      <td colspan="5"><h2>Ö©Öë·ÃÎÊ¼ÇÂ¼&nbsp;&nbsp;<a href="?del=yes" style='color:red'>Çå³ý¼ÇÂ¼</a></h2></td>
+      <td colspan="5"><h2>èœ˜è››è®¿é—®è®°å½•&nbsp;&nbsp;<a href="?del=yes" style='color:red'>æ¸…é™¤è®°å½•</a></h2></td>
  </tr>
  <tr class="firstalt">
-	<td colspan="5">ÎªÁËÐÔÄÜ£¬½ö±£Áô×î½ü1ÍòÌõ¼ÇÂ¼</td>
+	<td colspan="5">ä¸ºäº†æ€§èƒ½ï¼Œä»…ä¿ç•™æœ€è¿‘1ä¸‡æ¡è®°å½•</td>
  </tr>
 <?php $file = VV_DATA . "/zhizhu.txt";
 $type = isset($_GET['type'])?$_GET['type']:'';
@@ -48,11 +48,11 @@ if(is_file($file)){
             list($ip, $name, $url, $time) = explode("---", $arr[$i]);
             if($name == 'Baidu'){
                 $count['baidu']++;
-            }else if($name == '360ËÑË÷'){
+            }else if($name == '360æœç´¢'){
                 $count['360']++;
             }else if($name == 'Google'){
                 $count['google']++;
-            }else if($name == 'ÉñÂíËÑË÷'){
+            }else if($name == 'ç¥žé©¬æœç´¢'){
                 $count['shenma']++;
             }else if($name == 'Sogou'){
                 $count['sogou']++;
@@ -68,11 +68,11 @@ if(is_file($file)){
                 $time = '<font color=red>' . $time . '</font>';
                 if($name == 'Baidu'){
                     $count['baidu_today']++;
-                }else if($name == '360ËÑË÷'){
+                }else if($name == '360æœç´¢'){
                     $count['360_today']++;
                 }else if($name == 'Google'){
                     $count['google_today']++;
-                }else if($name == 'ÉñÂíËÑË÷'){
+                }else if($name == 'ç¥žé©¬æœç´¢'){
                     $count['shenma_today']++;
                 }else if($name == 'Sogou'){
                     $count['sogou_today']++;
@@ -85,11 +85,11 @@ if(is_file($file)){
             if(date("Y-m-d", strtotime($time)) == date("Y-m-d", strtotime("-1 day"))){
                 if($name == 'Baidu'){
                     $count['baidu_yestoday']++;
-                }else if($name == '360ËÑË÷'){
+                }else if($name == '360æœç´¢'){
                     $count['360_yestoday']++;
                 }else if($name == 'Google'){
                     $count['google_yestoday']++;
-                }else if($name == 'ÉñÂíËÑË÷'){
+                }else if($name == 'ç¥žé©¬æœç´¢'){
                     $count['shenma_yestoday']++;
                 }else if($name == 'Sogou'){
                     $count['sogou_yestoday']++;
@@ -102,7 +102,7 @@ if(is_file($file)){
             $url = htmlspecialchars($url);
             $href = $url;
             if(strlen($url) > 65)$href = substr($url, 0, 65) . '...';
-            $url = '<a target=_blank title="´ò¿ª´ËÁ´½Ó" href=' . $url . '>' . $href . '</a>';
+            $url = '<a target=_blank title="æ‰“å¼€æ­¤é“¾æŽ¥" href=' . $url . '>' . $href . '</a>';
             $result[] = array('id' => $id, 'name' => $name, 'ip' => $ip, 'url' => $url, 'time' => $time);
         }
         $page = isset($_GET['page'])?$_GET['page']:1;
@@ -135,17 +135,17 @@ if(is_file($file)){
 	<td colspan="5">
 		<table width="98%" border="0" cellpadding="4" cellspacing="0" class="tableoutline rtable">
 			<tr class="firstalt headt">
-				<td>ÀàÐÍ</td>
-				<td><a href="?type=Baidu">°Ù¶È</a></td>
-				<td><a href="?type=360ËÑË÷">360</a></td>
+				<td>ç±»åž‹</td>
+				<td><a href="?type=Baidu">ç™¾åº¦</a></td>
+				<td><a href="?type=360æœç´¢">360</a></td>
 				<td><a href="?type=Google">Google</a></td>
-				<td><a href="?type=ÉñÂíËÑË÷">ÉñÂí</a></td>
+				<td><a href="?type=ç¥žé©¬æœç´¢">ç¥žé©¬</a></td>
 				<td><a href="?type=Sogou">Sogou</a></td>
 				<td><a href="?type=Yahoo!">Yahoo!</a></td>
-				<td>ÆäËû</td>
+				<td>å…¶ä»–</td>
 			</tr>
 			<tr class="firstalt">
-				<td><font color="red">½ñÈÕ</font></td>
+				<td><font color="red">ä»Šæ—¥</font></td>
 				<td><?php echo $count['baidu_today'];
 ?></td>
 				<td><?php echo $count['360_today'];
@@ -162,7 +162,7 @@ if(is_file($file)){
 ?></td>
 			</tr>
 			<tr class="firstalt">
-				<td>×òÈÕ</td>
+				<td>æ˜¨æ—¥</td>
 				<td><?php echo $count['baidu_yestoday'];
 ?></td>
 				<td><?php echo $count['360_yestoday'];
@@ -179,7 +179,7 @@ if(is_file($file)){
 ?></td>
 			</tr>
 			<tr class="firstalt">
-				<td>ºÏ¼Æ</td>
+				<td>åˆè®¡</td>
 				<td><?php echo $count['baidu'];
 ?></td>
 				<td><?php echo $count['360'];
@@ -201,17 +201,17 @@ if(is_file($file)){
 <?php if($type){
     ?>
 	<tr nowrap class="firstalt">
-		<td colspan="8"><font color="blue">µ±Ç°Îª¡° <font color="red"><?php echo $type;
-    ?></font> ¡±µÄ½á¹û£¬<a href="?">²é¿´È«²¿</a></font></td>
+		<td colspan="8"><font color="blue">å½“å‰ä¸ºâ€œ <font color="red"><?php echo $type;
+    ?></font> â€çš„ç»“æžœï¼Œ<a href="?">æŸ¥çœ‹å…¨éƒ¨</a></font></td>
 	</tr>
 	<?php }
 ?>
  <tr nowrap class="firstalt">
    <td width="50" height="30"><div align="center">ID</div></td>
-   <td width="70"><div align="center">Ö©Öë</div></td>
-   <td width="120"><div align="center">Ö©ÖëIP</div></td>
-   <td>À´·ÃÒ³Ãæ</td>
-   <td width="200">À´·ÃÊ±¼ä</td>
+   <td width="70"><div align="center">èœ˜è››</div></td>
+   <td width="120"><div align="center">èœ˜è››IP</div></td>
+   <td>æ¥è®¿é¡µé¢</td>
+   <td width="200">æ¥è®¿æ—¶é—´</td>
  </tr>
 <?php if($result){
     foreach($result as $k => $vo){
@@ -236,7 +236,7 @@ if(is_file($file)){
 	</tr>
 <?php }else{
     ?>
-	<tr align=center class="firstalt"><td colspan=5>ÔÝÊ±»¹Ã»ÓÐÖ©Öë·ÃÎÊ</td></tr>
+	<tr align=center class="firstalt"><td colspan=5>æš‚æ—¶è¿˜æ²¡æœ‰èœ˜è››è®¿é—®</td></tr>
 <?php }
 ?>
  </table>

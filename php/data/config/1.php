@@ -1,6 +1,6 @@
 <?php
 return array (
-  'name' => 'topthink - ¼«Ë¼Î¬',
+  'name' => 'topthink - æžæ€ç»´',
   'from_url' => 'http://www.topthink.com',
   'other_url' => 'topthink.com',
   'charset' => 'utf-8',
@@ -8,7 +8,7 @@ return array (
   'siftrules' => '{vivi replace=\'\'}<ul class="imglink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<ul class="textlink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*conac\\.cn(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*cnzz(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51\\.la(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51yes(.*?)<\\/script>{/vivi}',
   'replace' => '0',
   'rewrite' => '1',
-  'licence' => '1.logoÍ¼Æ¬ÔÚstatic/mm/logo.gif£¬Ã»ÓÐ¾ÍÐÂ½¨£¬´óÐ¡²»Òª³¬¹ý 188*60£¬·ñÔò±äÐÎ',
+  'licence' => '1.logoå›¾ç‰‡åœ¨static/mm/logo.gifï¼Œæ²¡æœ‰å°±æ–°å»ºï¼Œå¤§å°ä¸è¦è¶…è¿‡ 188*60ï¼Œå¦åˆ™å˜å½¢',
   'siftags' => 
   array (
     0 => 'iframe',

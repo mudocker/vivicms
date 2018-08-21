@@ -44,6 +44,6 @@ if($caiji_config['ip_type'] == 3 && $caiji_config['ip']){
             $proxyport = rand($minproxyport, $maxproxyport);
         }
     }
-    $GLOBALS['debug'][] = '¥˙¿ÌIP£∫' . $caiji_config['ip'];
+    $GLOBALS['debug'][] = '‰ª£ÁêÜIPÔºö' . $caiji_config['ip'];
 }
-else if($caiji_config['ip']) $GLOBALS['debug'][] = 'Œ±‘ÏIP£∫' . $caiji_config['ip'];
+else if($caiji_config['ip']) $GLOBALS['debug'][] = '‰º™ÈÄ†IPÔºö' . $caiji_config['ip'];
