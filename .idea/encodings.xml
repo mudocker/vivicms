@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/data/ads.conf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/big5.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/caiji/curl.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/caiji/data.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/caiji/header.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/caiji/http_header.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/caiji/ip.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/config.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/config/1.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/config/2.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/config/3.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/deltime.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/flink.conf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/keyword.conf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/linkword.conf" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/plus/test/config.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/plus/test/test.class.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/plus/test/test.form.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/SCRIPT.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/WEB_ROOT.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/ac_yulan.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/cachetime_cacheid.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/config.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/convert_QUERY_STRING_charset.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/convert_param_charset.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/echo_html.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/from_url_geturl.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/getImgDomain.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/getTargetId.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/other.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/plus_run_before_get.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/result/debug.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/result/getTplPath.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/result/vxiaotou_link.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/server_url.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlencode.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/Content_type.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/css.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/get_urlext.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/header_location_js.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/header_location_swf.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/header_location_xml.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules/urlext/in_imgarr.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/rules_get.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/data/zhizhu.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/inc/caiji.class.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/inc/function.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/index.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/search.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/vivicms.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ybet_viviadmin/cache.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/ybet_viviadmin/caiji_config.php" charset="GBK" />
+  </component>
+</project>
