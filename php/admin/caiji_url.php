@@ -15,14 +15,10 @@ if($id == ''){
   <form action="?id=save" method="post">
   <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tr class="tb_head">  
-		<td colspan="2">
-			<h2>URL规则管理</h2>
-		</td>
+		<td colspan="2"><h2>URL规则管理</h2></td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td colspan="2">
-			<font color="blue" style="font-size:18px;">注：伪静态的开关在修改节点的高级功能里启用</font>
-		</td>
+		<td colspan="2"><font color="blue" style="font-size:18px;">注：伪静态的开关在修改节点的高级功能里启用</font></td>
 	</tr>
 	<tr nowrap class="firstalt">
 		<td width="260"><b>伪静态标识符</b><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /><br>
@@ -85,9 +81,8 @@ document.write(submit);
     $link_config = $_POST['link_config'];
     $link_config = str_replace(array("\r\n", "\r", "\n"), '|||', $link_config);
     $config = @array_merge($v_config, $config);
-    if($config){
-        arr2file(VV_DATA . "/config.php", $config);
-    }
+    if($config) arr2file(VV_DATA . "/config.php", $config);
+
     write($linkwordfile, $link_config);
     ShowMsg("恭喜你,修改成功！", '?', 2000);
 }
