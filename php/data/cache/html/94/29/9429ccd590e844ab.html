@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+    
+        <title>极思维 - 关注互联网开发 成就开发者</title>
+        <meta name="keywords" content="互联网开发,开发者,程序员,程序员创业" />
+        <meta name="description" content="关注互联网开发，挖掘和成就开发者，提供相关的资讯、产品和服务，互联网开发者首选的资讯和服务平台。" />
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" media="(device-height: 568px)" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/Public/static/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Public/Home/css/style.css?v=20141104" />
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="/Public/Home/css/style-lg.css?v=20141103" />
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="/Public/Home/css/style-md.css?v=20141103" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="/Public/Home/css/style-sm.css?v=20141103" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/emotion/emotion.min.css" />
+
+    <!--[if gte IE 9]>
+        <script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/Public/static/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/Public/static/html5shiv/html5shiv.min.js"></script>
+        <script type="text/javascript" src="/Public/static/respond/respond.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
+    <!--<![endif]-->
+    
+    <link rel="alternate" type="application/rss+xml" title="极思维" href="/rss.xml" />
+    <link rel="stylesheet" href="/Public/static/jplayer/circle.player.css">
+
+    <script type="text/javascript">
+        (function() {
+            var ThinkPHP = window.Think = {
+                "ROOT": "", //当前网站地址
+                "APP": "", //当前项目地址
+                "PUBLIC": "/Public", //项目公共目录地址
+                "DEEP": "/", //PATHINFO分割符
+                "MODEL": ["2", "1", "html"],
+                "VAR": ["m", "c", "a"],
+                "COOKIE_PREFIX": "onethink_home_"
+            }
+        })();
+    </script>
+    <meta property="qc:admins" content="17475747276470401636375" />
+    <meta property="wb:webmaster" content="25dba0761ae34b3f" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="main" class="clearfix">
+            <!-- 网站头部导航 -->
+            
+                <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">极思维</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                        <a href="/topics.html" target="_self">话题</a>
+                    </li><li>
+                        <a href="/events.html" target="_self">活动</a>
+                    </li><li>
+                        <a href="/products.html" target="_self">产品</a>
+                    </li>            </ul>
+            <form class="navbar-form navbar-left mgl10 hidden-sm" action="/search.html" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="keyword" value="" placeholder="搜索" />
+                </div>
+            </form>
+            <button id='loginBtn' style="display: none;" class="btn btn-primary navbar-right navbar-btn" type="button" data-toggle="modal" data-target="#loginModal">登录</button>
+            <ul id='loginInfo' style="display: none;" class="nav navbar-nav navbar-right">
+                <li>
+                <li><a href="/user/notify.html" ><span class="glyphicon glyphicon-envelope" ><em id="all_notify"></em></span></a></li>
+                <li><a href="/user/index.html" class="avatar"><img src=""  /></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li> <a href="/user/index.html"> <span class="glyphicon glyphicon-home"></span> 个人中心 </a> </li>
+                        <li> <a href="/user/group.html"> <span class="iconfont icon-qunzu"></span> 我的小组 </a> </li>
+                        <li> <a href="/user/topic.html"> <span class="glyphicon glyphicon-th-large"></span> 我的文章 </a> </li>
+                        <li> <a href="/user/news_add.html"> <span class="glyphicon glyphicon-edit"></span> 我要投稿 </a> </li>
+                        <li> <a href="/user/collect.html"> <span class="glyphicon glyphicon-star"></span> 我的收藏 </a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="/user/logout.html"> <span class="glyphicon glyphicon-off"></span> 退出登录 </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+            
+
+            <!-- 内容区域 -->
+            
+    <section class="page-header" >
+            <div class="page-header-bg" style="background-image: url('http://box.topthink.com/Uploads/Picture/2018-03-07/5a9fadf78616e.jpg')">
+                <div class="container">
+                    <article class="view-hero">
+                        <header>
+                            <h3>封面故事</h3>
+                            <h1><a href="/topic/26753.html"  target="_blank" >新手必看的十种机器学习算法</a></h1>
+                            <div class="abstract">
+                                机器学习领域有一条“没有免费的午餐”定理。简单解释下的话，它是说没有任何一种算法能够适用于所有问题，特别是在监督学习中。                            </div>
+                            <div class="meta">
+                                <span class="avatar-img"><img src="http://passport.onethink.cn/Avatar/000/000/00/03/120_120.gif" alt="thinkphp" /></span>
+                                <span class="author"><a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a></span>
+                                <span class="publish-date">  2018/03/07</span>
+                            </div>
+                        </header>
+                    </article>
+                </div>
+            </div>
+        </section>    <div class="container index">
+        <div class="row coverlines">
+            <div class="story">
+                    <a href="/topic/26751.html" title="用于数学的 10 个优秀编程语言" class="thumbnail"  target="_blank">
+                        <h2><span>用于数学的 10 个优秀编程语言</span></h2>
+                        <img src="http://box.topthink.com/Uploads/Picture/2018-03-07/5a9fa54e4c605_thumb.jpg" alt="用于数学的 10 个优秀编程语言" />
+                    </a>
+                </div><div class="story">
+                    <a href="/topic/26732.html" title="2018 年 Java，Web 和移动程序员学习的 12 个框架" class="thumbnail"  target="_blank">
+                        <h2><span>2018 年 Java，Web 和移动程序员学习的 12 个框架</span></h2>
+                        <img src="http://box.topthink.com/Uploads/Picture/2018-03-01/5a97d2e7652b0_thumb.jpg" alt="2018 年 Java，Web 和移动程序员学习的 12 个框架" />
+                    </a>
+                </div><div class="story">
+                    <a href="/topic/26734.html" title="东南亚创业者之殇：本地化差异" class="thumbnail"  target="_blank">
+                        <h2><span>东南亚创业者之殇：本地化差异</span></h2>
+                        <img src="http://box.topthink.com/Uploads/Picture/2018-03-01/5a97d891382ab_thumb.jpg" alt="东南亚创业者之殇：本地化差异" />
+                    </a>
+                </div><div class="story">
+                    <a href="/topic/26731.html" title="我是一名朝九晚五的程序员（你也可以！）" class="thumbnail"  target="_blank">
+                        <h2><span>我是一名朝九晚五的程序员（你也可以！）</span></h2>
+                        <img src="http://box.topthink.com/Uploads/Picture/2018-03-01/5a97cf772b88e_thumb.jpg" alt="我是一名朝九晚五的程序员（你也可以！）" />
+                    </a>
+                </div>        </div>
+        <hr class="coverlines_hr" />
+        <div class="row clearfix">
+            <!--/*电台*/-->
+            <div class="story radios">
+                <div class="thumbnail">
+                    <div class="icon"><span class='two'>电台</span></div>
+                    <a href="javascript:;">
+                            <img src="http://box.topthink.com/Uploads/Picture/2014-12-12/548a602957e4f_thumb.jpg" alt="IT公论126.其实我只是想看乌龟翻身的时间和它们的size是不是成正比的" />
+                        </a>
+                        <div class="caption">
+                            <small class="gray"><span class="pull-right">关注度：2295</span></small>
+                            <h4><a href="/radio/7658.html" title='IT公论126.其实我只是想看乌龟翻身的时间和它们的size是不是成正比的' target="_blank">IT公论126.其实我只是想看乌龟翻身的时间和它们的size是不是成正比的</a></h4>
+                            <p class="gray">《IT 公论》一岁了！感谢大家的支持。本期节目我们请来了在 Facebook 伦敦办公室任研究科学家的王珵（Cici）和我们分享试玩 Oculus Rift 和三星 Gear 虚拟现实头盔的体验。其它话题包括 ACM 编程竞赛、Facebook 的工作状态、以及飞天神麵教。</p>
+                        </div>
+                        <div class="jplayer">
+                            <div id="jplayer" class="cp-jplayer"></div>
+                            <div id="cp_container" class="cp-container">
+                                <div class="cp-buffer-holder">
+                                    <div class="cp-buffer-1"></div>
+                                    <div class="cp-buffer-2"></div>
+                                </div>
+                                <div class="cp-progress-holder">
+                                    <div class="cp-progress-1"></div>
+                                    <div class="cp-progress-2"></div>
+                                </div>
+                                <div class="cp-circle-control"></div>
+                                <ul class="cp-controls">
+                                    <li><a class="cp-play" tabindex="1">play</a></li>
+                                    <li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <script type="text/javascript" src="/Public/static/jplayer/jquery.jplayer.min.js"></script>
+                        <script type="text/javascript" src="/Public/static/jplayer/circle.player.min.js"></script>
+                        <script type='text/javascript'>
+                            var myCirclePlayer = new CirclePlayer("#jplayer", {
+                                mp3: "http://yun.topthink.com/Uploads/Download/2014-12-12/548a63cbe65dc.mp3"
+                            }, {supplied: "mp3",
+                                preload: "none",
+                                cssSelectorAncestor: "#cp_container",
+                                swfPath: "/Public/static/jplayer",
+                                wmode: "window",
+                                keyEnabled: true
+                            });
+                        </script>                    <div class="panel-footer clearfix">
+                        <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 6</span>
+                        <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 1</span>
+                        <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 48</span>
+                        <span class="pull-right"><a href="/radios.html">查看更多>></a></span>
+                    </div>
+                </div>
+            </div>
+            <!--访谈-->
+            <div class="story">
+                    <div class="thumbnail">
+                        <div class="icon"><span class='two'>访谈</span></div>
+                        <a href="/topic/5663.html" target="_blank" ><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2014-10-23/5448dc0e30763_thumb.jpg" alt="高驰涛——裸奔到北京的序猿" /></a>
+                        <div class="caption">
+                            <small class="gray"><span class="pull-right">关注度：18768</span></small>
+                            <h4><a href="/topic/5663.html" title='高驰涛——裸奔到北京的序猿' target="_blank">高驰涛——裸奔到北京的序猿</a></h4>
+                            <p class="gray">Neeke是云智慧目前的系统架构师，也是SeasLog的作者。这位已经在北京结婚生子，迈入幸福微胖界的PHP大牛，毕业八年来并不是顺风顺水。然则从他言谈中透露出的谦逊和认真，便可以瞧出，这样的人本就埋不住。</p>
+                        </div>
+                        <div class="panel-footer clearfix">
+                            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 24</span>
+                            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 13</span>
+                            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 75</span>
+                            <span class="pull-right"><a href="/interviews.html">查看更多>></a></span>
+                        </div>
+                    </div>
+                </div>            <!--发现-->
+            <div class="story">
+                    <div class="thumbnail">
+                        <div class="icon"><span class='two'>活动</span></div>
+                        <a href="/event/26521.html"  target="_blank"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2017-11-27/5a1bdf87cbbef_thumb.png" alt="双11享Go了吗？2017阿里双11在线峰会续写科技盛宴！" /></a>
+                        <div class="caption">
+                            <small class="gray"><span class="pull-right">关注度：1877</span></small>
+                            <h4><a href="/event/26521.html" title='双11享Go了吗？2017阿里双11在线峰会续写科技盛宴！' target="_blank">双11享Go了吗？2017阿里双11在线峰会续写科技盛宴！</a></h4>
+                            <p class="gray">技术成就辉煌，今年的双11毫无悬念地再次刷新了全球记录——11秒交易额破亿，28秒破10亿，3分01秒破百亿，40分12秒破500亿，9小时破1000亿……</p>
+                        </div>
+                        <div class="panel-footer clearfix">
+                            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+                            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 0</span>
+                            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 7</span>
+                            <span class="pull-right"><a href="/events.html">查看更多>></a></span>
+                        </div>
+                    </div>
+                </div>            <!--广告位1-->
+            <div class="story adv last">
+                    <div class="thumbnail">
+                        <a href="/topic/a1.html"  target="_blank"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-08-15/5b7397b3a8d37.jpg" alt="阿里云" /></a>
+                    </div>
+                </div>        </div>
+        <!--话题-->
+        <h2>1F 话题
+            <small>
+                <a href="/topics/cloud_data.html">云存储</a>&nbsp;•&nbsp;<a href="/topics/develop.html">创业</a>&nbsp;•&nbsp;<a href="/topics/story.html">极客</a>&nbsp;•&nbsp;<a href="/topics/open_source.html">开源</a>&nbsp;•&nbsp;<a href="/topics/program.html">编程</a>&nbsp;•&nbsp;<a href="/topics/products.html">产品</a>&nbsp;•&nbsp;<a href="/topics/life.html">生活</a>            </small>
+        </h2>
+        <hr class="coverlines_hr" />
+        <div class="row clearfix">
+            <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26778.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-13/5aa7dbcb26376_thumb.jpg" alt="OpenSNS开放授权，为ThinkPHP开源项目提供助力" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/products.html" target="_blank">产品</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a><span class="pull-right">关注度：1295</span></small>
+            <h4><a href="/topic/26778.html" title='OpenSNS开放授权，为ThinkPHP开源项目提供助力' target="_target">OpenSNS开放授权，为ThinkPHP开源项目提供助力</a></h4>
+            <p class="gray">作为一家致力于推动互联网行业发展的企业，想天科技秉持着对开源项目开放拥抱的态度，基于旗下综合性社交软件OpenSNS，推出了开源社区百家计划</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 0</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 12</span>
+            <span class="pull-right gray">03月13日 22:10</span>
+        </div>
+    </div>
+</div>
+                                <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26758.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-09/5aa22fd0850b8_thumb.png" alt="[福利]腾讯云发起云校园拼团计划 1核2G云服务器10元/月" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/products.html" target="_blank">产品</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a><span class="pull-right">关注度：946</span></small>
+            <h4><a href="/topic/26758.html" title='[福利]腾讯云发起云校园拼团计划 1核2G云服务器10元/月' target="_target">[福利]腾讯云发起云校园拼团计划 1核2G云服务器10元/月</a></h4>
+            <p class="gray">腾讯云带来了相当不错的福利，新用户认证学生身份可享受1核CPU、2G内存、1M带宽的云服务器10元/月的价格。套餐包含特价云服务器、域名（可选）服务，免费赠送50GB对象存储空间，同时买1年（120元）送4个月，特价续费两年（120元*2），共支出360元。</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 0</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 11</span>
+            <span class="pull-right gray">03月09日 14:56</span>
+        </div>
+    </div>
+</div>
+                                <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26752.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-07/5a9fa90255742_thumb.jpg" alt="为什么说区块链也不是什么好东西？" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/products.html" target="_blank">产品</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a><span class="pull-right">关注度：992</span></small>
+            <h4><a href="/topic/26752.html" title='为什么说区块链也不是什么好东西？' target="_target">为什么说区块链也不是什么好东西？</a></h4>
+            <p class="gray">区块链的背后有哪些我们见不到的隐秘弊端呢？</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 1</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 12</span>
+            <span class="pull-right gray">03月07日 16:55</span>
+        </div>
+    </div>
+</div>
+                <!--最新博文-->
+                <div class="promo last">
+                        <div class="thumbnail">
+                            <img src="http://box.topthink.com/Uploads/Picture/2014-07-09/53bd269a334a3.jpg" alt="最新博文" />
+                            <table class="table mgb0">
+                                <tr>
+                                        <td><a href="/topic/23055.html" title="数据分析沙龙 第1期 ——互联网行业专场" target="_blank">数据分析沙龙 第1期 ——互联网行业专场</a></td>
+                                    </tr><tr>
+                                        <td><a href="/topic/11701.html" title="移动应用架构的重塑与优化【上海· 报名中】" target="_blank">移动应用架构的重塑与优化【上海· 报名中】</a></td>
+                                    </tr><tr>
+                                        <td><a href="/topic/10811.html" title="iOS开发与前端技术分享【成都站】" target="_blank">iOS开发与前端技术分享【成都站】</a></td>
+                                    </tr><tr>
+                                        <td><a href="/topic/10204.html" title="APP开发创意与技术分享[报名中]" target="_blank">APP开发创意与技术分享[报名中]</a></td>
+                                    </tr><tr>
+                                        <td><a href="/topic/9989.html" title="测试要走高冷路线，如何完美测试产品？" target="_blank">测试要走高冷路线，如何完美测试产品？</a></td>
+                                    </tr>                            </table>
+                            <a href="/blog.html">最新博文</a>
+                        </div>
+                    </div>                <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26751.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-07/5a9fa54e4c605_thumb.jpg" alt="用于数学的 10 个优秀编程语言" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/program.html" target="_blank">编程</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a><span class="pull-right">关注度：1460</span></small>
+            <h4><a href="/topic/26751.html" title='用于数学的 10 个优秀编程语言' target="_target">用于数学的 10 个优秀编程语言</a></h4>
+            <p class="gray">作为一个对数学和编程语言充满激情的人，谁也不能阻止我分享我总结的10个超棒的用于数学的编程语言。</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 1</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 8</span>
+            <span class="pull-right gray">03月07日 16:40</span>
+        </div>
+    </div>
+</div>
+                                <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26732.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-01/5a97d2e7652b0_thumb.jpg" alt="2018 年 Java，Web 和移动程序员学习的 12 个框架" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/program.html" target="_blank">编程</a> • <a data-toggle="figurecard" data-uid="139143" href="/u/139143.html">释怀</a><span class="pull-right">关注度：1560</span></small>
+            <h4><a href="/topic/26732.html" title='2018 年 Java，Web 和移动程序员学习的 12 个框架' target="_target">2018 年 Java，Web 和移动程序员学习的 12 个框架</a></h4>
+            <p class="gray">新的一年已经开始，不知道大家有没有定好小目标。如果2018年还没有决定学什么，那么你来对地方了。在今天的文章中，我将分享一些你可以学习的最好框架，以提升你在移动和Web开发以及大数据技术方面的知识。</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 0</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 12</span>
+            <span class="pull-right gray">03月01日 18:16</span>
+        </div>
+    </div>
+</div>
+                                <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/topic/26730.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2018-03-01/5a97ced170ca4_thumb.png" alt="十年程序员用眼告诉你2018PHP不一样" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/topics/life.html" target="_blank">生活</a> • <a data-toggle="figurecard" data-uid="139143" href="/u/139143.html">释怀</a><span class="pull-right">关注度：2100</span></small>
+            <h4><a href="/topic/26730.html" title='十年程序员用眼告诉你2018PHP不一样' target="_target">十年程序员用眼告诉你2018PHP不一样</a></h4>
+            <p class="gray">PHP从诞生到现在已经有20多年历史，从Web时代兴起到移动互联网退潮，互联网领域各种编程语言和技术层出不穷， Node.js 、GO和Python不断地在挑战PHP的地位。这些技术的推动者非常热衷于唱衰PHP，PHP语言的未来在哪里？PHP程序员当如何应对未来的变革？</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 0</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 0</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 15</span>
+            <span class="pull-right gray">03月01日 17:45</span>
+        </div>
+    </div>
+</div>
+                                <!--个人动态-->
+                <div class="promo last">
+                        <div class="thumbnail">
+                            <img src="http://box.topthink.com/Uploads/Picture/2014-07-09/53bd26c31c576.jpg" alt="个人动态" />
+                            <table class="table mgb0">
+                                <tr>
+                                        <td><a href="/u/dsyzt.html"  data-toggle="figurecard" data-uid="348805">电商论坛</a>：<span title="http://www.dsyzt.com电商论坛" data-toggle="parseface">http://www.dsyzt.com电商论坛</span></td>
+                                    </tr><tr>
+                                        <td><a href="/u/30539.html"  data-toggle="figurecard" data-uid="30539">273579540</a>：<span title="https://www.youtubemy.com" data-toggle="parseface">https://www.youtubemy.com</span></td>
+                                    </tr><tr>
+                                        <td><a href="/u/337513.html"  data-toggle="figurecard" data-uid="337513">wangjl</a>：<span title="只要想到就能实现。" data-toggle="parseface">只要想到就能实现。</span></td>
+                                    </tr><tr>
+                                        <td><a href="/u/337513.html"  data-toggle="figurecard" data-uid="337513">wangjl</a>：<span title="只要想到就能实现。" data-toggle="parseface">只要想到就能实现。</span></td>
+                                    </tr><tr>
+                                        <td><a href="/u/337513.html"  data-toggle="figurecard" data-uid="337513">wangjl</a>：<span title="只要想到就能实现。" data-toggle="parseface">只要想到就能实现。</span></td>
+                                    </tr>                            </table>
+                            <a href="/dynamics.html">个人动态</a>
+                        </div>
+                    </div>        </div>
+        <!--小组-->
+        <h2>2F 小组
+            <small>
+                <a href="/groups/jishu.html">技术编程</a>&nbsp;•&nbsp;<a href="/groups/pinpai.html">品牌产品</a>&nbsp;•&nbsp;<a href="/groups/hangye.html">行业交流</a>&nbsp;•&nbsp;<a href="/groups/shenghuo.html">生活娱乐</a>&nbsp;•&nbsp;<a href="/groups/xingqu.html">兴趣爱好</a>            </small>
+        </h2>
+        <hr class="coverlines_hr" />
+        <div class="row clearfix">
+            <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/group/2857.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2014-07-30/53d86c76dc7c9_thumb.jpg" alt="" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/groups/jishu.html" target="_blank">技术编程</a> • <a data-toggle="figurecard" data-uid="106786" href="/u/marvin.html">Marvin9002</a></small>
+            <h4><a href="/group/2857.html" target="_target">Python</a></h4>
+            <p class="gray">Python, 是一种面向对象、解释型计算机程序设计语言，由Guido van Rossum于1989年底发明，第一个公开发行版发行于1991年。Python语法简洁而清晰，具有丰富和强大的类库。</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="主题"><i class="glyphicon glyphicon-file"></i> 2</span>
+            <span class="pull-left gray mgr10" title="成员"><i class="glyphicon glyphicon-user"></i> 67</span>
+            <span class="pull-right">
+                <span class="btn btn-xs btn-success addgroup" data-loading-text="正在加载..." data-gid="2857"><em class="glyphicon glyphicon-plus"></em> 加入小组</span>
+            </span>
+        </div>
+    </div>
+</div><div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/group/onethink.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2014-07-29/53d77c2a80b4e_thumb.jpg" alt="" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/groups/jishu.html" target="_blank">技术编程</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a></small>
+            <h4><a href="/group/onethink.html" target="_target">OneThink</a></h4>
+            <p class="gray">OneThink官方小组，OT是一个开源的内容管理开发框架，旨在帮助开发者节约WEB应用开发的时间投入，以最快的速度开发出高质量和健壮的WEB应用</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="主题"><i class="glyphicon glyphicon-file"></i> 1083</span>
+            <span class="pull-left gray mgr10" title="成员"><i class="glyphicon glyphicon-user"></i> 2676</span>
+            <span class="pull-right">
+                <span class="btn btn-xs btn-success addgroup" data-loading-text="正在加载..." data-gid="1057"><em class="glyphicon glyphicon-plus"></em> 加入小组</span>
+            </span>
+        </div>
+    </div>
+</div><div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/group/1265.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2014-06-26/53abc73372afe_thumb.jpg" alt="" /></a>
+        <div class="caption">
+            <small class="gray"><a href="/groups/jishu.html" target="_blank">技术编程</a> • <a data-toggle="figurecard" data-uid="3" href="/u/thinkphp.html">thinkphp</a></small>
+            <h4><a href="/group/1265.html" target="_target">公开课</a></h4>
+            <p class="gray">致力于发现更多更好的技术公开课</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="主题"><i class="glyphicon glyphicon-file"></i> 11</span>
+            <span class="pull-left gray mgr10" title="成员"><i class="glyphicon glyphicon-user"></i> 82</span>
+            <span class="pull-right">
+                <span class="btn btn-xs btn-success addgroup" data-loading-text="正在加载..." data-gid="1265"><em class="glyphicon glyphicon-plus"></em> 加入小组</span>
+            </span>
+        </div>
+    </div>
+</div>            <!--最新帖子-->
+            <div class="promo last">
+                    <div class="thumbnail">
+                        <img src="http://box.topthink.com/Uploads/Picture/2014-07-09/53bd26af0601b.jpg" alt="最新帖子" />
+                        <table class="table mgb0">
+                            <tr>
+                                    <td><a href="/topic/26892.html" title="[休闲娱乐]基于Thinkphp5，Pjax，Ajax全站异步操作自适应管理后台" target="_blank">[休闲娱乐]基于Thinkphp5，Pjax，Ajax全站异步操作自适应管理后台</a></td>
+                                </tr><tr>
+                                    <td><a href="/topic/26888.html" title="[教育培训]AndPHP.admin V2.0 纯净版（免费切开源）" target="_blank">[教育培训]AndPHP.admin V2.0 纯净版（免费切开源）</a></td>
+                                </tr><tr>
+                                    <td><a href="/topic/26886.html" title="[休闲娱乐]我发现娱乐社交网站" target="_blank">[休闲娱乐]我发现娱乐社交网站</a></td>
+                                </tr><tr>
+                                    <td><a href="/topic/26881.html" title="[政府企业]智企 FIMS 系统" target="_blank">[政府企业]智企 FIMS 系统</a></td>
+                                </tr><tr>
+                                    <td><a href="/topic/26880.html" title="[政府企业]智企 FIMS 系统" target="_blank">[政府企业]智企 FIMS 系统</a></td>
+                                </tr>                        </table>
+                        <a href="/posts.html">最新帖子</a>
+                    </div>
+
+                </div>        </div>
+        <!--产品-->
+        <h2>3F 产品
+            <small>
+                <a href="/products/cms.html">内容管理</a>&nbsp;•&nbsp;<a href="/products/shop.html">商城系统</a>&nbsp;•&nbsp;<a href="/products/social.html">社交应用</a>&nbsp;•&nbsp;<a href="/products/mobile.html">移动应用</a>&nbsp;•&nbsp;<a href="/products/develop_help.html">开发辅助</a>&nbsp;•&nbsp;<a href="/products/industry.html">行业应用</a>&nbsp;•&nbsp;<a href="/products/game.html">游戏娱乐</a>&nbsp;•&nbsp;<a href="/products/plugin_extend.html">插件&扩展</a>            </small>
+        </h2>
+        <hr class="coverlines_hr" />
+        <div class="row clearfix">
+            <div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/product/23971.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2016-06-21/57690eb3f2075_thumb.png" alt="..." /></a>
+        <div class="caption">
+            <small class="gray"><a href="/products/cms.html" target="_blank">内容管理</a><span class="pull-right">关注度：49968</span></small>
+            <h4><a href="/product/23971.html" title='SentCMS网站管理系统3.0RC' target="_target">SentCMS网站管理系统3.0RC</a></h4>
+            <p class="gray">SentCMS系统使用thinkphp5.0框架，主要功能有内容管理、会员管理、权限管理等，在底层上，很多借鉴Onethink的开发理念</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 27</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 29</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 26</span>
+            <span class="pull-right gray"><a data-toggle="figurecard" data-uid="26708" href="/u/tensent.html">molong</a></span>
+        </div>
+    </div>
+</div><div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/product/23588.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2016-05-08/572f5d431387d_thumb.png" alt="..." /></a>
+        <div class="caption">
+            <small class="gray"><a href="/products/cms.html" target="_blank">内容管理</a><span class="pull-right">关注度：21101</span></small>
+            <h4><a href="/product/23588.html" title='百度云网盘资源搜索程序CMS(内容管理系统)' target="_target">百度云网盘资源搜索程序CMS(内容管理系统)</a></h4>
+            <p class="gray">百度云网盘资源搜索程序，基于onethink+bootstrap+MySQL+coreseek(sphinx)的强大组合，将近3000万的百度云网盘资源，毫秒级搜索，更快更强的页面加载，打造极致体验！</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 17</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 6</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 25</span>
+            <span class="pull-right gray"><a data-toggle="figurecard" data-uid="125022" href="/u/125022.html">皇虫</a></span>
+        </div>
+    </div>
+</div><div class="story">
+    <div class="thumbnail">
+        <div class="icon"><span class='two'>推荐</span></div>        <a href="/product/811.html" target="_target"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2014-06-06/53913ddd6b711_thumb.png" alt="..." /></a>
+        <div class="caption">
+            <small class="gray"><a href="/products/mobile.html" target="_blank">移动应用</a><span class="pull-right">关注度：24452</span></small>
+            <h4><a href="/product/811.html" title='小猪cms微信营销系统' target="_target">小猪cms微信营销系统</a></h4>
+            <p class="gray">PigCms多用户微信营销系统志在帮助那些不懂技术的个人或企业建立属于自己的接口程序，让完全不懂技术的个人或企业通过简单的配置，即可拥有强大的功能。企业使用PigCms多用户微信营销系统可以用低廉的成本实现智能客服机器人功能，淘宝店家可以轻松实现店铺商品和粉丝的关联与互动，我们也</p>
+        </div>
+        <div class="panel-footer clearfix">
+            <span class="pull-left gray mgr10" title="评论"><i class="glyphicon glyphicon-comment"></i> 13</span>
+            <span class="pull-left gray mgr10" title="赞"><i class="glyphicon glyphicon-thumbs-up"></i> 10</span>
+            <span class="pull-left gray mgr10" title="分享"><i class="glyphicon glyphicon-share-alt"></i> 45</span>
+            <span class="pull-right gray"><a data-toggle="figurecard" data-uid="120905" href="/u/120905.html">小猪cms</a></span>
+        </div>
+    </div>
+</div>            <!--广告位4-->
+            <div class="story adv last">
+                    <div class="thumbnail">
+                        <a href="/topic/a2.html"  target="_blank"><img class="lazy" data-original="http://box.topthink.com/Uploads/Picture/2015-12-29/568298aa87cca.png" alt="看云 | 专注于提供文档创作和托管解决方案" /></a>
+                    </div>
+                </div>        </div>
+
+    </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <footer>
+            <span class="copyright">© 2014 上海顶想信息科技有限公司 沪ICP备12007941号-1</span>
+            <span class="links">
+                <a href="/info/about.html">关于我们</a>&nbsp;&middot;&nbsp;<a href="/info/contact.html">联系我们</a>&nbsp;&middot;&nbsp;<a href="/info/joinus.html">加入我们</a>&nbsp;&middot;&nbsp;<a href="/info/partner.html">合作伙伴</a>            </span>
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010802001048" style="display:inline-block;*display:inline;zoom:1;width:150px;height:52px;text-decoration:none;position:absolute;top: 22px;left: 465px;">
+                <img src="/Public/Home/images/picp_bg.png" alt="沪公网安备" border="0">
+                <span align="center" style="font-size:12px;color:#001b75;padding:0;margin:0;text-decoration:none;top:30px;left:37px;position:absolute;cursor:pointer;">31010802001048</span>
+            </a>
+            <div class="partner">
+                <h3>合作伙伴</h3>
+                <ul>
+                    <li class="idc"><a href="http://www.51idc.com" target="_blank"><img src="/Public/Home/images/51idc.png" height="40" alt="" /></a></li>
+                    <li class="qiniu"><a href="http://www.qiniu.com" target="_blank"><img src="/Public/Home/images/qiniu.png" height="35" alt=""  /></a></li>
+                    <li class="upyun"><a href="http://www.upyun.com" target="_blank"><img src="/Public/Home/images/upyun.png" height="23" alt=""  /></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <section class="footer-tools">
+        <ul>
+            <li>
+                <a class="iconfont icon-fanhuidingbu" href="javascript:;" title="回到顶部" ></a>
+            </li>
+        </ul>
+    </section>
+
+<!-- 同步登录js -->
+<div class="popover figurecard">
+    <div class="arrow"></div>
+    <div class="popover-content">
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="login_social">
+                    <h4 class="ac">无需注册，直接使用社交账号登录</h4>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/wechat.html" class="social_login weichat"><i class="iconfont icon-weixin"></i>微信</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/qq.html" class="social_login tencent_qq"><i class="iconfont icon-qq"></i>QQ</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/sina.html" class="social_login sina_weibo"><i class="iconfont icon-xinlangweibo"></i>微博</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/github.html" class="social_login wangyi_weibo"><i class="iconfont icon-github"></i>GitHub</a>
+                </div>
+                <hr />
+                <div class="login-section">
+                    <form data-toggle='ajaxform' method="post" action="/user/login.html">
+                        <p class="gray">可使用ThinkPHP.cn账号登录</p>
+                        <div class="placeholder_ie">
+                            <div class="form-group">
+                                <input type="text" name="username" autofocus="" required placeholder="用户名|邮箱|手机|UID" class="form-control user" data-placement="right" data-trigger="manual">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" required placeholder="密码" class="form-control password" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group clearfix">
+                                <a href="/user/forgetpwd.html" class="pull-right forget_pwd">忘记密码？</a>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block ">登录</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="small"><a href="javascript:;" class="register__login-btn">还没有帐号？立即注册</a></p>
+                </div>
+                <div class="register-section" style="display:none;">
+                    <form data-toggle='ajaxform' method="post" action="/user/register.html">
+                        <div class="placeholder_ie">
+                            <div class="form-group">
+                                <input type="text" name="username" autofocus="" required placeholder="用户名" class="form-control user" data-placement="right" data-trigger="manual" value="">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" required placeholder="密码" class="form-control password" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="repassword" required placeholder="确认密码" class="form-control repassword" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" autofocus="" required="" placeholder="电子邮箱" class="form-control email" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="verify" required="" placeholder="验证码" class="form-control verify" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <img class="verifyimg reloadverify" alt="点击切换" src="/user/verify.html"  onclick='javascript:var url = "/user/verify/_/%5Brandom%5D.html";
+                                        $(this).attr("src", url.replace("[random]", Math.random()));' title="点击刷新验证码" width="300" />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-lg btn-primary btn-block">注册</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="small"><a href="javascript:;" class="login__register-btn">已有帐号？立即登录</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/Public/static/bootstrap/js/bootstrap.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/static/template.js"></script>
+<script type="text/javascript" src="/Public/static/thinkbox/jquery.thinkbox.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/static/lazy.min.js"></script>
+<script type="text/javascript" src="/Public/static/emotion/emotion.min.js"></script>
+<script type="text/javascript" src="/Public/static/think.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/Home/js/common.min.js?v=20141208"></script>
+
+
+<script type="text/javascript">
+                                    var _hmt = _hmt || [];
+                                    (function() {
+                                        var hm = document.createElement("script");
+                                        hm.src = "//hm.baidu.com/hm.js?7356fff7035ad4a8d3760a0e1427b2eb";
+                                        var s = document.getElementsByTagName("script")[0];
+                                        s.parentNode.insertBefore(hm, s);
+                                    })();
+</script>
+<img src="/index/cron.html" border="0" height="0" width="0" />
+</body>
+</html>

@@ -1,7 +1,7 @@
 <?php
 
     require_once (DREPLACE.'main_new.php');
-    require_once (DREPLACE.'from_title.php');
+  require_once (DREPLACE.'from_title.php');
     require_once (DREPLACE.'search_url.php');
     require_once (DREPLACE.'replace_zdy.php');
     require_once (DREPLACE.'zdy.php');

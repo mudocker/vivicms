@@ -9,9 +9,9 @@ if($GLOBALS['urlext'] != 'css' && $GLOBALS['urlext'] != 'js'){
         $bodystr = strcut($caiji_config['body_start'], $caiji_config['body_end'], $bodystr);
         if($bodystr)$GLOBALS['html'] = $headstr . '<body>' . $bodystr . '</body>' . $str3;
     }
-    $GLOBALS['html'] = preg_replace('#content=\s*(["|\']*)\s*text/html;\s*charset[^"\']+\\1#i', 'content="text/html; charset=gbk"', $GLOBALS['html']);
-    $GLOBALS['html'] = preg_replace('#<meta charset="[^"]+">#i', '<meta charset="gbk">', $GLOBALS['html']);
-    $GLOBALS['html'] = preg_replace('#<meta charset=\'[^\']+\'>#i', '<meta charset="gbk">', $GLOBALS['html']);
+    $GLOBALS['html'] = preg_replace('#content=\s*(["|\']*)\s*text/html;\s*charset[^"\']+\\1#i', 'content="text/html; charset=utf-8"', $GLOBALS['html']);
+    $GLOBALS['html'] = preg_replace('#<meta charset="[^"]+">#i', '<meta charset="utf-8">', $GLOBALS['html']);
+    $GLOBALS['html'] = preg_replace('#<meta charset=\'[^\']+\'>#i', '<meta charset="utf-8">', $GLOBALS['html']);
     if(preg_match("~<base\s*href\s*=\s*([\"|']?)([^\"'>]+)\\1~iUs", $GLOBALS['html'], $match)){
         if($match[2]){
             $parse_url = parse_url($match[2]);

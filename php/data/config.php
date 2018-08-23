@@ -1,9 +1,9 @@
 <?php
 return array (
-  'web_name' => '网站名称',
+  'web_name' => '500万彩票',
   'web_url' => 'http://l.cn/',
-  'web_keywords' => '首页关键字2',
-  'web_description' => '首页网站描述',
+  'web_keywords' => '500万彩票---首页关键字2',
+  'web_description' => '500万彩票---首页网站描述',
   'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
   'collectid' => '1',
   'sifton' => '1',
@@ -14,7 +14,7 @@ return array (
   'cacheon' => '1',
   'web_remark' => '',
   'web_404_url' => '/404.html',
-  'web_seo_name' => '网站长标题',
+  'web_seo_name' => '500万彩票',
   'linkword_on' => '0',
   'web_urlencode' => '0',
   'web_urlencode_type' => 'base64',
@@ -31,5 +31,6 @@ return array (
   'jscache' => '1',
   'imgcache' => '0',
   'flinks_auto_insert' => '1',
+   'obort_read_cahce'=>true,
 );
 ?>

@@ -99,16 +99,14 @@ function checkurl(id){
 </html>
 <?php }elseif($id == 'save'){
     $config = $_POST['con'];
-    foreach($config as $k => $v){
-        $config[$k] = trim($config[$k]);
-    }
+    foreach($config as $k => $v) $config[$k] = trim($config[$k]);
+
     $config['web_tongji'] = get_magic($config['web_tongji']);
-    if(substr($config['web_url'], -1) != '/')ShowMsg("网站地址格式不正确", '-1', 3000);
-    if(!$v_config)$v_config = $config;
+    substr($config['web_url'], -1) != '/' and ShowMsg("网站地址格式不正确", '-1', 3000);
+    !$v_config and $v_config = $config;
     $config = @array_merge($v_config, $config);
-    if($config){
-        arr2file(VV_DATA . "/config.php", $config);
-    }
+    $config and  arr2file(VV_DATA . "/config.php", $config);
+
     ShowMsg("恭喜你,修改成功！", 'admin_main.php?id=man', 2000);
 }
 ?>

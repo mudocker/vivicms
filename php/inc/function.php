@@ -533,9 +533,8 @@ function _htmlspecialchars($str){
     }
 function is_resdomain($url){
      global $caiji_config;
-     if(preg_match('~^data:image/~', $url)){
-         return false;
-         }
+     if(preg_match('~^data:image/~', $url)) return false;
+
      if(!$caiji_config['resdomain'])return false;
      $resdomain = explode(',', $caiji_config['resdomain']);
      $parse_url = parse_url($url);
@@ -552,13 +551,10 @@ function is_resdomain($url){
 function get_showurl($path, $suffix = ''){
      global $v_config;
      global $sign;
-     if(!isgoodurl($url)){
-         return $path;
-         }
+     if(!isgoodurl($url)) return $path;
+
      $suffix = $suffix?'.' . $suffix:'';
-     if($v_config['web_urlencode']){
-         $path = encode_id($path) . $suffix;
-         }
+     $v_config['web_urlencode'] and  $path = encode_id($path) . $suffix;
      return $sign . $path;
     }
 function isgoodurl($url){
@@ -868,11 +864,8 @@ function ajaxReturn($data){
     }
 function to_utf8($str){
      if(!is_utf8($str)){
-         if(PATH_SEPARATOR == ':'){
-             $str = mb_convert_encoding($str, "utf-8", "gbk");
-             }else{
-             $str = iconv('gbk', 'utf-8//IGNORE', $str);
-             }
+         if(PATH_SEPARATOR == ':') $str = mb_convert_encoding($str, "utf-8", "gbk");
+             else $str = iconv('gbk', 'utf-8//IGNORE', $str);
          }
      return $str;
     }
