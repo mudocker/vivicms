@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+    
+        <title>我是一名朝九晚五的程序员（你也可以！） - 资讯/生活 - 极思维</title>
+        <meta name="keywords" content="程序员 编程 生活" />
+        <meta name="description" content="程序员 " />
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" media="(device-height: 568px)" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/Public/static/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/Public/Home/css/style.css?v=20141104" />
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="/Public/Home/css/style-lg.css?v=20141103" />
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="/Public/Home/css/style-md.css?v=20141103" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="/Public/Home/css/style-sm.css?v=20141103" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/emotion/emotion.min.css" />
+
+    <!--[if gte IE 9]>
+        <script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/Public/static/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/Public/static/html5shiv/html5shiv.min.js"></script>
+        <script type="text/javascript" src="/Public/static/respond/respond.min.js"></script>
+    <![endif]-->
+    <!--[if !IE]><!-->
+    <script type="text/javascript" src="/Public/static/jquery-2.0.3.min.js"></script>
+    <!--<![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="/Public/static/kindeditor/plugins/code/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/static/fancyBox/jquery.fancybox.css" />
+
+    <script type="text/javascript">
+        (function() {
+            var ThinkPHP = window.Think = {
+                "ROOT": "", //当前网站地址
+                "APP": "", //当前项目地址
+                "PUBLIC": "/Public", //项目公共目录地址
+                "DEEP": "/", //PATHINFO分割符
+                "MODEL": ["2", "1", "html"],
+                "VAR": ["m", "c", "a"],
+                "COOKIE_PREFIX": "onethink_home_"
+            }
+        })();
+    </script>
+    <meta property="qc:admins" content="17475747276470401636375" />
+    <meta property="wb:webmaster" content="25dba0761ae34b3f" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="main" class="clearfix">
+            <!-- 网站头部导航 -->
+            
+                <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">极思维</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                        <a href="/topics.html" target="_self">话题</a>
+                    </li><li>
+                        <a href="/events.html" target="_self">活动</a>
+                    </li><li>
+                        <a href="/products.html" target="_self">产品</a>
+                    </li>            </ul>
+            <form class="navbar-form navbar-left mgl10 hidden-sm" action="/search.html" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="keyword" value="" placeholder="搜索" />
+                </div>
+            </form>
+            <button id='loginBtn' style="display: none;" class="btn btn-primary navbar-right navbar-btn" type="button" data-toggle="modal" data-target="#loginModal">登录</button>
+            <ul id='loginInfo' style="display: none;" class="nav navbar-nav navbar-right">
+                <li>
+                <li><a href="/user/notify.html" ><span class="glyphicon glyphicon-envelope" ><em id="all_notify"></em></span></a></li>
+                <li><a href="/user/index.html" class="avatar"><img src=""  /></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li> <a href="/user/index.html"> <span class="glyphicon glyphicon-home"></span> 个人中心 </a> </li>
+                        <li> <a href="/user/group.html"> <span class="iconfont icon-qunzu"></span> 我的小组 </a> </li>
+                        <li> <a href="/user/topic.html"> <span class="glyphicon glyphicon-th-large"></span> 我的文章 </a> </li>
+                        <li> <a href="/user/news_add.html"> <span class="glyphicon glyphicon-edit"></span> 我要投稿 </a> </li>
+                        <li> <a href="/user/collect.html"> <span class="glyphicon glyphicon-star"></span> 我的收藏 </a> </li>
+                        <li class="divider"></li>
+                        <li> <a href="/user/logout.html"> <span class="glyphicon glyphicon-off"></span> 退出登录 </a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+            
+
+            <!-- 内容区域 -->
+            
+        <div class="pdt60"></div>    <!-- 分享 -->
+    <div class="container pdt10">
+        <div class="rows clearfix">
+            <div class="article-left">
+                <h3>赞助商</h3>
+
+<think id="ad_bb3592010661a34b"></think>
+            </div>
+            <div class="article-content">
+                <article class="view-hero">
+                    <header>
+                        <h4><a href="/topics/life.html">生活</a></h4>                        <h1>我是一名朝九晚五的程序员（你也可以！）</h1>
+                        <p></p>
+                        <div class="meta">
+                            <span class="avatar-img"><img src="http://passport.onethink.cn/Avatar/000/013/91/43/120_120.gif" alt="释怀"></span>
+                            <span class="author"><a data-toggle="figurecard" data-uid="139143" href="/u/139143.html">释怀</a></span>
+                            <span class="publish-date">  2018/03/01</span>
+                                                    </div>
+                    </header>
+                </article>
+                <hr />                我一直在思考Safia&nbsp;Abdalla发的一个蛮特别的推特：<br /><blockquote>一个也许不怎么主流的见解（有点讽刺产自于我）：<br />你没有必要写博客文章，贡献开源，参与技术会话，或做其他任何有利于成为大咖工程师的事情。<br />代码留在办公室里，那便是极好的。<br />——Safia&nbsp;Abdalla（@captainsafia）2018年1月13日<br /></blockquote>尽管我也承认这个有点反讽意味，但是我的心灵情不自禁地发生了共鸣。自从我因为拒绝负担更多的工作而被解雇以来，我会告诉潜在雇主的其中一件事就是，我不加班。至少不能经常性加班。偶尔遭遇“地狱周”是没问题的，因为我也知道部署特定的更新或修复bug是绝对至关重要的，但危机解除之后，我会抽身离去，到点就回家。<br /><br />Abdalla女士发表在推特的观点更进了一步，正因为如此，我突然发现我的思维可以迎向新的曙光。看来，我之所以选择这种生活方式（抽身离去，到点就回家）很大一部分还是理智“作祟”。如果没有明确的界限规定我何时考虑工作中的问题，那么我会一直思考，然后所有我未曾完工的任务以及我没有解决的问题会逐渐变成大山，让我不堪重负。我不是那种心无旁骛的开发者，建立这些分界的行为可以帮助我控制发散思维的冲动。<br /><br />问题是，我们从来解决不完问题。对于我这样一个解决问题困难户来说，编程充满了如此多尚未解决的问题，以致于我就算找到令人满意的娱乐和解决方案，仍然不觉得能够真正做到什么。我解决了一个问题！真酷！但那又如何？过程依然令人发狂，令人沮丧，令人泄气。依然可能会导致职业倦怠。<br /><br />归咎于我容易天马行空不受控制的大脑，我不得不设置分界。我不得不到点就离开工作。我不得不成为一个朝九晚五的开发者。<br /><img data-toggle="fancybox" data-fancybox-group="gallery" href="http://yun.topthink.com/Uploads/Editor/2018-03-01/5a97cf53c16d3.jpg" src="http://yun.topthink.com/Uploads/Editor/2018-03-01/5a97cf53c16d3.jpg" alt="" /><br />我知道有很多开发人员得了“骗子综合症”。可能在某种程度上你也是其中一员；你感觉自己名不副实——不知道自己在做什么，只想着得过且过。而我的问题是，如果我不设置分界，如果我允许自己继续工作、探索和解决问题，那么我身上的骗子综合症会愈发严重。<br /><br />我想知道一切，但我做不到，因为我做不到，然后我开始看轻自己。<br /><br />所以，我必须设定分界。像“工作归工作”以及“每隔一段时间休息一下”都是我的分界。这样做有助于管住我的理智，使我能够专心致志。这在很长一段时间里都让我觉得自己作为一名开发者不是那么合格。16个小时的编码会话于我而言是空中楼阁，因为我坚持不到最后，我在家庭中还有孩子和妻子需要我的关心和爱。面对现实吧，代码不是人，就算你像爱人和孩子一样爱它，它也永远不会回应你的爱意。尽管如此，我仍然希冀能做得更好，做一个更优秀的<a href="http://www.codeceo.com/" target="_blank">程序员</a>，像我仰望的那些大咖一样，但却因为做不到这些然后我开始厌弃自己。<br /><br />Twitter和其他社交媒体在涉及这个问题时都表现得顶顶糟糕。那些非常出色的程序员，那些让我钦佩于他们工作的人，会自豪地宣称他们就是整天都在写代码，然后他们感觉很有成就感。于是我也只能坐回到椅子上，抱头绝望于自己为什么做不到。为什么我不能像他们那样玩命地努力？为什么我不能像他们一样多产？否则我就可以和他们一样优秀了！<br /><br />我花了很长时间才认识到，我的大脑根本不能负荷这样的工作方式。我无法全程参与16个小时的编码会议。我无法通宵达旦地熬夜直到任务完成。我永远不能像Twitter上的那些人说的那样“多产”。我做不到。但是，正如我在历经将近11年作为一名职业软件开发者之后才意识到的那样，这也没关系！<br /><br />这没关系，因为在每天8个小时的时间里，我仍然可以表现出色。我仍然可以完成我的工作，并且完成得很好。我仍然可以高效率地领导我的团队。我仍然可以想出有趣的解决方案。我只需要在我设定的分界内完成这些工作。我意识到我并不比那些Twitter上的劳模差劲；我只是与众不同。<br /><br />我敢打赌，大多数“沉默”的程序员只想着做好自己的工作就回家。这些人不会因为试图解决已经困扰了他们几周的问题而在晚上熬夜。这些人不写博客，不致力于开源项目，也不进行技术会话，甚至对工作能力以外的程序不怎么感兴趣。有时候这些人会被蔑称为是“朝九晚五的开发者”。在这里我要说的是，即使我们朝九晚五，也不意味着我们差劲。<br /><br />如果你是一名朝九晚五的开发人员，那么说明你更擅于时间管理，而并非意味着你低其他程序员一等。<br /><br /><img data-toggle="fancybox" data-fancybox-group="gallery" href="http://yun.topthink.com/Uploads/Editor/2018-03-01/5a97cf544700f.jpg" src="http://yun.topthink.com/Uploads/Editor/2018-03-01/5a97cf544700f.jpg" alt="" /><br /><br />我在这里并没有辨明哪种工作方式更好。我只是说明了什么对我有用，并且因此我成为了一名朝九晚五的开发者。我想的就是做完做好我的工作，然后回家做其他事情（比如写博客）。我需要这样做来管住自己的理智。即便你不需要如我这般才能在工作时专心致志，但是你也可以做到朝九晚五！你不必花费很长时间去编程才算是一个优秀的开发者。你只需要深入思考问题，并想做好本职工作。<br /><br />编码快乐！                <div class="f16 gray">来自：<a href="http://www.codeceo.com/article/i-am-9-to-5-developer.html" target="_blank">http://www.codeceo.com/article/i-am-9-to-5-developer.html</a></div>                <div class="article-tags">
+                     <a href="/tag/article/%e7%a8%8b%e5%ba%8f%e5%91%98.html">程序员</a>   <a href="/tag/article/%e7%bc%96%e7%a8%8b.html">编程</a>                  </div>
+                <div class="relate">
+        <div class="review-header">
+            <span>相关阅读</span>
+        </div>
+        <div class="media">
+                <div class="media-body">
+                    <h5 class="media-heading"><a href="/topic/26751.html">用于数学的 10 个优秀编程语言</a></h5>
+                </div>
+            </div><div class="media">
+                <div class="media-body">
+                    <h5 class="media-heading"><a href="/topic/26732.html">2018 年 Java，Web 和移动程序员学习的 12 个框架</a></h5>
+                </div>
+            </div><div class="media">
+                <div class="media-body">
+                    <h5 class="media-heading"><a href="/topic/26730.html">十年程序员用眼告诉你2018PHP不一样</a></h5>
+                </div>
+            </div>    </div>                <!-- 用户评论 -->
+<div id='review' class="review dynamic-box clearfix">
+    <div class="review-header">
+        <span>评论(<i id="comment_count">0</i>)</span>
+    </div>
+</div>
+
+<script id="replyTemplate" type="text/html">
+    <div class="media">
+        <a class="pull-left avatar" href="javascript:void(0);">
+            <img class="media-object " src="http://passport.onethink.cn/Avatar/000/000/00/00/120_120.gif" alt="">
+        </a>
+        <div class="media-body">
+            <p><a class="author" href="/u/0.html"></a>：{{#content}}</p>
+            <h5 class="media-heading clearfix"><span class="gray pull-left">刚刚</span></h5>
+        </div>
+    </div>
+</script>
+<script type="text/javascript">
+    $(function() {
+        var id = "26731";
+        //获取评论
+        $.get("/user/getreply.html", {id: id, num: 10}, function(html) {
+            var $html = $(html);
+            $html.find('p').parseEmotion();
+            $("/#review").append($html);
+            $html.show();
+        }, 'html');
+
+        //自适应评论框大小
+        $(".dynamic-box").on('keyup', ".comment-form textarea", function() {
+            var self = $(this);
+            if (self.scrollTop() > 0) {
+                self.height(self.height() + self.scrollTop() + 5);
+            }
+        });
+
+        //ajax 分页
+        var loading = false;
+        $(".dynamic-box").on('click', ".pagination a", function() {
+            if (loading === false) {
+                loading = true;
+                var $this = $(this);
+                var $container = $("/#review");
+                $.get($this.attr('href'), {}, function(html) {
+                    $container.find(".comment").remove();
+                    var $html = $(html);
+                    $html.find('p').parseEmotion();
+                    $container.append($html);
+                    $html.show();
+                    loading = false;
+                }, 'html');
+            }
+            return false;
+        });
+        //插入回复表单
+        $(".dynamic-box").on('click', '[data-toggle="review"]', function(event) {
+            var $form = $(this).parents(".comment").find('.comment-form');
+            var $textarea = $form.find("[name='content']");
+            $form.appendTo($(this).parents(".reply-body"));
+
+            $form.find(':hidden[name=review_id]').val($(this).data('id'));
+            //对回复回复的处理
+            if ($(this).data('username')) {
+                $textarea.val('回复 @' + $(this).data('username') + ' : ');
+            } else {
+                $textarea.val('');
+            }
+            moveEnd($textarea.get(0));
+            event.stopPropagation();
+        });
+
+        //点击评论框以外的地方，重置评论表单
+        $(document).click(function() {
+            var $form = $(".dynamic-box").find('.comment-form');
+            if ($form.length > 0) {
+                if ($form.find(':hidden[name=review_id]').val() !== '0') {
+                    $form.parents(".comment").find(".comment-body").before($form);
+                    $form.find(':hidden[name=review_id]').val(0);
+                }
+            }
+        });
+
+        $(".dynamic-box").on('click', 'textarea', function(event) {
+            event.stopPropagation();
+        });
+
+        //提交评论
+        $('.dynamic-box').on('click', '.comment-form [type="submit"]', function(event) {
+            var $this = $(this);
+            var $form = $(this).parents('.comment-form');
+            var $textarea = $form.find("[name='content']");
+            var review_id = $form.find(':hidden[name=review_id]').val()
+            if ($.trim($textarea.val()) === "") {
+                $.thinkbox.error("说点什么吧~");
+                return false;
+            }
+            $this.button('loading');
+            $.post($form.attr('action'),
+                    $form.serialize(),
+                    function(data) {
+                        if (data.status) {
+                            $textarea.val('');
+                            var $html = $(template("replyTemplate", {content: data.info}));
+                            $html.find('p').parseEmotion();
+                            if (review_id !== '0') {
+                                $form.before($html);
+                            } else {
+                                $form.next('.comment-body').prepend($html);
+                            }
+                        } else {
+                            $.thinkbox.error(data.info);
+                        }
+                        $this.button('reset');
+                    }, 'json');
+            event.stopPropagation();
+        });
+    });
+</script>
+            </div>
+            <div class="article-right">
+                <div class="share-bar">
+    <div class="actions">
+        <a class="action" data-func='support' href="javascript:;" title="赞一个" data-id="26731">
+            <em class="glyphicon glyphicon-thumbs-up"></em>
+            <span>0</span>
+        </a>
+        <div class="division"></div>
+        <a class="action" href="/#review" title="评论">
+            <em class="iconfont icon-qz"></em>
+            <span>0</span>
+        </a>
+        <div class="division"></div>
+        <a class="action" data-func='collect' href="javascript:;" title="加入收藏" data-id="26731">
+            <em class="glyphicon glyphicon-star-empty"></em>
+            <span>0</span>
+        </a>
+        <div class="division"></div>
+        <a class="action fenxiang" href="javascript:;" title="分享">
+            <em class="iconfont icon-fenxiang"></em>
+            <span>9</span>
+        </a>
+        <ul class="share-action">
+            <li>
+                <a class="iconfont icon-qq" data-func='qq' href="javascript:;" title="分享到QQ"></a>
+            </li>
+            <li>
+                <a class="iconfont icon-qzone" data-func='qzone' href="javascript:;" title="分享到QQ空间"></a>
+            </li>
+            <li>
+                <a class="iconfont icon-tengxunweibo" data-func='tencent' href="javascript:;" title="分享到腾讯微博"></a>
+            </li>
+            <li>
+                <a class="iconfont icon-xinlangweibo" data-func='sina' href="javascript:;" title="分享到新浪微博"></a>
+            </li>
+            <li>
+                <a class="iconfont icon-weixin" data-func='weixin' data-toggle="modal" data-target="#weixin_share" data-remote='false' href="javascript:;" title="分享到微信"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="qrcode">
+        <img src="/Public/Home/images/qrcode.png" width="210" height="210" alt="">
+        <p>微信公众帐号</p>
+        <p>topthinkone</p>
+    </div>
+</div>
+<div class="modal fade" id="weixin_share">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 class="ac">打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮</h4>
+                <img src="/article/qrcode/id/26731.html" class="img-responsive center-block" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function() {
+        $(".fenxiang").click(function() {
+            $('.share-action').toggle();
+        });
+        var title, url, summary, pic;
+        url = "/topic/26731.html";
+
+        pic = "http://box.topthink.com/Uploads/Picture/2018-03-01/5a97cf772b88e_thumb.jpg";
+
+        title = "我是一名朝九晚五的程序员（你也可以！）";
+        summary = '';
+        //获取收藏数据
+        $.get("/user/checkcollect/id/26731.html", {}, function(data) {
+            if (data.status) {
+                $('[data-func="collect"]').find('em').removeClass('glyphicon-star-empty').addClass('glyphicon-star');
+                $('[data-func="collect"]').data('func', "collected");
+            }
+        });
+        //获取赞数据
+        $.get("/user/checksupport/id/26731.html", {}, function(data) {
+            if (data.status) {
+                $('[data-func="support"]').data('func', "supported");
+            }
+        });
+        //分享按钮点击
+        $('.share-bar a').click(function() {
+            var ele = $(this);
+            var func = ele.data('func');
+            if (func === 'collect') {
+                $.post("/user/collect.html",
+                        {'id': ele.data('id')},
+                function(data) {
+                    if (data.status) {
+                        ele.find('em').removeClass('glyphicon-star-empty').addClass('glyphicon-star');
+                        ele.data('func', "collected");
+                        ele.find('span').text(parseInt(ele.find('span').text()) + 1);
+                    } else {
+                        $.thinkbox.error(data.info);
+                    }
+                }
+                );
+            } else if (func === 'tencent' || func === 'sina' || func === 'qzone' || func === 'qq' || func === 'weixin') {
+                if (func !== 'weixin') {
+                    if (func === 'qq') {
+                        window.open(eval(func + '()'));
+                    } else {
+                        window.open(eval(func + '()'), "_blank", "width=680,height=430,scrollbars=no,location=no");
+                    }
+                }
+                $.get("/article/log/action/share/record/26731.html");
+            } else if (func === 'support') {
+                $.post(
+                        "/user/support.html",
+                        {'id': ele.data('id')},
+                function(data) {
+                    if (data.status) {
+                        ele.data('func', "supported");
+                        ele.find('span').text(parseInt(ele.find('span').text()) + 1);
+                    } else {
+                        $.thinkbox.error(data.info);
+                    }
+                }
+                );
+            }
+        });
+        //qq空间
+        function qq() {
+            var param = [
+                'url=' + url,
+                'desc=刚看到这篇文章不错，推荐给你看看～',
+                'summary=' + encodeURIComponent(summary),
+                'site=' + "极思维",
+                'title=' + encodeURIComponent(title)
+            ];
+            if (pic) {
+                param.push('pics=' + encodeURIComponent(pic));
+            }
+            param = param.join('&');
+            return 'http://connect.qq.com/widget/shareqq/index.html?' + param;
+        }
+        //qq空间
+        function qzone() {
+            var param = [
+                'url=' + url,
+                'summary=' + encodeURIComponent(summary),
+                'site=' + encodeURIComponent("极思维"),
+                'title=' + encodeURIComponent(title)
+            ];
+            if (pic) {
+                param.push('pics=' + encodeURIComponent(pic));
+            }
+            param = param.join('&');
+            return 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?' + param;
+        }
+
+        //腾讯微博分享
+        function tencent() {
+            var param = [
+                'c=share',
+                'a=index',
+                'url=' + url,
+                'appkey=1101366084',
+                'title=' + encodeURIComponent("【" + title + "】" + summary)
+            ];
+            if (pic) {
+                param.push('pic=' + encodeURIComponent(pic));
+            }
+            param = param.join('&');
+            return 'http://share.v.t.qq.com/index.php?' + param;
+        }
+
+
+        //新浪微博分享
+        function sina() {
+            var param = [
+                'url=' + url,
+                'appkey=1189723395',
+                'title=' + encodeURIComponent("【" + title + "】" + summary)
+            ];
+            if (pic) {
+                param.push('pic=' + encodeURIComponent(pic));
+            }
+            param = param.join('&');
+            return 'http://service.weibo.com/share/share.php?' + param;
+        }
+
+        function shareFriend() {
+            WeixinJSBridge.invoke('sendAppMessage', {
+                "appid": "",
+                "img_url": pic,
+                "img_width": "200",
+                "img_height": "200",
+                "link": url,
+                "desc": summary,
+                "title": title
+            }, function(res) {
+
+            })
+        }
+
+        function shareTimeline() {
+            WeixinJSBridge.invoke('shareTimeline', {
+                "img_url": pic,
+                "img_width": "200",
+                "img_height": "200",
+                "link": url,
+                "desc": summary,
+                "title": title
+            }, function(res) {
+
+            });
+        }
+
+        // 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 发送给好友
+            WeixinJSBridge.on('menu:share:appmessage', function(argv) {
+                shareFriend();
+            });
+            // 分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function(argv) {
+                shareTimeline();
+            });
+        }, false);
+
+        setTimeout(setAffix, 100);
+        function setAffix() {
+            if (typeof loaded !== "undefined" && loaded !== true) {
+                setTimeout(setAffix, 100);
+            } else {
+                var $sideBar = $('.share-bar');
+                $sideBar.affix({
+                    offset: {
+                        top: function() {
+                            var offsetTop = $sideBar.offset().top;
+                            var sideBarMargin = parseInt($sideBar.children(0).css('margin-top'), 10);
+                            return (this.top = offsetTop - sideBarMargin);
+                        }
+                        , bottom: function() {
+                            return (this.bottom = $('footer').outerHeight(true));
+                        }
+                    }
+                });
+            }
+        }
+
+
+    });
+</script>
+
+            </div>
+        </div>
+    </div>
+
+    <script id='positionTemplate' type='text/html'>
+        <hr />
+        <div class="position">
+            <h3>推荐阅读</h3>
+            {{each list as value key}}
+            <div class="media">
+                <div class="media-body">
+                    <h5 class="media-heading"><a href="/{{value.url}}">{{value.title}}</a></h5>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </script>
+    <script type="text/javascript" src="/Public/static/kindeditor/plugins/code/prettify.js"></script>
+    <script type="text/javascript" src="/Public/static/fancyBox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript">
+var loaded = false;
+$(function() {
+    //图片
+    $("[data-toggle='fancybox']").fancybox({loop: false});
+    //获取推荐阅读
+    $.get("/article/getposition/id/26731/category/51.html", {}, function(data) {
+        if (data) {
+            $(".article-left").append(template("positionTemplate", {list: data}));
+            loaded = true;
+        }
+    }, 'json');
+    //代码高亮
+    var $code = $("pre");
+    $code.each(function() {
+        var $this = $(this), $code = $this.children("code"), lang = $code.attr("class");
+        $this.addClass("prettyprint").data("code", $code.text());
+        lang && $this.addClass("lang-" + lang);
+    });
+    prettyPrint();
+
+});
+    </script>
+    <script type="text/javascript" src="/article/log/action/detail/record/26731.html"></script>
+
+        </div>
+    </div>
+
+    <div class="container">
+    <footer>
+        <span class="copyright">© 2014 上海顶想信息科技有限公司</span>
+        <span class="links">
+            <a href="/info/about.html">关于我们</a>&nbsp;&middot;&nbsp;<a href="/info/contact.html">联系我们</a>&nbsp;&middot;&nbsp;<a href="/info/joinus.html">加入我们</a>&nbsp;&middot;&nbsp;<a href="/info/partner.html">合作伙伴</a>        </span>
+    </footer>
+</div>
+
+
+    <section class="footer-tools">
+        <ul>
+            <li>
+                <a class="iconfont icon-fanhuidingbu" href="javascript:;" title="回到顶部" ></a>
+            </li>
+        </ul>
+    </section>
+
+<!-- 同步登录js -->
+<div class="popover figurecard">
+    <div class="arrow"></div>
+    <div class="popover-content">
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="login_social">
+                    <h4 class="ac">无需注册，直接使用社交账号登录</h4>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/wechat.html" class="social_login weichat"><i class="iconfont icon-weixin"></i>微信</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/qq.html" class="social_login tencent_qq"><i class="iconfont icon-qq"></i>QQ</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/sina.html" class="social_login sina_weibo"><i class="iconfont icon-xinlangweibo"></i>微博</a>
+                    <a onclick="openwin(this);
+                            return false;" href="/oauth/index/type/github.html" class="social_login wangyi_weibo"><i class="iconfont icon-github"></i>GitHub</a>
+                </div>
+                <hr />
+                <div class="login-section">
+                    <form data-toggle='ajaxform' method="post" action="/user/login.html">
+                        <p class="gray">可使用ThinkPHP.cn账号登录</p>
+                        <div class="placeholder_ie">
+                            <div class="form-group">
+                                <input type="text" name="username" autofocus="" required placeholder="用户名|邮箱|手机|UID" class="form-control user" data-placement="right" data-trigger="manual">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" required placeholder="密码" class="form-control password" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group clearfix">
+                                <a href="/user/forgetpwd.html" class="pull-right forget_pwd">忘记密码？</a>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block ">登录</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="small"><a href="javascript:;" class="register__login-btn">还没有帐号？立即注册</a></p>
+                </div>
+                <div class="register-section" style="display:none;">
+                    <form data-toggle='ajaxform' method="post" action="/user/register.html">
+                        <div class="placeholder_ie">
+                            <div class="form-group">
+                                <input type="text" name="username" autofocus="" required placeholder="用户名" class="form-control user" data-placement="right" data-trigger="manual" value="">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" required placeholder="密码" class="form-control password" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="repassword" required placeholder="确认密码" class="form-control repassword" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="email" autofocus="" required="" placeholder="电子邮箱" class="form-control email" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="verify" required="" placeholder="验证码" class="form-control verify" data-placement="right" data-trigger="manual" >
+                            </div>
+                            <div class="form-group">
+                                <img class="verifyimg reloadverify" alt="点击切换" src="/user/verify.html"  onclick='javascript:var url = "/user/verify/_/%5Brandom%5D.html";
+                                        $(this).attr("src", url.replace("[random]", Math.random()));' title="点击刷新验证码" width="300" />
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-lg btn-primary btn-block">注册</button>
+                            </div>
+                        </div>
+                    </form>
+                    <p class="small"><a href="javascript:;" class="login__register-btn">已有帐号？立即登录</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/Public/static/bootstrap/js/bootstrap.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/static/template.js"></script>
+<script type="text/javascript" src="/Public/static/thinkbox/jquery.thinkbox.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/static/lazy.min.js"></script>
+<script type="text/javascript" src="/Public/static/emotion/emotion.min.js"></script>
+<script type="text/javascript" src="/Public/static/think.min.js?v=20141104"></script>
+<script type="text/javascript" src="/Public/Home/js/common.min.js?v=20141208"></script>
+
+
+<script type="text/javascript">
+                                    var _hmt = _hmt || [];
+                                    (function() {
+                                        var hm = document.createElement("script");
+                                        hm.src = "//hm.baidu.com/hm.js?7356fff7035ad4a8d3760a0e1427b2eb";
+                                        var s = document.getElementsByTagName("script")[0];
+                                        s.parentNode.insertBefore(hm, s);
+                                    })();
+</script>
+<img src="/index/cron.html" border="0" height="0" width="0" />
+</body>
+</html>

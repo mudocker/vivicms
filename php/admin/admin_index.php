@@ -12,6 +12,10 @@ if(@$_GET['a'] == 'phpinfo'){
      phpinfo();
      exit;
     }
+$header = "Content-type: text/html; charset=utf8";
+header($header);
+
+
 ?>
 <body>
 
@@ -84,20 +88,15 @@ if(@$_GET['a'] == 'phpinfo'){
       </tr>
 	  <tr nowrap class="firstalt">
         <td width="25%">当前版本：</td>
-        <td><font class="normalfont"><?php echo $version;
-?></font></td>
+        <td><font class="normalfont"><?php echo $version; ?></font></td>
       </tr>
 	  <tr nowrap class="firstalt">
         <td width="25%">检查更新：</td>
-        <td><span id="checkvip"></span> <?php if(!OoO0o0O0o()){
-    echo '&nbsp;<a href="javascript:" onclick="o();"><font color="red">点击录入授权码</font></a>';
-}
-?></td>
+        <td> </td>
       </tr>
     </table>
   </div>
 </div>
-<?php include "footer.php";
-?>
+<?php include "footer.php"; ?>
 </body>
 </html>

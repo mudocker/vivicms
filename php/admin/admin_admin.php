@@ -46,12 +46,11 @@ function chk(){
           </td>
         </tr>
       </tbody>
-<script type="text/javascript">
-document.write(submit);
-</script>
-      </form>
-    </table>  
-  
+    </table>
+  </form>
+      <script type="text/javascript">
+  document.write(submit);
+      </script>
  
   </div>
 </div>

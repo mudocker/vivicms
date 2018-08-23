@@ -5,12 +5,12 @@
  * qq:996948519
  * ---------------------------
  */
-header("Content-type: text/html; charset=gbk");
+header("Content-type: text/html; charset=utf8");
 ?>
 <html>
 <head>
 <title>小偷后台管理系统</title>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
 <link rel='stylesheet' type='text/css' href='../public/css/admin.css'>
 <script language="JavaScript">
 function chk(){
