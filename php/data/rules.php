@@ -2,6 +2,7 @@
 
 if (true) {
     require_once(VV_DATA . '/rules/config.php');
+    require_once(DRULES . 'func.php');
     include(VV_INC . "/delcache.php");
     require_once(DRULES . 'getTargetId.php');
     require_once(DRULES . 'urlencode.php');
@@ -11,7 +12,7 @@ if (true) {
     require_once(DRULES . 'from_url_geturl.php');
     require_once(DRULES . 'server_url.php');
     require_once(DRULES . 'WEB_ROOT.php');
-    require_once(DRULES . 'cache_file_time_id.php');
+    require_once(VV_DATA . '/flow/getCacheFilenName.php');
     require_once(DRULES . 'SCRIPT.php');
     require_once(DRURLEXT . 'Content_type.php');
     require_once(DRULES . 'plus_run_before_get.php');

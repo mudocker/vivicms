@@ -41,3 +41,10 @@ function getIscollect($caiji_config,$cachefile,&$iscollect){
     $caiji_config['collect_close'] and  is_file($cachefile)? $iscollect = false: exit('not file');
 
 }
+
+
+
+function saveCache($cachefile){
+   !empty($GLOBALS['html'])                                                                                           and   write($cachefile, $GLOBALS['html']);
+    is_file($cachefile)                                                                                                 and   touch($cachefile, time() + 300);
+}

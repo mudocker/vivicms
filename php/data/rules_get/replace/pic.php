@@ -12,16 +12,11 @@ foreach($allimg as $k => $vo){
         }
     }
     if(isgoodurl($vo)){
-        if(substr($vo, 0, 1) == '/'){
-            $vo = substr($vo, 1);
-        }else if(stripos($vo, '{') === false){
-            $vo = $urlpath . $vo;
-        }
+        if(substr($vo, 0, 1) == '/')                                                                                    $vo = substr($vo, 1);
+        else if(stripos($vo, '{') === false)                                                                           $vo = $urlpath . $vo;
         $newpic[] = get_showurl($vo, 'jpg');
     }else{
-        if(is_resdomain($vo)){
-            $vo = WEB_ROOT . '/img.php?' . encode_source($collectid . '|' . $vo);
-        }
+        if(is_resdomain($vo)) $vo = WEB_ROOT . '/img.php?' . encode_source($collectid . '|' . $vo);
         $newpic[] = $vo;
     }
 }

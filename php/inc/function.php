@@ -150,8 +150,8 @@ function match_host(){
      foreach($domain_suffix as $domain_suffix_one) $array_suffix_explode .= ($array_suffix_explode?'|':'') . $domain_suffix_one;
 
      $domain_suffix_reg = "[^\.]+\.(?:(" . $array_suffix_explode . ")|\w{2}|((" . $array_suffix_explode . ")\.\w{2}))$";
-     if(preg_match("/" . $domain_suffix_reg . "/ies", $host, $match_result))    $result = $match_result['0'];
-         else                                                                    $result = $host;
+     if(preg_match("/" . $domain_suffix_reg . "/ies", $host, $match_result))                                           $result = $match_result['0'];
+         else                                                                                                           $result = $host;
      return $result;
     }
 function sha1_vxiaotou_com_php(){

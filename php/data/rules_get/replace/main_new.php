@@ -12,6 +12,6 @@ if($isgetnew && $GLOBALS['html']){
     require_once (DREPLACE.'css.php');
     require_once (DREPLACE.'href.php');
     require_once (DREPLACE.'gbk.php');
-    require_once (DREPLACE.'cache.php');
+    require_once (VV_DATA.'/flow/isNewCache.php');
 
 }

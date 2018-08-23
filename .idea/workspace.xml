@@ -1,53 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/php/data/rules_get/core.php" line="4" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/data/rules/file.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/data/rules_get/core.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/data/rules_get/replace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/flow/getCacheFilenName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/flow/getHtml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/flow/isNewCache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/flow/timeout_filename.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/flow/timeout_sha1_lcn_vixiaotou.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/data/rules/func.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T040510.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T040517.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T040526.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T040916.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041035.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041541.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041639-1.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041639.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041640-1.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041640.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041641-1.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041641.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T041644.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T042035.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T043907.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T044513.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T044527.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T044545.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-21T044830.200.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/cache/html/2a/47/2a4745ec1e7d542a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/cache/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/caiji/curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/caiji/curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/deltime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/deltime.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules/cachetime_cacheid.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/cache_file_time_id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules/cache_file_time_id.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules/echo_html.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/echo_html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules/getTargetId.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/getTargetId.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules/urlext/in_imgarr.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/urlext/in_imgarr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules_get/core.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/core.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules_get/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/func.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules_get/getHtmlCode.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/getHtmlCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/linkword_on.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/linkword_on.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/match_res.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/match_res.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/cache.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/gbk.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/gbk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/geturl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/geturl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/href.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/href.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/js.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/js.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/main_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/main_new.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/other_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/other_url.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/img.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/img.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/inc/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/inc/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/inc/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/inc/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/js.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/js.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/vivicms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/vivicms.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/ybet_viviadmin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/ybet_viviadmin/login.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,20 +96,154 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1610963567">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.148" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.82" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="11" />
+          <entry key="js" value="1" />
+          <entry key="php" value="271" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="11" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PHP" value="271" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="868" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="868" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/flow/timeout_filename.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/flow/getHtml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/main_new.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/match_res.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/other_url.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="115" selection-start-line="7" selection-start-column="115" selection-end-line="7" selection-end-column="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/meta_content_frame.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_before_on.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/inc/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="446" selection-start-line="446" selection-end-line="446" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$param1</find>
-      <find>collectid</find>
-      <find>./</find>
       <find>VV_DATA.'/rules/</find>
       <find>$parse_url</find>
       <find>echo_debug</find>
-      <find>$tplfile</find>
-      <find>tplfile</find>
       <find>$vipcode</find>
       <find>$param3</find>
       <find>$IIIIIIIlIlII</find>
@@ -132,7 +254,6 @@
       <find>DRGET</find>
       <find>require_once(DRULES . '</find>
       <find>require_once(DRURLEXT . '</find>
-      <find>$iscollect</find>
       <find>sifton</find>
       <find>iscollect</find>
       <find>other_url</find>
@@ -144,6 +265,12 @@
       <find>$GLOBALS['debug'][] = '使用缓存：否';</find>
       <find>require_once (DREPLACE.'plug_before_convert_charset.php');</find>
       <find>str_ireplace</find>
+      <find>charset</find>
+      <find>tplfile</find>
+      <find>$tplfile</find>
+      <find>$iscollect</find>
+      <find>cache</find>
+      <find>saveCache.php</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -163,23 +290,11 @@
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response121.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response8.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gp.cmd" />
-        <option value="$PROJECT_DIR$/inc/robot.php" />
-        <option value="$PROJECT_DIR$/inc/init/file_get_cache.php" />
-        <option value="$PROJECT_DIR$/inc/init.php" />
-        <option value="$PROJECT_DIR$/data/rules/urlext/in_imgarr/image_timeout.php" />
-        <option value="$PROJECT_DIR$/data/rules/urlext/in_imgarr/web_debug.php" />
-        <option value="$PROJECT_DIR$/data/rules/urlext/in_imgarr.php" />
-        <option value="$PROJECT_DIR$/data/rules_get/replace/js.php" />
-        <option value="$PROJECT_DIR$/data/rules/server_url.php" />
-        <option value="$PROJECT_DIR$/data/rules/WEB_ROOT.php" />
-        <option value="$PROJECT_DIR$/data/rules/other.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/data/rules/convert_query_charset.php" />
         <option value="$PROJECT_DIR$/data/rules/collectid.php" />
         <option value="$PROJECT_DIR$/data/rules/display_errors.php" />
@@ -205,20 +320,32 @@
         <option value="$PROJECT_DIR$/php/data/rules_get/cacheon.php" />
         <option value="$PROJECT_DIR$/php/data/rules/getTargetId.php" />
         <option value="$PROJECT_DIR$/php/data/rules/config.php" />
-        <option value="$PROJECT_DIR$/php/data/rules.php" />
         <option value="$PROJECT_DIR$/php/data/rules/urlext/in_imgarr.php" />
         <option value="$PROJECT_DIR$/php/data/rules_get/replace.php" />
         <option value="$PROJECT_DIR$/php/data/rules_get.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/getHtmlCode.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/replace/cache.php" />
-        <option value="$PROJECT_DIR$/php/inc/function.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/replace/other_url.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/replace/main_new.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/func.php" />
-        <option value="$PROJECT_DIR$/php/data/rules_get/core.php" />
         <option value="$PROJECT_DIR$/php/inc/init.php" />
         <option value="$PROJECT_DIR$/php/img.php" />
         <option value="$PROJECT_DIR$/php/ybet_viviadmin/login.php" />
+        <option value="$PROJECT_DIR$/php/data/caiji/curl.php" />
+        <option value="$PROJECT_DIR$/php/data/cache/index.html" />
+        <option value="$PROJECT_DIR$/php/data/rules/cache_file_time_id.php" />
+        <option value="$PROJECT_DIR$/php/inc/function.php" />
+        <option value="$PROJECT_DIR$/php/data/rules/echo_html.php" />
+        <option value="$PROJECT_DIR$/php/inc/encry_fuc.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/replace/cache.php" />
+        <option value="$PROJECT_DIR$/php/data/rules/func.php" />
+        <option value="$PROJECT_DIR$/php/data/rules.php" />
+        <option value="$PROJECT_DIR$/php/data/flow/timeout.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/func.php" />
+        <option value="$PROJECT_DIR$/php/data/flow/timeout_filename.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/getHtmlCode.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/core.php" />
+        <option value="$PROJECT_DIR$/php/data/flow/save.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/saveCache.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/replace/main_new.php" />
+        <option value="$PROJECT_DIR$/php/data/flow/getHtml.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/replace/other_url.php" />
       </list>
     </option>
   </component>
@@ -263,7 +390,21 @@
               <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivicms" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="ybet_viviadmin" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="rules_get" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,11 +419,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all\php\vivicms\php\data\rules_get" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\all\php\vivicms\php\data\flow" />
+      <recent name="D:\all\php\vivicms\php\data" />
       <recent name="D:\all\php\tp\xiaotou\vivicms\php\data\rules_get\replace" />
       <recent name="D:\all\php\tp\xiaotou\vivicms" />
       <recent name="D:\all\php\tp\xiaotou\vivicms\data\rules" />
-      <recent name="D:\all\php\tp\xiaotou\vivicms\data\rules_get\replace" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -343,11 +488,15 @@
       <workItem from="1534834507568" duration="3208000" />
       <workItem from="1534837739487" duration="250000" />
       <workItem from="1534838154759" duration="14283000" />
+      <workItem from="1534940417749" duration="3381000" />
+      <workItem from="1534987765563" duration="7659000" />
+      <workItem from="1534996675616" duration="291000" />
+      <workItem from="1535002828874" duration="3962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39323000" />
+    <option name="totallyTimeSpent" value="54616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -359,24 +508,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18530351" />
-      <window_info id="Structure" order="2" weight="0.24973376" />
-      <window_info anchor="bottom" id="REST Client" weight="0.32937366" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="2" weight="0.24946696" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3412527" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34019503" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="REST Client" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,7 +584,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/php/data/rules_get/core.php</url>
-          <line>8</line>
+          <line>3</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -446,7 +595,47 @@
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/php/index.php</url>
           <line>1</line>
-          <option name="timeStamp" value="47" />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/rules_get.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/flow/getCacheFilenName.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/flow/getHtml.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/flow/isNewCache.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/flow/timeout_filename.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/flow/timeout_sha1_lcn_vixiaotou.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/rules_get/replace/main_new.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/data/rules_get/replace/main_new.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -461,55 +650,54 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/php/data/cache/index.html" />
+    <entry file="file://$PROJECT_DIR$/php/data/config/1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="179">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gp.cmd">
+    <entry file="file://$PROJECT_DIR$/php/ybet_viviadmin/delcache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="481">
+          <caret line="134" column="35" lean-forward="true" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/file.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="5" selection-start-line="1" selection-end-line="1" selection-end-column="5" />
-          <folding>
-            <element signature="e#12#474#0#PHP" />
-          </folding>
+        <state relative-caret-position="193">
+          <caret line="588" column="48" selection-start-line="588" selection-start-column="36" selection-end-line="588" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/cache_file_time_id.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/iconv/iconv.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/getTargetId.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/gbk.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/config.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules/result/getTplPath.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config.php">
+    <entry file="file://$PROJECT_DIR$/php/data/cache/html/4b/f0/4bf046c50e7813e9.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="269">
+          <caret line="501" column="20" selection-start-line="501" selection-start-column="20" selection-end-line="501" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -520,230 +708,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/encry_fuc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/linkword_on.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/v_config/sifton.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/config_ads2.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules/server_url.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/geturl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/search_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_zdy.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/zdy.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/from_title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/cache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="148" selection-start-line="4" selection-start-column="148" selection-end-line="4" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/gbk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-          <folding>
-            <element signature="e#88#1188#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/href.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/pic.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/match_res.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/meta_content_frame.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/other_url.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_before_on.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules/from_url_geturl.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/plug_before_convert_charset.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules/file.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/ac_yulan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
+        <state relative-caret-position="-261" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php">
+    <entry file="file://$PROJECT_DIR$/php/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ybet_viviadmin/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2218" selection-start-line="5" selection-start-column="2218" selection-end-line="5" selection-end-column="2218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/public/js/vivi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="888" column="32" selection-start-line="888" selection-start-column="32" selection-end-line="888" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/plus_run_before_get.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/save.php" />
+    <entry file="file://$PROJECT_DIR$/php/data/flow/saveCache.php" />
+    <entry file="file://$PROJECT_DIR$/php/data/rules/SCRIPT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/caiji/curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/inc/caiji.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="304">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/echo_html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/isNewCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/cache/html/4b/7b/4b7bdb22ca4efe3a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="69" lean-forward="true" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/inc/common.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/data/rules_get/getHtmlCode.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/echo_html.php">
+    <entry file="file://$PROJECT_DIR$/php/inc/encry_fuc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/template/index.html">
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/main_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/cache/html/2a/47/2a4745ec1e7d542a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/zhizhu.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/index.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/getCacheFilenName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/timeout_sha1_lcn_vixiaotou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/timeout_filename.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/getHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_before_on.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/sys.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/define.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/meta_content_frame.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/init.php">
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/other_url.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="133">
+          <caret line="7" column="115" selection-start-line="7" selection-start-column="115" selection-end-line="7" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/main_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/match_res.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="261">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -756,36 +970,6 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="e#0#6#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/vivicms.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/search.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/common.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#1875#2624#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/ybet_viviadmin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

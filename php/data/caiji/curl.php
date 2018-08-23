@@ -36,9 +36,8 @@ if(function_exists('curl_init') && function_exists('curl_exec')){
         exit($data);
     }
     $GLOBALS['debug'][] = 'ContentType：' . $ContentType;
-    if(stripos($_SERVER['HTTP_ACCEPT'], 'application/json') > -1 || stripos($ContentType, 'application/json') > -1){
-        header('Content-Type:application/json; charset=utf-8');
-    }
+    if(stripos($_SERVER['HTTP_ACCEPT'], 'application/json') > -1 || stripos($ContentType, 'application/json') > -1) header('Content-Type:application/json; charset=utf-8');
+
 }else if(function_exists('fsockopen') || function_exists('pfsockopen')){
     $arr = parse_url($url);
     $path = $arr['path']?$arr['path']:"/";
