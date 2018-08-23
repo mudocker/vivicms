@@ -29,7 +29,7 @@
 
          return $return;
          }
-     function geturl($url, $timeout = 15, $post = ''){
+     function geturl($url, $timeout = 10, $post = ''){
          global $v_config, $caiji_config;
          $spider_name = '';
          if(!checktime_log_out_1h()){
@@ -45,7 +45,7 @@
          return $data;
      }
      function post($url, $params = array()){
-         $data = $this -> geturl($url, 20, http_build_query($params));
+         $data = $this -> geturl($url, 10, http_build_query($params));
          return $data? $data: '';
       }
      function get_redirect($url, $cacheurlfile, $post = '', $cookie = ''){

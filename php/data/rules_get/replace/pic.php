@@ -11,12 +11,11 @@ foreach($allimg as $k => $vo){
         else if(stripos($vo, '{') === false)                                                                           $vo = $urlpath . $vo;
         $newpic[] = get_showurl($vo, 'jpg');
     }else{
-        if(is_resdomain($vo)) $vo = WEB_ROOT . '/img.php?' . encode_source($collectid . '|' . $vo);
+        is_resdomain($vo) and  $vo = WEB_ROOT . '/img.php?' . encode_source($collectid . '|' . $vo);
         $newpic[] = $vo;
     }
 }
-if($newpic)
-    $GLOBALS['html'] = str_replace($allimg, $newpic, $GLOBALS['html']);
+if($newpic) $GLOBALS['html'] = str_replace($allimg, $newpic, $GLOBALS['html']);
 
 $GLOBALS['debug'][] = '替换所有图片链接用时：' . run_time() . 's';
 run_time(true);
