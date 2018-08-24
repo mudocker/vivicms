@@ -10,5 +10,5 @@ function iext($file){
 }
 
 banip();
-$GLOBALS['debug'] = [];
+$GLOBALS['debug'] =array();
 $v_config['web_debug'] == "on"? @ini_set('display_errors', 'On'): error_reporting(0);

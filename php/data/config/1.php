@@ -2,7 +2,7 @@
 return array (
   'name' => 'topthink - 极思维',
   'from_url' => 'http://www.topthink.com',
-  'other_url' => 'topthink.com',
+  'other_url' => 'www.topthink.com',
   'charset' => 'utf-8',
   'replacerules' => '//hm.baidu.com/hm.js?7356fff7035ad4a8d3760a0e1427b2eb******',
   'siftrules' => '{vivi replace=\'\'}<ul class="imglink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<ul class="textlink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*conac\\.cn(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*cnzz(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51\\.la(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51yes(.*?)<\\/script>{/vivi}',

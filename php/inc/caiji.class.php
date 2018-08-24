@@ -37,7 +37,7 @@
              $spider_name = 'vxiaotou-spider; ';
          }
          require_once (VV_DATA.'/caiji/http_header.php');
-         $data = [];
+         $data = array();
          require_once (VV_DATA.'/caiji/ip.php');
          require_once (VV_DATA.'/caiji/header.php');
          require_once (VV_DATA.'/caiji/curl.php');

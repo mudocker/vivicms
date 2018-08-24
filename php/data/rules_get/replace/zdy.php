@@ -1,5 +1,5 @@
 <?php
-$zdy = [];
+$zdy = array();
 if(!empty($caiji_config['zdy'])){
     foreach($caiji_config['zdy']as $k => $vo){
         $vo['type'] == '0' and  $zdy[$vo['ename']] = $vo['body'];

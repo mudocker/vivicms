@@ -20,7 +20,7 @@ function plus_run($func = ''){
             }
         }
     }
-    !$GLOBALS['isplus'] and $GLOBALS['plusclass'] = [];
+    !$GLOBALS['isplus'] and $GLOBALS['plusclass'] =array();
 
     if($func == '' || empty($GLOBALS['plusclass'])) return '';
 
@@ -103,7 +103,7 @@ function getjscachefile($cacheid){
      return VV_CACHE . "/js/" . substr(md5($cacheid), 0, 16) . '.js';
     }
 function getHashDir($param1, $param2 = 2){
-         $lresult = [];
+         $lresult =array();
          $param1 = str_split(md5($param1), 2);
          for($ii = 0;$ii < $param2;$ii++) $lresult[] = $param1[$ii];
          $result = str_replace('\\', '/', implode(DIRECTORY_SEPARATOR, $lresult));
@@ -241,7 +241,7 @@ function downfile($url){
          $data = curl_exec($ch);
          curl_close($ch);
          }else if(ini_get('allow_url_fopen')){
-         $opt = ['http' => ['method' => 'GET', 'header' => "referer: " . $_SERVER['HTTP_REFERER'], 'timeout' => 300]];
+         $opt = array('http' =>array('method' => 'GET', 'header' => "referer: " . $_SERVER['HTTP_REFERER'], 'timeout' => 300))       ;
          $context = stream_context_create($opt)or die('服务器不支持 stream_context_create');
          for($i = 0;$i < 3;$i++){
              $data = @file_get_contents($url, false, $context);
@@ -309,7 +309,7 @@ function realurlcode($url){
 function replaceurl($url, $sw){
     $unserialize = unserialize(base64_decode(strrev(VV_ENCODEKEYS)));
     $unserialize = array_map('realurlcode', $unserialize);
-    $result_0 = [];
+    $result_0 = array();
     $count_unserial = count($unserialize);
     switch($sw){
         case 0:$result_1 = urlencode($url);
@@ -442,7 +442,7 @@ function getalllink($html){
 function getallhref($html){
      $regx = "~(<a\s+[^>]+>)~iUs";
      preg_match_all($regx, $html, $match);
-     $linkArr = [];
+     $linkArr =array();
      if($match){
          foreach($match[1]as $k => $vo) if(preg_match('~href\s*=\s*(["|\']?)\s*([^"\'\s>\\\\]+)\s*\\1~i', $vo, $linkmatch)) $linkArr[] = $linkmatch[2];
          $linkArr = array_unique($linkArr);
@@ -463,7 +463,7 @@ function get_fullurl($srcurl, $baseurl = ''){
      $url = $baseinfo['scheme'] . '://' . $baseinfo['host'];
      if(substr($srcinfo['path'], 0, 1) == '/') $path = $srcinfo['path'];
          else $path = dirname($baseinfo['path']) . '/' . $srcinfo['path'];
-     $rst = [];
+     $rst = array();
      $path_array = explode('/', $path);
      if(!$path_array[0]) $rst[] = '';
 
@@ -570,15 +570,13 @@ function strcut($start, $end, $str, $lt = false, $gt = false){
          $return = $strarr2[0];
          if($lt)$return = $start . $return;
          if($gt)$return = $return . $end;
-         }else{
-         return '';
-         }
+         }else  return '';
+
      return $return;
     }
 function link_word($html, $link_config){
-     if(empty($html)){
-         return $html;
-         }
+     if(empty($html)) return $html;
+
      $htmlArr = explode('</head>', $html);
      $html = $htmlArr[1]?$htmlArr[1]:$htmlArr[0];
      preg_match_all('~(<[^>]+>)~iUs', $html, $match);
@@ -804,12 +802,9 @@ function replace_before($str){
              list($fromstr, $tostr) = explode('******', $vo);
              $fromstr = str_replace('{vivisign}', $sign, ltrim($fromstr));
              $tostr = str_replace('{vivisign}', WEB_ROOT . '/', rtrim($tostr));
-             if(preg_match('~^index@@~', $fromstr) && !empty($_SERVER['QUERY_STRING'])){
-                 continue;
-                 }
-             if(preg_match('~^other@@~', $fromstr) && empty($_SERVER['QUERY_STRING'])){
-                 continue;
-                 }
+             if(preg_match('~^index@@~', $fromstr) && !empty($_SERVER['QUERY_STRING'])) continue;
+
+             if(preg_match('~^other@@~', $fromstr) && empty($_SERVER['QUERY_STRING'])) continue;
              $fromstr = preg_replace('~^index@@~', '', $fromstr);
              $fromstr = preg_replace('~^other@@~', '', $fromstr);
              $str = str_replace($fromstr, $tostr, $str);
@@ -819,12 +814,9 @@ function replace_before($str){
          $siftrules_before = explode('[cutline]', $caiji_config['siftrules_before']);
          foreach($siftrules_before as $k => $vo){
              $vo = trim($vo);
-             if(preg_match('~^index@@~', $vo) && !empty($_SERVER['QUERY_STRING'])){
-                 continue;
-                 }
-             if(preg_match('~^other@@~', $vo) && empty($_SERVER['QUERY_STRING'])){
-                 continue;
-                 }
+             if(preg_match('~^index@@~', $vo) && !empty($_SERVER['QUERY_STRING'])) continue;
+
+             if(preg_match('~^other@@~', $vo) && empty($_SERVER['QUERY_STRING'])) continue;
              $vo = preg_replace('~^index@@~', '', $vo);
              $vo = preg_replace('~^other@@~', '', $vo);
              preg_match('#^\{vivi\s+replace\s*=\s*\'([^\']*)\'\s*\}(.*)\{/vivi\}#', $vo, $match);
@@ -842,9 +834,7 @@ function replace_before($str){
 function replace_tags($str){
      global $thisurl, $v_config;
      $str = str_replace(array('{web_thisurl}', '{web_domain}'), array($thisurl, $_SERVER['HTTP_HOST']), $str);
-     foreach($v_config as $k => $vo){
-         $str = str_replace('{' . $k . '}', $vo, $str);
-         }
+     foreach($v_config as $k => $vo) $str = str_replace('{' . $k . '}', $vo, $str);
      return $str;
     }
 function ajaxReturn($data){

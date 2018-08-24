@@ -9,5 +9,5 @@ if(stripos($_SERVER["HTTP_ACCEPT"], 'text/css') > -1)                           
 else if(SCRIPT == 'css')                                                                                              $GLOBALS['urlext'] = 'css';
 else if(SCRIPT == 'js')                                                                                               $GLOBALS['urlext'] = 'js';
 else                                                                                                                    $GLOBALS['urlext'] = strtolower(pathinfo($parse_url['path'], PATHINFO_EXTENSION));
-$imgarr = ['gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico'];
+$imgarr = array('gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico');
 SCRIPT == 'img' && !in_array($GLOBALS['urlext'], $imgarr) and  $GLOBALS['urlext'] = 'jpg';

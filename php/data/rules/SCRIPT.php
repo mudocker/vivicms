@@ -13,7 +13,7 @@ if(SCRIPT == 'search'){
     $cachefile = getcachefile($cacheid);
     $cachetime = $v_config['othercache'];
 }
-$extarr = ['php', 'html', 'shtml', 'htm', 'jsp', 'xhtml', 'asp', 'aspx', 'txt', 'action', 'xml', 'css', 'js', 'gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico', 'swf'];
+$extarr = array('php', 'html', 'shtml', 'htm', 'jsp', 'xhtml', 'asp', 'aspx', 'txt', 'action', 'xml', 'css', 'js', 'gif', 'jpg', 'jpeg', 'png', 'bmp', 'ico', 'swf');
 foreach($extarr as $vo) $GLOBALS['geturl'] = str_replace('.' . $vo . '&', '.' . $vo . '?', $GLOBALS['geturl']);
 $script_cmp=
         SCRIPT != 'search' && $_SERVER['QUERY_STRING']
