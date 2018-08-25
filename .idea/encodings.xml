@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$USER_HOME$/Desktop/vivicms/vivicms/ybet_viviadmin/caiji_plus.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/admin/checkAdmin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/data/cache/html/07/14/0714292dc9907f3a.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/config.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/php/data/config/4.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/flow/isNewCache.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get.php" charset="GBK" />
@@ -28,5 +29,6 @@
     <file url="file://$PROJECT_DIR$/php/inc/init.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/inc/sys.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/index.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/v2/index.php" charset="GBK" />
   </component>
 </project>

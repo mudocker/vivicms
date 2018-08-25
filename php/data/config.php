@@ -5,7 +5,7 @@ return array (
   'web_keywords' => '500万彩票---首页关键字2',
   'web_description' => '500万彩票---首页网站描述',
   'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
-  'collectid' => '1',
+  'collectid' => '4',
   'sifton' => '1',
   'sifturl' => '',
   'indexcache' => '1',

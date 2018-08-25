@@ -9,7 +9,7 @@ switch($action){
     case 'c3':$file = VV_DATA . "/" . sha1_vxiaotou_com_php();
         $code = isset($_POST['code'])?trim($_POST['code']):'';
         $result = checktime_log_out_1h($code);
-        $result and Ooo0o0O00($code);
+        $result and write_sv_ln($code);
         echo $result;
         break;
     case 'c4':echo checktime_log_out_1h(0, 1);

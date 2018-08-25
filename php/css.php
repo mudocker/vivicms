@@ -13,16 +13,13 @@ if(isset($_GET['code']) && $_GET['code']){
 	list($query,)=explode('?',$_SERVER['QUERY_STRING']);
 	list($query,)=explode('&',$query);
 	list($collectid,$GLOBALS['geturl'])=explode('|',decode_source($query));
-}else{
-	exit('err');
-}
+}else exit('err');
+
 $collectid=(int)$collectid;
-if(!$collectid){
-	exit('err');
-}
+!$collectid and  exit('err');
+
 $caiji_config=require(VV_DATA."/config/{$collectid}.php");
-if(!preg_match('~^https?://~i',$GLOBALS['geturl'])){
-	exit('err');
-}
+!preg_match('~^https?://~i',$GLOBALS['geturl']) and  exit('err');
+
 require(VV_DATA."/rules.php");
 ?>

@@ -1,4 +1,5 @@
 <?php
+
 if(function_exists('curl_init') && function_exists('curl_exec')){
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);

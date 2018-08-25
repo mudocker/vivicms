@@ -59,8 +59,7 @@ function run_time($isMicrotime = false){
          else             return sprintf('%.5f', microtime(true) - $time);
 }
 function arr2file($file, $param2){
-     if(is_array($param2)) $var_export = var_export($param2, true);
-         else                   $var_export = $param2;
+    $var_export =  is_array($param2)? var_export($param2, true):  $param2;
      return write($file, "<?php\r\n" . 'return ' . $var_export . ';' . "\r\n?>");
 }
 function banip(){
@@ -162,15 +161,14 @@ function update(){
     global $vipcode;
     $qq = checktime_log_out_1h(0, 1)?'&qq=' . checktime_log_out_1h(0, 1):'';
     $data = downfile('http://www.vxiaotou.com/update.php?m=check&a=update&type=wanneng&vs=' . VV_VERSION . $qq . '&code=' . urlencode($vipcode) . '&_t=' . time());
-    if($data == '')ShowMsg("无法连接服务器", "-1", 30000);
+    $data == '' and ShowMsg("无法连接服务器", "-1", 30000);
     list($status, $title, $msg) = explode('|', $data);
-    if($status == '')ShowMsg("连接服务器错误", "-1", 30000);
+   $status == '' and ShowMsg("连接服务器错误", "-1", 30000);
     if($status == "0"){
         ShowMsg($title . '<br>', "admin_index.php", 5000);
         exit;
-    }else{
-        ShowMsg($title . "<br><div style='text-align:left;margin:10px 0;padding:10px;max-height:100px;overflow:auto;color:#555;max-width: 450px;'>" . $msg . "</div><a href='?t=updatenow'><br><font color=red>>>>点击这里在线升级<<<</font></a><br>", "admin_index.php", 1200000);
-    }
+    }else ShowMsg($title . "<br><div style='text-align:left;margin:10px 0;padding:10px;max-height:100px;overflow:auto;color:#555;max-width: 450px;'>" . $msg . "</div><a href='?t=updatenow'><br><font color=red>>>>点击这里在线升级<<<</font></a><br>", "admin_index.php", 1200000);
+
 }
 function updatenow(){
     global $vipcode;
@@ -853,25 +851,20 @@ function ajaxReturn($data){
      exit(json_encode($data));
     }
 function to_utf8($str){
-     if(!is_utf8($str)){
-         if(PATH_SEPARATOR == ':') $str = mb_convert_encoding($str, "utf-8", "gbk");
-             else $str = iconv('gbk', 'utf-8//IGNORE', $str);
-         }
+     if(!is_utf8($str)) $str =  PATH_SEPARATOR == ':'?  mb_convert_encoding($str, "utf-8", "gbk"):iconv('gbk', 'utf-8//IGNORE', $str);
+
      return $str;
     }
 function utf2gbk($str){
-     if(is_utf8($str)){
-         if(PATH_SEPARATOR == ':'){
-             $str = mb_convert_encoding($str, "gbk", "utf-8");
-             }else{
-             $str = iconv('utf-8', 'gbk//IGNORE', $str);
-             }
-         }
+     if(is_utf8($str)) $str =     PATH_SEPARATOR == ':'? $str = mb_convert_encoding($str, "gbk", "utf-8"):iconv('utf-8', 'gbk//IGNORE', $str);
      return $str;
     }
 function echo_debug($arr){
-     echo '<div id="vxiaotou_debug" style="margin:0;width:auto;text-align:left;border:1px dashed #ddd;background: #f8f8f8;padding:10px;font-size:12px;"><div style="color:#aaa;"><span style="font-weight:700;font-size:13px;">������Ϣ</span><span style="float:right;">vxiaotou.com</div><div style="color:#666;line-height:20px;padding:5px 0;margin-top:5px;border-top:1px dashed #ddd;">' . implode("<br>", $arr) . "</div></div><br>";
-    }
+    return '<div id="vxiaotou_debug" 
+style="margin:0;width:auto;text-align:left;border:1px dashed #ddd;background: #f8f8f8;padding:10px;font-size:12px;">
+<div style="color:#aaa;"><span style="font-weight:700;font-size:13px;">调试信息</span>
+<span style="float:right;">vxiaotou.com</div><div style="color:#666;line-height:20px;padding:5px 0;margin-top:5px;border-top:1px dashed #ddd;">' . implode("<br>", $arr) . "</div></div><br>";
+}
 function test_write($d){
      $tfile = '_vivi_test.txt';
      if(is_dir($d)){
@@ -891,23 +884,20 @@ function test_write($d){
      return false;
     }
 function regxcut($regx, $str){
-     if(preg_match('~' . $regx . '~iUs', $str, $match)){
-         return trim($match[1]);
-         }
+     if(preg_match('~' . $regx . '~iUs', $str, $match)) return trim($match[1]);
      return false;
     }
 if(!function_exists('get_page')){
      function get_page($currentPage, $totalPages, $url, $halfPer = 5, $pagego = false){
          if($totalPages < 2)return false;
          $linkPage = '';
-         $linkPage .= ($currentPage > 1)?'<a href="' . str_replace('{!page!}', 1, $url) . '">��ҳ</a><a href="' . str_replace('{!page!}', ($currentPage-1), $url) . '">��һҳ</a>':'';
+         $linkPage .= ($currentPage > 1)?'<a href="' . str_replace('{!page!}', 1, $url) . '">首页</a><a href="' . str_replace('{!page!}', ($currentPage-1), $url) . '">上一页</a>':'';
          for($i = $currentPage - $halfPer, $i > 1 || $i = 1, $j = $currentPage + $halfPer, $j < $totalPages || $j = $totalPages;$i < $j + 1;$i++){
              $linkPage .= ($i == $currentPage)?'<span>' . $i . '</span>':'<a href="' . str_replace('{!page!}', $i, $url) . '">' . $i . '</a>';
              }
-         $linkPage .= ($currentPage < $totalPages && $totalPages > $halfPer)?'<i>...</i><a href="' . str_replace('{!page!}', $totalPages, $url) . '">' . $totalPages . '</a><a href="' . str_replace('{!page!}', ($currentPage + 1), $url) . '">��һҳ</a>':'';
-         if(!empty($pagego)){
-             $linkPage .= '&nbsp;<input type="input" name="page"/><input type="button" value="�� ת" onclick="' . $pagego . '"/>';
-             }
+         $linkPage .= ($currentPage < $totalPages && $totalPages > $halfPer)?'<i>...</i><a href="' . str_replace('{!page!}', $totalPages, $url) . '">' . $totalPages . '</a><a href="' . str_replace('{!page!}', ($currentPage + 1), $url) . '">下一页</a>':'';
+         if(!empty($pagego))     $linkPage .= '&nbsp;<input type="input" name="page"/><input type="button" value="跳 转" onclick="' . $pagego . '"/>';
+
          return $linkPage;
          }
     }

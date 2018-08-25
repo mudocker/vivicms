@@ -1,0 +1,23 @@
+{
+    "name": "mudocker/vicms",
+    "authors": [
+        {
+            "name": "mudocker",
+            "email": "mudocker@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.9"
+    },
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "md\\": "./"
+        }
+    },
+    "config": {
+        "preferred-install":"dist"
+    }
+}

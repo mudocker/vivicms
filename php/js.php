@@ -1,5 +1,5 @@
 <?php
-
+write('tttt.log','hhhdhafhdsafdsafsd');
 define('SCRIPT','js');
 require(dirname(__FILE__)."/inc/common.inc.php");
 require(dirname(__FILE__)."/inc/caiji.class.php");
@@ -14,9 +14,8 @@ if($_SERVER['QUERY_STRING']){
 	exit('err');
 }
 $collectid=(int)$collectid;
-if(!$collectid){
-	exit('err');
-}
+if(!$collectid) exit('err');
+
 $caiji_config=require(VV_DATA."/config/{$collectid}.php");
 if(!preg_match('~^https?://~i',$GLOBALS['geturl'])){
 	exit('err');

@@ -1,24 +1,46 @@
 <?php
+namespace md\data\rules;
+class echo_html{
+
+    /**
+     * echo_html constructor.
+     */
+    public function __construct()
+    {
+            $this->image();
+            $this->html();
+            getCharsetAndHeader($GLOBALS['html']);
+            echo $GLOBALS['html'];
+    }
 
 
-$isHtml=(isset($GLOBALS['urlext'])&&in_array($GLOBALS['urlext'], $extarr)) || stripos($GLOBALS['html'], '<head>') > -1 || stripos($GLOBALS['html'], '<html>') > -1 || stripos($GLOBALS['html'], '<body>') > -1;
-if(isset($GLOBALS['urlext'])&&($GLOBALS['urlext'] == 'css' || $GLOBALS['urlext'] == 'js')){
-    substr($GLOBALS['html'], 0, 1) == '?'                                                                               and  $GLOBALS['html'] = substr($GLOBALS['html'], 1);
-    header("Content-Type:text/html; charset=utf-8");
-    if($v_config['web_debug'] == "on")                                                                               echo "/*start---\r\n" . implode("\r\n", $GLOBALS['debug']) . "\r\nend---*/\r\n";
-    echo $GLOBALS['html'];
-}else if($isHtml){
-    require_once (DRULES.'result/debug.php');
-    require_once (DRULES.'result/getTplPath.php');
-    require_once (DRULES.'result/vxiaotou_link.php');
+    function html(){
+        $_G=& $GLOBALS;
+        if(!isset($_G['urlext']))return;
+        if(!in_array($_G['urlext'], $_G['extarr']))return;
+        if(stripos($_G['html'], '<head>') ==false)return;
+        if(stripos($_G['html'], '<html>') ==false)return;
+        if(stripos($_G['html'], '<body>') ==false)return;
+        require_once (DRULES.'result/debug.php');
+        require_once (DRULES.'result/getTplPath.php');
+        require_once (DRULES.'result/vxiaotou_link.php');
+        getCharsetAndHeader($_G['html']);
+        include($_G['tplfile']);
+        exit();
+    }
+    function image(){
+        $_G =& $GLOBALS;
+        if (!isset($_G['urlext']) || ($_G['urlext'] != 'css' && $_G['urlext'] != 'js')) return;
+        substr($_G['html'], 0, 1) == '?' and $_G['html'] = substr($_G['html'], 1);
+        getCharsetAndHeader($_G['html']);
+        if ($_G['v_config']['web_debug'] == "on") echo("/*start---\r\n" . implode("\r\n", $_G['debug']) . "\r\nend---*/\r\n");
+        exit($_G['html']);
+    }
 
-    header("Content-Type:text/html; charset=utf-8");
-    include($tplfile); //$tplfile=echo $html;
 
-}else{
-    header("Content-Type:text/html; charset=utf-8");
-    echo $GLOBALS['html'];
 }
+
+
 
 
 

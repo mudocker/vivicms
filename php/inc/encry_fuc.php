@@ -1,20 +1,20 @@
 <?php
-function Oo00o0O0o($IIIIIIII11Il, $IIIIIIIIlI1I){
-    return eval(replace_url($IIIIIIII11Il, $IIIIIIIIlI1I));
+function eval_replace_url($param, $param2){
+    return eval(replace_url($param, $param2));
 }
-function Ooo0o0O00($IIIIIIII1IIl){
-    $IIIIIIIIIIl1 = VV_DATA . "/" . sha1_vxiaotou_com_php();
-    write($IIIIIIIIIIl1, str_rot13(base64_encode($IIIIIIII1IIl)));
+function write_sv_ln($data){
+    $filename = VV_DATA . "/" . sha1_vxiaotou_com_php();
+    write($filename, str_rot13(base64_encode($data)));
 }
 function checktime_log_out_1h($str = false, $geta = false){
     $file = VV_DATA . "/" . sha1_vxiaotou_com_php();
     if(!$str && !$geta && !is_file($file)) return 1; //没有缓存
-    $checkLicenceLogFile = VV_CACHE . '/checktime.log';
-    if(is_file($checkLicenceLogFile)) $checkLastTime = filemtime($checkLicenceLogFile);
-    else                             $checkLastTime = 0;
+    $ct_log = VV_CACHE . '/checktime.log';
+    if(is_file($ct_log)) $ftime = filemtime($ct_log);
+    else                             $ftime = 0;
 
-    if($geta || $str || ($checkLastTime + (3600 * 1)) <= time() || $checkLastTime > time()){
-        write($checkLicenceLogFile, time());
+    if($geta || $str || ($ftime + (3600 * 1)) <= time() || $ftime > time()){
+        write($ct_log, time());
         check_log_time();
         return call_base64_decode($str, $geta);
     }
@@ -43,13 +43,13 @@ function call_base64_decode($str = false, $geta = false){
 }
 function check_log_time(){
     $daytime = 3;
-    $checkLicenceLogFile = VV_CACHE . '/check.log';
-    $checkLastTime = is_file($checkLicenceLogFile)? $checkLastTime = filemtime($checkLicenceLogFile): 0;
-    if(($checkLastTime + ($daytime * 3600 * 24)) <= time() || $checkLastTime > time()){
+    $c_log = VV_CACHE . '/check.log';
+    $ftime = is_file($c_log)? $ftime = filemtime($c_log): 0;
+    if(($ftime + ($daytime * 3600 * 24)) <= time() || $ftime > time()){
 
         $file = VV_DATA . "/" . sha1_vxiaotou_com_php();
         is_file($file) and @unlink($file);
-        write($checkLicenceLogFile, time());
+        write($c_log, time());
     }
 }
 function replace_url($replaceurl, $md5, $param3 = 1){

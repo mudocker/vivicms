@@ -1,11 +1,9 @@
 <?php
 @ini_set('display_errors', 'On');
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(E_ALL);// & ~E_NOTICE
 @set_time_limit(120);
 @ini_set('pcre.backtrack_limit', 1000000);
 date_default_timezone_set('PRC');
-$header = "Content-type: text/html; charset=utf8";
-header($header);
 define('VV_INC', str_replace("\\", '/', dirname(__FILE__)));
 define('VV_ROOT', str_replace("\\", '/', substr(VV_INC, 0, -4)));
 @ini_set('memory_limit', '64M');
@@ -37,12 +35,11 @@ function errorHandler($errno, $errstr, $errfile, $errline){
     }
 function fatalErrorHandler(){
      if(!function_exists('error_get_last')){
-         set_error_handler(
-            create_function(
-                '$errno,$errstr,$errfile,$errline,$errcontext',
-                 '
-					global $__error_get_last_retval__;
-					$__error_get_last_retval__ = array(
+         $cfunc=create_function(
+             '$errno,$errstr,$errfile,$errline,$errcontext',
+             '
+					global $_error;
+					$_error = array(
 						\'type\'        => $errno,
 						\'message\'        => $errstr,
 						\'file\'        => $errfile,
@@ -50,13 +47,13 @@ function fatalErrorHandler(){
 					);
 					return false;
 				'
-                )
-            );
+         );
+         set_error_handler($cfunc);
          function error_get_last(){
-             global $__error_get_last_retval__;
-             return !isset($__error_get_last_retval__)? null: $__error_get_last_retval__;
-             }
+             global $_error;
+             return !isset($_error)? null: $_error;
          }
+     }
      if($e = error_get_last()){
          switch($e['type']){
          case E_ERROR:

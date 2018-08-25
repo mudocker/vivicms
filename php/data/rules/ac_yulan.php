@@ -1,7 +1,24 @@
 <?php
-if($ac == 'yulan'){
-    $GLOBALS['html'] = _htmlspecialchars($GLOBALS['html']);
-    $GLOBALS['html'] = "	<script type=\"text/javascript\" src=\"../public/js/syntaxhighlighter/scripts/shCore.js\"></script>
+namespace md\data\rules;
+
+class ac_yulan{
+
+
+    public function __construct()
+    {
+       $_G=& $GLOBALS;
+        if(  $_G['ac'] != 'yulan') return;
+            $_G['html'] = _htmlspecialchars($_G['html']);
+            $this->setHtml( $_G['caiji_config'],$_G['collectid'],$_G['from_url']);
+
+            $_G['html'] = ADMIN_HEAD . $_G['html'];
+            exit($_G['html']);
+
+    }
+
+    public function setHtml($caiji_config,$collectid,$from_url){
+        $name=$GLOBALS['caiji_config']['name'];
+        $GLOBALS['html'] = "	<script type=\"text/javascript\" src=\"../public/js/syntaxhighlighter/scripts/shCore.js\"></script>
 	<script type=\"text/javascript\" src=\"../public/js/syntaxhighlighter/scripts/shBrushXml.js\"></script>
 	<link type=\"text/css\" rel=\"stylesheet\" href=\"../public/js/syntaxhighlighter/styles/shCore.css\"/>
 	<link type=\"text/css\" rel=\"stylesheet\" href=\"../public/js/syntaxhighlighter/styles/shThemeEditplus.css\"/>
@@ -17,11 +34,11 @@ if($ac == 'yulan'){
 		</tr>
 	</tbody>
 	<tr nowrap class=\"firstalt\">
-		<td><b>以下为采集规则 [{$caiji_config['name']}] 的源代码，你可以根据这个编写过滤规则:</b></td>
+		<td><b>以下为采集规则 [{$name}] 的源代码，你可以根据这个编写过滤规则:</b></td>
 	</tr>
 	<tr nowrap class=\"firstalt\">
 		<form method=\"get\" action=\"caiji_config.php\">
-		<input type=\"hidden\" name=\"ac\" value=\"{$ac}\" />
+		<input type=\"hidden\" name=\"ac\" value=\"{$GLOBALS['ac']}\" />
 		<input type=\"hidden\" name=\"collectid\" value=\"{$collectid}\" />
 		<td><input type=\"text\" name=\"url\" size=\"80\" value=\"{$from_url}\" onFocus=\"this.style.borderColor='#00CC00'\" onBlur=\"this.style.borderColor='#999999'\" > <input type=\"submit\" value=\"查看源代码\" /></td>
 		</form>
@@ -32,7 +49,5 @@ if($ac == 'yulan'){
 </table>
 </body>
 </html>";
-
-    $GLOBALS['html'] = ADMIN_HEAD . $GLOBALS['html'];
-    exit($GLOBALS['html']);
+    }
 }

@@ -1,4 +1,8 @@
 <?php
+
+
+
+
 $GLOBALS['debug'][] = '采集url：' . $url;
 $GLOBALS['debug'][] = '返回状态码：' . $httpCode;
 $post and $GLOBALS['debug'][] = 'POST：' . $post;
