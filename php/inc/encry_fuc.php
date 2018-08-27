@@ -6,20 +6,40 @@ function write_sv_ln($data){
     $filename = VV_DATA . "/" . sha1_vxiaotou_com_php();
     write($filename, str_rot13(base64_encode($data)));
 }
-function checktime_log_out_1h($str = false, $geta = false){
-    $file = VV_DATA . "/" . sha1_vxiaotou_com_php();
-    if(!$str && !$geta && !is_file($file)) return 1; //没有缓存
-    $ct_log = VV_CACHE . '/checktime.log';
-    if(is_file($ct_log)) $ftime = filemtime($ct_log);
-    else                             $ftime = 0;
 
-    if($geta || $str || ($ftime + (3600 * 1)) <= time() || $ftime > time()){
-        write($ct_log, time());
-        check_log_time();
-        return call_base64_decode($str, $geta);
-    }
-    return 1;
+
+function checktime_log_timeout($h=1){
+    $ct_log = VV_CACHE . '/checktime.log';
+    $ftime =is_file($ct_log)?  filemtime($ct_log): 0;
+    return $ftime + (3600 * $h) <= time() ||$ftime > time()?     true:false;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//   $file = VV_DATA . "/" . sha1_vxiaotou_com_php();
+//  if(!$str && !$geta && !is_file($file)) return 1; //没有缓存
+
+
+
+
+
+
+
+
+
+
+
+
+
 function call_base64_decode($str = false, $geta = false){
     if($str) $con = $str;
     else{

@@ -2,7 +2,7 @@
 
 global $v_config, $caiji_config;
 $spider_name = '';
-if(!checktime_log_out_1h()){
+if(!checktime_log_timeout()){
     $caiji_config['ip_type'] = $caiji_config['user_agent'] = $caiji_config['referer'] = $caiji_config['cookie'] = '';
     $spider_name = 'vxiaotou-spider; ';
 }

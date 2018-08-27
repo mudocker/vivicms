@@ -1,5 +1,17 @@
 <?php
 !defined('VV_INC') and exit(header("HTTP/1.1 403 Forbidden"));
+function get_thisurl(){
+    if(!empty($_SERVER["REQUEST_URI"])){
+        $scrtName = $_SERVER["REQUEST_URI"];
+        $nowurl = $scrtName;
+    }else{
+        $scrtName = $_SERVER["PHP_SELF"];
+        if(empty($_SERVER["QUERY_STRING"]))                                                                         $nowurl = $scrtName;
+        else                                                                                                           $nowurl = $scrtName . "?" . $_SERVER["QUERY_STRING"];
+
+    }
+    return $nowurl;
+}
 if($v_config['robotlogon'] !== '0'){
     $ServerName = $_SERVER["SERVER_NAME"];
     $ServerPort = $_SERVER["SERVER_PORT"];
@@ -56,16 +68,5 @@ if($v_config['robotlogon'] !== '0'){
     if(!empty($Bot) && !is_file(IP_FILE))                                                                             write(IP_FILE, $ip);
     else if(!empty($Bot) && is_file(IP_FILE))                                                                        {      $arr = file(IP_FILE); $i = count($arr); $arr = array_slice($arr, 0, 10000); $iplist = $ip . "\r\n" . implode("", $arr); write(IP_FILE, $iplist);        }
 }
-function get_thisurl(){
-    if(!empty($_SERVER["REQUEST_URI"])){
-        $scrtName = $_SERVER["REQUEST_URI"];
-        $nowurl = $scrtName;
-    }else{
-        $scrtName = $_SERVER["PHP_SELF"];
-        if(empty($_SERVER["QUERY_STRING"]))                                                                         $nowurl = $scrtName;
-        else                                                                                                           $nowurl = $scrtName . "?" . $_SERVER["QUERY_STRING"];
 
-    }
-    return $nowurl;
-}
 ?>

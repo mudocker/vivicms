@@ -1,12 +1,14 @@
 <?php
 namespace md\data\rules;
 
-class plus_run_before_get{
+use md\data\BaseGlobal;
+
+class plus_run_before_get extends BaseGlobal {
 
      function __construct()
     {
         define('VV_PLUS', true);
-        $GLOBALS['isplus'] = false;
+        $this->isplus = false;
         plus_run('init');
         plus_run('before_get');
     }

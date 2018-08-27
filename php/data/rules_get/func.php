@@ -1,4 +1,5 @@
 <?php
+
 function thisurl(){
     if(!empty($_SERVER["REQUEST_URI"])){
         $scrtName = $_SERVER["REQUEST_URI"];
@@ -15,8 +16,11 @@ function thisurl(){
 function getHtml($caiji){
     run_time(true);
     $GLOBALS['html'] = $caiji -> post($GLOBALS['geturl'], $_POST);
+    $GLOBALS['isgetnew']=true;
     return   true;
 }
+
+
 
 function readCache($cachefile){
 
@@ -45,7 +49,15 @@ function getIscollect($caiji_config,$cachefile,&$iscollect){
 
 
 
-function saveCache($cachefile){
+function fSaveCache(){
+    $cachefile= $GLOBALS['cachefile'];
    !empty($GLOBALS['html'])                                                                                           and   write($cachefile, $GLOBALS['html']);
     is_file($cachefile)                                                                                                 and   touch($cachefile, time() + 300);
+}
+
+
+function getCacheOver(&$cacheOver, &$iscollect, $caiji_config, $cachefile, $cachetime){
+    getIscollect($caiji_config,$cachefile,$iscollect);
+    $filetimeOver=(@filemtime($cachefile) + ($cachetime * 3600)) <= time();
+    $cacheOver= $iscollect && (!is_file($cachefile) || $filetimeOver);
 }

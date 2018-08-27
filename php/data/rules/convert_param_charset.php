@@ -2,28 +2,26 @@
 namespace md\data\rules;
 
 
-class convert_param_charset{
+use md\data\BaseGlobal;
+
+class convert_param_charset extends BaseGlobal {
 
 
     public function __construct()
     {
+        $this->convert_get($_POST);
+        $this->convert_get($_GET);
+    }
 
-        $charset=$GLOBALS['charset'];
-        $temp = array();
-        if(!empty($_POST)){
-            foreach($_POST as $k => $vo){
-                $k = convert_query($k, $charset);
-                $temp[$k] = convert_query($vo, $charset);
-            }
-        }
-        $_POST = $temp;
+
+    function convert_get(&$data){
+        if (empty($data))return;
         $temp =array();
-        foreach($_GET as $k => $vo){
-            $k = convert_query($k, $charset);
-            $temp[$k] = convert_query($vo, $charset);
+        foreach($data as $k => $vo){
+            $k = convert_query($k,  $this->charset);
+            $temp[$k] = convert_query($vo, $this->charset);
         }
-        $_GET = $temp;
-
+        $data = $temp;
     }
 }
 

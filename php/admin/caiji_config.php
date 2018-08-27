@@ -39,7 +39,7 @@ echo ADMIN_HEAD;
         $volume[$key] = $row['id'];
     }
     @array_multisort($volume, SORT_DESC, $temp);
-    if(!checktime_log_out_1h())$temp = array_slice($temp, 0, 2);
+    if(!checktime_log_timeout())$temp = array_slice($temp, 0, 2);
     ?>
 <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 	<tbody>
@@ -51,7 +51,7 @@ echo ADMIN_HEAD;
 	<tr nowrap class="firstalt">
 		<td colspan="8"><font color="#dd00b0">注：采集开关为关闭时，将停止采集仅使用缓存！</font></td>
 	</tr>
-	<?php if(!checktime_log_out_1h()){
+	<?php if(!checktime_log_timeout()){
         ?>
 	<tr nowrap class="firstalt">
 		<td colspan="8" align="center"><font color="blue">未授权只能有2条规则</font></td>

@@ -1,11 +1,15 @@
 <?php
+!defined('VV_INC') and exit(header("HTTP/1.1 403 Forbidden"));
+define('DRGET',VV_DATA.'/rules_get/');
+define('DREPLACE',VV_DATA.'/rules_get/replace/');
+
 return array (
   'web_name' => '500万彩票1',
   'web_url' => 'http://l.cn/',
   'web_keywords' => '500万彩票---首页关键字2',
   'web_description' => '500万彩票---首页网站描述',
   'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
-  'collectid' => '4',
+  'collectid' => '1',
   'sifton' => '1',
   'sifturl' => '',
   'indexcache' => '1',
@@ -29,7 +33,7 @@ return array (
   'deloldcache' => '1',
   'robotlogon' => '1',
   'jscache' => '1',
-  'imgcache' => '0',
+  'imgcache' => '1',
   'flinks_auto_insert' => '1',
   'obort_read_cahce' => true,
 );

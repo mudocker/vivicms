@@ -32,7 +32,6 @@ function get_ads_body($mark){
     global $config_ads;
     foreach($config_ads as $k => $vo){
         if($vo['mark'] == $mark) return $vo['body'];
-
     }
 }
 
@@ -48,9 +47,8 @@ function geturlpath($parse_url){
          $urlpath = str_replace($urlbasename, '', $parse_url['path']);
          if($urldirname != '\\')$urlpath = $urldirname . '/';
          }
-     if(substr($urlpath, 0, 1) == '/'){
-         $urlpath = substr($urlpath, 1);
-         }
+     substr($urlpath, 0, 1) == '/' and  $urlpath = substr($urlpath, 1);
+
      return $urlpath;
     }
 function run_time($isMicrotime = false){
@@ -89,17 +87,30 @@ function removedir($dir){
      closedir($opendir);
      return rmdir($dir);
     }
-function getcachefile($cacheid){
-     return VV_CACHE . "/html/" . getHashDir($cacheid, 2) . '/' . substr(md5($cacheid), 0, 16) . '.html';
-    }
+function makeCacheSubDir($subDir){
+    $dir=VV_CACHE .$subDir;
+    !is_dir($dir) and mkdir($dir,777,true);
+    return $dir;
+}
+function getHtmlCachefile($cacheid){
+    $filename=substr(md5($cacheid), 0, 16);
+    return makeCacheSubDir( "/html/" . getHashDir($cacheid, 2) . '/') .$filename . '.html';
+ }
+function getCachefile($cacheid,$suffix){
+    $filename=substr(md5($cacheid), 0, 16);
+    return makeCacheSubDir( "/{$suffix}/" . getHashDir($cacheid, 2) . '/') .$filename . ".${$suffix}";
+}
 function getimgcachefile($images_name, $ext = 'jpg'){
-     return VV_CACHE . "/img/" . substr(md5($images_name), 0, 16) . '.' . $ext;
+    $filename=substr(md5($images_name), 0, 16);
+    return makeCacheSubDir("/img/").$filename. '.' . $ext;
 }
 function getcsscachefile($cacheid){
-     return VV_CACHE . "/css/" . substr(md5($cacheid), 0, 16) . '.css';
+    $filename=substr(md5($cacheid), 0, 16);
+    return makeCacheSubDir("/css/"). $filename. '.css';
 }
 function getjscachefile($cacheid){
-     return VV_CACHE . "/js/" . substr(md5($cacheid), 0, 16) . '.js';
+     $filename=substr(md5($cacheid), 0, 16);
+     return makeCacheSubDir("/js/"). $filename . '.js';
     }
 function getHashDir($param1, $param2 = 2){
          $lresult =array();
@@ -157,9 +168,21 @@ function sha1_vxiaotou_com_php(){
      return substr(sha1(match_host() . 'vxiaotou.com'), 10, 16) . '.php';
     }
 
+
+function setCacheOn($cachename){
+    $GLOBALS['v_config']['cacheon'] =$GLOBALS['v_config'][$cachename];
+}
+
+function headerDownCss($className){
+    if($GLOBALS['v_config'][$className]) return;
+    header("Location: {$GLOBALS['geturl']}");
+    exit;
+
+}
+
 function update(){
     global $vipcode;
-    $qq = checktime_log_out_1h(0, 1)?'&qq=' . checktime_log_out_1h(0, 1):'';
+    $qq = checktime_log_timeout(0, 1)?'&qq=' . checktime_log_timeout(0, 1):'';
     $data = downfile('http://www.vxiaotou.com/update.php?m=check&a=update&type=wanneng&vs=' . VV_VERSION . $qq . '&code=' . urlencode($vipcode) . '&_t=' . time());
     $data == '' and ShowMsg("无法连接服务器", "-1", 30000);
     list($status, $title, $msg) = explode('|', $data);
@@ -784,7 +807,7 @@ function replace_zdy($str){
                }
            }
       }
-     if($caiji_config['replace'] && checktime_log_out_1h()) $str = $caiji -> replace($str);
+     if($caiji_config['replace'] && checktime_log_timeout()) $str = $caiji -> replace($str);
 
      $str = replace_tags($str);
      return $str;
@@ -904,4 +927,15 @@ if(!function_exists('get_page')){
 function ret_true(){
      return true;
  }
+
+ function isReadCache(){
+    return    $GLOBALS['cache']= $GLOBALS['v_config']['cacheon'] || $GLOBALS['caiji_config']['collect_close'];
+ }
+
+function readCacheFile(){
+    echo  file_get_contents($GLOBALS['cachefile']);
+    exit();
+}
+
+
 ?>

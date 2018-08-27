@@ -108,7 +108,7 @@ foreach($filearr as $k => $vo){
         }
     }
 }
-if(!checktime_log_out_1h()){
+if(!checktime_log_timeout()){
     $temp = array();
 }
 ?>

@@ -1,10 +1,17 @@
 <?php
-function getCacheOver(&$cacheOver, &$iscollect, $caiji_config, $cachefile, $cachetime){
-    getIscollect($caiji_config,$cachefile,$iscollect);
-    $filetimeOver=(@filemtime($cachefile) + ($cachetime * 3600)) <= time();
-    $cacheOver= $iscollect && (!is_file($cachefile) || $filetimeOver);
+namespace md\data\flow;
+use md\data\BaseGlobal;
+
+class timeout_filename extends BaseGlobal {
+
+    /**
+     * timeout_filename constructor.
+     */
+    public function __construct()
+    {
+        getCacheOver($this->cacheOver, $this->iscollect, $this->caiji_config, $this->cachefile, $this->cachetime);
+    }
 }
 
 
 
-getCacheOver($cacheOver, $iscollect, $caiji_config, $cachefile, $cachetime);

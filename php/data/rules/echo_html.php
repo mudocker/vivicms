@@ -1,6 +1,8 @@
 <?php
 namespace md\data\rules;
-class echo_html{
+use md\data\BaseGlobal;
+
+class echo_html extends BaseGlobal {
 
     /**
      * echo_html constructor.
@@ -9,34 +11,41 @@ class echo_html{
     {
             $this->image();
             $this->html();
-            getCharsetAndHeader($GLOBALS['html']);
-            echo $GLOBALS['html'];
+            HeaderCharset($this->html);
+            echo $this->html;
+            exit();
     }
 
-
+    function noHtml(&$isHtml=true){
+        if(!isset($this->urlext))$isHtml=false;
+        if(!in_array($this->urlext, $this->extarr))$isHtml=false;
+        if(stripos($this->html, '<head>') ==false)$isHtml=false;
+        if(stripos($this->html, '<html>') ==false)$isHtml=false;
+        if(stripos($this->html, '<body>') ==false)$isHtml=false;
+    }
     function html(){
-        $_G=& $GLOBALS;
-        if(!isset($_G['urlext']))return;
-        if(!in_array($_G['urlext'], $_G['extarr']))return;
-        if(stripos($_G['html'], '<head>') ==false)return;
-        if(stripos($_G['html'], '<html>') ==false)return;
-        if(stripos($_G['html'], '<body>') ==false)return;
+
+        $this->noHtml($isHtml);
+        if (!$isHtml)return;
         require_once (DRULES.'result/debug.php');
         require_once (DRULES.'result/getTplPath.php');
-        require_once (DRULES.'result/vxiaotou_link.php');
-        getCharsetAndHeader($_G['html']);
-        include($_G['tplfile']);
+        HeaderCharset($this->html);
+        include($this->tplfile);
         exit();
     }
     function image(){
-        $_G =& $GLOBALS;
-        if (!isset($_G['urlext']) || ($_G['urlext'] != 'css' && $_G['urlext'] != 'js')) return;
-        substr($_G['html'], 0, 1) == '?' and $_G['html'] = substr($_G['html'], 1);
-        getCharsetAndHeader($_G['html']);
-        if ($_G['v_config']['web_debug'] == "on") echo("/*start---\r\n" . implode("\r\n", $_G['debug']) . "\r\nend---*/\r\n");
-        exit($_G['html']);
+
+        if (!isset($this->urlext) || ($this->urlext != 'css' && $this->urlext != 'js')) return;
+        substr($this->html, 0, 1) == '?' and $this->html = substr($this->html, 1);
+        HeaderCharset($this->html);
+        echo $this->html;
+        exit();
     }
 
+
+    function debug(){
+        if ($this->v_config['web_debug'] == "on") echo("/*start---\r\n" . implode("\r\n", $this->debug) . "\r\nend---*/\r\n");
+    }
 
 }
 

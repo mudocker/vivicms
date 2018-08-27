@@ -1,25 +1,10 @@
 <?php
-
+use md\inc\caiji;
+require './vendor/autoload.php';
 define('SCRIPT','css');
 require(dirname(__FILE__)."/inc/common.inc.php");
-require(dirname(__FILE__)."/inc/caiji.class.php");
+$caiji = new caiji();
 $v_config=require(VV_DATA."/config.php");
 require(dirname(__FILE__)."/inc/robot.php");
-
-if(isset($_GET['code']) && $_GET['code']){
-	$GLOBALS['geturl']=base64_decode(strrev(rawurldecode($_GET['code'])));
-	$collectid=isset($_GET['tid'])?$_GET['tid']:'';
-}else if($_SERVER['QUERY_STRING']){
-	list($query,)=explode('?',$_SERVER['QUERY_STRING']);
-	list($query,)=explode('&',$query);
-	list($collectid,$GLOBALS['geturl'])=explode('|',decode_source($query));
-}else exit('err');
-
-$collectid=(int)$collectid;
-!$collectid and  exit('err');
-
-$caiji_config=require(VV_DATA."/config/{$collectid}.php");
-!preg_match('~^https?://~i',$GLOBALS['geturl']) and  exit('err');
-
 require(VV_DATA."/rules.php");
 ?>

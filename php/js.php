@@ -1,40 +1,18 @@
 <?php
-write('tttt.log','hhhdhafhdsafdsafsd');
+
+use md\inc\caiji;
+require './vendor/autoload.php';
 define('SCRIPT','js');
 require(dirname(__FILE__)."/inc/common.inc.php");
-require(dirname(__FILE__)."/inc/caiji.class.php");
+$caiji = new caiji();
 $v_config=require(VV_DATA."/config.php");
 require(dirname(__FILE__)."/inc/robot.php");
 
-if($_SERVER['QUERY_STRING']){
-	list($query,)=explode('?',$_SERVER['QUERY_STRING']);
-	list($query,)=explode('&',$query);
-	list($collectid,$GLOBALS['geturl'])=explode('|',decode_source($query));
-}else{
-	exit('err');
-}
-$collectid=(int)$collectid;
-if(!$collectid) exit('err');
+
+$collectid=(int)$v_config['collectid'];
+!$collectid and  exit('err');
 
 $caiji_config=require(VV_DATA."/config/{$collectid}.php");
-if(!preg_match('~^https?://~i',$GLOBALS['geturl'])){
-	exit('err');
-}
-if ($v_config['sifton'] && checktime_log_out_1h()) {
-	$sifturl = explode('[cutline]', $v_config['sifturl']);
-	foreach($sifturl as $k => $vo) {
-		if ($vo == $GLOBALS['geturl']) {
-			exit();
-		} 
-	} 
-}
-if ($v_config['sifton'] && checktime_log_out_1h()) {
-	$sifturl = explode('[cutline]', $v_config['sifturl']);
-	foreach($sifturl as $k => $vo) {
-		if ($vo == $GLOBALS['geturl']) {
-			exit();
-		} 
-	} 
-}
+
 require(VV_DATA."/rules.php");
 ?>

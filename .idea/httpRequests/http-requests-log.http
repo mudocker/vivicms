@@ -1,364 +1,330 @@
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T055632.200.html
+
+###
+
+GET http://v.cn/Public/static/jplayer/progress.png
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T091155.500.html
-
-###
-
-GET http://v.cn/?e/js/jquery.min.js
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T090330.200.html
-
-###
-
-GET http://v.cn/?e/js/jquery.min.js
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T085517.200.html
-
-###
-
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn/?e/js/jquery.min.js
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T084657.200.html
-
-###
-
-GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T084249.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T084037.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T084030.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T084010.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T062421.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T061940.200.html
-
-###
-
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T061748.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T061725.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T061458.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T061257.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T052534.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T052150.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-24T052138.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T054446.500.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T051953.200.html
-
-###
-
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T045348.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T045314.200.html
-
-###
-
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/progress.png?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/jquery.jplayer.min.js?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
-<> 2018-08-23T043626.200.html
+<> 2018-08-27T052951.200.js
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/jquery.jplayer.min.js?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
-<> 2018-08-23T043212.200.html
+<> 2018-08-27T052925.200.js
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/jplayer/jquery.jplayer.min.js?v=20141104&v=2222&callback=jQuery20302716563230097131_1535273608436&source=1189723395&language=cnname&_=1535273608437
 Accept: */*
 Cache-Control: no-cache
 
-<> 2018-08-23T043132.200.html
+<> 2018-08-27T052733.200.js
 
 ###
 
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T043109.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T043044.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T042934.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T042751.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T042707.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T042437.200.html
-
-###
-
-GET http://l.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-23T042025.200.html
-
-###
-
-GET http://l.cn
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
 Accept: */*
 Cache-Control: no-cache
 
 ###
 
-GET http://l.cn
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
 Accept: */*
 Cache-Control: no-cache
 
-<> 2018-08-23T041300.200.html
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T051732.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T051718.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T051617.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T043039.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T042424.200.html
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T040027.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T035651.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T032939.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T032133.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T031746.200.css
+
+###
+
+GET http://v.cn/Public/static/bootstrap/css/bootstrap.min.css
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-08-27T031520.200.css
 
 ###
 

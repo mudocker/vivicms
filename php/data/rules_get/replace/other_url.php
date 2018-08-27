@@ -1,6 +1,6 @@
 <?php
 
-//清空http://www.topthink.com
+
 $GLOBALS['html'] = str_ireplace(array($server_url, $server_url2), '', $GLOBALS['html']);
 
 if($caiji_config['other_url']){ //https

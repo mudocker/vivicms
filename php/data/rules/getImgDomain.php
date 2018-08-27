@@ -1,15 +1,30 @@
 <?php
 namespace md\data\rules;
-class getImgDomain{
+use md\data\BaseGlobal;
 
-    /**
-     * getImgDomain constructor.
-     */
+
+class getImgDomain  {
+
+
     public function __construct()
     {
-        $caiji_config=&$GLOBALS['caiji_config'];
 
-        $caiji_config['resdomain'] = $caiji_config['resdomain']?$caiji_config['resdomain']:$caiji_config['other_imgurl'];
+
+        $this->resdomain = $this->resdomain?$this->resdomain:$this->other_imgurl;
+    }
+
+
+
+
+
+
+    function __set($name, $value){
+        $GLOBALS['caiji_config'][$name]=$value;
+    }
+
+
+    function __get($name){
+        return isset($GLOBALS['caiji_config'][$name])?$GLOBALS['caiji_config'][$name]:null;
     }
 }
 

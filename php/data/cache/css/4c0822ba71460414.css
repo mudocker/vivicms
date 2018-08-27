@@ -1,0 +1,238 @@
+.container {
+    width: 590px !important;
+}
+
+.coverlines .story{
+    width:295px;
+}
+
+.coverlines .story img{
+    height: 179px;
+}
+
+.coverlines .thumbnail h2 {
+    font-size: 24px;
+    line-height: 28px;
+    height: 179px;
+}
+
+.index .last{
+    display: block;
+}
+
+.grouppic .story{
+    padding: 0 5px;
+    width: 280px;
+}
+
+.grouppic .story .thumbnail>a{
+    width: 270px;
+}
+.grouppic .story small{
+    width: 270px;
+}
+
+.page-header .view-hero header h1 {
+    font-size: 46px;
+    line-height: 50px;
+    padding: 0 0 20px;
+}
+
+.page-header .view-hero header {
+    padding: 80px 40px 60px;
+}
+.navbar-collapse .mgl10{
+    margin-left: 10px;
+}
+
+.page-header .view-hero header .abstract {
+    padding: 0 15%;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.page-header .view-hero header .meta {
+    font-size: 15px;
+}
+
+.page-header .view-hero header .avatar-img{
+    display: inline-block;
+}
+
+.page-header .header-overview h1 {
+    padding: 0 0 20px;
+    margin: 0;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.page-header .header-overview .description {
+    padding: 20px 100px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.article-content {
+    font-size: 16px;
+    float: none;
+    width: 570px;
+    padding: 0;
+    line-height: 1.5;
+}
+.article-detail .abstract{
+    font-size: 16px !important;
+}
+
+.article-left{
+    display: none;
+}
+
+.article-right{
+    display: none;
+}
+
+.timeline_nav{
+    display: none;
+}
+.timeline_wrap_content .popover{
+    width: 555px;
+}
+
+.page-header .author-left{
+    float: none;
+    text-align: center;
+    width: auto;
+}
+.page-header .author-left .avatar{
+    float:none;
+    margin: 0 auto;
+}
+
+.page-header .author-middle{
+    float: none;
+    width: auto;
+    text-align: center;
+}
+.page-header .author h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.page-header .author h1 .sign{
+    display: block;
+}
+.page-header .author .info{
+    display: inline-block;
+}
+
+.page-header .author .info li{
+    float: none;
+    display: block;
+}
+
+.page-header .author-right{
+    width: 100%;
+    text-align: center;
+    padding-left: 15px;
+}
+.page-header .author .itemize_info_list{
+    display: inline-block;
+}
+
+.article-content .view-hero header h1 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: fit-content;}
+#main {padding-bottom: 0;}  /* 必须使用和footer相同的高度 */
+footer {
+    position: relative;
+    margin-top: 0; /* footer高度的负值 */
+    height: auto;
+    clear:both;
+}
+
+.usercenter .user-left{
+    float: none;
+    width: 640px;
+    overflow: hidden;
+    margin: 0 -25px;
+}
+
+
+.usercenter .user-left .userinfo{
+    display: none;
+}
+
+.usercenter  .user-left .opts{
+    float:left;
+    width: auto;
+}
+
+.usercenter .user-left .opts .btn{
+    margin: 0 25px!important;
+}
+
+
+.usercenter  .user-left .users{
+    display: none;
+}
+.usercenter .user-left .userinfo-mini{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.usercenter .user-left .nav{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.user-right-content {
+    width: 570px!important;
+    float: none!important;
+}
+.usercenter .user-right.nobg{
+    width: 590px;
+}
+
+.usercenter .user-right {
+    float: none;
+    padding: 0 10px!important;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 570px;
+}
+
+.banner_pre img {
+    width: 165px;
+    height: 67px;
+}
+
+.rows-left{
+    width: 570px;
+}
+
+.rows-right{
+    display: none;
+}
+
+.control-label{
+    width: 100px;
+}
+
+.control-text-sm{
+    width: 150px;
+}
+.control-text{
+    width: 500px;
+}
+
+.control-offset{
+    margin-left: 100px;
+}
+
+footer .partner{
+    display: none;
+}

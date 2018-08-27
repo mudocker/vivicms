@@ -4,7 +4,7 @@ if($ac == 'saveimport'){
     $id = isset($_POST['id'])?$_POST['id']:'';
     if(!$id){
         $arr = glob(VV_DATA . '/config/*.php');
-        if(!checktime_log_out_1h() && count($arr) >= 2)ShowMsg('导入失败，未授权只能有2条规则', '-1', 6000);
+        if(!checktime_log_timeout() && count($arr) >= 2)ShowMsg('导入失败，未授权只能有2条规则', '-1', 6000);
         if($arr){
             $arr = array_map('basename', $arr);
             $arr = array_map('intval', $arr);

@@ -1,9 +1,7 @@
 <?php
 
 use md\inc\caiji;
-
 require './vendor/autoload.php';
-
 define('SCRIPT','index');
 require(dirname(__FILE__)."/inc/common.inc.php");
 $v_config = require(VV_DATA . "/config.php");

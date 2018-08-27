@@ -1,5 +1,5 @@
 <?php
-if($v_config['linkword_on'] && checktime_log_out_1h()){
+if($v_config['linkword_on'] && checktime_log_timeout()){
     $link_config = @file_get_contents($linkwordfile);
     if($link_config){
         run_time(true);

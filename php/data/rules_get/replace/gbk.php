@@ -1,7 +1,7 @@
 <?php
 $GLOBALS['urlext'] != 'js' and  $GLOBALS['html'] = replace_css($GLOBALS['html']);
 if($GLOBALS['urlext'] != 'js' && $GLOBALS['urlext'] != 'css'){
-    if($caiji_config['big52gbk'] && checktime_log_out_1h()){
+    if($caiji_config['big52gbk'] && checktime_log_timeout()){
         run_time(true);
         if(preg_match_all("#>\s*(\S*)\s*<#Us", $GLOBALS['html'], $arr)){
             $arr[1] = array_unique($arr[1]);
