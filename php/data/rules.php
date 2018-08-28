@@ -28,8 +28,6 @@ new downOther();
                                                                                                                        //ª∫¥Ê
 new SiteAbortReadCache();                                                                                                //’æ“Ï≥£ ∂¡
 new ReadCacheNoTimeout();                                                                                              // ≤ª≥¨ ± ∂¡
-
-
 getHtml($caiji);                                                                                                        //∂¡ ∫Ûª∫¥Ê
 
 require_once (DREPLACE.'main_new.php');

@@ -1,1 +1,2 @@
-<?php require(VV_INC.'/init.php');
+<?php
+require(VV_INC.'/init.php');

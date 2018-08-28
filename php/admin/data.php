@@ -1,4 +1,4 @@
 <?php
-$adminname="ybetadmin";
-$password="a57239961fe56ab2fa36b6b4ad04f7d4";
+$adminname="admin";
+$password="21232f297a57a5a743894a0e4a801fc3";
 ?>

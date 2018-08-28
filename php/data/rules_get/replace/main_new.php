@@ -9,7 +9,7 @@ use md\data\replace\HideJSError;
 use md\data\replace\replace_js;
 use md\data\replace\keyword_inline;
 use md\data\replace\meta_content_frame;
-use md\data\replace\no_css_js;
+
 use md\data\replace\no_site_app;
 use md\data\replace\replace_pic;
 use md\data\replace\plug_before_convert_charset;
@@ -51,7 +51,6 @@ if (!$GLOBALS['html'])return;
         new replace_web_description();
         new replace_web_seo_name();
         new replace_flinks();
-
         new replace_title($caiji);
         new keyword_inline();
 

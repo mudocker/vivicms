@@ -52,6 +52,9 @@ class getFromUrl extends BaseGlobal {
         isset($_GET['url']) and   $this->caiji_config['from_url'] = $_GET['url'];
         $this->geturl =  $this->caiji_config['from_url'];
     }
+
+
+
 }
 
 

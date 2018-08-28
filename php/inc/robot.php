@@ -8,7 +8,6 @@ function get_thisurl(){
         $scrtName = $_SERVER["PHP_SELF"];
         if(empty($_SERVER["QUERY_STRING"]))                                                                         $nowurl = $scrtName;
         else                                                                                                           $nowurl = $scrtName . "?" . $_SERVER["QUERY_STRING"];
-
     }
     return $nowurl;
 }

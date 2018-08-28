@@ -1,4 +1,5 @@
-<?php require_once("data.php");
+<?php
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
@@ -54,8 +55,7 @@ document.write(submit);
     $config['sifturl'] = str_replace(array("\r\n", "\r", "\n"), '[cutline]', $config['sifturl']);
     $config['sifturl'] = str_replace('<?', '***', $config['sifturl']);
     $config = @array_merge($v_config, $config);
-    if($config) arr2file(VV_DATA . "/config.php", $config);
-
+    $config and arr2file(VV_DATA . "/config.php", $config);
     ShowMsg("恭喜你,修改成功！", 'caiji_sift.php', 2000);
 }
 ?>
