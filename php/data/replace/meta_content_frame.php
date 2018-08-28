@@ -92,4 +92,8 @@ class meta_content_frame extends BaseGlobal
         $this->html = preg_replace('#<meta charset="[^"]+">#i', '<meta charset="utf-8">', $this->html);
         $this->html = preg_replace('#<meta charset=\'[^\']+\'>#i', '<meta charset="utf-8">', $this->html);
     }
+
+
+
+
 }

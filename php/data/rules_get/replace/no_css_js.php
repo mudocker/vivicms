@@ -1,5 +1,5 @@
 <?php
-if($GLOBALS['urlext'] != 'css' && $GLOBALS['urlext'] != 'js'){
+
     $GLOBALS['html'] = preg_replace('~<(body[^>]*)>~i', '<\\1>' . $topad, $GLOBALS['html'], 1);
     $GLOBALS['html'] = preg_replace('~</body>~i', '<div style="text-align:center;">' . $v_config['web_tongji'] . $bottomad . '</div></body>', $GLOBALS['html'], 1);
     if($caiji_config['hidejserror']) $GLOBALS['html'] = str_ireplace('<head>', '<head><script>var V_PATH="' . WEB_ROOT . '/' . '";window.onerror=function(){ return true; };</script>', $GLOBALS['html']);
@@ -31,4 +31,3 @@ if($GLOBALS['urlext'] != 'css' && $GLOBALS['urlext'] != 'js'){
     $GLOBALS['title'] = trim($GLOBALS['title']);
     $GLOBALS['debug'][] = '获取当前title标题：' . $GLOBALS['title'];
     $title = $GLOBALS['title'];
-}

@@ -2,7 +2,7 @@
 return array (
   'name' => '大神范德萨',
   'from_url' => 'http://www.topthink.com',
-  'other_url' => 'www.topthink.com',
+  'other_url' => 'www.topthink.com,http://box.topthink.com',
   'charset' => 'utf-8',
   'replacerules' => '//hm.baidu.com/hm.js?7356fff7035ad4a8d3760a0e1427b2eb******',
   'siftrules' => '{vivi replace=\'\'}<ul class="imglink">(.*)</ul>{/vivi}
