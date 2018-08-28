@@ -11,7 +11,7 @@ namespace md\data\replace;
 
 use md\data\BaseGlobal;
 
-class css extends BaseGlobal
+class replace_css extends BaseGlobal
 {
 
 

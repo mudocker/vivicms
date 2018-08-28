@@ -11,7 +11,7 @@ namespace md\data\replace;
 
 use md\data\BaseGlobal;
 
-class pic extends BaseGlobal
+class replace_pic extends BaseGlobal
 {
     private $vo;
     function __construct(){

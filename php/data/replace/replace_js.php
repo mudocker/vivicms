@@ -12,7 +12,7 @@ namespace md\data\replace;
 use md\data\BaseGlobal;
 
 
-class JS extends BaseGlobal
+class replace_js extends BaseGlobal
 {
     private $vo;
    function __construct(){
