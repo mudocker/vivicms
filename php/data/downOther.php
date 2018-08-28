@@ -9,5 +9,6 @@ class downOther
      */
     public function __construct()
     {
+
     }
 }

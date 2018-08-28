@@ -15,7 +15,7 @@ class getTargetUrl extends BaseGlobal
 {
      function __construct()
     {
-        if ($this->urlext!='js'&& $this->urlext!='css'&& $this->urlext!='html'&&$this->urlext!='jpg')return;
+        if ($this->urlext!='js'&& $this->urlext!='css'&& $this->urlext!='html'&&$this->urlext!='jpg'&&$this->urlext!='ttf')return;
        $this->geturl= $this->resdomain();
     }
 

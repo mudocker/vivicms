@@ -2,9 +2,7 @@
 foreach($allimg as $k => $vo){
     if(substr($vo, 0, 2) == '//'){
         if(preg_match('~^//[0-9a-zA-Z\.-]+\.[0-9a-zA-Z-]+/~', $vo)) $vo =  $_SERVER["REQUEST_SCHEME"]?  $_SERVER["REQUEST_SCHEME"] . ':'.$vo:$scheme . ':' . $vo;
-
         else $vo = substr($vo, 1);
-
     }
     if(isgoodurl($vo)){
         if(substr($vo, 0, 1) == '/')                                                                                    $vo = substr($vo, 1);

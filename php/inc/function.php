@@ -97,8 +97,8 @@ function getHtmlCachefile($cacheid){
     return makeCacheSubDir( "/html/" . getHashDir($cacheid, 2) . '/') .$filename . '.html';
  }
 function getCachefile($cacheid,$suffix){
-    $filename=substr(md5($cacheid), 0, 16);
-    return makeCacheSubDir( "/{$suffix}/" . getHashDir($cacheid, 2) . '/') .$filename . ".${$suffix}";
+    $filename=substr(md5($cacheid), 0, 16).'.'.$suffix;
+    return makeCacheSubDir( "/{$suffix}/" . getHashDir($cacheid, 2) . '/') .$filename ;
 }
 function getimgcachefile($images_name, $ext = 'jpg'){
     $filename=substr(md5($images_name), 0, 16);
@@ -901,9 +901,8 @@ function test_write($d){
              if($rs)return true;
              else return false;
              }
-         }else if(is_file($d)){
-         return is_writable($d);
-         }
+         }else if(is_file($d))  return is_writable($d);
+
      return false;
     }
 function regxcut($regx, $str){
@@ -933,6 +932,8 @@ function ret_true(){
  }
 
 function readCacheFile(){
+
+   // header("Content-Type:text/html; charset={$GLOBALS['charset']}");
     echo  file_get_contents($GLOBALS['cachefile']);
     exit();
 }

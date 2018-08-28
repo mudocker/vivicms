@@ -1,6 +1,9 @@
 <?php
+
+use md\inc\caiji;
+
 if($ac == 'yulan'){
-    require(VV_INC . "/caiji.class.php");
+   $caiji= new caiji();
     require(VV_DATA . '/rules.php');
     exit;
 }

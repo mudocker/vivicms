@@ -17,7 +17,7 @@ class getCacheByFileGetContent extends BaseGlobal {
         $this->image();
         $this->js();
         $this->css();
-        $this->down();
+
 
 
     }

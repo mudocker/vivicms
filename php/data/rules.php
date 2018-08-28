@@ -5,6 +5,7 @@ use md\data\flow\SaveCache;
 use md\data\ReadCacheNoTimeout;
 use md\data\rules\ac_yulan;
 use md\data\rules\echo_html;
+use md\data\rules\urlext\downFont;
 use md\data\rules\urlext\downHtml;
 use md\data\rules\urlext\downCss;
 use md\data\rules\urlext\downloadImage;
@@ -21,12 +22,12 @@ new downCss();
 new downHtml();
 new downloadJS();
 new downSwf();
-
+new downFont();
 new downOther();
-require_once (DRGET.'func.php');
-                                                                                                          //ª∫¥Ê
-new SiteAbortReadCache();                                                                                                    //’æ“Ï≥£ ∂¡
-new ReadCacheNoTimeout();                                                                                                             // ≤ª≥¨ ± ∂¡
+
+                                                                                                                       //ª∫¥Ê
+new SiteAbortReadCache();                                                                                                //’æ“Ï≥£ ∂¡
+new ReadCacheNoTimeout();                                                                                              // ≤ª≥¨ ± ∂¡
 
 
 getHtml($caiji);                                                                                                        //∂¡ ∫Ûª∫¥Ê

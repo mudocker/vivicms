@@ -1,13 +1,9 @@
 <?php
-!defined('VV_INC') and exit(header("HTTP/1.1 403 Forbidden"));
-define('DRGET',VV_DATA.'/rules_get/');
-define('DREPLACE',VV_DATA.'/rules_get/replace/');
-
 return array (
-  'web_name' => '500万彩票1',
-  'web_url' => 'http://l.cn/',
-  'web_keywords' => '500万彩票---首页关键字2',
-  'web_description' => '500万彩票---首页网站描述',
+  'web_name' => '靓妹',
+  'web_url' => 'http://v.cn/',
+  'web_keywords' => '靓妹2keywords',
+  'web_description' => '靓妹2---description',
   'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
   'collectid' => '1',
   'sifton' => '1',
@@ -18,7 +14,7 @@ return array (
   'cacheon' => '1',
   'web_remark' => '',
   'web_404_url' => '/404.html',
-  'web_seo_name' => '500万彩票1',
+  'web_seo_name' => '靓妹111',
   'linkword_on' => '0',
   'web_urlencode' => '0',
   'web_urlencode_type' => 'base64',

@@ -4,6 +4,7 @@ require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
 $file = VV_DATA . "/flink.conf";
 $flink = @file_get_contents($file);
+require_once 'tmp_header.php';
 if($id == ''){
     echo ADMIN_HEAD;
     ?>

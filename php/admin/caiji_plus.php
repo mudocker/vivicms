@@ -3,6 +3,7 @@ $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  define('VV_PLUS', true);
 $ac = isset($_GET['ac'])?$_GET['ac']:'';
+require_once 'tmp_header.php';
 echo ADMIN_HEAD;
 if($ac == 'save'){
     $name = $_GET['name'];

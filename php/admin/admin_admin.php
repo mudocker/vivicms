@@ -1,11 +1,14 @@
-<?php require_once("data.php");
+<?php
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
 $id = isset($_GET['id'])?$_GET['id']:'';
+require_once 'tmp_header.php';
 if($id == 'edit' || $id == ''){
     echo ADMIN_HEAD;
     ?>
 <script>
+
 function chk(){
 	if(form.adminname.value==''){
 		alert('管理员帐号为空');
@@ -49,7 +52,7 @@ function chk(){
     </table>
   </form>
       <script type="text/javascript">
-  document.write(submit);
+         document.write(submit);
       </script>
  
   </div>

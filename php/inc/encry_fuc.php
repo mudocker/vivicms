@@ -9,9 +9,10 @@ function write_sv_ln($data){
 
 
 function checktime_log_timeout($h=1){
-    $ct_log = VV_CACHE . '/checktime.log';
+    $ct_log = $GLOBALS['cachefile'];
     $ftime =is_file($ct_log)?  filemtime($ct_log): 0;
-    return $ftime + (3600 * $h) <= time() ||$ftime > time()?     true:false;
+   $result= ($ftime + (3600 * $h)) >=time() ? false:true;
+    return $result;
 }
 
 

@@ -2,6 +2,7 @@
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
+require_once 'tmp_header.php';
 if($id == ''){
     echo ADMIN_HEAD;
     ?>
@@ -79,31 +80,31 @@ if($id == ''){
 </div>
 <script type="text/javascript">
 function getdirsize(){
-	$('#getdirsize').html('<img src="../public/img/load.gif"> 计算中...');
+	$('#getdirsize').html('<img src="public_admin/img/load.gif"> 计算中...');
 	$.get("?id=getdirsize&_t="+Math.random()*10,function(data){
 	  $('#getdirsize').html(data);
 	});
 }
 function getimgsize(){
-	$('#getimgsize').html('<img src="../public/img/load.gif"> 计算中...');
+	$('#getimgsize').html('<img src="public_admin/img/load.gif"> 计算中...');
 	$.get("?id=getimgsize&_t="+Math.random()*10,function(data){
 	  $('#getimgsize').html(data);
 	});
 }
 function getcsssize(){
-	$('#getcsssize').html('<img src="../public/img/load.gif"> 计算中...');
+	$('#getcsssize').html('<img src="public_admin/img/load.gif"> 计算中...');
 	$.get("?id=getcsssize&_t="+Math.random()*10,function(data){
 	  $('#getcsssize').html(data);
 	});
 }
 function getjssize(){
-	$('#getjssize').html('<img src="../public/img/load.gif"> 计算中...');
+	$('#getjssize').html('<img src="public_admin/img/load.gif"> 计算中...');
 	$.get("?id=getjssize&_t="+Math.random()*10,function(data){
 	  $('#getjssize').html(data);
 	});
 }
 function getredirectsize(){
-	$('#getredirectsize').html('<img src="../public/img/load.gif"> 计算中...');
+	$('#getredirectsize').html('<img src="public_admin/img/load.gif"> 计算中...');
 	$.get("?id=getredirectsize&_t="+Math.random()*10,function(data){
 	  $('#getredirectsize').html(data);
 	});

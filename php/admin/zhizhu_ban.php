@@ -2,6 +2,7 @@
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
+require_once 'tmp_header.php';
 if($id == ''){
     $v_config['ban_zhizhu_list'] = explode(',', $v_config['ban_zhizhu_list']);
     echo ADMIN_HEAD;

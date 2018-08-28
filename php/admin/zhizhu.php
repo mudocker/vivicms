@@ -1,7 +1,7 @@
 <?php require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
-
+require_once 'tmp_header.php';
  if(isset($_GET['del']) && $_GET['del'] == 'yes'){
     @unlink(VV_DATA . "/zhizhu.txt");
     ShowMsg("蜘蛛访问清除完毕！", 'zhizhu.php', 2000);

@@ -9,7 +9,7 @@ class echo_html extends BaseGlobal {
      */
     public function __construct()
     {
-            $this->image();
+       //     $this->image();
             $this->html();
             HeaderCharset($this->html);
             echo $this->html;
@@ -27,10 +27,9 @@ class echo_html extends BaseGlobal {
 
         $this->noHtml($isHtml);
         if (!$isHtml)return;
-        require_once (DRULES.'result/debug.php');
-        require_once (DRULES.'result/getTplPath.php');
+
         HeaderCharset($this->html);
-        include($this->tplfile);
+        include($this->cachefile);
         exit();
     }
     function image(){

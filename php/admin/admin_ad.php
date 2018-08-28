@@ -3,6 +3,7 @@ header("Content-Type:text/html; charset=utf-8");
 require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
+require_once 'tmp_header.php';
 $ac = isset($_GET['ac'])?$_GET['ac']:'';
 if($ac == 'save'){
     $array = array();

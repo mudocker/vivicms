@@ -2,15 +2,16 @@
  require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
+require_once 'tmp_header.php';
 echo ADMIN_HEAD;
 echo '<html>
  <head>
   <script type="text/javascript">$(document).bind("contextmenu",function(){return false;});</script> 
  </head>
- <body background="../public/img/top10.gif">
+ <body background="public_admin/img/top10.gif">
   <style type="text/css">html{overflow-x: hidden;}</style>
   <div style="width:170px"> 
-   <img src="../public/img/top11.gif" /> 
+   <img src="public_admin/img/top11.gif" /> 
    <div class="expand" onclick="h(1)" id="main1"> 
     <div class="expand_title">
      系统设置
@@ -32,17 +33,17 @@ echo '<html>
    <div class="expand_sub" id="sub2"> 
     <ul> 
      <li><a target="content" href="caiji_config.php">采集节点</a></li> 
-     <li><a target="content" href="caiji_sift.php">过滤屏蔽</a> <img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
-     <li><a target="content" href="caiji_linkword.php">关键词内链</a> <img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li> 
-     <li><a target="content" href="replace.php">伪原创词汇</a><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
-     <li><a target="content" href="caiji_url.php">URL规则设置</a><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
-     <li><a target="content" href="caiji_plus.php"><font color="red">插件管理</font></a><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li> 
+     <li><a target="content" href="caiji_sift.php">过滤屏蔽</a> <img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+     <li><a target="content" href="caiji_linkword.php">关键词内链</a> <img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li> 
+     <li><a target="content" href="replace.php">伪原创词汇</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+     <li><a target="content" href="caiji_url.php">URL规则设置</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+     <li><a target="content" href="caiji_plus.php"><font color="red">插件管理</font></a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li> 
     </ul> 
    </div> 
    <div class="expand" onclick="h(3)" id="main3"> 
     <div class="expand_title">
      缓存管理 
-     <img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" />
+     <img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" />
     </div> 
    </div> 
    <div class="expand_sub" id="sub3"> 

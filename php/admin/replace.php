@@ -4,6 +4,7 @@ require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
 $file = VV_DATA . "/keyword.conf";
 $keyword = file_get_contents($file);
+require_once 'tmp_header.php';
 if($id == 'wyc' || $id == ''){
     echo ADMIN_HEAD;
     ?>

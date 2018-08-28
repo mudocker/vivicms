@@ -6,16 +6,14 @@ function thisurl(){
         $nowurl = $scrtName;
     }else{
         $scrtName = $_SERVER["PHP_SELF"];
-        if(empty($_SERVER["QUERY_STRING"])) $nowurl = $scrtName;
-        else                                    $nowurl = $scrtName . "?" . $_SERVER["QUERY_STRING"];
-
+        $nowurl =  empty($_SERVER["QUERY_STRING"])?  $scrtName: $scrtName . "?" . $_SERVER["QUERY_STRING"];
     }
     return $nowurl;
 }
 
 function getHtml($caiji){
     run_time(true);
-    $GLOBALS['html'] = $caiji -> post($GLOBALS['geturl'], $_POST);
+    $GLOBALS['html'] = $caiji ->post($GLOBALS['geturl'], $_POST);
     $GLOBALS['isgetnew']=true;
     return   true;
 }
@@ -36,10 +34,10 @@ function siteAbort($url){
     curl_setopt($ch, CURLOPT_HEADER, 1);
     curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 3);                                                                       //3秒超时
     curl_setopt($ch,CURLOPT_URL,$url);
-    $msg=curl_exec($ch);
+    curl_exec($ch);
     $httpcode = curl_getinfo($ch,CURLINFO_HTTP_CODE);
     curl_close($ch);
-    return $httpcode!=200||false===$msg;
+    return $httpcode!=200;
 }
 
 function getIscollect($caiji_config,$cachefile,&$iscollect){

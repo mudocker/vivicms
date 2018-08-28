@@ -1,11 +1,16 @@
 <?php
 return array (
-  'name' => 'topthink - 极思维',
+  'name' => '大神范德萨',
   'from_url' => 'http://www.topthink.com',
   'other_url' => 'www.topthink.com',
   'charset' => 'utf-8',
   'replacerules' => '//hm.baidu.com/hm.js?7356fff7035ad4a8d3760a0e1427b2eb******',
-  'siftrules' => '{vivi replace=\'\'}<ul class="imglink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<ul class="textlink">(.*)</ul>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*conac\\.cn(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*cnzz(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51\\.la(.*?)<\\/script>{/vivi}[cutline]{vivi replace=\'\'}<script[^\\r\\n]*51yes(.*?)<\\/script>{/vivi}',
+  'siftrules' => '{vivi replace=\'\'}<ul class="imglink">(.*)</ul>{/vivi}
+{vivi replace=\'\'}<ul class="textlink">(.*)</ul>{/vivi}
+{vivi replace=\'\'}<script[^\\r\\n]*conac\\.cn(.*?)<\\/script>{/vivi}
+{vivi replace=\'\'}<script[^\\r\\n]*cnzz(.*?)<\\/script>{/vivi}
+{vivi replace=\'\'}<script[^\\r\\n]*51\\.la(.*?)<\\/script>{/vivi}
+{vivi replace=\'\'}<script[^\\r\\n]*51yes(.*?)<\\/script>{/vivi}',
   'replace' => '0',
   'rewrite' => '1',
   'licence' => '1.logo图片在static/mm/logo.gif，没有就新建，大小不要超过 188*60，否则变形',
@@ -14,10 +19,10 @@ return array (
     0 => 'iframe',
     1 => 'outjs',
   ),
-  'time' => 1477300556,
+  'time' => 1535376194,
   'search_url' => 'search/',
   'search_charset' => 'utf-8',
-  'from_title' => '',
+  'from_title' => '大神范德萨',
   'big52gbk' => '0',
   'other_imgurl' => '',
   'resdomain' => 'http://www.topthink.com/',

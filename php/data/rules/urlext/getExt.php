@@ -41,6 +41,7 @@ class getExt extends BaseGlobal {
         else if(SCRIPT == 'css')                                                                                      $this->urlext= 'css';
         else if(SCRIPT == 'js')                                                                                       $this->urlext = 'js';
         else if(SCRIPT == 'html')                                                                                    $this->urlext = 'html';
+        else if(SCRIPT == 'font')                                                                                    $this->urlext = 'ttf';
         else if(SCRIPT == 'index')                                                                                    $this->urlext = 'html';
         else                                                                                                            $this->urlext= strtolower(pathinfo($this->parse_url['path'], PATHINFO_EXTENSION));
          $this->image();

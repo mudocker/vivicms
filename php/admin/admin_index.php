@@ -7,6 +7,7 @@
  */
 require_once('data.php');
 require_once('checkAdmin.php');
+require_once 'tmp_header.php';
 echo ADMIN_HEAD;
 if(@$_GET['a'] == 'phpinfo'){
      phpinfo();
@@ -74,10 +75,10 @@ header($header);
 	  <tr nowrap class="firstalt">
         <td width="25%">目录读写权限：</td>
         <td width="75%">
-			/data/ [<img src="../public/img/<?php echo test_write(VV_DATA) ? 'success' : 'error';
+			/data/ [<img src="./public_admin/img/<?php echo test_write(VV_DATA) ? 'success' : 'error';
 ?>.png" />]、
-			data.php(修改后台密码用) [<img src="../public/img/<?php echo test_write('./data.php') ? 'success' : 'error';
-?>.png" />]、根目录(在线升级用) [<img src="../public/img/<?php echo test_write(VV_ROOT) ? 'success' : 'error';
+			data.php(修改后台密码用) [<img src="./public_admin/img/<?php echo test_write('./data.php') ? 'success' : 'error';
+?>.png" />]、根目录(在线升级用) [<img src="./public_admin/img/<?php echo test_write(VV_ROOT) ? 'success' : 'error';
 ?>.png" />]
 		</td>
       </tr>

@@ -1,5 +1,7 @@
 <?php
+require '../vendor/autoload.php';
 require_once("data.php");
+header("Content-Type:text/html; charset=utf-8");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?(int)$_GET['id']:'';
@@ -10,7 +12,7 @@ require_once("./caiji_config/savecollectid.php");
 require_once("./caiji_config/status.php");
 require_once("./caiji_config/save.php");
 require_once("./caiji_config/saveimport.php");
-
+require_once 'tmp_header.php';
 echo ADMIN_HEAD;
 ?>
 <body>
@@ -196,8 +198,8 @@ li.cur { background: #eefffd;}
 					<li id="tab2"><a onclick="tab(2,6);" href="javascript:">替换过滤</a></li>
 					<li id="tab3"><a onclick="tab(3,6);" href="javascript:">自定义标签</a></li>
 					<li id="tab4"><a onclick="tab(4,6);" href="javascript:">自定义css</a></li>
-					<li id="tab5"><a onclick="tab(5,6);" href="javascript:">高级功能</a><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
-					<li id="tab6"><a onclick="tab(6,6);" href="javascript:">破防采集</a><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+					<li id="tab5"><a onclick="tab(5,6);" href="javascript:">高级功能</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+					<li id="tab6"><a onclick="tab(6,6);" href="javascript:">破防采集</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
 				</ul>
 			</td>
 		</tr>

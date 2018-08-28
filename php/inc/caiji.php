@@ -39,7 +39,7 @@ class caiji{
          return $return;
          }
      function geturl($url, $timeout = 10, $post = ''){
-         require_once (VV_DATA.'/caiji/http_header.php');
+       require_once (VV_DATA.'/caiji/http_header.php');
          $data = array();
          require_once (VV_DATA.'/caiji/ip.php');
         new headerex($url,$post,$cacheurlfile,$lasturl,$btcachefile);

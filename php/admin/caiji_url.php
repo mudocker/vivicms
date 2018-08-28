@@ -2,6 +2,7 @@
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
+require_once 'tmp_header.php';
 if($id == ''){
     echo ADMIN_HEAD;
     $sign = isset($v_config['web_remark'])?$v_config['web_remark']:'html';
@@ -21,7 +22,7 @@ if($id == ''){
 		<td colspan="2"><font color="blue" style="font-size:18px;">注：伪静态的开关在修改节点的高级功能里启用</font></td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td width="260"><b>伪静态标识符</b><img src="../public/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /><br>
+		<td width="260"><b>伪静态标识符</b><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /><br>
 		<font color="#666666">伪静态后地址前面标识<br>如：http://baidu.com/<font color="red">html</font>/xxx.php<br><font color="red">修改后记得修改伪静态规则里面的标识符<br>注意：如果不填的话，需要把后台文件夹重命名为@开头，如：@admin</font></font></td>
 		<td><input name="con[web_remark]" type="text" value="<?php echo $sign;
     ?>" size="15" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >&nbsp;&nbsp;字母或数字，<font color="red">伪静态规则请参考论坛置顶帖 (<a href="http://www.vxiaotou.com/thread-894-1-1.html" target="_blank">点此访问</a>) </font></td>

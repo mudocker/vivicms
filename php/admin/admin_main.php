@@ -2,6 +2,7 @@
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
 $id = isset($_GET['id'])?$_GET['id']:'';
+require_once 'tmp_header.php';
 if($id == 'man' || $id == ''){
     echo ADMIN_HEAD;
     ?>
