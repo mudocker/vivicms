@@ -5,7 +5,7 @@ return array (
   'web_keywords' => '靓妹2keywords',
   'web_description' => '靓妹2---description',
   'web_tongji' => '<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id=\'cnzz_stat_icon_1253878005\'%3E%3C/span%3E%3Cscript src=\'" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1253878005\' type=\'text/javascript\'%3E%3C/script%3E"));</script>',
-  'collectid' => '2',
+  'collectid' => '1',
   'sifton' => '1',
   'sifturl' => '',
   'indexcache' => '1',
@@ -33,6 +33,6 @@ return array (
   'flinks_auto_insert' => '1',
   'obort_read_cahce' => true,
   'obort_timeout' => 2,
-   'ssl_down'=>false
+  'ssl_down' => false,
 );
 ?>

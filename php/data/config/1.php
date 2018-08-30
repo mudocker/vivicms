@@ -1,6 +1,6 @@
 <?php
 return array (
-  'name' => '大神范德萨',
+  'name' => '极思维',
   'from_url' => 'http://www.topthink.com',
   'other_url' => 'www.topthink.com,http://box.topthink.com',
   'charset' => 'utf-8',
@@ -19,8 +19,8 @@ return array (
     0 => 'iframe',
     1 => 'outjs',
   ),
-  'time' => 1535543569,
-  'search_url' => 'search/',
+  'time' => 1535629746,
+  'search_url' => '',
   'search_charset' => 'utf-8',
   'from_title' => '极思维',
   'big52gbk' => '0',
