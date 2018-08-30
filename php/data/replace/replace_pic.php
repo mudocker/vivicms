@@ -25,10 +25,9 @@ class replace_pic extends BaseGlobal
 
 
     function replacePic($link,$ext){
- /*       $this->html=      str_replace('\r\n','', $this->html);
-        $this->html=      str_replace('\\r\\n','', $this->html);
-        $this->html=  str_replace('\\n','', $this->html);*/
-        foreach($link as  $vo){
+
+        foreach($link as $k=> $vo){
+           if ( $vo=='/')  continue
             $vo=  trim($vo);
             $encode='/' .base64_encode($vo).'.'.$ext;
              $this->html = str_replace_limit($vo,$encode, $this->html,1);

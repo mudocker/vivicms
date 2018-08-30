@@ -35,6 +35,15 @@
                             onFocus="onFocus(this)" onBlur="onBlur(this)" >
                  </td>
              </tr>
+             <!--    用CURL下载-->
+             <tr nowrap class="firstalt">
+                 <td width="260"><b>用CURL下载</b></td>
+                 <td>
+                     <input class="config7_input" type="text" name="con[use_curl]"
+                            value="<?php echo $caiji_config['use_curl']; ?>"
+                            onFocus="onFocus(this)" onBlur="onBlur(this)" >
+                 </td>
+             </tr>
 </tbody>
 
 

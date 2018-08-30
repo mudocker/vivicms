@@ -261,32 +261,34 @@ function write($filename, $data, $mode = "w"){
 function downfile($url){
     set_time_limit(0);
     $data = '';
-    $brower = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)';
-    if(function_exists('curl_init') && function_exists('curl_exec')){
+    if($GLOBALS['caiji_config']['use_curl'] &&function_exists('curl_init') && function_exists('curl_exec')){
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
+
         curl_setopt($ch, CURLOPT_TIMEOUT, 300);
         @curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+        $brower = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)';
         curl_setopt($ch, CURLOPT_USERAGENT, $brower);
-      //  curl_setopt($ch, CURLOPT_HTTPHEADER, array('Expect:'));                             //文件大小
-        curl_setopt($ch, CURLOPT_REFERER, $_SERVER['HTTP_REFERER']);
+        curl_setopt($ch, CURLOPT_USERAGENT, getSpider());
+        curl_setopt ($ch, CURLOPT_REFERER, getRefer());
         !is_ssl_down() and  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-        !is_ssl_down() and    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+      !is_ssl_down() and    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
         $data = curl_exec($ch);
         $info=   curl_getinfo($ch);
         $GLOBALS['info']=$info;
         curl_close($ch);
     }else if(ini_get('allow_url_fopen')){
-        $opt = array('http' =>array('method' => 'GET', 'header' => "referer: " . $_SERVER['HTTP_REFERER'], 'timeout' => 300))       ;
+        $opt = array('http' =>array('method' => 'GET', 'header' => "referer: " .  getSpider(), 'timeout' => 300))       ;
         $context = stream_context_create($opt)or die('服务器不支持 stream_context_create');
-        for($i = 0;$i < 3;$i++){
-            $data = @file_get_contents($url, false, $context);
-            if($data)break;
-        }
+        $data = @file_get_contents($url, false, $context);
+        $data!=false and $httpcode=200;
     }
     return $data;
 }
+
+
 function recursive_mkdir($dir, $mode = 0777){
     $dirArr = explode('/', $dir);
     $dirCout = count($dirArr);
@@ -478,13 +480,9 @@ function getAllFont($html){
 
 
 function str_replace_limit($search, $replace, $subject, $limit=-1){
-    if(is_array($search)){
-        foreach($search as $k=>$v){
-            $search[$k] = '`'. preg_quote($search[$k], '`'). '`';
-        }
-    }else{
-        $search = '`'. preg_quote($search, '`'). '`';
-    }
+    if(is_array($search)) foreach($search as $k=>$v) $search[$k] = '`'. preg_quote($search[$k], '`'). '`';
+    else $search = '`'. preg_quote($search, '`'). '`';
+
     return preg_replace($search, $replace, $subject, $limit);
 }
 
@@ -649,6 +647,7 @@ function getHtml(){
 
     $GLOBALS['html']=   downfile($GLOBALS['geturl']);
 
+
  //   $GLOBALS['html'] = $caiji->post($GLOBALS['geturl'], $_POST);
     $GLOBALS['isgetnew']=true;
     return   true;
@@ -689,9 +688,17 @@ function is_ssl_down(){
     return  $GLOBALS['v_config']['ssl_down'];
 
 }
+
+function getRefer(){
+  return  isset($GLOBALS['caiji_config']['referer'])?$GLOBALS['caiji_config']['referer']:'';
+}
+
+function getSpider(){
+    return  isset($GLOBALS['caiji_config']['user_agent'])?$GLOBALS['caiji_config']['user_agent']:  'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)';
+}
 function siteAbort($url){
- // $data=  downfile($url);
-   // return $data==''?true :false;
+if($GLOBALS['caiji_config']['use_curl'] &&function_exists('curl_init') && function_exists('curl_exec')){
+
     $ch = curl_init();
     curl_setopt($ch,CURLOPT_FOLLOWLOCATION,1);
     curl_setopt($ch,CURLOPT_RETURNTRANSFER,1); //不显示在屏幕上
@@ -699,10 +706,12 @@ function siteAbort($url){
     $timeout=isset($GLOBALS['v_config']['obort_timeout'])?$GLOBALS['v_config']['obort_timeout']:2;
     curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT,$timeout);                                                                       //3秒超时
     curl_setopt($ch,CURLOPT_URL,$url);
-
-    !is_ssl_down() and  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+    $brower = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2)';
+    curl_setopt($ch, CURLOPT_USERAGENT, $brower);
+    curl_setopt($ch, CURLOPT_USERAGENT, getSpider());
+    curl_setopt ($ch, CURLOPT_REFERER, getRefer());
+   !is_ssl_down() and  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
     !is_ssl_down() and    curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-
 
     curl_exec($ch);
     $httpcode = curl_getinfo($ch,CURLINFO_HTTP_CODE);
@@ -710,6 +719,12 @@ function siteAbort($url){
     $httpcode==200 and  $GLOBALS['content_type']=$res['content_type'];
     $GLOBALS['httpcode']=$httpcode;
     curl_close($ch);
+}else if(ini_get('allow_url_fopen')){
+    $opt = array('http' =>array('method' => 'GET', 'header' => "referer: " .$_SERVER['HTTP_REFERER'], 'timeout' => 300))       ;
+    $context = stream_context_create($opt)or die('服务器不支持 stream_context_create');
+    $data = @file_get_contents($url, false, $context);
+    $data!=false and $httpcode=200;
+}
     return $httpcode!=200;
 }
 

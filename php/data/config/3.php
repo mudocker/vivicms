@@ -1,21 +1,23 @@
 <?php
 return array (
-  'name' => '腾讯',
-  'from_title' => '腾讯',
-  'from_url' => 'http://www.qq.com/',
-  'charset' => 'gb2312',
+  'name' => 'hao123',
+  'from_title' => 'hao123',
+  'from_url' => 'https://www.hao123.com/?1535632972',
+  'charset' => 'utf-8',
   'other_url' => '',
   'resdomain' => '',
   'img_delay_name' => '',
   'search_url' => '',
-  'search_charset' => 'gb2312',
-  'hidejserror' => '0',
+  'search_charset' => 'utf-8',
+  'hidejserror' => '1',
   'no_siteapp' => '0',
   'licence' => '',
   'body_start' => '',
   'body_end' => '',
   'replacerules' => '/----------------文字替换（本行格式为注释,仅用于方便查看,下同）----------------/
-靓妹******{web_name}
+##########
+这里可以写替换规则
+##########
 /----------------图片替换----------------/
 ##########
 这里可以写替换规则
@@ -42,6 +44,11 @@ return array (
   'referer' => 'http://www.baidu.com/search/spider.htm',
   'ip' => '',
   'ip_type' => '1',
+  'jsdomain' => '',
+  'cssdomain' => '',
+  'fontdomain' => '',
+  'htmldomain' => '',
+  'use_curl' => '1',
   'zdy' => 
   array (
     0 => 
@@ -59,11 +66,6 @@ return array (
     0 => 'iframe',
     1 => 'object',
   ),
-  'time' => 1535636697,
-  'jsdomain' => '',
-  'cssdomain' => '',
-  'fontdomain' => '',
-  'htmldomain' => '',
-  'use_curl' => '1',
+  'time' => 1535636682,
 );
 ?>

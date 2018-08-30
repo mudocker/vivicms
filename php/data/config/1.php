@@ -19,7 +19,7 @@ return array (
     0 => 'iframe',
     1 => 'outjs',
   ),
-  'time' => 1535629746,
+  'time' => 1535636626,
   'search_url' => '',
   'search_charset' => 'utf-8',
   'from_title' => '极思维',
@@ -36,8 +36,8 @@ return array (
   'body_end' => '',
   'css' => 'http://www.topthink.com/',
   'cookie' => '',
-  'user_agent' => '',
-  'referer' => '',
+  'user_agent' => 'Baiduspider/2.0+(+http://www.baidu.com/search/spider.htm)',
+  'referer' => 'http://www.baidu.com/search/spider.htm',
   'ip' => '202.106.169.228:8080',
   'ip_type' => '1',
   'replace_before_on' => '0',
@@ -58,5 +58,6 @@ return array (
   'img_delay_name' => 'data-original',
   'no_siteapp' => '0',
   'plus' => '',
+  'use_curl' => '1',
 );
 ?>

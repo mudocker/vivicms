@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/ac_null.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/export.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/right_main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config0.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config_button.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config_gaiji.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T025810.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T031108.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T032614.200.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T034019.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T034919.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T035158.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T040954.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T042318.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T042342.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T042451.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T043002.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T043855.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T044310.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/admin/caiji_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/caiji_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/admin/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/config/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib/micro.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib/micro.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/config/2.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config/2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/deltime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/deltime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/replace/replace_pic.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/replace/replace_pic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules/headerContextType.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/headerContextType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/lib/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/rules.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +94,7 @@
     <session id="-1610963567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.148" value="1" />
@@ -102,9 +108,10 @@
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -116,15 +123,15 @@
           <entry key="css" value="20" />
           <entry key="gitignore" value="2" />
           <entry key="htaccess" value="63" />
-          <entry key="html" value="87" />
+          <entry key="html" value="92" />
           <entry key="http" value="5" />
           <entry key="ini" value="2" />
-          <entry key="jpg" value="7" />
+          <entry key="jpg" value="8" />
           <entry key="js" value="13" />
           <entry key="json" value="21" />
           <entry key="log" value="4" />
           <entry key="md" value="8" />
-          <entry key="php" value="3702" />
+          <entry key="php" value="3785" />
           <entry key="ttf" value="4" />
           <entry key="txt" value="9" />
         </counts>
@@ -134,14 +141,14 @@
           <entry key="CSS" value="20" />
           <entry key="Cmd" value="1" />
           <entry key="Enforced Plain Text" value="2" />
-          <entry key="HTML" value="85" />
-          <entry key="Image" value="7" />
+          <entry key="HTML" value="90" />
+          <entry key="Image" value="8" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="21" />
           <entry key="JavaScript" value="13" />
           <entry key="Log" value="4" />
           <entry key="Markdown" value="8" />
-          <entry key="PHP" value="3702" />
+          <entry key="PHP" value="3785" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="19" />
@@ -156,24 +163,24 @@
           <entry key="dummy" value="18" />
           <entry key="gitignore" value="4" />
           <entry key="htaccess" value="235" />
-          <entry key="html" value="12" />
+          <entry key="html" value="14" />
           <entry key="ini" value="2" />
           <entry key="js" value="2" />
           <entry key="json" value="91" />
           <entry key="md" value="10" />
-          <entry key="php" value="18778" />
+          <entry key="php" value="19293" />
           <entry key="txt" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="26" />
-          <entry key="HTML" value="21" />
+          <entry key="HTML" value="24" />
           <entry key="Ini" value="2" />
           <entry key="JSON" value="91" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="10" />
-          <entry key="PHP" value="19015" />
+          <entry key="PHP" value="19529" />
           <entry key="PLAIN_TEXT" value="89" />
           <entry key="SmartyConfig" value="5" />
           <entry key="htaccess" value="235" />
@@ -195,16 +202,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php">
+        <entry file="file://$PROJECT_DIR$/php/rules.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#tbody#0;n#!!top" expanded="true" />
-                <element signature="n#tr#0;n#tbody#0;n#!!top" />
-                <element signature="n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-                <element signature="n#tr#1;n#tbody#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/replace/replace_pic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -212,8 +222,42 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/data/config/1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="177">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/SiteAbortReadCache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/lib/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="485" selection-start-line="485" selection-end-line="485" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#6#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/data/BaseGlobal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -231,11 +275,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>v_config</find>
-      <find>function __get($name)</find>
-      <find>isouturl</find>
-      <find>parse_url</find>
-      <find>resdomain</find>
       <find>obort_timeout</find>
       <find>charset</find>
       <find>schema</find>
@@ -261,6 +300,11 @@
       <find>caiji_config</find>
       <find>VV_CAIJI</find>
       <find>./caiji_config/</find>
+      <find>allow_url_fopen</find>
+      <find>$opt = array('http' =&gt;array('method'</find>
+      <find>replace_web_keywords</find>
+      <find>javascr</find>
+      <find>$brower</find>
     </findStrings>
     <replaceStrings>
       <replace>$G</replace>
@@ -317,15 +361,11 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response295.html" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response31.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/data/replace/html_gbk_utf8.php" />
-        <option value="$PROJECT_DIR$/php/data/replace/replace_to_utf8.php" />
-        <option value="$PROJECT_DIR$/php/data/caiji/curl.php" />
-        <option value="$PROJECT_DIR$/php/data/cache/.gitignore" />
         <option value="$PROJECT_DIR$/php/README.md" />
         <option value="$PROJECT_DIR$/php/data/rules/get_caiji_config.php" />
         <option value="$PROJECT_DIR$/php/data/rules/encodeQS.php" />
@@ -340,22 +380,14 @@
         <option value="$PROJECT_DIR$/php/data/rules/getFromUrl.php" />
         <option value="$PROJECT_DIR$/php/data/params/GetParaseUrlSchema.php" />
         <option value="$PROJECT_DIR$/php/data/rules/urlext/getExt.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/headerContextType.php" />
         <option value="$PROJECT_DIR$/php/data/params/GetParaseUrl_Schema_Host.php" />
         <option value="$PROJECT_DIR$/php/lib/FileDownload.php" />
         <option value="$PROJECT_DIR$/php/data/SiteAbortReadCache.php" />
         <option value="$PROJECT_DIR$/php/data/replace/getAllLink.php" />
         <option value="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" />
-        <option value="$PROJECT_DIR$/php/data/config/2.php" />
         <option value="$PROJECT_DIR$/php/data/replace/replace_web_description.php" />
         <option value="$PROJECT_DIR$/php/data/replace/replace_src.php" />
-        <option value="$PROJECT_DIR$/php/data/config.php" />
-        <option value="$PROJECT_DIR$/php/rules.php" />
-        <option value="$PROJECT_DIR$/php/lib/function.php" />
-        <option value="$PROJECT_DIR$/php/data/replace/replace_pic.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji_config/ac_null.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/export.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/ac_null.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config6.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config5.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config4.php" />
@@ -368,11 +400,23 @@
         <option value="$PROJECT_DIR$/php/admin/caiji_config.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config6.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/right_main.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/import.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/xiugai_add.php" />
         <option value="$PROJECT_DIR$/php/admin/footer.php" />
-        <option value="$PROJECT_DIR$/php/data/config/1.php" />
+        <option value="$PROJECT_DIR$/php/admin/caiji/import.php" />
+        <option value="$PROJECT_DIR$/php/admin/caiji/export.php" />
+        <option value="$PROJECT_DIR$/php/admin/caiji/ac_null.php" />
+        <option value="$PROJECT_DIR$/php/data/config.php" />
+        <option value="$USER_HOME$/Desktop/1.html" />
+        <option value="$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php" />
+        <option value="$PROJECT_DIR$/php/data/cache/html/d7/b2/d7b2b825ee2a790e.html" />
         <option value="$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php" />
+        <option value="$PROJECT_DIR$/php/data/config/2.php" />
+        <option value="$PROJECT_DIR$/php/data/rules/headerContextType.php" />
+        <option value="$PROJECT_DIR$/php/data/config/1.php" />
+        <option value="$PROJECT_DIR$/php/inc/robot.php" />
+        <option value="$PROJECT_DIR$/php/rules.php" />
+        <option value="$PROJECT_DIR$/php/lib/function.php" />
+        <option value="$PROJECT_DIR$/php/data/replace/replace_pic.php" />
       </list>
     </option>
   </component>
@@ -382,7 +426,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" xdebug_force_break_when_no_path_mapping="false" />
+  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" xdebug_force_break_when_no_path_mapping="false" />
   <component name="PhpServers">
     <servers>
       <server host="v.cn" id="65de479e-d800-41a6-b6a2-5fec2ee40318" name="v.cn" />
@@ -412,7 +456,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,12 +479,20 @@
               <item name="vivicms" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,6 +527,42 @@
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://v.cn" />
           <option name="urlPath" value="" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/L3VzZXIvdmVyaWZ5Lmh0bWw=.jpg" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/L1B1YmxpYy9zdGF0aWMvanF1ZXJ5LTIuMC4zLm1pbi5qcw==.js" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/L1B1YmxpYy9Ib21lL2pzL2NvbW1vbi5taW4uanM/dj0yMDE0MTIwOA==.js" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/aHR0cDovL2JveC50b3B0aGluay5jb20vVXBsb2Fkcy9QaWN0dXJlLzIwMTgtMDgtMTUvNWI3Mzk3YjNhOGQzNy5qcGc=.jpg" />
           <option name="parametersEnabled" value="true" />
           <option name="haveFileToSend" value="true" />
           <option name="textToSend" value="" />
@@ -2107,244 +2194,6 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="l.cn" />
-                <option name="name" value="PHPSESSID" />
-                <option name="path" value="/" />
-                <option name="value" value="3silh9jc3l6l26g1bf6dvo0sp2" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="www.topthink.com" />
-                <option name="name" value="__jsluid" />
-                <option name="path" value="/" />
-                <option name="value" value="0f0e7adb5c9e31dc22029864f627766d" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="/L1B1YmxpYy9zdGF0aWMvanF1ZXJ5LTIuMC4zLm1pbi5qcw==.js" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="l.cn" />
-                <option name="name" value="PHPSESSID" />
-                <option name="path" value="/" />
-                <option name="value" value="3silh9jc3l6l26g1bf6dvo0sp2" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="www.topthink.com" />
-                <option name="name" value="__jsluid" />
-                <option name="path" value="/" />
-                <option name="value" value="0f0e7adb5c9e31dc22029864f627766d" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="l.cn" />
-                <option name="name" value="PHPSESSID" />
-                <option name="path" value="/" />
-                <option name="value" value="3silh9jc3l6l26g1bf6dvo0sp2" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="www.topthink.com" />
-                <option name="name" value="__jsluid" />
-                <option name="path" value="/" />
-                <option name="value" value="0f0e7adb5c9e31dc22029864f627766d" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="/event/26521.html" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="6.cn" />
-                <option name="name" value="y_Cookie" />
-                <option name="path" value="/" />
-                <option name="value" value="21232f297a57a5a743894a0e4a801fc3" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="x_Cookie" />
-                <option name="path" value="" />
-                <option name="value" value="admin" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="UM_distinctid" />
-                <option name="path" value="" />
-                <option name="value" value="1657f42de88650-05a730a74db8f8-323b5b03-1fa400-1657f42de894bf" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="CNZZDATA30082026" />
-                <option name="path" value="" />
-                <option name="value" value="cnzz_eid%3D1850242030-1535434772-%26ntime%3D1535434772" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="cid" />
-                <option name="path" value="" />
-                <option name="value" value="15354384134634m480fcwvcsc" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="sid" />
-                <option name="path" value="" />
-                <option name="value" value="1535438413464" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="fid" />
-                <option name="path" value="" />
-                <option name="value" value="1191" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="" />
-                <option name="name" value="BAOFENGID" />
-                <option name="path" value="" />
-                <option name="value" value="25f96869-516b-fe76-d355-f5cf0ea13c28-1535438413502" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="/" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Referer" />
-                <option name="value" value="http://6.cn/admin/txt.php" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Origin" />
-                <option name="value" value="http://6.cn" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Host" />
-                <option name="value" value="6.cn" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Accept-Encoding" />
-                <option name="value" value="gzip, deflate" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Connection" />
-                <option name="value" value="keep-alive" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Accept-Language" />
-                <option name="value" value="zh-CN,zh;q=0.9" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="X-Requested-With" />
-                <option name="value" value="XMLHttpRequest" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="User-Agent" />
-                <option name="value" value="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parameters">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="code" />
-                <option name="value" value="ddd" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="lsaction" />
-                <option name="value" value="c3" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2413,7 +2262,8 @@
       <workItem from="1535355956668" duration="23539000" />
       <workItem from="1535419517986" duration="50855000" />
       <workItem from="1535524480434" duration="24971000" />
-      <workItem from="1535591433139" duration="28435000" />
+      <workItem from="1535591433139" duration="32750000" />
+      <workItem from="1535633696476" duration="3893000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2426,7 +2276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281187000" />
+    <option name="totallyTimeSpent" value="289395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2439,15 +2289,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2774228" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2800852" />
       <window_info id="Structure" order="2" weight="0.24920128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.33045357" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" weight="0.36933047" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" weight="0.36717063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32829374" />
@@ -2455,8 +2304,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4968051" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5798722" side_tool="true" weight="0.32829374" />
-      <window_info anchor="bottom" id="REST Client" order="11" sideWeight="0.4201278" weight="0.32829374" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4888179" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="REST Client" order="11" sideWeight="0.4201278" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4888179" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2511,8 +2360,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/php/rules.php</url>
-          <line>66</line>
-          <option name="timeStamp" value="39" />
+          <line>111</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/rules.php</url>
+          <line>67</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/rules.php</url>
+          <line>99</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2617,6 +2476,16 @@
     </expressions>
     <expressions id="setValue">
       <expression>
+        <expression-string>&quot;https://www.topthink.com/Public/static/jquery-2.0.3.min.js&quot;</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;http:://www.topthink.com/Public/Home/js/common.min.js?v=20141208&quot;</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>&quot;https://inews.gtimg.com/newsapp_ls/0/5056577055_294195/0.jpg&quot;</expression-string>
         <language-id>PHP</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -2661,174 +2530,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/data/rules/setCharset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="499" column="9" selection-start-line="499" selection-start-column="9" selection-end-line="499" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/params/GetParaseUrl_Schema_Host.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="459" column="9" selection-start-line="459" selection-start-column="9" selection-end-line="459" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/lib/FileDownload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mbstring/mbstring.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="588" column="34" selection-start-line="588" selection-start-column="30" selection-end-line="588" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/iconv/iconv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_to_utf8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/SiteAbortReadCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config/2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/del_target_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="1170" column="9" selection-start-line="1170" selection-start-column="9" selection-end-line="1170" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/getTargetUrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/flow/getCacheFilenName.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/BaseGlobal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_web_description.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="518" column="9" selection-start-line="518" selection-start-column="9" selection-end-line="518" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_src.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/search_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/cache/html/82/79/82795681125321b2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/data/replace/getAllLink.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -2843,20 +2544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/lib/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="479" column="9" selection-start-line="479" selection-start-column="9" selection-end-line="479" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -2867,241 +2554,20 @@
     <entry file="file://$PROJECT_DIR$/php/data/cache/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_pic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/rules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/ac_null.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#220#307#0#PHP" />
-            <element signature="n#table#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#!!top" />
-            <element signature="e#1286#1447#0#PHP" />
-            <element signature="n#tr#1;n#table#0;n#!!top" />
-            <element signature="n#tr#2;n#table#0;n#!!top" />
-            <element signature="e#1822#3491#0#PHP" />
-            <element signature="e#1841#3376#0#PHP" />
-            <element signature="n#tr#3;n#table#0;n#!!top" />
-            <element signature="n#td#0;n#tr#3;n#table#0;n#!!top" />
-            <element signature="e#1947#1952#0#PHP" />
-            <element signature="e#2169#2174#0#PHP" />
-            <element signature="e#2253#2258#0#PHP" />
-            <element signature="e#2278#2283#0#PHP" />
-            <element signature="n#td#3;n#tr#3;n#table#0;n#!!top" />
-            <element signature="e#2334#2339#0#PHP" />
-            <element signature="n#td#4;n#tr#3;n#table#0;n#!!top" />
-            <element signature="e#2666#2671#0#PHP" />
-            <element signature="e#2830#2835#0#PHP" />
-            <element signature="e#2897#2902#0#PHP" />
-            <element signature="e#3027#3032#0#PHP" />
-            <element signature="e#3096#3101#0#PHP" />
-            <element signature="e#3162#3167#0#PHP" />
-            <element signature="e#3228#3233#0#PHP" />
-            <element signature="e#3291#3296#0#PHP" />
-            <element signature="e#3382#3491#0#PHP" />
-            <element signature="n#tr#4;n#table#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="n#table#0;n#!!top" />
-            <element signature="n#tbody#0;n#table#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#table#0;n#!!top" />
-            <element signature="n#tr#0;n#table#0;n#!!top" />
-            <element signature="e#444#449#0#PHP" />
-            <element signature="n#tr#1;n#table#0;n#!!top" />
-            <element signature="n#td#0;n#tr#1;n#table#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#0;n#tr#1;n#table#0;n#!!top" />
-            <element signature="e#722#727#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="n#tbody#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="e#523#528#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="e#391#395#0#HTML" expanded="true" />
-            <element signature="e#400#404#0#HTML" expanded="true" />
-            <element signature="e#408#412#0#HTML" expanded="true" />
-            <element signature="e#418#422#0#HTML" expanded="true" />
-            <element signature="e#1318#1324#1#HTML" expanded="true" />
-            <element signature="e#1573#5365#0#PHP" />
-            <element signature="e#1707#1712#0#PHP" />
-            <element signature="e#1734#1739#0#PHP" />
-            <element signature="n#tr#0;n#!!top" />
-            <element signature="e#1809#1814#0#PHP" />
-            <element signature="e#1920#1925#0#PHP" />
-            <element signature="e#1987#1992#0#PHP" />
-            <element signature="e#2124#2129#0#PHP" />
-            <element signature="e#2191#2196#0#PHP" />
-            <element signature="n#td#3;n#tr#0;n#!!top" />
-            <element signature="e#2364#2369#0#PHP" />
-            <element signature="n#select#0;n#td#3;n#tr#0;n#!!top" />
-            <element signature="e#2478#2483#0#PHP" />
-            <element signature="e#2603#2608#0#PHP" />
-            <element signature="e#2727#2732#0#PHP" />
-            <element signature="n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#3009#3014#0#PHP" />
-            <element signature="n#div#0;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#3067#3072#0#PHP" />
-            <element signature="e#3181#3186#0#PHP" />
-            <element signature="n#textarea#0;n#div#0;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#3373#3378#0#PHP" />
-            <element signature="e#3550#3555#0#PHP" />
-            <element signature="n#div#1;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#3608#3613#0#PHP" />
-            <element signature="e#3727#3732#0#PHP" />
-            <element signature="n#textarea#0;n#div#1;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#3919#3924#0#PHP" />
-            <element signature="e#4099#4104#0#PHP" />
-            <element signature="n#div#2;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#4157#4162#0#PHP" />
-            <element signature="e#4326#4331#0#PHP" />
-            <element signature="n#textarea#0;n#div#2;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#4519#4524#0#PHP" />
-            <element signature="e#4744#4749#0#PHP" />
-            <element signature="n#textarea#1;n#div#2;n#td#4;n#tr#0;n#!!top" />
-            <element signature="e#4935#4940#0#PHP" />
-            <element signature="n#script#0;n#!!top" />
-            <element signature="e#5534#5720#0#HTML" />
-            <element signature="e#5772#6520#0#HTML" />
-            <element signature="e#6143#6247#0#HTML" />
-            <element signature="e#6263#6370#0#HTML" />
-            <element signature="e#6386#6490#0#HTML" />
-            <element signature="e#6577#9678#0#HTML" />
-            <element signature="e#6644#8645#0#HTML" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#td#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#2;n#td#0;n#!!top" expanded="true" />
-            <element signature="e#649#655#0" expanded="true" />
-            <element signature="n#style#0;n#textarea#1;n#div#2;n#td#0;n#!!top" expanded="true" />
-            <element signature="e#4#10#1" expanded="true" />
-            <element signature="e#8709#9646#0#HTML" />
-            <element signature="e#8872#9560#0#HTML" />
-            <element signature="e#8984#8989#0#PHP" />
-            <element signature="e#9301#9522#0#HTML" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
-          <folding>
-            <element signature="n#tbody#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="e#471#476#0#PHP" />
-            <element signature="n#textarea#1;n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="e#751#756#0#PHP" />
-            <element signature="n#tr#1;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#1;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#1;n#tbody#0;n#!!top" />
-            <element signature="e#1193#1295#0#PHP" />
-            <element signature="e#1410#1512#0#PHP" />
-            <element signature="e#1627#1713#0#PHP" />
-            <element signature="e#1826#1910#0#PHP" />
-            <element signature="e#2022#2107#0#PHP" />
-            <element signature="e#2223#2311#0#PHP" />
-            <element signature="e#2428#2514#0#PHP" />
-            <element signature="e#2629#2715#0#PHP" />
-            <element signature="e#2827#2910#0#PHP" />
-            <element signature="e#3021#3106#0#PHP" />
-            <element signature="e#3216#3298#0#PHP" />
-            <element signature="e#3405#3487#0#PHP" />
-            <element signature="e#3594#3676#0#PHP" />
-            <element signature="e#3785#3869#0#PHP" />
-            <element signature="e#3979#4062#0#PHP" />
-            <element signature="e#4172#4256#0#PHP" />
-            <element signature="e#4364#4445#0#PHP" />
-            <element signature="e#4553#4637#0#PHP" />
-            <element signature="e#4749#4834#0#PHP" />
-            <element signature="n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="e#5164#5248#0#PHP" />
-            <element signature="e#5385#5470#0#PHP" />
-            <element signature="e#5610#5696#0#PHP" />
-            <element signature="e#5837#5923#0#PHP" />
-            <element signature="e#6063#6150#0#PHP" />
-            <element signature="e#6293#6381#0#PHP" />
-            <element signature="n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#div#0;n#td#0;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#div#1;n#td#0;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="e#7847#7852#0#PHP" />
-            <element signature="e#7853#8286#0#PHP" />
-            <element signature="n#td#1;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="e#8483#8488#0#PHP" />
-            <element signature="n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#font#0;n#td#0;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#div#0;n#font#0;n#td#0;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#div#1;n#font#0;n#td#0;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="e#9634#9639#0#PHP" />
-            <element signature="n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="e#10091#10096#0#PHP" />
-            <element signature="e#10279#10284#0#PHP" />
-            <element signature="n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="e#10449#10454#0#PHP" />
-            <element signature="n#td#1;n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="e#10847#10852#0#PHP" />
-            <element signature="n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="e#11052#11057#0#PHP" />
-            <element signature="n#td#1;n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="e#11449#11454#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3109,63 +2575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding>
-            <element signature="n#tbody#0;n#!!top" />
-            <element signature="n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="e#191#196#0#PHP" />
-            <element signature="n#tr#1;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#1;n#tbody#0;n#!!top" />
-            <element signature="e#551#556#0#PHP" />
-            <element signature="n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="e#984#989#0#PHP" />
-            <element signature="n#select#0;n#td#1;n#tr#2;n#tbody#0;n#!!top" />
-            <element signature="e#1214#1219#0#PHP" />
-            <element signature="e#1375#1380#0#PHP" />
-            <element signature="e#1504#1509#0#PHP" />
-            <element signature="e#1629#1634#0#PHP" />
-            <element signature="e#1751#1756#0#PHP" />
-            <element signature="n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#3;n#tbody#0;n#!!top" />
-            <element signature="e#2259#2264#0#PHP" />
-            <element signature="n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="e#2824#2829#0#PHP" />
-            <element signature="n#input#0;n#td#1;n#tr#4;n#tbody#0;n#!!top" />
-            <element signature="n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#5;n#tbody#0;n#!!top" />
-            <element signature="e#3368#3373#0#PHP" />
-            <element signature="n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="e#3771#3776#0#PHP" />
-            <element signature="n#input#0;n#td#1;n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="n#select#0;n#td#1;n#tr#6;n#tbody#0;n#!!top" />
-            <element signature="e#4018#4023#0#PHP" />
-            <element signature="e#4196#4201#0#PHP" />
-            <element signature="e#4328#4333#0#PHP" />
-            <element signature="e#4457#4462#0#PHP" />
-            <element signature="n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="n#select#0;n#td#1;n#tr#7;n#tbody#0;n#!!top" />
-            <element signature="e#4881#4886#0#PHP" />
-            <element signature="e#5001#5006#0#PHP" />
-            <element signature="n#tr#8;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#8;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#8;n#tbody#0;n#!!top" />
-            <element signature="n#select#0;n#td#1;n#tr#8;n#tbody#0;n#!!top" />
-            <element signature="e#5421#5426#0#PHP" />
-            <element signature="e#5540#5545#0#PHP" />
-            <element signature="n#tr#9;n#tbody#0;n#!!top" />
-            <element signature="n#td#0;n#tr#9;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#9;n#tbody#0;n#!!top" />
-            <element signature="n#textarea#0;n#td#1;n#tr#9;n#tbody#0;n#!!top" />
-            <element signature="e#6028#6033#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3190,21 +2599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="n#tr#0;n#form#0;n#table#0;n#!!top" />
-            <element signature="n#tr#1;n#form#0;n#table#0;n#!!top" />
-            <element signature="n#td#0;n#tr#1;n#form#0;n#table#0;n#!!top" />
-            <element signature="n#style#0;n#textarea#0;n#td#0;n#tr#1;n#form#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#td#0;n#tr#0;n#tbody#1;n#form#0;n#table#0;n#!!top" />
-            <element signature="e#1042#1048#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3236,13 +2630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/right_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -3250,30 +2637,240 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/admin/caiji/import.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/admin/caiji/right_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/admin/caiji/export.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/admin/caiji/ac_null.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="75" column="20" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/data/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="399">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1878">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_before_on.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1046" column="26" selection-start-line="1046" selection-start-column="9" selection-end-line="1046" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="171">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/config/2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_title.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/setCharset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/font.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/cache/jpg/b9/eb/b9eba7cf9432666a.jpg" />
+    <entry file="file://$PROJECT_DIR$/php/data/ReadCacheNoTimeout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_style_by_caiji_config_css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/cache/html/d7/b2/d7b2b825ee2a790e.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/headerContextType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/inc/robot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_to_utf8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/echo_html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/getTargetUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/flow/SaveCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/SiteAbortReadCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/lib/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
           <folding>
-            <element signature="n#style#0;n#tbody#0;n#!!top" expanded="true" />
-            <element signature="n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#td#1;n#tr#0;n#tbody#0;n#!!top" />
-            <element signature="n#tr#1;n#tbody#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#6#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/BaseGlobal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_pic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/data/config/1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="177">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
