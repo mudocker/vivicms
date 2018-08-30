@@ -8,6 +8,7 @@ if(function_exists('curl_init') && function_exists('curl_exec')){
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_COOKIE, $cookie);
     curl_setopt($ch, CURLOPT_REFERER, $referer);
+    $timeout=3;
     curl_setopt($ch, CURLOPT_TIMEOUT, $timeout);
     curl_setopt($ch, CURLOPT_USERAGENT, $user_agent);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);

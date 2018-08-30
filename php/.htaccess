@@ -1,13 +1,16 @@
+<IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)\.js(.*)$   js.php?/$1 [QSA,PT]
 RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.css(.*)$   css.php?/$1 [QSA,PT]
+RewriteRule ^(.*)\.js(.*)$   js.php?/$1 [QSA,PT,L]
 RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(gif|jpg|png|jpeg)(.*)$   img.php?/$1 [QSA,PT]
+RewriteRule ^(.*)\.css(.*)$   css.php?/$1 [QSA,PT,L]
 RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(ttf|woff)(.*)$   font.php?/$1 [QSA,PT]
+RewriteRule ^(.*)\.(gif|jpg|png|jpeg)(.*)$  img.php?/$1 [QSA,PT,L]
 RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(html|htm)(.*)$   html.php?/$1 [QSA,PT,L]
+RewriteRule ^(.*)\.(ttf|woff)(.*)$  font.php?/$1 [QSA,PT,L]
 RewriteCond $1 !^(admin|public_admin)
+RewriteRule ^(.*)\.(html|htm)(.*)$  html.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin)
+</IfModule>

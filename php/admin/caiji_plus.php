@@ -1,5 +1,8 @@
-<?php require_once("data.php");
-$v_config = require_once("../data/config.php");
+<?php
+require_once('autoload.php');
+require_once("data.php");
+$v_config = require_once(VV_DATA."/config.php");
+exit('可能有漏洞,暂时关闭')  ;
 require_once("checkAdmin.php");
  define('VV_PLUS', true);
 $ac = isset($_GET['ac'])?$_GET['ac']:'';
@@ -12,26 +15,21 @@ if($ac == 'save'){
     $plusconfig = require_once($plusconfig_file);
     $config = $_POST['plus']?$_POST['plus']:$_POST['con'];
     foreach($config as $k => $vo){
-        if(!is_array($vo)){
-            $config[$k] = get_magic(trim($vo));
-        }
+        if(!is_array($vo)) $config[$k] = get_magic(trim($vo));
+
     }
-    if($plusconfig){
-        $plusconfig = @array_merge($plusconfig, $config);
-    }else{
-        $plusconfig = $config;
-    }
-    if($plusconfig){
-        arr2file($plusconfig_file, $plusconfig);
-    }
+    if($plusconfig) $plusconfig = @array_merge($plusconfig, $config);
+    else $plusconfig = $config;
+
+    $plusconfig and  arr2file($plusconfig_file, $plusconfig);
+
     ShowMsg("恭喜你,保存成功！", '?', 500);
     exit;
 }else if($ac == 'del'){
     $name = $_GET['name'];
     $name = preg_replace('~[^\w]+~', '', $name);
-    if(is_dir(VV_DATA . '/plus/' . $name)){
-        @removedir(VV_DATA . '/plus/' . $name);
-    }
+   is_dir(VV_DATA . '/plus/' . $name) and  @removedir(VV_DATA . '/plus/' . $name);
+
     ShowMsg("恭喜你,删除成功！", '?', 500);
     exit;
 }else if($ac == 'up'){
@@ -63,17 +61,15 @@ if($ac == 'save'){
 if(!empty($_FILES['plusfile']['name']) && !empty($_FILES['plusfile']['tmp_name']) && $_FILES['plusfile']['error'] == '0'){
     $file_name = $_FILES['plusfile']['name'];
     $tmp_name = $_FILES['plusfile']['tmp_name'];
-    if(@is_uploaded_file($tmp_name) === false) ShowMsg($file_name . "上传失败。", '-1', 2000);
+    @is_uploaded_file($tmp_name) === false and  ShowMsg($file_name . "上传失败。", '-1', 2000);
 
     $filepath = VV_DATA . '/plus.zip';
-    if(move_uploaded_file($tmp_name, $filepath) === false){
-        ShowMsg("上传插件文件失败。", '?', 1000);
-    }
+    move_uploaded_file($tmp_name, $filepath) === false and  ShowMsg("上传插件文件失败。", '?', 1000);
+
     require_once(VV_INC . '/pclzip.class.php');
     $archive = new PclZip($filepath);
-    if($archive -> extract(PCLZIP_OPT_PATH, VV_DATA . '/plus', PCLZIP_OPT_REPLACE_NEWER) == 0){
-        ShowMsg("插件解压失败，Error : " . $archive -> errorInfo(true), "-1", 300000);
-    }else{
+    if($archive -> extract(PCLZIP_OPT_PATH, VV_DATA . '/plus', PCLZIP_OPT_REPLACE_NEWER) == 0) ShowMsg("插件解压失败，Error : " . $archive -> errorInfo(true), "-1", 300000);
+    else{
         @unlink($filepath);
         ShowMsg('恭喜你,插件上传成功！', "?", 0, 500);
     }

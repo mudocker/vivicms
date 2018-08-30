@@ -16,9 +16,9 @@ class downFont extends BaseGlobal
 
 
      function __construct(){
-         return;
+        return;
         if($this->urlext != 'ttf') return;
-         header("Content-type: application/octet-stream");
+        header("Content-type: application/octet-stream;");
         header("Location: {$this->geturl}");
         exit;
     }

@@ -22,7 +22,7 @@ class downloadImage extends BaseGlobal {
 
         if(!$isCahce|| !checktime_log_timeout())  return;
 
-        header("Content-Type: image/jpeg; charset=UTF-8");
+     //   $GLOBALS['urlext']!='jpg' and    header("Content-Type: image/jpeg; charset=UTF-8");
         header("Location: {$this->geturl}");
         exit();
 

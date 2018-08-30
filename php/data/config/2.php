@@ -1,14 +1,14 @@
 <?php
 return array (
-  'name' => '泉州',
-  'from_title' => '泉州人才网',
-  'from_url' => 'http://qzrc.com',
-  'charset' => 'gb2312',
+  'name' => '腾讯',
+  'from_title' => '腾讯',
+  'from_url' => 'http://www.qq.com/',
+  'charset' => 'GB2312',
   'other_url' => '',
-  'resdomain' => 'http://qzrc.com',
+  'resdomain' => '',
   'img_delay_name' => '',
   'search_url' => '',
-  'search_charset' => 'gb2312',
+  'search_charset' => 'GB2312',
   'hidejserror' => '0',
   'no_siteapp' => '0',
   'licence' => '',
@@ -59,6 +59,6 @@ return array (
     0 => 'iframe',
     1 => 'object',
   ),
-  'time' => 1535379717,
+  'time' => 1535549270,
 );
 ?>

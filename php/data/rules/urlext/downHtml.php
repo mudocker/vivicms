@@ -21,7 +21,7 @@ class downHtml extends BaseGlobal
     {
 
         if($this->urlext != 'html') return;
-        header("Content-type: text/html");
+        header("Content-type: text/html; charset=UTF-8");
         $this->getCacheFile();
         $this->headerHtml();
         $this->setCacheOn();

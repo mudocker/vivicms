@@ -1,10 +1,5 @@
 <?php
-/**
- * --------------------------
- * vivi小偷网站系统
- * qq:996948519
- * ---------------------------
- */
+require_once('autoload.php');
 require_once('data.php');
 require_once('checkAdmin.php');
 require_once 'tmp_header.php';

@@ -1,430 +1,236 @@
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+GET http://v.cn
 
-<> 2018-08-28T025658.200.html
-
-###
-
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025633.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025626.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025614.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025603.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025552.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-
-<> 2018-08-28T025452.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-
-<> 2018-08-28T025208.200.html
-
-###
-
-POST http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-Referer: http://6.cn/admin/txt.php
-Origin: http://6.cn
-Host: 6.cn
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Accept-Language: zh-CN,zh;q=0.9
-X-Requested-With: XMLHttpRequest
-
-<> 2018-08-28T025203.200.html
-
-###
-
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-28T025009.200.html
-
-###
-
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-28T024959.200.html
-
-###
-
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://6.cn/admin/admin.php?code=ddd&lsaction=c3
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-28T022223.200.html
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-28T022023.200.html
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-28T021002.200.html
-
-###
-
-GET http://v.cn/Public/static/jplayer/progress.png
-Accept: */*
-Cache-Control: no-cache
+<> 2018-08-30T053824.200.html
 
 ###
 
 GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
 
 ###
 
 GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
 
-<> 2018-08-28T092722.200.html
-
-###
-
-GET http://v.cn/admin/admin.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T094150.200.html
-
-###
-
-GET http://v.cn/admin/admin.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T083957.200.html
-
-###
-
-GET http://v.cn/admin/admin.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T083944.200.html
-
-###
-
-GET http://v.cn/admin/left.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T074302.200.html
-
-###
-
-GET http://v.cn/admin/left.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T074219.200.html
-
-###
-
-GET http://v.cn/admin/left.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T074210.200.html
-
-###
-
-GET http://v.cn/admin/left.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T074131.200.html
-
-###
-
-GET http://v.cn/admin/left.php
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T074118.200.html
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T072119.200.html
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T071046.403.html
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.ttf
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-GET http://v.cn/Public/static/bootstrap/fonts/glyphicons-halflings-regular.woff
-Accept: */*
-Cache-Control: no-cache
+<> 2018-08-30T053015.200.html
 
 ###
 
 GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
 
-<> 2018-08-27T065135.200.html
+<> 2018-08-30T052959.200.html
 
 ###
 
 GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T064931.200.html
 
 ###
 
 GET http://v.cn
-Accept: */*
-Cache-Control: no-cache
 
-<> 2018-08-27T063936.200.html
+<> 2018-08-30T052328.200.html
 
 ###
 
-GET http://v.cn/Public/static/jplayer/circle.player.css
-Accept: */*
-Cache-Control: no-cache
+GET http://v.cn
 
 ###
 
-GET http://v.cn/Public/static/jplayer/circle.player.css
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-08-27T063451.200.css
+GET http://v.cn
 
 ###
 
-GET http://v.cn/event/26521.html
-Accept: */*
-Cache-Control: no-cache
+GET http://v.cn
 
-<> 2018-08-27T063430.200.html
+<> 2018-08-30T050357.200.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T044310.200.html
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T043855.500.html
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T043002.200.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://www.qq.com
+
+###
+
+GET http://v.cn/aHR0cDovL25ldy5xcS5jb20v.html?vivi_time=1535616904omn/20180830/20180830A0ZZ40.html
+
+<> 2018-08-30T042451.500.html
+
+###
+
+GET http://www.qq.com
+
+<> 2018-08-30T042342.200.html
+
+###
+
+GET http://www.qq.com
+
+###
+
+GET http://www.qq.com
+
+<> 2018-08-30T042318.200.html
+
+###
+
+GET /www.qq.com?vivi_time=1535616904omn/20180830/20180830A0ZZ40.html
+
+###
+
+GET http://v.cn/aHR0cDovL25ldy5xcS5jb20v.html?vivi_time=1535616904omn/20180830/20180830A0ZZ40.html
+
+###
+
+GET http://v.cn/aHR0cDovL25ldy5xcS5jb20v.html?vivi_time=1535616904omn/20180830/20180830A0JOR1.html
+
+###
+
+GET http://v.cn/aHR0cDovL25ldy5xcS5jb20v.html?vivi_time=1535616904omn/20180830/20180830A0UO36.html
+
+###
+
+GET http://v.cn/aHR0cDovL25ldy5xcS5jb20v.html?vivi_time=1535616904omn/20180830/20180830A0UO36.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T040954.200.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T035158.200.html
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T034919.200.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T034019.200.html
+
+###
+
+GET http://v.cn/Ly9tYXQxLmd0aW1nLmNvbS9uZXdzL2RjL2xvZ28vaWNvbl9sb2dvX3NzcC5wbmc=.jpg
+
+<> 2018-08-30T032614.200.txt
+
+###
+
+GET http://v.cn/Ly9tYXQxLmd0aW1nLmNvbS9uZXdzL2RjL2xvZ28vaWNvbl9sb2dvX3NzcC5wbmc=.jpg
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9uZXdzLnFxLmNvbS9hLzIwMTgwODMwLzAwMzYzMS5odG0=.html
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9uZXdzLnFxLmNvbS9hLzIwMTgwODMwLzAwMzYzMS5odG0=.html
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9uZXdzLnFxLmNvbS9hLzIwMTgwODMwLzAwMzYzMS5odG0=.html
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9uZXdzLnFxLmNvbS9hLzIwMTgwODMwLzAwMzYzMS5odG0=.html
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9uZXdzLnFxLmNvbS9hLzIwMTgwODMwLzAwMzYzMS5odG0=.html
+
+###
+
+GET http://v.cn
+
+<> 2018-08-30T031108.200.html
+
+###
+
+GET http://v.cn
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9pbmV3cy5ndGltZy5jb20vbmV3c2FwcF9scy8wLzUwNTY1NzcwNTVfMjk0MTk1LzA=.jpg
+
+<> 2018-08-30T025810.200.txt
+
+###
+
+GET http://v.cn/aHR0cHM6Ly9pbmV3cy5ndGltZy5jb20vbmV3c2FwcF9scy8wLzUwNTY1NzcwNTVfMjk0MTk1LzA=.jpg
 
 ###
 

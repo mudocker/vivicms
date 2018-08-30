@@ -20,23 +20,7 @@ class getConfig
 {
     public function __construct()
     {
-        new delcache();                                                                                                              //无
-        new get_caiji_config();                                                                                                //无
-        new encodeQS();                                                                                                      //无
-        new setCharset();                                                                                                        //无
-        new convert_param_charset();                                                                                             //无
-        new getImgDomain();                                                                                                     //无
-        new getFromUrl();
-        new getTargetRootUrl();
-        new defineWebRootAndSign();
-        new getExt();
-        new getTargetUrl();
-        new getCacheFilenName();
-        new search_script();
 
-
-        new getCacheByFileGetContent();
-        new plus_run_before_get();
     }
 
 

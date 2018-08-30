@@ -10,7 +10,6 @@ class getExt extends BaseGlobal {
     public function __construct()
     {
         $this->yulanGeturl();
-        $this->getParaseUrl();
         $this->getUrlPath();
         $this->setExt();
     }
@@ -31,10 +30,7 @@ class getExt extends BaseGlobal {
         $this->urlpath  = geturlpath(  $this->parse_url);
     }
 
-    function getParaseUrl(){
-        $this->parse_url    =  parse_url(SCRIPT == 'search'? $this->searchurl: $this->geturl);
 
-    }
     function setExt(){
 
         if(stripos($_SERVER["HTTP_ACCEPT"], 'text/css') > -1)                                                       $this->urlext= 'css';

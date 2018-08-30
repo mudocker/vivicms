@@ -16,6 +16,7 @@ class replace_before_on extends BaseGlobal
 
     function __construct()
     {
+        if (!isCanReplaceHtml())return;
          plus_run('source');
         if(!$this->caiji_config['replace_before_on'])return;
          run_time(true);

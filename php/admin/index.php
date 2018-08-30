@@ -1,5 +1,5 @@
 <?php
-
+require_once('autoload.php');
 header("Content-type: text/html; charset=utf8");
 ?>
 <html>
@@ -27,16 +27,7 @@ function chk(){
   <tr>
     <td><img src="public_admin/img/top1.gif" width="502" height="70"><?php // 检测后台目录是否更名
 $cururl = $_SERVER['SCRIPT_NAME'];
-if(preg_match('/admin\/index/i', $cururl))
-    {
-     $redmsg = '<div class=\'loginsafe\'>您的管理目录包含admin，为了网站安全,vivi建议你在FTP里把它修改为其它名称！
-
-</div>';
-    }
-else
-    {
-     $redmsg = '';
-    }
+$redmsg = preg_match('/admin\/index/i', $cururl)? '<div class=\'loginsafe\'>您的管理目录包含admin，为了网站安全,vivi建议你在FTP里把它修改为其它名称！</div>':  '';
 echo $redmsg;
 ?></td>
   </tr>

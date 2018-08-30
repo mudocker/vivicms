@@ -1,42 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="mock:///rules.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/admin/admin.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/admin/admin.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/admin/admin_ad.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/admin/admin_ad.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6.1/admin/admin_admin.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/data/ads.conf" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/data/big5.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/data/config.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/data/config/1.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/data/rules_get.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/caiji.class.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/common.inc.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/delcache.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/init.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/init.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/robot.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/inc/sys.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/js.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/6.1/说明必看.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/admin/checkAdmin.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/admin/welcome.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/php/data/conf/linkword.conf" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/config.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/config/3.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/flow/SaveCache.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/core.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/rules_get/linkword_on.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/cache.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/config_ads2.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/css.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/gbk.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/geturl.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/href.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/html_gbk_utf8.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/js.php" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/match_res.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/replace/replace_by_from_title.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/data/rules_get/v_config/sifton.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/inc/common.inc.php" charset="GBK" />
@@ -44,5 +20,6 @@
     <file url="file://$PROJECT_DIR$/php/inc/init.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/inc/sys.php" charset="GBK" />
     <file url="file://$PROJECT_DIR$/php/index.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/php/rules.php" charset="GBK" />
   </component>
 </project>

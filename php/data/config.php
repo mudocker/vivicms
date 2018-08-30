@@ -1,11 +1,11 @@
 <?php
 return array (
   'web_name' => '靓妹',
-  'web_url' => 'http://v.cn/',
+  'my_url' => 'http://v.cn/',
   'web_keywords' => '靓妹2keywords',
   'web_description' => '靓妹2---description',
-  'web_tongji' => '<div style="display:none;"><script src="/js.js"></script></div>',
-  'collectid' => '1',
+  'web_tongji' => '<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id=\'cnzz_stat_icon_1253878005\'%3E%3C/span%3E%3Cscript src=\'" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1253878005\' type=\'text/javascript\'%3E%3C/script%3E"));</script>',
+  'collectid' => '2',
   'sifton' => '1',
   'sifturl' => '',
   'indexcache' => '1',
@@ -15,7 +15,7 @@ return array (
   'web_remark' => '',
   'web_404_url' => '/404.html',
   'web_seo_name' => '靓妹111',
-  'linkword_on' => '0',
+  'linkword_on' => '1',
   'web_urlencode' => '0',
   'web_urlencode_type' => 'base64',
   'web_urlencode_suffix' => 'html',
@@ -24,7 +24,7 @@ return array (
   'imgcachetime' => '1',
   'csscachetime' => '1',
   'jscachetime' => '1',
-  'delcache' => '250',
+  'cache_size' => '250',
   'delcachetime' => '1',
   'deloldcache' => '1',
   'robotlogon' => '1',
@@ -32,5 +32,7 @@ return array (
   'imgcache' => '1',
   'flinks_auto_insert' => '1',
   'obort_read_cahce' => true,
+  'obort_timeout' => 2,
+   'ssl_down'=>false
 );
 ?>

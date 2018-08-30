@@ -1,4 +1,6 @@
-<?php require_once("data.php");
+<?php
+require_once('autoload.php');
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
@@ -114,34 +116,21 @@ function getredirectsize(){
     ?>
 </body>
 </html>
-<?php }elseif($id == 'getdirsize'){
-    echo@getRealSize(@getDirSize(VV_CACHE . '/html')) . ' MB';
-}elseif($id == 'getjssize'){
-    echo@getRealSize(@getDirSize(VV_CACHE . '/js')) . ' MB';
-}elseif($id == 'getredirectsize'){
-    echo@getRealSize(@getDirSize(VV_CACHE . '/redirect_url')) . ' MB';
-}elseif($id == 'getcsssize'){
-    echo@getRealSize(@getDirSize(VV_CACHE . '/css')) . ' MB';
-}elseif($id == 'getimgsize'){
-    echo@getRealSize(@getDirSize(VV_CACHE . '/img')) . ' MB';
-}elseif($id == 'del'){
-    if($_GET['del'] == 'kw'){
-        @unlink("../inc/kw.txt");
-    }elseif($_GET['del'] == 'zhizhu'){
-        @unlink(VV_DATA . "/zhizhu.txt");
-    }elseif($_GET['del'] == 'index'){
-        @unlink(VV_CACHE . "/index.html");
-    }elseif($_GET['del'] == 'other'){
-        @removedir(VV_CACHE . '/html');
-    }elseif($_GET['del'] == 'css'){
-        @removedir(VV_CACHE . '/css');
-    }elseif($_GET['del'] == 'js'){
-        @removedir(VV_CACHE . '/js');
-    }elseif($_GET['del'] == 'img'){
-        @removedir(VV_CACHE . '/img');
-    }elseif($_GET['del'] == 'redirect'){
-        @removedir(VV_CACHE . '/redirect_url');
-    }elseif($_GET['del'] == 'all'){
+<?php }elseif($id == 'getdirsize') echo@getRealSize(@getDirSize(VV_CACHE . '/html')) . ' MB';
+elseif($id == 'getjssize') echo@getRealSize(@getDirSize(VV_CACHE . '/js')) . ' MB';
+elseif($id == 'getredirectsize') echo@getRealSize(@getDirSize(VV_CACHE . '/redirect_url')) . ' MB';
+elseif($id == 'getcsssize') echo@getRealSize(@getDirSize(VV_CACHE . '/css')) . ' MB';
+elseif($id == 'getimgsize') echo@getRealSize(@getDirSize(VV_CACHE . '/img')) . ' MB';
+elseif($id == 'del'){
+    if($_GET['del'] == 'kw') @unlink("../inc/kw.txt");
+    elseif($_GET['del'] == 'zhizhu') @unlink(VV_DATA . "/zhizhu.txt");
+    elseif($_GET['del'] == 'index') @unlink(VV_CACHE . "/index.html");
+    elseif($_GET['del'] == 'other') @removedir(VV_CACHE . '/html');
+    elseif($_GET['del'] == 'css') @removedir(VV_CACHE . '/css');
+    elseif($_GET['del'] == 'js') @removedir(VV_CACHE . '/js');
+    elseif($_GET['del'] == 'img') @removedir(VV_CACHE . '/img');
+    elseif($_GET['del'] == 'redirect') @removedir(VV_CACHE . '/redirect_url');
+    elseif($_GET['del'] == 'all'){
         @removedir(VV_CACHE);
         @unlink(VV_DATA . "/zhizhu.txt");
     }

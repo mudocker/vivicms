@@ -2,9 +2,11 @@
 use md\inc\caiji;
 require './vendor/autoload.php';
 define('SCRIPT','css');
-require(dirname(__FILE__)."/inc/common.inc.php");
 $caiji = new caiji();
-$v_config=require(VV_DATA."/config.php");
-require(dirname(__FILE__)."/inc/robot.php");
-require(VV_DATA."/rules.php");
+$v_config=require VV_DATA."/config.php";
+require(VV_INC."/robot.php");
+getCollectidCaijiConfig($collectid,$caiji_config);
+getUrl('cssdomain');
+$GLOBALS['content_type']=='text/css';
+require("rules.php");
 ?>

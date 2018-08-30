@@ -1,10 +1,5 @@
 <?php
-/**
- * --------------------------
- * viviС͵��վϵͳ
- * qq:996948519
- * ---------------------------
- */
+require_once('autoload.php');
 require_once('data.php');
 require_once('checkAdmin.php');
 require_once('../inc/common.inc.php');

@@ -1,6 +1,6 @@
 <?php
 $GLOBALS['urlext'] != 'js' and  $GLOBALS['html'] = replace_css($GLOBALS['html']);
-if($GLOBALS['urlext'] != 'js' && $GLOBALS['urlext'] != 'css'){
+
     if($caiji_config['big52gbk'] && checktime_log_timeout()){
         run_time(true);
         if(preg_match_all("#>\s*(\S*)\s*<#Us", $GLOBALS['html'], $arr)){
@@ -13,11 +13,9 @@ if($GLOBALS['urlext'] != 'js' && $GLOBALS['urlext'] != 'css'){
                 $gbarr[] = $arr[1][$k];
                 $big5arr[] = $func($arr[1][$k]);
             }
-
             $GLOBALS['html'] = str_replace($gbarr, $big5arr, $GLOBALS['html']);
         }
         $GLOBALS['debug'][] = '繁简互转用时：' . run_time() . 's';
     }
     $GLOBALS['html'] = preg_replace("~<(script[^>]+)src\s*=\s*([\"|']?)none\\2([^>]*)>(.*?)<\/script>~si", "", $GLOBALS['html']);
     $GLOBALS['html'] = preg_replace("~<(a[^>]+)href\s*=\s*([\"|']?)none\\2([^>]*)>(.*?)<\/a>~si", "\\4", $GLOBALS['html']);
-}

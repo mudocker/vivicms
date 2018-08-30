@@ -14,10 +14,9 @@ use md\data\BaseGlobal;
 class no_site_app extends BaseGlobal
 {
 
-   function __construct()
-    {
+   function __construct(){
+       if (!isCanReplaceHtml())return;
         if(!$this->caiji_config['no_siteapp'])return;
-
         $this->html = str_ireplace('<head>', '<head><meta http-equiv="Cache-Control" content="no-transform" /><meta http-equiv="Cache-Control" content="no-siteapp" />', $this->html);
 
     }

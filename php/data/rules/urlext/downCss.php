@@ -8,9 +8,8 @@ class downCss extends BaseGlobal {
     private $css='csscache';
     public function __construct()
     {
-
         if($this->urlext != 'css') return;
-        header("Content-type: text/css");
+        header("Content-type: text/css; charset=UTF-8");
         $this->getCacheFile();
         headerDownCss($this->css);
         setCacheOn($this->css);

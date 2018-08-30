@@ -13,7 +13,7 @@ class get_caiji_config extends BaseGlobal {
         $this->collectid =  $this->v_config['collectid'];
         $this->yulanCollectid();
         $this->getCollectidFromCookie();
-        $this->caiji_config  = require(VV_DATA . "/config/{$this->collectid}.php");
+     empty($this->caiji_config ) and    $this->caiji_config  = require(VV_CONFIG . "/{$this->collectid}.php");
     }
 
     function getCollectidFromCookie(){

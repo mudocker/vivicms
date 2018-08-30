@@ -10,9 +10,10 @@ class echo_html extends BaseGlobal {
     public function __construct()
     {
        //     $this->image();
+
             $this->html();
-            HeaderCharset($this->html);
-            echo $this->html;
+         //   HeaderCharset($this->html);
+            echo($this->html==''?$this->geturl:$this->html);
             exit();
     }
 
@@ -27,16 +28,14 @@ class echo_html extends BaseGlobal {
 
         $this->noHtml($isHtml);
         if (!$isHtml)return;
-
-        HeaderCharset($this->html);
+        header("Content-Type:text/html; charset=UTF-8");
         include($this->cachefile);
         exit();
     }
     function image(){
-
         if (!isset($this->urlext) || ($this->urlext != 'css' && $this->urlext != 'js')) return;
         substr($this->html, 0, 1) == '?' and $this->html = substr($this->html, 1);
-        HeaderCharset($this->html);
+
         echo $this->html;
         exit();
     }

@@ -5,22 +5,14 @@ use md\data\BaseGlobal;
 class getCacheFilenName extends BaseGlobal {
 
   
-     function __construct()
-    {
-
-
-        if (!empty($this->QUERY_STRING) ) return;
+     function __construct(){
+      //  if (!empty($this->QUERY_STRING) ) return;
         $this->cacheid = md5($this->geturl);
         $this->cachefile = getCachefile($this->cacheid,$this->urlext);
         $this->cachetime = $this->v_config['othercache'];
 
     }
 
-
-
-
-
-   
 
     function __get($name)
     {

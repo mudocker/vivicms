@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require_once('autoload.php');
 require_once("data.php");
 header("Content-Type:text/html; charset=utf-8");
 $v_config = require_once("../data/config.php");
@@ -97,8 +97,8 @@ echo ADMIN_HEAD;
 	
 </table>
 <?php }elseif($ac == 'export'){
-    $file = VV_DATA . '/config/' . $id . '.php';
-    if(!is_file($file))ShowMsg("采集配置文件不存在", '-1', 2000);
+    $file = VV_CONFIG .'/'. $id . '.php';
+    !is_file($file) and ShowMsg("采集配置文件不存在", '-1', 2000);
     $caiji_config = require_once($file);
     $basecon = "VIVI:" . base64_encode(serialize($caiji_config)) . ":END";
     ?>
@@ -109,8 +109,7 @@ echo ADMIN_HEAD;
 		</tr>
 	</tbody>
 	<tr nowrap class="firstalt">
-		<td><b>以下为规则 [<?php echo $caiji_config['name'];
-    ?>] 的配置，你可以共享给你的朋友:</b></td>
+		<td><b>以下为规则 [<?php echo $caiji_config['name']; ?>] 的配置，你可以共享给你的朋友:</b></td>
 	</tr>
 	<tr nowrap class="firstalt">
 		<td align="center"><textarea style="height: 350px;width:95%;padding:5px;background:#eee;" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ><?php echo $basecon;
@@ -120,7 +119,7 @@ echo ADMIN_HEAD;
 <?php }elseif($ac == 'import'){
     $tinfo = '';
     if($id){
-        $file = VV_DATA . '/config/' . $id . '.php';
+        $file = VV_CONFIG .DS . $id . '.php';
         !is_file($file) and ShowMsg("采集配置文件不存在", '-1', 3000);
         $caiji_config = require_once($file);
         $tinfo = '( 覆盖[' . $caiji_config['name'] . ']？)<input type="hidden" name="id" value="' . $id . '" />';
@@ -128,17 +127,9 @@ echo ADMIN_HEAD;
     ?>
 <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">
 <form action="?ac=saveimport" method="post">
-	<tbody>
-		<tr nowrap class="tb_head">
-			<td><h2>导入采集规则</h2></td>
-		</tr>
-	</tbody>
-	<tr nowrap class="firstalt">
-		<td><b>请在下面输入你要导入的采集配置</b><font color="red"><?php echo $tinfo ?></font>：</td>
-	</tr>
-	<tr nowrap class="firstalt">
-		<td align="center"><textarea name="import_text" style="height: 350px;width:95%;padding:5px;background:#eee;" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></textarea></td>
-	</tr>
+	<tbody><tr nowrap class="tb_head"><td><h2>导入采集规则</h2></td></tr></tbody>
+	<tr nowrap class="firstalt"><td><b>请在下面输入你要导入的采集配置</b><font color="red"><?php echo $tinfo ?></font>：</td></tr>
+	<tr nowrap class="firstalt"><td align="center"><textarea name="import_text" style="height: 350px;width:95%;padding:5px;background:#eee;" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></textarea></td></tr>
 	<tbody>
 		<tr class="firstalt">
 			<td align="center" colspan="2">
@@ -149,20 +140,18 @@ echo ADMIN_HEAD;
 </table>
 <?php }elseif($ac == 'xiugai' || $ac == 'add'){
     if($ac == 'xiugai'){
-        $file = VV_DATA . '/config/' . $id . '.php';
-        if(!is_file($file))ShowMsg("采集配置文件不存在", '-1', 3000);
+        $file = VV_CONFIG .DS . $id . '.php';
+        !is_file($file) and ShowMsg("采集配置文件不存在", '-1', 3000);
         $caiji_config = require_once($file);
-        if($caiji_config['siftrules']){
-            $caiji_config['siftrules'] = implode("\r\n", explode('[cutline]', $caiji_config['siftrules']));
-        }
-        if($caiji_config['siftrules_before']){
-            $caiji_config['siftrules_before'] = implode("\r\n", explode('[cutline]', $caiji_config['siftrules_before']));
-        }
-        if(empty($caiji_config['siftags']))$caiji_config['siftags'] = array('123');
+        $caiji_config['siftrules'] and                                                                                $caiji_config['siftrules'] = implode("\r\n", explode('[cutline]', $caiji_config['siftrules']));
+
+        $caiji_config['siftrules_before'] and                                                                         $caiji_config['siftrules_before'] = implode("\r\n", explode('[cutline]', $caiji_config['siftrules_before']));
+
+        empty($caiji_config['siftags']) and                                                                           $caiji_config['siftags'] = array('123');
         $caiji_config['resdomain'] = $caiji_config['resdomain']?$caiji_config['resdomain']:$caiji_config['other_imgurl'];
     }else{
         $caiji_config = array('name' => '', 'replace' => '', 'charset' => 'gb2312', 'from_url' => '', 'resdomain' => '', 'siftags' => array(), 'siftrules' => '', 'replacerules' => '', 'rewrite' => '', 'licence' => '', 'from_title' => '', 'search_url' => '',);
-        $arr = glob(VV_DATA . '/config/*.php');
+        $arr = glob( VV_CONFIG.DS. '*.php');
         $id = 1;
         if($arr){
             $arr = array_map('basename', $arr);
@@ -200,100 +189,91 @@ li.cur { background: #eefffd;}
 					<li id="tab4"><a onclick="tab(4,6);" href="javascript:">自定义css</a></li>
 					<li id="tab5"><a onclick="tab(5,6);" href="javascript:">高级功能</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
 					<li id="tab6"><a onclick="tab(6,6);" href="javascript:">破防采集</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
+                    <li id="tab6"><a onclick="tab(7,6);" href="javascript:">资源站配置</a><img src="public_admin/img/vip.gif" style="cursor: pointer;vertical-align: middle;" title="vip功能" width="19" height="18" /></li>
 				</ul>
 			</td>
 		</tr>
 		</tbody>
 		<tbody id="config1">
 		<tr nowrap class="firstalt">
-			<td width="260"><b>节点名称</b><br>
-			<font color="#666666">给你的采集起一个名字</font></td>
+			<td width="260"><b>项目名</b><br></td>
 			<td><input type="text" name="con[name]" size="50" value="<?php echo $caiji_config['name'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
 		</tr>
 
 		<tr nowrap class="firstalt">
-			<td width="260"><b>目标网站名称</b><br>
-			<font color="#666666">多个用符号  * 分隔</font><br><font color="red">注：不要只填写字母或者域名，否则替换出错</font></td>
+			<td width="260"><b>目标网站名称</b><br></td>
 			<td><input type="text" name="con[from_title]" id="from_title" size="50" value="<?php echo $caiji_config['from_title'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
 		</tr>
 
 		<tr nowrap class="firstalt">
-			<td width="260"><b>目标站地址</b><br>
-			<font color="#666666">需要采集的目标网站地址</font><br><font color="red">注：http://或https://开头</font></td>
-			<td><input type="text" name="con[from_url]" id="from_url" size="50" value="<?php echo $caiji_config['from_url'];
-    ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >&nbsp;<select name="con[charset]" >
-				<option value="auto" <?php if($caiji_config['charset'] == 'auto' || empty($caiji_config['charset']))echo " selected";
-    ?>>自动识别</option>
-				<option value="gb2312" <?php if($caiji_config['charset'] == 'gb2312')echo " selected";
-    ?>>gb2312</option>
-				<option value="utf-8" <?php if($caiji_config['charset'] == 'utf-8')echo " selected";
-    ?>>utf-8</option>
-				<option value="gbk" <?php if($caiji_config['charset'] == 'gbk')echo " selected";
-    ?>>gbk</option>
-				<option value="big5" <?php if($caiji_config['charset'] == 'big5')echo " selected";
-    ?>>big5</option>
-			</select>&nbsp;目标站编码</td>
+			<td width="260"><b>目标站地址</b><br><font color="red">比如：http://www.topthink.com</font></td>
+			<td>
+                <input type="text" name="con[from_url]" id="from_url" size="50" value="<?php echo $caiji_config['from_url']; ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >&nbsp;
+                <select name="con[charset]" >
+                    <option value="auto" <?php if($caiji_config['charset'] == 'auto' || empty($caiji_config['charset']))echo " selected"; ?>>自动识别</option>
+                    <option value="gb2312" <?php if($caiji_config['charset'] == 'gb2312')echo " selected"; ?>>gb2312</option>
+                    <option value="utf-8" <?php if($caiji_config['charset'] == 'utf-8')echo " selected"; ?>>utf-8</option>
+                    <option value="gbk" <?php if($caiji_config['charset'] == 'gbk')echo " selected"; ?>>gbk</option>
+                    <option value="big5" <?php if($caiji_config['charset'] == 'big5')echo " selected"; ?>>big5</option>
+			    </select>&nbsp;目标站编码</td>
 		</tr>
 		
 		<tr nowrap class="firstalt">
 			<td width="260"><b>其他域名</b><br>
-			<font color="#666666">目标站多个域名绑定一个站点时填写<br>每个域名用半角逗号分隔<br><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: baidu.com<font color="red">,</font>www.baidu.com</div></font></td>
+			<font color="#666666"><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: baidu.com<font color="red">,</font>www.baidu.com</div></font></td>
 			<td><input type="text" name="con[other_url]" id="other_url" size="50" value="<?php echo $caiji_config['other_url'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
 		</tr>
 
 		<tr nowrap class="firstalt">
 			<td width="260"><b>目标站资源域名</b><br>
-			<font color="#666666">可填写需要采集的css图片等资源域名<br>每个域名用半角逗号分隔<br><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: img1.baidu.com<font color="red">,</font>*.baidu.com</div></font></td>
-			<td><input type="text" name="con[resdomain]" id="resdomain" size="50" value="<?php echo $caiji_config['resdomain'];
-    ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
+			<font color="#666666"><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: img1.baidu.com<font color="red">,</font>*.baidu.com</div></font></td>
+			<td>
+                <input type="text" name="con[resdomain]" id="resdomain" size="50" value="<?php echo $caiji_config['resdomain']; ?>"
+                       onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >
+            </td>
 		</tr>
 
 		<tr nowrap class="firstalt">
 			<td width="260"><b>图片属性名称</b><br>
-			<font color="#666666">当目标站图片使用延迟加载的时候使用<br>每个用半角逗号分隔<br><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: data-src<font color="red">,</font>_src</div></font></td>
+			<font color="#666666"><div style='padding:5px;border:1px dotted #ff6600;background:#f6f6f6'>如: data-src<font color="red">,</font>_src</div></font></td>
 			<td><input type="text" name="con[img_delay_name]" size="50" value="<?php echo $caiji_config['img_delay_name'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" > <font color="red">一般不用设置</font></td>
 		</tr>
 
 		<tr nowrap class="firstalt">
-			<td width="260"><b>目标站搜索地址</b><br>
-			<font color="#666666">目标站搜索地址，有域名的要带上</font></td>
-			<td><input type="text" name="con[search_url]" id="search_url" size="50" value="<?php echo $caiji_config['search_url'];
-    ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >&nbsp;<select name="con[search_charset]" >
-				<option value="gb2312" <?php if($caiji_config['search_charset'] == 'gb2312' || empty($caiji_config['search_charset']))echo " selected";
-    ?>>gb2312</option>
-				<option value="utf-8" <?php if($caiji_config['search_charset'] == 'utf-8')echo " selected";
-    ?>>utf-8</option>
-				<option value="gbk" <?php if($caiji_config['search_charset'] == 'gbk')echo " selected";
-    ?>>gbk</option>
-				<option value="big5" <?php if($caiji_config['search_charset'] == 'big5')echo " selected";
-    ?>>big8</option>
+			<td width="260"><b>目标站搜索地址</b><br></td>
+			<td><input type="text" name="con[search_url]" id="search_url" size="50" value="<?php echo $caiji_config['search_url']; ?>"
+                       onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" >&nbsp;<select name="con[search_charset]" >
+				<option value="gb2312" <?php if($caiji_config['search_charset'] == 'gb2312' || empty($caiji_config['search_charset']))echo " selected"; ?>>gb2312</option>
+				<option value="utf-8" <?php if($caiji_config['search_charset'] == 'utf-8')echo " selected"; ?>>utf-8</option>
+				<option value="gbk" <?php if($caiji_config['search_charset'] == 'gbk')echo " selected"; ?>>gbk</option>
+				<option value="big5" <?php if($caiji_config['search_charset'] == 'big5')echo " selected"; ?>>big8</option>
 			</select>&nbsp;搜索页面的编码</td>
 		</tr>
 
 		<tr nowrap class="firstalt">
 			<td width="260"><b>屏蔽js错误</b><br>
 			<font color="#666666">是否屏蔽js错误</font></td>
-			<td><select name="con[hidejserror]" >
-				<option value="0" <?php if($caiji_config['hidejserror'] == '0')echo " selected";
-    ?>>关闭</option>
-				<option value="1" <?php if($caiji_config['hidejserror'])echo " selected";
-    ?>>开启</option>
-			</select></td>
+			<td>
+                <select name="con[hidejserror]" >
+                    <option value="0" <?php if($caiji_config['hidejserror'] == '0')echo " selected"; ?>>关闭</option>
+                    <option value="1" <?php if($caiji_config['hidejserror'])echo " selected"; ?>>开启</option>
+		    	</select>
+            </td>
 		</tr>
 
 		<tr nowrap class="firstalt">
 			<td width="260"><b>禁止移动搜索转码</b><br>
 			<font color="#666666">此选项可禁止百度移动搜索转码</font></td>
-			<td><select name="con[no_siteapp]" >
-				<option value="0" <?php if($caiji_config['no_siteapp'] == '0')echo " selected";
-    ?>>关闭</option>
-				<option value="1" <?php if($caiji_config['no_siteapp'])echo " selected";
-    ?>>开启</option>
-			</select></td>
+			<td>
+                <select name="con[no_siteapp]" >
+                    <option value="0" <?php if($caiji_config['no_siteapp'] == '0')echo " selected"; ?>>关闭</option>
+                    <option value="1" <?php if($caiji_config['no_siteapp'])echo " selected"; ?>>开启</option>
+			    </select>
+            </td>
 		</tr>
 
 		<tr nowrap class="firstalt">
@@ -408,7 +388,7 @@ li.cur { background: #eefffd;}
 				<div style="margin:8px 0;padding:5px 0;border-top:1px solid #eee;">
 					<b>标签说明：</b><br>
 					{web_name} -> 网站名称<br>
-					{web_url} -> 网站地址<br>
+					{my_url} -> 网站地址<br>
 					{web_domain} -> 当前域名<br>
 					{web_thisurl} -> 当前页面url<br>
 					{web_remark} -> 伪静态标示符<br>
@@ -520,32 +500,22 @@ $(function() {
 						  <td width="50" align="center"><button type="button" class="add">增加</button></td>
 						  <td align='center'>&nbsp;</td>
 						</tr>
-<?php if(empty($caiji_config['zdy'])){
-        $caiji_config['zdy'] = array(array('name' => '', 'ename' => '', 'body' => '',),);
-    }
+<?php
+if(empty($caiji_config['zdy'])) $caiji_config['zdy'] = array(array('name' => '', 'ename' => '', 'body' => '',),);
     foreach($caiji_config['zdy']as $k => $vo){
         ?>
-						<tr class="firstalt item<?php echo $k;
-        ?>" itemid="<?php echo $k;
-        ?>">
-							<td align="center"><?php echo $k + 1;
-        ?></td>
-							<td align="center"><input type="text" name="zdy[<?php echo $k;
-        ?>][name]" style="width:100px" class="input" value="<?php echo _htmlspecialchars($vo['name']);
-        ?>"></td>
-							<td align='center'><input type="text" name="zdy[<?php echo $k;
-        ?>][ename]" style="width:70px" class="input" value="<?php echo _htmlspecialchars($vo['ename']);
-        ?>"></td>
+						<tr class="firstalt item<?php echo $k; ?>" itemid="<?php echo $k; ?>">
+							<td align="center"><?php echo $k + 1; ?></td>
+							<td align="center"><input type="text" name="zdy[<?php echo $k; ?>][name]" style="width:100px" class="input" value="<?php echo _htmlspecialchars($vo['name']); ?>"></td>
+							<td align='center'><input type="text" name="zdy[<?php echo $k; ?>][ename]" style="width:70px" class="input" value="<?php echo _htmlspecialchars($vo['ename']); ?>"></td>
 
-							<td align='center'><select name="zdy[<?php echo $k;
-        ?>][type]" onchange="zdytype(this);">
-								<option value="0"<?php if($vo['type'] == '0')echo " selected";
-        ?>>自定义内容</option>
-								<option value="1"<?php if($vo['type'] == '1')echo " selected";
-        ?>>普通截取</option>
-								<option value="2"<?php if($vo['type'] == '2')echo " selected";
-        ?>>正则截取</option>
-							</select></td>
+							<td align='center'>
+                                <select name="zdy[<?php echo $k; ?>][type]" onchange="zdytype(this);">
+                                    <option value="0"<?php if($vo['type'] == '0')echo " selected"; ?>>自定义内容</option>
+                                     <option value="1"<?php if($vo['type'] == '1')echo " selected"; ?>>普通截取</option>
+                                    <option value="2"<?php if($vo['type'] == '2')echo " selected"; ?>>正则截取</option>
+						    	</select>
+                            </td>
 
 							<td align="center">
 
@@ -642,36 +612,32 @@ $(document).ready(function(){
 		</tbody>
 		<tbody id="config5" style="display:none">
 		<tr nowrap class="firstalt">
-			<td width="260"><b>繁简互转</b> <br>
-			<font color="#666666">繁体简体中文之间互转，影响速度</font></td>
-			<td><select name="con[big52gbk]" >
-				<option value="togbk" <?php if($caiji_config['big52gbk'] == 'togbk')echo " selected";
-    ?>>繁转简</option>
-				<option value="tobig5" <?php if($caiji_config['big52gbk'] == 'tobig5')echo " selected";
-    ?>>简转繁</option>
-				<option value="0" <?php if(!$caiji_config['big52gbk'])echo " selected";
-    ?>>关闭</option>
-			</select></td>
+			<td width="260"><b>繁简互转</b> <br><font color="#666666">繁体简体中文之间互转，影响速度</font></td>
+			<td>
+                <select name="con[big52gbk]" >
+                    <option value="togbk" <?php if($caiji_config['big52gbk'] == 'togbk')echo " selected"; ?>>繁转简</option>
+                    <option value="tobig5" <?php if($caiji_config['big52gbk'] == 'tobig5')echo " selected"; ?>>简转繁</option>
+                    <option value="0" <?php if(!$caiji_config['big52gbk'])echo " selected"; ?>>关闭</option>
+                </select>
+            </td>
 		</tr>
 		<tr nowrap class="firstalt">
-			<td width="260"><b>伪原创开关</b><br>
-			<font color="#666666">开启伪原创</font></td>
-			<td><select name="con[replace]" >
-				<option value="1" <?php if($caiji_config['replace'])echo " selected";
-    ?>>开启</option>
-				<option value="0" <?php if(!$caiji_config['replace'])echo " selected";
-    ?>>关闭</option>
-			</select></td>
+			<td width="260"><b>伪原创开关</b><br></td>
+			<td>
+                <select name="con[replace]" >
+                    <option value="1" <?php if($caiji_config['replace'])echo " selected"; ?>>开启</option>
+                    <option value="0" <?php if(!$caiji_config['replace'])echo " selected"; ?>>关闭</option>
+		    	</select>
+            </td>
 		</tr>
 		<tr nowrap class="firstalt">
-			<td width="260"><b>伪静态开关</b> <br>
-			<font color="red">需要空间/服务器支持伪静态</font></td>
-			<td><select name="con[rewrite]" >
-				<option value="1" <?php if($caiji_config['rewrite'])echo " selected";
-    ?>>开启</option>
-				<option value="0" <?php if(!$caiji_config['rewrite'])echo " selected";
-    ?>>关闭</option>
-			</select></td>
+			<td width="260"><b>伪静态开关</b> <br></td>
+			<td>
+                <select name="con[rewrite]" >
+                    <option value="1" <?php if($caiji_config['rewrite'])echo " selected"; ?>>开启</option>
+                    <option value="0" <?php if(!$caiji_config['rewrite'])echo " selected"; ?>>关闭</option>
+		    	</select>
+            </td>
 		</tr>
 		<tr nowrap class="firstalt">
 			<td width="260"><b>模板文件名</b><br>

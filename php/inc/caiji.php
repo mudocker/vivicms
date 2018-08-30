@@ -6,10 +6,6 @@ use md\data\caiji\headerex;
 
 class caiji{
      public $keyfile;
-
-
-
-
      function replace($str){
          if(is_file($this -> keyfile)){
              $arr = file($this -> keyfile);
@@ -21,14 +17,13 @@ class caiji{
                      mb_regex_encoding("gb2312");
                      $str = mb_ereg_replace($l, $r, $str);
                      }else $str = str_replace($l, $r, $str);
-
                  }
              }
          return $str;
          }
-     function strcut($start, $end, $str, $lt = false, $gt = false){
-         if($str == '')return '$false$';
-         $strarr = explode($start, $str);
+     function strcut($start, $end, $html, $lt = false, $gt = false){
+         if($html == '')return '$false$';
+         $strarr = explode($start, $html);
          if($strarr[1]){
              $strarr2 = explode($end, $strarr[1]);
              $return = $strarr2[0];
@@ -78,7 +73,7 @@ class caiji{
           }
        }
      function __construct(){
-         $this -> keyfile = VV_DATA . "/keyword.conf";
+         $this -> keyfile = VV_CONF . "/keyword.conf";
       }
      function gzdecode($data){
          $flags = ord(substr($data, 3, 1));

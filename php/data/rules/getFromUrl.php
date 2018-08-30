@@ -10,7 +10,7 @@ class getFromUrl extends BaseGlobal {
         $this->iniParam();
         $this->setFromUrl();
         $this->yulan_geturl();
-        $this->getParaseUrl();
+
     }
 
 
@@ -29,18 +29,13 @@ class getFromUrl extends BaseGlobal {
 
 
     private $isouturl;
-    function getParaseUrl(){
-        define('ISOUTURL', $this->isouturl);
-        $this->parse_url= parse_url($this->from_url);
-    }
+
     function iniParam(){
         $this->isouturl = false;
-
         $this->from_url=$this->caiji_config['from_url'];
     }
 
     function setFromUrl(){
-
         if(!isset($this->geturl))return;
         $this->from_url= $this->geturl;
         $this->isouturl = true;
@@ -52,7 +47,6 @@ class getFromUrl extends BaseGlobal {
         isset($_GET['url']) and   $this->caiji_config['from_url'] = $_GET['url'];
         $this->geturl =  $this->caiji_config['from_url'];
     }
-
 
 
 }

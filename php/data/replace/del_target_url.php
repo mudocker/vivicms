@@ -16,6 +16,7 @@ class del_target_url extends BaseGlobal
 
 
      function __construct(){
+         if (!isCanReplaceHtml())return;
          $this->delServerUrl();
         $this->delOtherUrl();
         $this->scheme();

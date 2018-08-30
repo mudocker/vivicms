@@ -9,6 +9,8 @@
 namespace md\data;
 
 
+use md\data\rules\headerContextType;
+
 class SiteAbortReadCache extends BaseGlobal
 {
 
@@ -18,11 +20,10 @@ class SiteAbortReadCache extends BaseGlobal
     public function __construct()
     {
         if (siteAbort($this->geturl)){
-            if (!$this->v_config['obort_read_cahce']){
-                 !file_exists($this->cachefile) and exit('link no exits or server cache no exits and target site abort');
-                readCacheFile();
-            }
-
+            if ($this->v_config['obort_read_cahce']!=true)return;
+            new headerContextType();
+            !file_exists($this->cachefile) and nofoud();
+              readCacheFile();
         }
 
 

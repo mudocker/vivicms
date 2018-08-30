@@ -1,4 +1,5 @@
 <?php
+if (!isCanReplaceHtml())return;
 sort($allhref);
 foreach($allhref as $k => $vo){
     if(strlen($vo) <= 1 || stripos($vo, 'javascript:') > -1)                                                      continue;

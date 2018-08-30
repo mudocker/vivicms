@@ -12,9 +12,7 @@ use md\data\BaseGlobal;
 class delcache extends BaseGlobal{
 
     private $deltime_file;
-    public function __construct()
-    {
-
+    function __construct(){
         if(!$this->deloldcache)return;
         $this->deltime_file=VV_DATA . '/deltime.txt';
         is_file($this->deltime_file)?$this->delCacheOverDay():$this->delCache();

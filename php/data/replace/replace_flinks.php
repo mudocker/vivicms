@@ -17,8 +17,8 @@ class replace_flinks extends BaseGlobal
    function __construct(){
        //   if(!empty($_SERVER['QUERY_STRING']))return;
 
-
-       is_file(VV_DATA . '/flink.conf') and  $flinks = file_get_contents(VV_DATA . '/flink.conf');
+       if (!isCanReplaceHtml())return;
+       is_file(VV_CONF . '/flink.conf') and  $flinks = file_get_contents(VV_CONF . '/flink.conf');
 
         $this->add_flinks($flinks);
 

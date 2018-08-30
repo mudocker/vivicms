@@ -1,5 +1,5 @@
 <?php
-
+require_once('autoload.php');
 require_once('data.php');
 require_once('checkAdmin.php');
 

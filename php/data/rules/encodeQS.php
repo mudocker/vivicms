@@ -10,7 +10,6 @@ class encodeQS extends BaseServer {
 
             $v_config=&$GLOBALS['v_config'];
             if (!$v_config['web_urlencode'])return;
-
             if (!$this->QUERY_STRING)return;
             $QS=&$this->QUERY_STRING;
             list($QS,) =    explode('?', $QS);

@@ -15,7 +15,7 @@ class replace_web_keywords extends BaseGlobal
 {
 
      function __construct(){
-        //   (empty($_SERVER['QUERY_STRING']))
+         if (!isCanReplaceHtml())return;
         if(!$this->web_keywords)return;
         $this->html = preg_replace('#name\s*=\s*(["|\']*)keywords\\1\s*content=\s*(["|\']*)[^"\']+\\2#i', 'name="keywords" content="' . $this->web_keywords . '"', $this->html);
 

@@ -15,6 +15,7 @@ class call_replace_zdy extends BaseGlobal
 {
 
      function __construct(){
+         if (!isCanReplaceHtml())return;
          run_time(true);
          $this->callReplaceZdy();
         $this->replaceTittle();

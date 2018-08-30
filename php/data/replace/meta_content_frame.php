@@ -16,7 +16,7 @@ class meta_content_frame extends BaseGlobal
 
    function __construct(){
 
-
+       if (!isCanReplaceHtml())return;
     $this->replaceHeaderBody();
     $this->getBodyStartEnd();
     $this->toUtf8();

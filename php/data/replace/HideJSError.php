@@ -16,6 +16,7 @@ class HideJSError extends BaseGlobal
 
    function __construct()
     {
+        if (!isCanReplaceHtml())return;
         if (!$this->caiji_config['hidejserror'])  return;
         $this->html = str_ireplace('<head>', '<head><script>var V_PATH="' . WEB_ROOT . '/' . '";window.onerror=function(){ return true; };</script>', $this->html);
     }

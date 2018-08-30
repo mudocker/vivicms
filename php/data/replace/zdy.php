@@ -15,7 +15,7 @@ class zdy extends BaseGlobal
 {
 
      function __construct(){
-
+         if (!isCanReplaceHtml())return;
          $zdy = array();
          if(empty($this->caiji_config['zdy']))return;
          $zdyzz= $this->caiji_config['zdy'];

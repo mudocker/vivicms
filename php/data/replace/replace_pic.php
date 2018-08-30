@@ -13,22 +13,31 @@ use md\data\BaseGlobal;
 
 class replace_pic extends BaseGlobal
 {
-    private $vo;
-    function __construct(){
-        foreach($this->allimg as  $this->vo){
-            $this->scheme();
-            $this->threeLink();
-            $this->noThree();
+
+    function __construct($link,$ext){
+        if (!isCanReplaceHtml())return;
+          run_time(true);
+          $this->replacePic($link,$ext);
+          $this->debug();
+
+    }
+
+
+
+    function replacePic($link,$ext){
+ /*       $this->html=      str_replace('\r\n','', $this->html);
+        $this->html=      str_replace('\\r\\n','', $this->html);
+        $this->html=  str_replace('\\n','', $this->html);*/
+        foreach($link as  $vo){
+            $vo=  trim($vo);
+            $encode='/' .base64_encode($vo).'.'.$ext;
+             $this->html = str_replace_limit($vo,$encode, $this->html,1);
+         //   $this->html = @str_ireplace($vo,$encode, $this->html);
         }
-          $this->replacePic();
-
     }
-
-
-    function replacePic(){
-        $this->newpic and  $this->html = str_replace($this->allimg, $this->newpic, $this->html);
+    function debug(){
         $this->debug[] = '替换所有图片链接用时：' . run_time() . 's';
-        run_time(true);
+
     }
 
 
@@ -36,7 +45,7 @@ class replace_pic extends BaseGlobal
 
 
 
-    function noThree(){
+    /*function noThree(){
         $vo=&$this->vo;
         if(isgoodurl($vo))return;
         is_resdomain($vo) and  $vo = WEB_ROOT . '/img.php?' . encode_source($this->collectid . '|' . $vo);
@@ -60,5 +69,5 @@ class replace_pic extends BaseGlobal
             if(preg_match('~^//[0-9a-zA-Z\.-]+\.[0-9a-zA-Z-]+/~', $vo)) $vo =  $_SERVER["REQUEST_SCHEME"]?  $_SERVER["REQUEST_SCHEME"] . ':'.$vo:$this->scheme . ':' . $vo;
             else $vo = substr($vo, 1);
         }
-    }
+    }*/
 }

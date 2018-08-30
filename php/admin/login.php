@@ -1,4 +1,5 @@
 <?php
+require_once('autoload.php');
 header("Content-type: text/html; charset=utf8");
 require_once('data.php');
 $v_config = require_once('../data/config.php');

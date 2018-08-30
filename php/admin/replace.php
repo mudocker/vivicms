@@ -1,8 +1,10 @@
-<?php require_once("data.php");
+<?php
+require_once('autoload.php');
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
  $id = isset($_GET['id'])?$_GET['id']:'';
-$file = VV_DATA . "/keyword.conf";
+$file = VV_CONF . "/keyword.conf";
 $keyword = file_get_contents($file);
 require_once 'tmp_header.php';
 if($id == 'wyc' || $id == ''){

@@ -6,6 +6,7 @@ class replace_by_from_title extends BaseGlobal {
 
     function __construct()
     {
+        if (!isCanReplaceHtml())return;
         $titlearr = explode('*', $this->caiji_config['from_title']);
         foreach($titlearr as $k => $vo) $this->html = str_ireplace($vo, $this->v_config['web_name'], $this->html);
     }

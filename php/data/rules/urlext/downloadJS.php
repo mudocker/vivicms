@@ -12,13 +12,14 @@ class downloadJS extends BaseGlobal {
 
     function __construct(){
         if($this->urlext != 'js') return;
+        header("Content-type: application/javascript; charset=UTF-8");
         $this->getCacheFile();
         headerDownCss($this->css);
         setCacheOn($this->css);
     }
 
     function getCacheFile(){
-        header("Content-type: text/javascript");
+
         $this->cachetime = $this->v_config['jscachetime'];
         list($this->cacheid ,) = explode('?', $this->geturl);
         $this->cachefile    = getjscachefile($this->cacheid);

@@ -1,4 +1,7 @@
-<?php require_once("data.php");
+<?php
+require_once('autoload.php');
+
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
 require_once 'tmp_header.php';

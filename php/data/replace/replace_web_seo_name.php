@@ -15,6 +15,7 @@ class replace_web_seo_name extends BaseGlobal
 {
 
     function __construct(){
+        if (!isCanReplaceHtml())return;
         if(!$this->web_seo_name)return;
         $this->html = preg_replace('#<title>(.*)</title>#i', '<title>' . $this->web_seo_name . '</title>', $this->html);
     }

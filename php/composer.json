@@ -12,6 +12,9 @@
     },
     "autoload": {
         "files": [
+           "lib/function.php",
+            "lib/micro.php",
+            "lib/bootstrap.php"
         ],
         "psr-4": {
             "md\\": "./"
@@ -19,5 +22,11 @@
     },
     "config": {
         "preferred-install":"dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }

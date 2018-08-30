@@ -1,4 +1,6 @@
-<?php require_once("data.php");
+<?php
+require_once('autoload.php');
+require_once("data.php");
 $v_config = require_once("../data/config.php");
 require_once("checkAdmin.php");
 $id = isset($_GET['id'])?$_GET['id']:'';
@@ -35,7 +37,7 @@ if($id == 'man' || $id == ''){
 		<tr nowrap class="firstalt">
 			<td width="260"><b>网站地址</b><br>
 			<font color="#666666">你的网址,以<font color="red">http://</font>开头,<font color="red">斜杠"/"</font>结尾</font></td>
-			<td><input type="text" name="con[web_url]" id="web_url" size="30" value="<?php echo $v_config['web_url'];
+			<td><input type="text" name="con[my_url]" id="my_url" size="30" value="<?php echo $v_config['my_url'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="checkurl(this.id);this.style.borderColor='#dcdcdc'" > <a id="web_url_msg"></a></td>
 		</tr>
 		<tr nowrap class="firstalt">
@@ -103,7 +105,7 @@ function checkurl(id){
     foreach($config as $k => $v) $config[$k] = trim($config[$k]);
 
     $config['web_tongji'] = get_magic($config['web_tongji']);
-    substr($config['web_url'], -1) != '/' and ShowMsg("网站地址格式不正确", '-1', 3000);
+    substr($config['my_url'], -1) != '/' and ShowMsg("网站地址格式不正确", '-1', 3000);
     !$v_config and $v_config = $config;
     $config = @array_merge($v_config, $config);
     $config and  arr2file(VV_DATA . "/config.php", $config);

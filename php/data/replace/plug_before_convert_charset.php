@@ -16,6 +16,7 @@ class plug_before_convert_charset extends BaseGlobal
 
 
      function __construct($caiji){
+         if (!isCanReplaceHtml())return;
          plus_run('before_convert_charset');
          $this->debug[] = '使用缓存：否';
          $this->debug[] = '采集用时：' . run_time() . 's';

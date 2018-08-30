@@ -4,9 +4,8 @@ error_reporting(E_ALL);// & ~E_NOTICE
 @set_time_limit(120);
 @ini_set('pcre.backtrack_limit', 1000000);
 date_default_timezone_set('PRC');
-define('VV_INC', str_replace("\\", '/', dirname(__FILE__)));
-define('VV_ROOT', str_replace("\\", '/', substr(VV_INC, 0, -4)));
-require_once 'define.php';
+
+
 @ini_set('memory_limit', '64M');
 @ini_set('memory_limit', '128M');
 @ini_set('memory_limit', '256M');
@@ -67,5 +66,5 @@ function fatalErrorHandler(){
              }
          }
     }
-require(VV_INC . '/sys.php');
+require(VV_INC.'/init.php');
 ?>

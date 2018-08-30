@@ -23,7 +23,7 @@ class defineWebRootAndSign extends BaseGlobal {
         SCRIPT == 'search' and   $this->sign = WEB_ROOT . '/?';
     }
     function defineWebRoot(){
-        $temp_url = parse_url($this->v_config['web_url']);
+        $temp_url = parse_url($this->v_config['my_url']);
         define('WEB_ROOT', substr($temp_url['path'], 0, -1));
     }
     function getSign(){
