@@ -11,6 +11,21 @@ nginx 手册
 
 http://www.nginx.cn/doc/
 
+server{
+include D:/all/php/vivicms/php/ng_rewrite.conf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 if ( !-e $request_filename ) {
   rewrite ^(/admin.*)$  $1 last;
   rewrite ^(/.*/public_admin.*)$  $1 last;

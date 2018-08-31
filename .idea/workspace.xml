@@ -2,108 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/log_format.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/ng_limit.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T052959.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T053015.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T053824.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T075744.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vivicms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vivicms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.zip" beforeDir="false" afterPath="$PROJECT_DIR$/php.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/php/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/admin/public_admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/public_admin/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/html/a7/2c/a72cf82983a0bcb9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/deltime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/deltime.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/ng_rewrite.conf" beforeDir="false" afterPath="$PROJECT_DIR$/php/ng_rewrite.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/css/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/jquery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/button_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/button_bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/error.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/inbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/inbg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/input.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/input.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/input.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/input.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/load.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/load.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/loginsafe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/loginsafe.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/success.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top14.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top20.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top22.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top23.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top24.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top7.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top8.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/top9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top9.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/img/vip.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/vip.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/en_vivi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/en_vivi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/jquery-1.3.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery-1.3.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/LGPLv3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/LGPLv3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/clipboard.swf" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/clipboard.swf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushAS3.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushAS3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushBash.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushBash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCSharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCSharp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushColdFusion.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushColdFusion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCpp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCpp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCss.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushDelphi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDelphi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushDiff.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDiff.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushErlang.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushErlang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushGroovy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushGroovy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJava.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJava.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJavaFX.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJavaFX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPerl.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPerl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPhp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPhp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPlain.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPlain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPowerShell.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPowerShell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPython.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPython.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushRuby.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushRuby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushScala.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushScala.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushSql.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushSql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushVb.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushVb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushXml.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushXml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shLegacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shLegacy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/src/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/src/shLegacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shLegacy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/magnifier.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/magnifier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/page_white_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_code.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/page_white_copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/printer.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/printer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shCore.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shCore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDefault.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeDjango.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDjango.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEclipse.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEclipse.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEditplus.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEditplus.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEmacs.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEmacs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeFadeToGrey.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeMidnight.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeMidnight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeRDark.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeRDark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/js/vivi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/vivi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/multi-select/css/multi-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/css/multi-select.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/multi-select/img/switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/img/switch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public/multi-select/js/jquery.multi-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/js/jquery.multi-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/static/fanwen/logo.gif" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +102,7 @@
           <entry key="29'" value="1" />
           <entry key="back" value="1" />
           <entry key="cmd" value="1" />
-          <entry key="conf" value="190" />
+          <entry key="conf" value="192" />
           <entry key="csr" value="2" />
           <entry key="css" value="26" />
           <entry key="fastcgi_params" value="2" />
@@ -220,7 +121,7 @@
           <entry key="koi-win" value="1" />
           <entry key="log" value="78" />
           <entry key="log___jb_old___" value="1" />
-          <entry key="md" value="11" />
+          <entry key="md" value="12" />
           <entry key="php" value="3828" />
           <entry key="pid" value="1" />
           <entry key="scgi_params" value="2" />
@@ -241,18 +142,18 @@
           <entry key="JSON" value="21" />
           <entry key="JavaScript" value="14" />
           <entry key="Log" value="78" />
-          <entry key="Markdown" value="11" />
+          <entry key="Markdown" value="12" />
           <entry key="PHP" value="3828" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="Scratch" value="5" />
-          <entry key="SmartyConfig" value="190" />
+          <entry key="SmartyConfig" value="192" />
           <entry key="htaccess" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="PHP Console" value="246" />
-          <entry key="conf" value="672" />
+          <entry key="conf" value="673" />
           <entry key="css" value="26" />
           <entry key="dummy" value="18" />
           <entry key="gitignore" value="4" />
@@ -262,7 +163,7 @@
           <entry key="js" value="2" />
           <entry key="json" value="91" />
           <entry key="log" value="32" />
-          <entry key="md" value="25" />
+          <entry key="md" value="49" />
           <entry key="php" value="19635" />
           <entry key="txt" value="73" />
         </counts>
@@ -275,10 +176,10 @@
           <entry key="JSON" value="91" />
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="32" />
-          <entry key="Markdown" value="25" />
+          <entry key="Markdown" value="49" />
           <entry key="PHP" value="19870" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="SmartyConfig" value="672" />
+          <entry key="SmartyConfig" value="673" />
           <entry key="htaccess" value="235" />
         </counts>
       </usages-collector>
@@ -298,10 +199,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf">
+        <entry file="file://$PROJECT_DIR$/php/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="14" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -458,11 +371,11 @@
         <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ssl/ag88lw.com.conf" />
         <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/php/admin/index.php" />
-        <option value="$PROJECT_DIR$/php/README.md" />
         <option value="$PROJECT_DIR$/php/ng_limit.conf" />
         <option value="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" />
-        <option value="$PROJECT_DIR$/php/ng_rewrite.conf" />
         <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf" />
+        <option value="$PROJECT_DIR$/php/ng_rewrite.conf" />
+        <option value="$PROJECT_DIR$/php/README.md" />
       </list>
     </option>
   </component>
@@ -513,27 +426,6 @@
               <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivicms" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2221,7 +2113,7 @@
       <workItem from="1535695811216" duration="2499000" />
       <workItem from="1535698702983" duration="6236000" />
       <workItem from="1535705566861" duration="9977000" />
-      <workItem from="1535717813489" duration="3865000" />
+      <workItem from="1535717813489" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2234,7 +2126,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322641000" />
+    <option name="totallyTimeSpent" value="322923000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2255,7 +2147,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.33045357" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" visible="true" weight="0.36717063" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" weight="0.36717063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32829374" />
@@ -2264,7 +2156,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4968051" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.543131" side_tool="true" weight="0.32829374" />
       <window_info anchor="bottom" id="REST Client" order="11" sideWeight="0.4201278" weight="0.32829374" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.456869" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.456869" visible="true" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2661,27 +2553,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="26" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+    <entry file="file://$PROJECT_DIR$/php/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
