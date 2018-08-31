@@ -2,195 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/ng_rewrite.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T050357.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T052328.200.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/log_format.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/ng_limit.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T052959.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T053015.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T053824.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-08-30T075744.200.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vivicms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vivicms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/css/518aa4ba1f5b6a3c.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/css/7336023f08da73a1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/php/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/admin/public_admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/admin/public_admin/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/data/cache/html/a7/2c/a72cf82983a0bcb9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/01/7c/017cb61bf02dd348.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/04/99/049919b45834348e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/04/c4/04c42661c4d78678.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/05/3b/053b0847dc815333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/05/3e/053e86ad453f7c30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/06/2b/062bff378ad33e4b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/07/ae/07ae466ab420646d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/07/c2/07c2e283ccf063b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/09/95/09958e9024a36d3b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/0d/dd/0dddaf57c8afdfda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/0e/66/0e6679c29fe77833.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/0e/92/0e92f5b6c62ce5d2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/10/41/10410f7baffbd034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/11/18/111878d014989c1d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/11/fc/11fc0bc0019e7dec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/14/6d/146dd7f98d3fe2f9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/15/9f/159fbe18c9b8100d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/16/0a/160a563b90873023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/16/b5/16b550580fdc6224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/17/3e/173e3ee5272db263.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/17/43/174312493d48b5df.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/18/bf/18bf1f0b8ee2aab6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/1a/f5/1af5413dbf3c86eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/1b/85/1b85d10d651845b4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/1d/c0/1dc06ce25745a6c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/1d/dc/1ddc25761a89ff99.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/1e/10/1e106b317d0ddbbe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/20/6b/206b95615fc5d5e7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/20/8b/208b4ba58d16d23b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/20/a1/20a1082b6a7c8019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/20/dc/20dca76c048fc604.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/28/7e/287e0bc6aee69a95.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/29/a0/29a03881dff9ab12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/2a/95/2a956e4534827873.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/2b/18/2b18d901d7805ae1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/2b/59/2b5981bdd6f013ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/2e/f9/2ef9960f8fc22375.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/31/6c/316c6311c9db7cce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/31/d2/31d24f07d78f1f39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/33/7f/337fd0259e05b3d3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/34/26/34263c0eae32fc56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/35/a8/35a824b395e12bba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/37/1c/371cf31b14e7cbfc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/39/ef/39ef1c5942df8ca2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/3b/9a/3b9a616b7831743a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/3c/6f/3c6ff06f694d4429.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/3d/a6/3da6c068f5dbd4d1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/44/2b/442bda0935e055b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/46/1b/461b02ae402ec594.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/4a/09/4a09a75a31ec2cd7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/4a/bb/4abb1118c2ec29e7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/4b/ee/4bee4865fc9a9dad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/4c/7b/4c7b37e600a84ed5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/4f/17/4f170d6fdc757c3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/50/94/5094ed818ec2dcce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/52/05/5205fb784447e81a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/52/e1/52e1c113a625b46f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/53/44/53441c95c08d17fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/54/59/545983f30e1f84dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/57/c5/57c53a37522b5618.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/57/d2/57d2f22f268d1b18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/5b/25/5b25f697f1a648dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/5c/1e/5c1ee20f2c678d40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/5e/31/5e3115afd0ec00b8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/5f/7f/5f7f09f7f72872a1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/61/2a/612a8ac4570b3e8f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/64/4e/644e9609837723b3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6a/1a/6a1ab8f5331b3511.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6b/35/6b35fe41e85a12d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6e/85/6e8586c732dccd4d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6e/e6/6ee68870ea3765ac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6e/ed/6eed22f70a1c3c72.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6e/f8/6ef8dfd494f5d669.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/6f/2b/6f2bceed96125354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/70/6c/706cee2da2f1ed55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/73/d9/73d90d78160158d9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/74/91/74914d034bf3482d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/74/c4/74c40e2734b38dee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/77/58/77589dae74a6561c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/77/7f/777f7f5e26a22faf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/7a/bc/7abcca4fc9832a75.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/7c/a6/7ca6c3bed024d519.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/7d/32/7d32d2fcc4751b4d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/7d/4e/7d4ea3246bd73def.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/7e/cd/7ecd412ffa13bc96.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/84/00/84007a83e36dfc41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/89/0d/890d5ace5d6f7821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/89/b4/89b4ccae2c027716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8a/ae/8aae6a5a3013a60a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8c/7f/8c7fe43dd6465eab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8c/d9/8cd901c98a9dd674.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8d/91/8d9150f8fc31cad9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8f/04/8f0494e439e6c425.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/8f/23/8f23abd6419bf3a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/91/e1/91e12e896c80fa2f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/92/0a/920a92d916bffb2e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/94/47/9447dd8f73fa62d8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/98/74/9874b19d8f49d8a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/99/50/995032a76ced03c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/9b/31/9b316e492cb8c5c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/9b/3c/9b3c568f0e37990f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/9b/ba/9bbac089972fb98e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/9e/e2/9ee227ddc857fec6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a1/05/a105c607d47e5c89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a2/6f/a26f333767f8981c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a3/97/a3973dd98b9b2234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a4/77/a477d8d37a249cac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a4/b4/a4b4143c4f02a21e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a6/1a/a61a019d4dde5ca0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a7/84/a7841c7a09d991d2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a7/b4/a7b4c1696d9a4c05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a9/83/a9836c715a8ff845.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/a9/d8/a9d855581eda40f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/ae/5b/ae5b97da12abbf2e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/ae/e2/aee27227325e051f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b0/fe/b0fe121409d36f92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b2/2c/b22c96ec0adf1540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b3/01/b301c44e71985a13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b3/34/b3343e318e023b4c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b4/1d/b41d5896b04871cb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b5/bb/b5bbebcd17de3639.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b5/c3/b5c39214b51ae788.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b5/d2/b5d267dd6eb2f841.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b6/e8/b6e883e8ab80e2e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/b8/aa/b8aaf9bdec8cd840.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/ba/05/ba05aa41d111c372.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/bc/63/bc63493f23861bd4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/bd/6b/bd6b504d3a0fecd1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/be/14/be149eb3f58c0280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/be/c9/bec94cd4d0fc66c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/c4/5c/c45c1faefa67c565.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/c4/97/c497b0758bca57d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/cb/1d/cb1db2285a9b0a22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/cc/b6/ccb6a602729a3ad4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/d1/b4/d1b43003f07328a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/d1/db/d1dbbffa5b1778c7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/d2/d3/d2d37eb18d4f1275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/d4/ba/d4ba671afa2b04b4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/d9/39/d939bf65bca471fd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/dd/3b/dd3b5df85f8d2cc6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/e0/9d/e09db7f0418a46f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/e4/2d/e42d0af42509c989.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/e6/ca/e6ca208e328ce173.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/e8/46/e846c02f3a3e385d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/eb/14/eb144837894dbca8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/eb/17/eb178b1c04c317cd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/eb/e9/ebe96084672ae460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/ed/1c/ed1c57246d369bc6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/f3/7c/f37c612dc2f2bfa3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/f5/2a/f52aa4c517f0c267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/f8/ea/f8ea45387abf8092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/fc/78/fc782cc2da014ca2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/jpg/ff/19/ff19fb0d0a680343.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/03b789af3e583728.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/0de3249a2e1f9683.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/202a5b8915113018.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/30a1e95f3fe83bf2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/30dd1295ea1f59b7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/33e21fb4d0305d55.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/41006c4abe413ffe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/537d8c05401a064e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/5bd4dd926991122b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/7fbe89425422af38.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/868016d7bc7bc9d7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/8d703739c5836592.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/8df6cf44b8a19414.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/9760853b49bcae42.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/a95f7234b44628f1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/a9f1899b3d489a40.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/b21dd4c4b6c456e7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/bae4e176dafa4ea1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/bf92a37689683383.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/c732e2bcb3b323ac.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/c81f4624de60a657.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/d45a8d8fe0e08b37.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/js/f9941bf9b0bfeb23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/deltime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/deltime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/ng_rewrite.conf" beforeDir="false" afterPath="$PROJECT_DIR$/php/ng_rewrite.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/css/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/css/jquery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/button_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/button_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/inbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/inbg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/input.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/input.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/input.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/input.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/load.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/load.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/loginsafe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/loginsafe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/top9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/top9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/img/vip.gif" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/img/vip.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/en_vivi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/en_vivi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/jquery-1.3.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery-1.3.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/LGPLv3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/LGPLv3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/clipboard.swf" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/clipboard.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushAS3.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushBash.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCSharp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushColdFusion.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCpp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushCss.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushDelphi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushDiff.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushErlang.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushGroovy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJava.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushJavaFX.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPerl.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPhp.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPlain.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPowerShell.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushPython.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushRuby.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushScala.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushSql.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushVb.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shBrushXml.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/scripts/shLegacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shLegacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/src/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/src/shLegacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shLegacy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/magnifier.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/magnifier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/page_white_code.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_code.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/page_white_copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/printer.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/printer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shCore.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shCore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeDjango.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEclipse.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEditplus.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEditplus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeEmacs.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeFadeToGrey.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeMidnight.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/syntaxhighlighter/styles/shThemeRDark.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/js/vivi.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/js/vivi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/multi-select/css/multi-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/css/multi-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/multi-select/img/switch.png" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/img/switch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/public/multi-select/js/jquery.multi-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/php/public1/multi-select/js/jquery.multi-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/static/fanwen/logo.gif" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -258,7 +171,7 @@
     <session id="-1610963567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.148" value="1" />
@@ -266,7 +179,7 @@
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.40" value="2" />
+          <entry key="project.open.time.40" value="4" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -276,9 +189,11 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -286,48 +201,58 @@
           <entry key="29'" value="1" />
           <entry key="back" value="1" />
           <entry key="cmd" value="1" />
-          <entry key="conf" value="55" />
-          <entry key="css" value="20" />
+          <entry key="conf" value="190" />
+          <entry key="csr" value="2" />
+          <entry key="css" value="26" />
+          <entry key="fastcgi_params" value="2" />
+          <entry key="gif" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="htaccess" value="66" />
-          <entry key="html" value="93" />
+          <entry key="hosts" value="1" />
+          <entry key="htaccess" value="68" />
+          <entry key="html" value="95" />
           <entry key="http" value="5" />
-          <entry key="ini" value="4" />
+          <entry key="ini" value="6" />
           <entry key="jpg" value="8" />
           <entry key="js" value="14" />
           <entry key="json" value="21" />
-          <entry key="log" value="10" />
-          <entry key="md" value="8" />
-          <entry key="php" value="3808" />
-          <entry key="scgi_params" value="1" />
+          <entry key="key" value="1" />
+          <entry key="koi-utf" value="1" />
+          <entry key="koi-win" value="1" />
+          <entry key="log" value="78" />
+          <entry key="log___jb_old___" value="1" />
+          <entry key="md" value="11" />
+          <entry key="php" value="3828" />
+          <entry key="pid" value="1" />
+          <entry key="scgi_params" value="2" />
           <entry key="ttf" value="4" />
           <entry key="txt" value="9" />
-          <entry key="win-utf" value="1" />
+          <entry key="uwsgi_params" value="1" />
+          <entry key="win-utf" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="20" />
+          <entry key="CSS" value="26" />
           <entry key="Cmd" value="1" />
           <entry key="Enforced Plain Text" value="2" />
-          <entry key="HTML" value="91" />
-          <entry key="Image" value="8" />
-          <entry key="Ini" value="4" />
+          <entry key="HTML" value="93" />
+          <entry key="Image" value="9" />
+          <entry key="Ini" value="6" />
           <entry key="JSON" value="21" />
           <entry key="JavaScript" value="14" />
-          <entry key="Log" value="10" />
-          <entry key="Markdown" value="8" />
-          <entry key="PHP" value="3808" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Log" value="78" />
+          <entry key="Markdown" value="11" />
+          <entry key="PHP" value="3828" />
+          <entry key="PLAIN_TEXT" value="32" />
           <entry key="Scratch" value="5" />
-          <entry key="SmartyConfig" value="55" />
-          <entry key="htaccess" value="66" />
+          <entry key="SmartyConfig" value="190" />
+          <entry key="htaccess" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="PHP Console" value="246" />
-          <entry key="conf" value="175" />
+          <entry key="conf" value="672" />
           <entry key="css" value="26" />
           <entry key="dummy" value="18" />
           <entry key="gitignore" value="4" />
@@ -336,10 +261,10 @@
           <entry key="ini" value="2" />
           <entry key="js" value="2" />
           <entry key="json" value="91" />
-          <entry key="log" value="3" />
-          <entry key="md" value="10" />
-          <entry key="php" value="19583" />
-          <entry key="txt" value="67" />
+          <entry key="log" value="32" />
+          <entry key="md" value="25" />
+          <entry key="php" value="19635" />
+          <entry key="txt" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -349,11 +274,11 @@
           <entry key="Ini" value="2" />
           <entry key="JSON" value="91" />
           <entry key="JavaScript" value="2" />
-          <entry key="Log" value="3" />
-          <entry key="Markdown" value="10" />
-          <entry key="PHP" value="19818" />
-          <entry key="PLAIN_TEXT" value="89" />
-          <entry key="SmartyConfig" value="175" />
+          <entry key="Log" value="32" />
+          <entry key="Markdown" value="25" />
+          <entry key="PHP" value="19870" />
+          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="SmartyConfig" value="672" />
           <entry key="htaccess" value="235" />
         </counts>
       </usages-collector>
@@ -365,68 +290,18 @@
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="43" />
+          <entry key="PHP Class.type" value="44" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/admin/admin.php">
+        <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/img.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/html.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/font.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/js.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="380">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -444,17 +319,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>schema</find>
-      <find>isXieyi</find>
-      <find>CURLOPT_RANGE</find>
-      <find>CURLOPT_HTTPHEADER</find>
-      <find>curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE)</find>
-      <find>ssl_test</find>
-      <find>ssl_down</find>
-      <find>allhref</find>
-      <find>$this-&gt;allhref</find>
-      <find>is_ssl_down</find>
-      <find>img_</find>
       <find>images</find>
       <find>img_delay_name</find>
       <find>imgsrc</find>
@@ -474,6 +338,17 @@
       <find>$brower</find>
       <find>不同的方法不同的效果</find>
       <find>仅对base64方法有效</find>
+      <find>allbtbg2.gif</find>
+      <find>root</find>
+      <find>bg</find>
+      <find>log_format</find>
+      <find>$request</find>
+      <find>ssl_certificate</find>
+      <find>index</find>
+      <find>127.0.0.*</find>
+      <find>rewrite_log on;</find>
+      <find>REDIRECT_URL</find>
+      <find>request</find>
     </findStrings>
     <replaceStrings>
       <replace>$G</replace>
@@ -516,6 +391,7 @@
       <dir>D:\all\php\vivicms\php\admin</dir>
       <dir>D:\all\php\vivicms\php\</dir>
       <dir>D:\all\php\vivicms</dir>
+      <dir>D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\conf</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -531,29 +407,11 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response8.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response5.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/js.php" />
-        <option value="$PROJECT_DIR$/php/index.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/setCharset.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/getTargetRootUrl.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/getFromUrl.php" />
-        <option value="$PROJECT_DIR$/php/data/params/GetParaseUrlSchema.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/urlext/getExt.php" />
-        <option value="$PROJECT_DIR$/php/data/params/GetParaseUrl_Schema_Host.php" />
-        <option value="$PROJECT_DIR$/php/lib/FileDownload.php" />
-        <option value="$PROJECT_DIR$/php/data/replace/getAllLink.php" />
-        <option value="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" />
-        <option value="$PROJECT_DIR$/php/data/replace/replace_web_description.php" />
-        <option value="$PROJECT_DIR$/php/data/replace/replace_src.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji_config/ac_null.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/config6.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/config5.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/config4.php" />
-        <option value="$PROJECT_DIR$/php/admin/caiji/config3.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config2.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config1.php" />
         <option value="$PROJECT_DIR$/php/admin/caiji/config0.php" />
@@ -584,7 +442,25 @@
         <option value="$PROJECT_DIR$/php/admin/caiji_url.php" />
         <option value="$PROJECT_DIR$/php/1.php" />
         <option value="$PROJECT_DIR$/php/admin/admin.php" />
+        <option value="$PROJECT_DIR$/php/admin/public_admin/css/base.css" />
+        <option value="$PROJECT_DIR$/php/public1/css/base.css" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/fastcgi_params" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/fastcgi.conf" />
+        <option value="$USER_HOME$/Desktop/www.0573xinying.com.conf" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/php/php-5.3.29-nts/php.ini" />
         <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/logs/error.log" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/logs/access.log" />
+        <option value="$PROJECT_DIR$/php/lib/Request.php" />
+        <option value="$PROJECT_DIR$/php/log_format.conf" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.aylhhg.com.conf" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/hosts" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ag88lw.com.conf" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ssl/ag88lw.com.conf" />
+        <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/php/admin/index.php" />
+        <option value="$PROJECT_DIR$/php/README.md" />
+        <option value="$PROJECT_DIR$/php/ng_limit.conf" />
+        <option value="$PROJECT_DIR$/php/data/rules/getTargetUrl.php" />
         <option value="$PROJECT_DIR$/php/ng_rewrite.conf" />
         <option value="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/vhosts.conf" />
       </list>
@@ -640,16 +516,24 @@
             </path>
             <path>
               <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -668,6 +552,13 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all\php\vivicms\php" />
+      <recent name="D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\ssl" />
+      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
+      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
+      <recent name="D:\all\php\vivicms\php\data\conf" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
       <recent name="D:\all\php\vivicms\php\admin\caiji" />
@@ -675,17 +566,37 @@
       <recent name="D:\all\php\vivicms\php\lib" />
       <recent name="D:\all\php\vivicms\php" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\all\php\vivicms\php" />
-      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
-      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
-      <recent name="D:\all\php\vivicms\php\data\conf" />
-      <recent name="D:\all\php\vivicms\6.1\admin" />
-    </key>
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/Ly9waW5nanMucXEuY29tL3BpbmcuanM=.js" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://v.cn" />
+          <option name="urlPath" value="/L2pzL0NvbXBhbnkuanM/MS4y.js" />
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://v.cn" />
@@ -699,15 +610,6 @@
           <option name="httpMethod" value="GET" />
           <option name="urlBase" value="http://v.cn" />
           <option name="urlPath" value="/Y3NzL2xpbmsuY3Nz.css" />
-          <option name="parametersEnabled" value="true" />
-          <option name="haveFileToSend" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="" />
           <option name="parametersEnabled" value="true" />
           <option name="haveFileToSend" value="true" />
           <option name="textToSend" value="" />
@@ -2242,63 +2144,6 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn/fonts/glyphicons-halflings-regular.woff" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="biscuits">
-            <list>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="l.cn" />
-                <option name="name" value="PHPSESSID" />
-                <option name="path" value="/" />
-                <option name="value" value="3silh9jc3l6l26g1bf6dvo0sp2" />
-              </Biscuit>
-              <Biscuit>
-                <option name="date" value="-1" />
-                <option name="domain" value="www.topthink.com" />
-                <option name="name" value="__jsluid" />
-                <option name="path" value="/" />
-                <option name="value" value="0f0e7adb5c9e31dc22029864f627766d" />
-              </Biscuit>
-            </list>
-          </option>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://v.cn" />
-          <option name="urlPath" value="/aHR0cDovL2JveC50b3B0aGluay5jb20vVXBsb2Fkcy9QaWN0dXJlLzIwMTgtMDMtMTMvNWFhN2RiY2IyNjM3Nl90aHVtYi5qcGc=.jpg" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2373,6 +2218,10 @@
       <workItem from="1535677675529" duration="4408000" />
       <workItem from="1535684160773" duration="3478000" />
       <workItem from="1535687666204" duration="2742000" />
+      <workItem from="1535695811216" duration="2499000" />
+      <workItem from="1535698702983" duration="6236000" />
+      <workItem from="1535705566861" duration="9977000" />
+      <workItem from="1535717813489" duration="3865000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2385,7 +2234,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300064000" />
+    <option name="totallyTimeSpent" value="322641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2398,14 +2247,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2912673" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30404687" />
       <window_info id="Structure" order="2" weight="0.24920128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.33045357" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" weight="0.36717063" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81842387" visible="true" weight="0.36717063" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32829374" />
@@ -2483,11 +2333,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/index.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/php/img.php</url>
           <line>3</line>
           <option name="timeStamp" value="7" />
@@ -2506,6 +2351,11 @@
           <url>file://$PROJECT_DIR$/php/js.php</url>
           <line>5</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/admin/index.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -2664,292 +2514,167 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_title.php">
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bjxjjdp.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bqhdn.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bsthbkj.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bxtcsd.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.cannengst.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ssl/ag88lw.com.key" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ssl/ag88lw.com.csr" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.1z8.net.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.2renzheng.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.51xiagu.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.51yingxiaoba.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.668498.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.0731yys.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.datouspa.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.dalianyishike.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.dalangfuli.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.chnhuayi.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.btdycs.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.bsthbkj.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.beijingmanlan.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.baolirunkai.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.ampjzy.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.aomuchaye.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.ahjcmc.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/hosts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="38">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/setCharset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/cache/jpg/b9/eb/b9eba7cf9432666a.jpg" />
-    <entry file="file://$PROJECT_DIR$/php/data/ReadCacheNoTimeout.php">
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ag88lw.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/conf/www.88888845.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/ssl/ag88lw.com.conf" />
+    <entry file="file://$PROJECT_DIR$/php/data/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_style_by_caiji_config_css.php">
+    <entry file="file://$PROJECT_DIR$/php/data/config/4.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/cache/html/d7/b2/d7b2b825ee2a790e.html" />
-    <entry file="file://$PROJECT_DIR$/php/data/rules/headerContextType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/robot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_to_utf8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/echo_html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/rules/getTargetUrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/vendor/composer/ClassLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/flow/SaveCache.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/replace/replace_pic.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/lib/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9215">
-          <caret line="485" selection-start-line="485" selection-end-line="485" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/BaseGlobal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/SiteAbortReadCache.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/public_admin/js/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/tmp_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/inc/common.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/rules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add/config7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji_url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/right_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/caiji/xiugai_add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="16" selection-start-line="50" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="182">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/scgi_params">
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.aylhhg.com.conf" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/example.conf">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config/4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/css.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/cache/html/a7/2c/a72cf82983a0bcb9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3477" />
-      </provider>
     </entry>
     <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="532">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/fastcgi.conf">
+    <entry file="file://$PROJECT_DIR$/php/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="247">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#1810#1816#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/nconfig.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3249" />
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/php/php-5.3.29-nts/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1108">
-          <caret line="377" column="25" lean-forward="true" selection-start-line="377" selection-start-column="25" selection-end-line="377" selection-end-column="25" />
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/logs/access.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-684">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/logs/error.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/checkAdmin.php">
+    <entry file="file://$PROJECT_DIR$/php/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/html.php">
+    <entry file="file://$PROJECT_DIR$/php/data/cache/css/6adc45827687d375.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/font.php">
+    <entry file="file://$PROJECT_DIR$/php/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/cache/html/82/79/82795681125321b2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/log_format.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/php.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ng_limit.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/css.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/php/js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/rules/getTargetUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/rules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/fastcgi.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="13" column="26" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2957,27 +2682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/win-utf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/admin/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>

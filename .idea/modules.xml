@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/.idea/nginx.iml" filepath="D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/.idea/nginx.iml" />
-      <module fileurl="file://D:/soft/bc/phpstudy/2018/PHPTutorial/php/.idea/php.iml" filepath="D:/soft/bc/phpstudy/2018/PHPTutorial/php/.idea/php.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vivicms.iml" filepath="$PROJECT_DIR$/.idea/vivicms.iml" />
     </modules>
   </component>

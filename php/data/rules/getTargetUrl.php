@@ -28,9 +28,10 @@ class getTargetUrl extends BaseGlobal
 
 
     function base64_decode(&$url){
-        $url= ltrim( $this->REDIRECT_URL,'/');
+      //  $url= ltrim( $this->REQUEST_URI,'/');
+        $url= ltrim($this->REQUEST_URI,'/');
         $url=preg_replace('#(\.\w+)$#','',$url);
-        $url=  $this->isBase64Encode($url)?  base64_decode($url):$this->REDIRECT_URL;
+        $url=  $this->isBase64Encode($url)?  base64_decode($url):$this->REQUEST_URI;
     }
 
 

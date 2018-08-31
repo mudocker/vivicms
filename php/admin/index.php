@@ -1,6 +1,7 @@
 <?php
 require_once('autoload.php');
 header("Content-type: text/html; charset=utf8");
+
 ?>
 <html>
 <head>
@@ -9,13 +10,8 @@ header("Content-type: text/html; charset=utf8");
 <link rel='stylesheet' type='text/css' href='./public_admin/css/admin.css'>
 <script language="JavaScript">
 function chk(){
-	if(document.login.adminname.value==""){
-		alert("用户名不能为空");
-		return false;
-	}else if(document.login.password.value==""){
-		alert("密码不能为空");
-		return false;
-	}
+	if(document.login.adminname.value==""){alert("用户名不能为空");return false;}
+	else if(document.login.password.value==""){alert("密码不能为空");return false;}
 }
 </script>
 </head>
