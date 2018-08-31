@@ -5,3 +5,8 @@ vivicms
 admin
 密码：
 admin
+
+
+nginx 手册
+
+http://www.nginx.cn/doc/

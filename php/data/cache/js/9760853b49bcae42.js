@@ -1,1 +1,0 @@
-document.write(' <div style="width:405px;height:58px"><a showadid="16521"  href="http://vip.qzrc.com/link.aspx?id=16521" target="_blank"><img src="http://vip.qzrc.com/UploadFile/2017/2017092310112676.gif" border="0" style="width:405px;height:58px"/></a></div>       ');
