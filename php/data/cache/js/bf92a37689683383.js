@@ -1,0 +1,1 @@
+document.write('<a showadid="17031" href="http://vip.qzrc.com/link.aspx?id=17031" target="_blank"><img src="http://vip.qzrc.com/UploadFile/2018/2018080410402626.gif" border="0" vspace="3"/></a><a showadid="16456" href="http://vip.qzrc.com/link.aspx?id=16456" target="_blank"><img src="http://vip.qzrc.com/UploadFile/2017/2017082410431641.gif" border="0" vspace="3"/></a>');

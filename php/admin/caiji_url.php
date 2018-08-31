@@ -40,8 +40,7 @@ if($id == ''){
 		</select></td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td width="260"><b>URL加密方法</b><br>
-		<font color="#666666">不同的方法不同的效果</font></td>
+		<td width="260"><b>URL加密方法</b></td>
 		<td><select name="con[web_urlencode_type]" >
 			<option value="base64" <?php if($v_config['web_urlencode_type'] == 'base64' || empty($v_config['web_urlencode_type']))echo " selected";
     ?>>base64</option>
@@ -52,14 +51,12 @@ if($id == ''){
 		</select></td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td width="260"><b>加密密钥</b><br>
-		<font color="#666666">仅对base64方法有效，更改后需清除缓存</font></td>
+		<td width="260"><b>加密密钥</b></td>
 		<td><input type="text" name="con[web_urlencode_key]" size="15" value="<?php echo $v_config['web_urlencode_key'];
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
 	</tr>
 	<tr nowrap class="firstalt">
-		<td width="260"><b>URL后缀</b><br>
-		<font color="#666666">默认为 html，不用带点</font></td>
+		<td width="260"><b>URL后缀</b></td>
 		<td><input type="text" name="con[web_urlencode_suffix]" size="15" value="<?php echo $suffix;
     ?>" onFocus="this.style.borderColor='#00CC00'" onBlur="this.style.borderColor='#dcdcdc'" ></td>
 	</tr>

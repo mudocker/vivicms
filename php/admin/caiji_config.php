@@ -20,6 +20,11 @@ echo ADMIN_HEAD;
     <?php include "welcome.php"; ?>
      <?php   require_once VV_CAIJI.'right_main.php'; ?>
 </div>
+
+
+
+
 <?php include "footer.php"; ?>
+
 </body>
 </htm>

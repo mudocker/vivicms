@@ -14,17 +14,13 @@ use md\data\rules\headerContextType;
 class SiteAbortReadCache extends BaseGlobal
 {
 
-    /**
-     * SiteAbortReadCache constructor.
-     */
-    public function __construct()
-    {
-        if (siteAbort($this->geturl)){
-            if ($this->v_config['obort_read_cahce']!=true)return;
-            new headerContextType();
-            !file_exists($this->cachefile) and nofoud();
-              readCacheFile();
-        }
+     function __construct(){
+     if(! siteAbort($this->geturl))return;
+      if ($this->v_config['obort_read_cahce']!=true)return;
+       new headerContextType();
+      !file_exists($this->cachefile) and nofoud();
+      readCacheFile();
+
 
 
     }

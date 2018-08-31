@@ -1,0 +1,1 @@
+document.write('<div style="position:absolute; width:100px; height:300px;z-index:1;left:10px;top:15px"></div>');
