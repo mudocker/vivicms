@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>{$title}</title>
+<meta name="description" content="{$web_description}" />
+<meta name="keywords" content="{$web_keywords}" />
+<link rel="stylesheet" href="{$web_themepath}/skin/style.css" type="text/css" />
+<script type="text/javascript" src="{$web_themepath}/skin/js/jquery.min.js"></script>
+<script type="text/javascript" src="{$web_themepath}/skin/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="{$web_themepath}/skin/js/gotop.js"></script>
+</head>
+<body>
+{include file="head.html"}
+<div class="main1">
+	<div class="g_box6 fl">
+    	<div id="slideBox" class="slideBox">
+            <div class="hd">
+                <ul>
+                </ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    {loop row='5' type='show_links_pic'}
+                    <li>
+                        <div class="pic"><a href="{$vo.url}"><img src="{$vo.litpic}" alt="{$vo.title}" /></a></div>
+                        <div class="tit"><a href="{$vo.url}">{$vo.title}</a></div>
+                        <div class="bg"></div>
+                    </li>
+                    {/loop}
+                </ul>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery("#slideBox").slide({ mainCell:".bd ul",autoPlay:true,effect:"left",
+                endFun:function(i,c){
+                    jQuery("#slideBox .tit").css({"bottom":-40}).eq(i).animate({"bottom":0});
+                    jQuery("#slideBox .bg").css({"bottom":-40}).eq(i).animate({"bottom":0});
+                }
+            });
+        </script>
+    </div>
+    <div class="g_box1 fl">
+    	<div class="t_1">最新文章</div>
+		{loop row='2' type='show_links_text'}
+        <h1><a href="{$vo.url}">{$vo.title}</a></h1>
+        {/loop}
+        <ul>
+        	{loop row='8' type='show_links_text'}
+        	<li><a href="{$vo.url}">{$vo.title}</a></li>
+        	{/loop}
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <div class="right_1 fr">
+    	<div class="g_box2">
+        	<div class="t_1">热门文章</div>
+            <ul class="b_box1">
+            	{loop row='8' type='show_links_text'}
+                <li><a href="{$vo.url}">{$vo.title}</a></li>
+                {/loop}
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="main2">
+	<div class="t_2">
+    	<h3>最新文章</h3>
+    </div>
+    <div class="g_box3 fl">
+        <ul class="b_box3">
+			{loop row='13' type='show_links_text'}
+			<li><a href='{$vo.url}'>{$vo.title}</a></li>
+			{/loop}
+        </ul>
+    </div>
+    <div class="g_box4 fl">
+		{loop row='3' type='show_links_text'}
+		<h3><a href='{$vo.url}'>{$vo.title}</a></h3>
+		{/loop}
+        <ul class="b_box8">
+        	{loop row='6' type='show_links_text'}
+			<li><a href='{$vo.url}'>{$vo.title}</a></li>
+			{/loop}
+        </ul>
+    </div>
+    <div class="g_box3 fl">
+    	<div class="t_3">热门排行</div>
+        <ul class="b_box4">
+        	{loop row='11' type='show_links_text'}
+			<li><a href='{$vo.url}'>{$vo.title}</a></li>
+			{/loop}
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="main2">
+	<div class="t_2">
+    	<h3>热点推荐</h3>
+    </div>
+    <ul class="b_box9">
+		{loop type='show_links_text'}
+			<li class="auto"><a href='{$vo.url}'>{$vo.title}</a></li>
+		{/loop}
+		{loop type='other_links_text'}
+			<li class="auto"><a href='{$vo.url}'>{$vo.title}</a></li>
+		{/loop}
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="main2">
+	<div class="t_2">
+    	<h3>最新图文</h3>
+    </div>
+    <ul class="b_box9">
+		{loop row='100' type='show_links_pic'}
+			<li><a href='{$vo.url}'><img src="{$vo.litpic}" alt="{$vo.title}" /><p>{$vo.title}</p></a></li>
+		{/loop}
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="main2">
+	<div class="t_2">
+    	<h3>热点图文</h3>
+    </div>
+    <ul class="b_box9">
+		{loop row='100' type='other_links_pic'}
+			<li><a href='{$vo.url}'><img src="{$vo.litpic}" alt="{$vo.title}" /><p>{$vo.title}</p></a></li>
+		{/loop}
+        <div class="clear"></div>
+    </ul>
+</div>
+<div class="link">
+	<h3>友情链接</h3>
+    <p>{$flinks}</p> 
+</div>
+
+{include file="footer.html"}
+</body>
+</html>

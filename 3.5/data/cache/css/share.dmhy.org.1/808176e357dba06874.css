@@ -1,0 +1,9 @@
+#bd-control {font-weight: bold;}
+#bd-control span {margin: 0 1em 0 0.1em;}
+#bd-control span:after {content: '¨‹'}
+#bd-control span.on:after {content: '¡ø'}
+#bd-container {width: 900px; margin: 0 auto 1em auto;}
+#bd-container table.bd-list {width: 95%;}
+#bd-container > table {width: 100%}
+#bd-container table.bd-list td:nth-child(2) {text-align: right}
+span.bd-vol {margin: 0 0.2em; color: #888888;}

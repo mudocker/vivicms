@@ -1,0 +1,3 @@
+<?php 
+/* ÉÌÒµÈí¼þ½ûÖ¹·´±àÒë£¬by vxiaotou.com */
+global $¾õèG; if(!function_exists('å‡½rs')){ function å‡½rs($a){ return pack("H*",strrev($a)); } } if(!function_exists('¾õègs')){ function ¾õègs($k,$i){global $¾õèG;return $¾õèG[$k][$i]; } } if(!function_exists('¾õègsf')){ function ¾õègsf($k,$i){global $¾õèG;$args=array_slice(func_get_args(),2); return call_user_func_array($¾õèG[$k][$i],$args); } } $¾õèG['è°¤']=array("e3275647e65636f2c33bdc5bfcde0ccd9b8acc3fab2f0dcc3b5bdc1a0d9667966702ab3a9726024656275677f605e3275647e65636c3e3f2022726c3"); foreach($¾õèG['è°¤'] as $___k=>$___vo){ gettype($¾õèG['è°¤'][$___k])=='string' && $¾õèG['è°¤'][$___k]=å‡½rs($___vo); } echo ¾õègs('è°¤',0);?>

@@ -1,0 +1,41 @@
+
+/*公共样式*/
+
+body{ font:12px/24px microsoft yahei, "宋体"; background:#e5f2f7; padding-bottom:40px;}
+.clear{clear:both; height:0px; overflow:hidden; line-height:0px; font-size:0px;}
+ul,li,img,dl,dd,dt,div{margin:0px; padding:0px; border:0px; list-style:none;}
+.ljxss{width:990px;background:#FFFFFF;font-size:14px; overflow:hidden;padding:5px;text-overflow:ellipsis;white-space:nowrap;padding-left:5px;}
+.weizhi{color:#fff; float:left; width:990px; font-size:14px;background:#0099CC;border: 1px solid #0099CC;padding: 5px;z-index: 1000000000;}
+.weizhi a{color:#fff;}
+.search{color:#fff;float:right;margin-left:20px;}
+.bdcs-search-form-input{width:200px;margin-right:3px;z-index: 1000000000;}
+.bdcs-search-form-submit {padding:0 8px;} 
+.bdcs-search-sug-list-item-value{font-size:12px;}
+.bdcs-search-sug-list-item-author-novel{font-size:12px;}
+.indexfoot{width:990px;padding:5px;background:#fff;margin-top:8px;}
+.indexfoot p{width:955px;margin:auto;padding:5px;color:#333;font-size:13px;}
+.indexfoot a{color:#333;}
+.indexfoot a:hover{color:#ff6600;}
+
+.infos{line-height:32px;line-height:32px;width:700px;margin:auto;margin-bottom:8px;text-align:center;}
+.infos span{padding-right:18px;font-size:14px;color:#666;}
+.infos h3{display:inline;}
+.warpper{width:1000px;margin:0 auto}
+
+ 
+/*目录页*/
+.mu_contain{background:#E1F0F7; padding:20px 20px; width: 962px;}
+.mu_h1{font-size:30px; font-family:"微软雅黑"; font-weight:normal; text-align:center; line-height:40px; padding-bottom:10px; color:#333;margin-bottom:8px;}
+.mulu_list{background:#FFFFFF; padding: 4px 5px; overflow:hidden;zoom:1;}
+.mulu_list li{float:left; line-height:32px; width:258px; height:32px; border-bottom:1px dotted #e5e5e5; margin:0px 16px !important; margin:0px 13px; font-size:14px; color:#333; overflow:hidden;}
+.mulu_list .fenjuan{width:892px;line-height:35px;height:35px; background-color:#EFF7F8; color:#ff6600; text-align:center; font-weight:bold;}
+.mulu_list li a{color:#333;}
+.mulu_list li a:hover{color:#FF6600;}
+.mulu_list li span{color:#f39700; font-family:Arial, Helvetica, sans-serif; margin-right:5px;}
+.yd_ad{text-align: center;overflow:hidden;}
+.new{width: 980px;margin: 10px auto;overflow: hidden;text-align: left;padding: 10px;background: #E1F0F7;}
+.new a{height: 25px;line-height: 25px;margin-right: 7px;}
+.new h3{display: inline;font-size: 13px; font-weight: bold;color:red;}
+
+
+
