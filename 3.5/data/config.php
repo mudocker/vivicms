@@ -7,7 +7,7 @@ return array (
   'othercache' => '20',
   'csscache' => '0',
   'cacheon' => '0',
-  'web_remark' => '',
+  'web_remark' => 'html',
   'web_404_url' => '',
   'web_seo_name' => 'ÍøÕ¾³¤±êÌâ',
   'linkword_on' => '0',

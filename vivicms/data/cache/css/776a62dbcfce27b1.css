@@ -1,0 +1,849 @@
+/* Cascading Style Sheet Document */
+.kj_3px_green_557B1B {
+	border: 3px solid #557B1B;
+}
+
+.kj_black_000000 {
+	border: 1px solid #000000;
+}
+
+.kj_blue_3DB4FD {
+	border: 1px solid #3DB4FD;
+}
+.kj_blue_ACC6E3 {
+	border: 1px solid #ACC6E3;
+}
+
+.kj_red_AD585E {
+	border: 1px solid #AD585E;
+}
+.kj_red_E796B5 {
+	border: 1px solid #E796B5;
+}
+.kj_red_FFB4B4 {
+	border: 1px solid #FFB4B4;
+}
+.kj_red_FF7F7F {
+	border: 1px solid #ff7f7f;
+}
+
+.kj_gray_A1A1A1 {
+	border: 1px solid #A1A1A1;
+}
+.kj_gray_CCCCCC {
+	border: 1px solid #CCCCCC;
+}
+.kj_gray_E3E3E3 {
+	border: 1px solid #E3E3E3;
+}
+.kj_gray_EEEEEE {
+	border: 1px solid #EEEEEE;
+}
+
+
+.kj_green_148F02 {
+	border: 1px solid #148F02;
+}
+.kj_green_538404 {
+	border: 1px solid #538404;
+}
+.kj_green_97D040 {
+	border: 1px solid #97D040;
+}
+.kj_white_FFFFFF {
+	border: 1px solid #FFFFFF;
+}
+
+.kj_yellow_F1CF71 {
+	border: 1px solid #F1CF71;
+}
+.kj_←↑→_blue_3161BD {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-left-color: #AAAAAA;
+	border-bottom-width:1px;
+	border-bottom-color:#AAAAAA;
+}
+.le400 {
+	
+	border-left-width: 1px;
+
+	border-left-style: solid;
+
+	border-left-color: #AAAAAA;
+}
+.gmap {
+	
+	border-right-width: 1px;	
+
+	border-right-style: solid;
+	
+	border-right-color: #FFFFFF;
+
+}
+
+
+.kj_←↓→_blue_3DB4FD {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #3DB4FD;
+	border-bottom-color: #3DB4FD;
+	border-top-style: none;
+	border-left-width: 1px;
+	border-left-color: #3DB4FD;
+	border-bottom-width:1px;
+}
+.kj_←↑→_gray_CCCCCC {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-left-color: #AAAAAA;
+	border-bottom-width:1px;
+	border-bottom-color:#AAAAAA;
+	background-color:#0033CC;
+	color:#FFFFFF;	
+}
+
+.kj_↑↓→_gray_CCCCCC {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.kj_↑_gray_CCCCCC {
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+}
+.kj_→_gray_CCCCCC {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+}
+
+.kj_↓_gray_A1A1A1 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #A1A1A1;
+}
+.kj_↓_gray_CCCCCC {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.kj_↓_gray_EBEBEB {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+}
+.kj_↓_yellow_D9A72C {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D9A72C;
+}
+
+
+.hj1 {
+	line-height: 16px;
+}
+.hj2 {
+	line-height: 20px;
+}
+.hj3 {
+	line-height: 28px;
+}
+.hj4 {
+	line-height: 34px;
+}
+.txt_cu_U_FFFFFF {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.txt_cu_U_FFFF00 {
+	font-weight: bold;
+	color: #FFFF00;
+	text-decoration: underline;
+}
+.txt_cu_U_891717 {
+	font-weight: bold;
+	color: #891717;
+	text-decoration: underline;
+}
+/* Black Font */
+.txt_black_000000 {
+	color: #000000;
+}
+
+/* Blue Font */
+.txt_blue_0000FF {
+	color: #0000FF;
+}
+.txt_blue_023B96 {
+	color: #023B96;
+}
+.txt_blue_3161BD {
+	color:#333333;
+}
+
+.txt_blue_718BAC {
+	color: #718BAC;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+
+/* Yellow Font */
+.txt_yellow_FFFF00 {
+	color: #FFFF00;
+}
+.txt_yellow_BD7b15 {
+	color: #bd7b15;
+}
+.txt_yellow_E39F00 {
+	color: #E39F00;
+}
+.txt_yellow_937A22 {
+	color: #937A22;
+}
+.txt_yellow_5C441C {
+	color: #5C441C;
+}
+
+/* White Font */
+.txt_white_FFFFFF {
+	color: #FFFFFF;
+	font-color:#FFFFFF;
+}
+
+/* Red Font */
+.txt_red_AD585E {
+	color: #AD585E;
+}
+.txt_red_D13671 {
+	color: #D13671;
+}
+.txt_red_FFB1AE {
+	color: #FFB1AE;
+}
+.txt_red_FE746E {
+	color: #FE746E;
+}
+.txt_red_FF0000 {
+	color: #FF0000;
+}
+.txt_red_D14F37 {
+	color: #D14F37;
+}
+.txt_red_821818 {
+	color: #821818;
+}
+
+.txt_red_891717 {
+	color: #891717;
+}
+
+/* Gray Font */
+.txt_gray_444444 {
+	color: #444444;
+}
+.txt_gray_555555 {
+	color: #555555;
+}
+.txt_gray_666666 {
+	color: #333333;
+	
+}
+.txt_gray_gs {
+	color: #333333;
+	line-height:18px;
+}
+.txt_gray_666666_bg {
+	background-color: #d7d9ff;	
+}
+
+.txt_gray_686868 {
+	color: #686868;
+}
+.txt_gray_7E7E7E {
+	color: #7E7E7E;
+}
+.txt_gray_999999 {
+	color: #999999;
+	
+}
+
+/* Green Font */
+.txt_green_006600 {
+	color: #006600;
+}
+.txt_green_538406 {
+	color: #538406;
+}
+.txt_green_AFD83F {
+	color: #AFD83F;
+}
+.txt_green_2B4600 {
+	color: #2B4600;
+}
+/* Orange Font */
+.txt_orange_AC846A {
+	color: #AC846A;
+	font-size: 11pt;
+}
+.txt_orange_D1773D {
+	color: #D1773D;
+}
+.txt_orange_E55100 {
+	color: #E55100;
+	line-height: 21px;
+	
+}
+
+.txt_7pt {
+	font-size: 7pt;
+}
+
+/* Font Size */
+.txt_9pt {
+	font-size: 9pt;
+}
+.txt_10pt {
+	font-size: 10pt;
+}
+.txt_11pt {
+	font-size: 11pt;
+}
+.txt_12pt {
+	font-size: 12pt;
+}
+.txt_13pt {
+	font-size: 13pt;
+}
+.txt_14pt {
+	font-size: 14pt;
+}
+.txt_15pt {
+	font-size: 15pt;
+}
+.txt_16pt {
+	font-size: 16pt;
+}
+.txt_17pt {
+	font-size: 17pt;
+}
+.txt_20pt {
+	font-size: 20pt;
+}
+
+.button_1 {
+	color: #FFFFFF;
+	background-color: #e8518b;
+	width: 66px;
+}
+.button_2 {
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 66px;
+}
+.button_3 {
+
+	color: #000000;
+	background-color: #FFFFFF;
+	width: 92px;
+}
+a.backto:link{
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.backto:visited{
+	color: #000000;
+	text-decoration: underline;
+}
+a.backto:hover{
+	color: #666666;
+	text-decoration: underline;
+}
+a.backto:active{
+	color: #000000;
+	text-decoration: underline;
+}
+a.detail:link{
+color: #666666;
+text-decoration: underline;
+}
+a.detail:visited{
+color: #3a7db1;
+text-decoration: underline;
+}
+a.detail:hover{
+color: #666666;
+text-decoration: underline;
+}
+a.detail:active{
+color: #3a7db1;
+text-decoration: underline;
+}
+a.product:link{
+	color: #0033FF;
+	text-decoration: underline;
+}
+a.product:visited{
+	color: #0033FF;
+	text-decoration: underline;
+}
+a.product:hover{
+	color: #e55100;
+	text-decoration: underline;
+}
+a.product:active{
+	color: #0033FF;
+	text-decoration: underline;
+}
+a.product_class:link{
+	color: #666666;
+}
+a.product_class:visited{
+	color: #666666;
+}
+a.product_class:hover{
+	color: #000000;
+	text-decoration: none;
+}
+a.product_class:active{
+	color: #666666;
+}
+a.white:link{
+	color: #202020;
+}
+a.white:visited{
+	color: #202020;
+}
+a.white:hover{
+	color:#996633
+	text-decoration: none;
+}
+a.white:active{
+	color: #202020;
+}
+a.green:link{
+	color: #538406;
+}
+a.green:visited{
+	color: #538406;
+}
+a.green:hover{
+	color: #538406;
+	text-decoration: none;
+}
+a.green:active{
+	color: #538406;
+}
+/* Guide */
+.guide_text{
+font-family:宋体;
+color:#FFFFFF;
+text-align:center;
+}
+.guide1_text{
+font-family:宋体;
+text-align:left;
+color:#202020;
+}
+.guide2_text{
+font-family:宋体;
+color:#3a76b1;
+}
+.end_text{
+color:#616161;
+}
+.text_white{
+color:#FFFFFF;
+font-color:#FFFFFF;
+}
+.mystyle{
+width:1000px;background:#FFFFFF;
+}
+.pro_guide{
+font-size: 13px;
+color: #959595;
+font-family:华文中宋;
+text-align:center;
+background-color:#858585;
+}
+.pro_jj{
+color:#AAAAAA;}
+
+.pro_zb{
+font-family: Verdana, Arial, Helvetica, sans-serif,宋体;
+color:#000000;
+}
+.wid {
+	width : 1000px;
+}
+
+.formwork_titleleft {
+line-height: 18px;
+font-size: 13px;
+font-weight: 700;
+}
+.formwork_titleleft1 {
+line-height: 18px;
+font-size: 13px;
+color:#E55100;
+font-weight: 700;
+}
+.formwork_titleleft2 {
+line-height: 20px;
+font-size: 13px;
+}
+.formwork_titleleft3 {
+	line-height: 20px;
+	font-size: 13px;
+	color: #555;
+}
+.formwork_titleleft4 {
+	line-height: 18px;
+	font-size: 12px;
+	color: #666666;
+}
+.thin_table{background:#AAAAAA}
+.thin_table td{
+	background:#FFFFFF;
+	line-height:15px;
+}
+ul{margin:auto;}
+li{
+list-style-type:square;
+list-style-position:outside;
+line-height:21px;
+}
+
+a.project_detail:link{
+color:#E55100;
+line-height: 18px;
+font-size: 13px;
+font-weight: 700;
+}
+a.project_detail:visited{
+color: #E55100;
+text-decoration: underline;
+}
+a.project_detail:hover{
+color: #E55100;
+text-decoration: underline;
+}
+a.project_detail:active{
+color: #E55100;
+text-decoration: underline;
+}
+
+img{ border:0;}
+
+/*首页图片滚动**/
+.header_div{
+	width:1000px;
+	margin:0 auto;
+	}    
+.header_div_div{
+	height:300px;
+	width:1000px;
+	z-index:1000;
+	position: relative;
+	cursor:pointer;
+	}  
+.header_div_div_div{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:1000px;
+	height: 300px;
+	overflow: hidden;
+	}
+.header_div_div_ul{
+	position: absolute;
+	list-style-type:none;
+	right: 466px;
+	bottom: 10px;
+	height: 16px;
+	}
+.header_div_berore{
+	width:71px;
+	height:70px;
+	position: absolute;
+	list-style-type:none;
+	left:0px;
+	top: 115px;
+	background:url(/pics/home/later.png) no-repeat;
+	}
+.header_div_berore2{
+	width:71px;
+	height:70px;
+	position: absolute;
+	list-style-type:none;
+	right:0px;
+	top: 115px;
+	background:url(/pics/home/before.png) no-repeat;
+	}
+/*右侧图片滚动*/	
+.header_div_r{
+	width:247px;
+	margin:0 auto;
+	}    
+.header_div_div_r{
+	height:217px;
+	width:247px;
+	z-index:247;
+	position: relative;
+	cursor:pointer;
+	}  
+.header_div_div_div_r{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width:247px;
+	height: 217px;
+	overflow: hidden;
+	}
+.header_div_div_ul_r{
+	position: absolute;
+	list-style-type:none;
+	right: 466px;
+	bottom: 10px;
+	height: 16px;
+	}
+.header_div_berore_r{
+	width:30px;
+	height:30px;
+	position: absolute;
+	list-style-type:none;
+	left:0px;
+	top: 125px;
+	background:url(/pics/home/later_1.png) no-repeat;
+	}
+.header_div_berore2_r{
+	width:30px;
+	height:30px;
+	position: absolute;
+	list-style-type:none;
+	right:0px;
+	top: 125px;
+	background:url(/pics/home/before_1.png) no-repeat;
+	}
+
+/*产品图片切换*/
+#focus_change{
+	width:777px;
+	height:151px;
+	position:relative;
+	overflow:hidden;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background:#fff;
+	}
+#loading{
+	position: absolute;
+	z-index: 9999;
+	width: 777px;
+	height: 75px;
+	background: #fff url(/pics/product/loading.gif) center -40px no-repeat;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 76px;
+	
+	}
+#ts_bg{
+	position:absolute;
+	bottom:0;
+	z-index:1;
+	width:777px;
+	height:36px;
+	background:#000;
+	filter:alpha(opacity=40);
+	opacity:0.4;
+	}
+#pics li{
+	position:absolute;
+	top:0px;
+	left:0px;
+	}
+#pics li img{
+	filter:alpha(opacity=0);
+	opacity:0;
+	width:777px;
+	height:151px;
+	}/*图片大小与框架保持一致*/
+#ts li{
+	position:absolute;
+	z-index:2;
+	left:0;
+	bottom:-32px;
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:16px;
+	}
+#ts li a{
+	color:#fff;
+	text-decoration:none;
+	}/*标题链接样式*/
+#btn,#btn_bg{
+	position:absolute;
+	z-index:3;
+	bottom:0px;
+	right:1px;
+	color:#fff;
+	font-size:10px;
+	}
+#btn li,#btn_bg li{
+	float:left;
+	width:15px;
+	height:15px;
+	line-height:15px;
+	overflow:hidden;
+	text-align:center;
+	margin-right:1px;
+	}
+#btn_bg li{
+	background:#fff;
+	filter:alpha(opacity=50);
+	opacity:0.5;
+	}
+#btn li.current {
+	background:#F60;
+	}
+
+
+/*左侧导航*/
+
+.ddsmoothmenu-v ul{
+margin: 0;
+padding: 0;
+width: 208px; /* Main Menu Item widths */
+list-style-type: none;
+font: 12px Verdana;
+text-align:left;
+}
+ 
+.ddsmoothmenu-v ul li{
+position: relative;
+list-style-type:none;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a{
+	display: block;
+	overflow: auto; /*force hasLayout in IE7 */
+	color: #202020;
+	text-decoration: none;
+	padding: 6px 6px 3px 56px;
+	border-bottom: 1px solid #778;
+	border-right: 1px solid #778;
+}
+
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active{
+background:url(/pics/product/pro_back.gif); /*background of menu items (default state)*/
+color: #202020;
+}
+
+
+.ddsmoothmenu-v ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background:url(/pics/product/pro_back.gif); 
+color: #0080FF;
+}
+
+.ddsmoothmenu-v ul li a:hover{
+background:url(/pics/product/pro_back.gif); /*background of menu items during onmouseover (hover state)*/
+color: #0080FF;
+}
+
+/*Sub level menu items */
+.ddsmoothmenu-v ul li ul{
+position: absolute;
+width: 170px; /*Sub Menu Items width */
+top: 0;
+font-weight: normal;
+visibility: hidden;
+}
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.rightarrowclass{
+position: absolute;
+top: 10px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}
+ 
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li { float: left; height: 1%; }
+* html .ddsmoothmenu-v ul li a { height: 1%; }
+/* End */
+
+/*左侧导航结束*/	
+
+/*=========kinMaxShow========*/
+#kinMaxShow{
+	width:100%; 
+	height:100%; 
+	visibility:hidden; 
+	overflow:hidden;
+}
+#kinMaxShow ul li{
+	list-style:none;
+}
+#kinMaxShow p.title{
+	position:absolute; 
+	left:0; 
+	bottom:0; 
+	text-indent:10px; 
+	line-height:30px;
+	font-family:Verdana; color:#FFF; 
+	display:block;
+	width:100%; 
+	height:30px; 
+	font-family:10px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#aa000000,endcolorstr=#aa000000);background:rgba(0,0,0,0.5);
+}

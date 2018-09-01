@@ -16,7 +16,7 @@ return array (
     2 => 'botton',
     3 => 'select',
   ),
-  'time' => 1523460658,
+  'time' => 1535770196,
   'big52gbk' => 'togbk',
   'search_url' => '',
   'from_title' => '全本小说网(笔趣阁)*笔趣阁全本小说网',
@@ -44,7 +44,7 @@ return array (
   'web_tongji' => '',
   'web_close' => 'off',
   'web_closecon' => '',
-  'web_debug' => 'off',
+  'web_debug' => 'on',
   'tplfile' => '',
   'cache_set' => '1',
   'csscache' => '1',
@@ -128,5 +128,7 @@ return array (
   'theme_dir_mobile' => '',
   'zdylist_open' => '0',
   'zdylist_rules' => '',
+  'fontcache' => '0',
+  'cachefile_type_font' => 'hash',
 );
 ?>
