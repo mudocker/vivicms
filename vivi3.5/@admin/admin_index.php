@@ -1,0 +1,48 @@
+<?php
+require_once('data.php');
+require_once('checkAdmin.php');
+echo ADMIN_HEAD;
+if(@$_GET["a"] == phpinfo){
+    phpinfo();
+    exit;
+};
+echo '<body>' . "\r\n\r\n" . '<div class="right">' . "\r\n" . '  ';
+include 'welcome.php';;
+echo '  ' . "\r\n" . '  <div class="right_main">' . "\r\n" . '    <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">' . "\r\n" . '      <tr class=tb_head>' . "\r\n" . '        <td colspan="2" class="tbhead"><h2> 系统信息：</h2></td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">主机名 (IP：端口)：</td>' . "\r\n" . '        <td width="75%">';
+echo $_SERVER["SERVER_NAME"];
+echo '&nbsp;&nbsp;(';
+echo $_SERVER["SERVER_ADDR"] . ':' . $_SERVER["SERVER_PORT"];
+echo ')</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">程序目录：</td>' . "\r\n" . '        <td width="75%">';
+echo dirname(dirname($_SERVER["SCRIPT_FILENAME"]));
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">Web服务器：</td>' . "\r\n" . '        <td width="75%">';
+echo $_SERVER["SERVER_SOFTWARE"];
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">PHP 运行方式：</td>' . "\r\n" . '        <td width="75%">';
+echo PHP_SAPI;
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">PHP版本：</td>' . "\r\n" . '        <td width="75%">';
+echo PHP_VERSION;
+echo '&nbsp;&nbsp;<span style="color: #999999;">(>5.20)</span></td>' . "\r\n" . '      </tr>' . "\r\n" . '      ' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">最大上传限制：</td>' . "\r\n" . '        <td width="75%">';
+echo ini_get('file_uploads')?ini_get('upload_max_filesize'):'<span style="color:red">Disabled</span>';
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">最大执行时间：</td>' . "\r\n" . '        <td width="75%">';
+echo ini_get('max_execution_time');
+echo ' seconds</td>' . "\r\n" . '      </tr>' . "\r\n\t" . '  <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">display_errors显错开关：</td>' . "\r\n" . '        <td width="75%">';
+echo ini_get('display_errors')?'on':'off';;
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">支持的采集方式：</td>' . "\r\n" . '        <td width="75%">' . "\r\n\t\t";
+echo function_exists('curl_init') && function_exists('curl_exec')?'<span style="color:green">curl_init</span>':'<span style="color:red">curl_init</span>';
+echo ' (推荐)，';
+echo(function_exists(fsockopen) || function_exists(pfsockopen))?'<span style="color:green"> fsock</span>，':'<span style="color:red"> fsockopen</span>，';
+echo function_exists(file_get_contents)?'<span style="color:green"> file_get_contents</span>':'<span style="color:red"> file_get_contents</span>';
+echo ' ( 系统会自动帮你切换 )' . "\r\n\t\t" . '</td>' . "\r\n" . '      </tr>' . "\r\n\t" . '  <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">目录读写权限：</td>' . "\r\n" . '        <td width="75%">' . "\r\n\t\t\t" . '/data/ [<img src="../public/img/';
+echo test_write(VV_DATA)?'success':'error';
+echo '.png" />]、' . "\r\n\t\t\t" . 'data.php(修改后台密码用) [<img src="../public/img/';
+echo test_write('./data.php')?'success':'error';
+echo '.png" />]、根目录(在线升级用) [<img src="../public/img/';
+echo test_write(VV_ROOT)?'success':'error';
+echo '.png" />]' . "\r\n\t\t" . '</td>' . "\r\n" . '      </tr>' . "\r\n" . '    </table>' . "\r\n" . '    <table width="98%" border="0" cellpadding="4" cellspacing="1" class="tableoutline">' . "\r\n" . '      <tr  class=tb_head>' . "\r\n" . '        <td colspan="2"><h2>产品说明：</h2></td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">站内新闻：</td>' . "\r\n" . '        <td><iframe src="http://www.vxiaotou.com/news.html"; name="express" width="98%" height="20" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe></td>' . "\r\n" . '      </tr>' . "\r\n\t" . '  <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">当前版本：</td>' . "\r\n" . '        <td><font class="normalfont">';
+echo $var_27;
+echo '</font></td>' . "\r\n" . '      </tr>' . "\r\n\t" . '  <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">检查更新：</td>' . "\r\n" . '        <td><span id="checkvip"></span> ';
+if(!OoO0o0O0o()){
+    echo '&nbsp;<a href="javascript:" onclick="o();"><font color="red">点击录入授权码</font></a>';
+};
+echo '</td>' . "\r\n" . '      </tr>' . "\r\n" . '      <tr nowrap class="firstalt">' . "\r\n" . '        <td width="25%">技术支持：</td>' . "\r\n" . '        <td>QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=996948519&site=qq&menu=yes" target="_blank">996948519</a> &nbsp;&nbsp;&nbsp;官网 : <a href="http://www.vxiaotou.com" target="_blank">www.vxiaotou.com</a></td>' . "\r\n" . '      </tr>' . "\r\n" . '     ' . "\r\n" . '    </table>' . "\r\n" . '  </div>' . "\r\n" . '</div>' . "\r\n";
+include 'footer.php';;
+echo '</body>' . "\r\n" . '</html>';

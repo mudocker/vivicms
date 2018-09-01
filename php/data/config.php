@@ -20,7 +20,7 @@ return array (
   'web_urlencode_type' => 'base64',
   'web_urlencode_suffix' => 'html',
   'web_urlencode_key' => '12345',
-  'web_debug' => 'off',
+  'web_debug' => 'on',
   'imgcachetime' => '1',
   'csscachetime' => '1',
   'jscachetime' => '1',

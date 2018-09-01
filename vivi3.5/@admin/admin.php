@@ -1,0 +1,5 @@
+<?php
+require_once('data.php');
+require_once('checkAdmin.php'); ;
+echo "\r\n" . '<head>' . "\r\n" . '<META content="MSHTML 6.00.2600.0" name=GENERATOR>' . "\r\n" . '<title>网站后台管理系统</title>' . "\r\n" . '<LINK href="admin.css" type=text/css rel=stylesheet>' . "\r\n" . '</head>' . "\r\n" . '<frameset rows="90,*" frameborder="NO" border="0" framespacing="0" cols="*">' . "\r\n" . '  <frame name="head" scrolling="NO" noresize src="top.php" >' . "\r\n" . '  <frameset cols="172,*" frameborder="NO" border="0" framespacing="0" rows="*">' . "\r\n" . '    <frame name="toc" scrolling="yes" noresize src="left.php">' . "\r\n" . '    <frame name="content" src="admin_index.php" title="mainFrame">' . "\r\n" . '  </frameset>' . "\r\n" . '</frameset>' . "\r\n" . '<noframes>' . "\r\n" . '<body >' . "\r\n" . '不支持框架!' . "\r\n" . '</body>' . "\r\n" . '</noframes>' . "\r\n" . '</html>';
+?>

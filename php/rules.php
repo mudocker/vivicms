@@ -80,13 +80,10 @@ new downloadJS();
 new downSwf();
 new downFont();
 new downOther();
-
 new ReadCacheNoTimeout();                                                                                              // ≤ª≥¨ ± ∂¡                                                                                                                   //ª∫¥Ê
 new SiteAbortReadCache();                                                                                                //’æ“Ï≥£ ∂¡
 new headerContextType();
-
 getHtml();                                                                                                        //∂¡ ∫Ûª∫¥Ê
-
 new replace_to_utf8();
 new plug_before_convert_charset($caiji);
 new replace_before_on();
@@ -115,8 +112,6 @@ new replace_flinks();
 new replace_synonym();
 new replace_keyword_link();
 new replace_tongji();
-
-
 plus_run('end');
 new SaveCache();
 new ac_yulan();

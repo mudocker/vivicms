@@ -173,11 +173,9 @@ if($isgetnew && $GLOBALS['html']){
             }
         }
         if(isgoodurl($vo)){
-            if(substr($vo, 0, 1) == '/'){
-                $vo = substr($vo, 1);
-            }else if(stripos($vo, '{') === false){
-                $vo = $urlpath . $vo;
-            }
+            if(substr($vo, 0, 1) == '/')             $vo = substr($vo, 1);
+            else if(stripos($vo, '{') === false)    $vo = $urlpath . $vo;
+
             if(in_array('localjs', $caiji_config['siftags'])){
                 $newjs[] = 'none';
                 continue;
@@ -202,11 +200,8 @@ if($isgetnew && $GLOBALS['html']){
     foreach($allcss as $k => $vo){
         if(substr($vo, 0, 2) == '//'){
             if(preg_match('~^//[0-9a-zA-Z\.-]+\.[0-9a-zA-Z-]+/~', $vo)){
-                if($_SERVER["REQUEST_SCHEME"]){
-                    $vo = $_SERVER["REQUEST_SCHEME"] . ':' . $vo;
-                }else{
-                    $vo = $scheme . ':' . $vo;
-                }
+                if($_SERVER["REQUEST_SCHEME"]) $vo = $_SERVER["REQUEST_SCHEME"] . ':' . $vo;
+                else                             $vo = $scheme . ':' . $vo;
             }else{
                 $vo = substr($vo, 1);
             }

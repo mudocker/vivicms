@@ -1,0 +1,783 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>湖南湘韵电暖科技有限公司</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="/html/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<link type="text/css" rel="stylesheet" href="/html/images/css.css">
+<link type="text/css" rel="stylesheet" href="/html/images/css_new.css">
+<link type="text/css" rel="stylesheet" href="/html/images/qq.css">
+<link type="text/css" rel="stylesheet" href="/html/images/style.css">
+ <link type="text/css" rel="stylesheet" href="/html/images/lib.css">
+ <link href="/html/images/flexslider.css" rel="stylesheet" type="text/css">
+ 
+<script charset="utf-8" src="/html/images/b.js"></script>
+<script charset="utf-8" src="/html/images/v.htm"></script>
+
+<script type="text/javascript" language="JavaScript" src="/html/images/jquery.js"></script>
+<script type="text/javascript" language="JavaScript" src="/html/images/function.js"></script>
+<script src="/html/images/jquery_002.js"></script>
+ <script src="/html/images/custom.js"></script>
+<script type="text/javascript" src="/html/images/lib.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        var iCountOfImage = 3; // 共三张图片 
+        var iPreIndex = 0; // 上一次索引位置 
+        $(".ppt-container ul.button-list li span").click(function () {
+            var iIndex = $(this).attr("data-index");
+            if (iIndex == iPreIndex) {
+                return; // 点击了当前图片，不切换 
+            }
+
+            $(".ppt-container .image-list li[data-index=" + iIndex + "]").fadeIn(1500);
+            $(".ppt-container .image-list li[data-index=" + iPreIndex + "]").fadeOut(1500);
+            iPreIndex = iIndex;
+            $(".ppt-container .button-list span").removeClass("selected");
+            $(this).addClass("selected");
+        });
+        setInterval(function () { // 自动播放，每5秒触发一次单击事件，来播放幻灯片 
+            var iNextIndex = (iPreIndex + 1) % iCountOfImage;
+            $(".ppt-container ul.button-list li span[data-index=" + iNextIndex + "]").click();
+        }, 5000);
+    }); 
+</script> 
+<!--- #include virtual="qq.html" --->
+<script src="/html/images/pc_nb.js" charset="UTF-8"></script><link rel="stylesheet" type="text/css" href="/html/images/main.css"><script type="text/javascript" src="/html/images/poll.js" id="id_jsonp_bridge_1506064148920_13083831465348306" charset="utf-8"></script>
+</head>
+
+<body>
+
+<div id="top" style="background-image:url(/html/images/topbj.jpg);background-repeat: repeat;background-position: center center;height: 120px;width: 100%;">
+    <div class="wrapper">
+      <div style="float:left; margin-top:0px; padding-right: 35px;"><a href="#"><img src="/html/images/nyy-logo.png" title="湖南暖洋洋电器有限公司" width="310" height="120"></a></div>
+        <div class="right qrcodetop">
+        	
+        	<div class="qrcode">
+        	<div style="float:left;"><img src="/html/images/cctv.jpg" width="162" height="120"></div>
+           
+        	</div>
+             <div style="float:left; margin-top:0px; padding-right: 10px;">
+            <img src="/html/images/tel.png" width="241" height="120">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="nav">
+	<div class="menu">
+   	  <ul>
+              <li><a href="/" class="cur">首&苍产蝉辫;页</a></li>
+			  
+             
+			 
+            <li><a href="/html/a/guanyuwomen/" rel='dropmenu1'>关于湘韵</a></li>
+            
+            
+			 
+            <li><a href="/html/a/pinpairongyu/">品牌荣誉</a></li>
+            
+            
+			 
+            <li><a href="/html/a/zhaoshangjiameng/">招商加盟</a></li>
+            
+            
+			 
+            <li><a href="/html/a/chanpinzhongxin/" rel='dropmenu4'>产品中心</a></li>
+            
+            
+			 
+            <li><a href="/html/a/xinwenzixun/" rel='dropmenu5'>新闻资讯</a></li>
+            
+            
+			 
+            <li><a href="/html/a/fuwuzhongxin/">服务中心</a></li>
+            
+            
+			 
+            <li><a href="/html/a/lianxiwomen/" rel='dropmenu7'>联系我们</a></li>
+            
+            
+			 
+            <li><a href="/html/a/zaixianliuyan/">在线留言</a></li>
+            
+             
+      </ul>
+  </div>
+</div>
+
+
+<div class="ppt-container" style="margin:0px 0px 15px 0px;"> 
+<ul class="image-list"> 
+
+<li data-index="0" class="" style="display: list-item; opacity: 1;"><a target="_blank"><img src="/html/images/20160415172436.jpg"></a></li> 
+
+
+<li data-index="1" class="hide" style="display: list-item; opacity: 1;"><a target="_blank"><img src="/html/images/20160415172435.jpg"></a></li> 
+
+
+<li data-index="2" class="hide" style="display: none; opacity: 1;"><a target="_blank"><img src="/html/images/20160415172434.jpg"></a></li> 
+
+
+</ul> 
+<ul class="button-list"> 
+<li><span data-index="0" class=""></span></li> <li><span data-index="1" class="selected"></span></li> <li><span data-index="2" class=""></span></li> 
+</ul> 
+</div>
+<div style="width:1000px; height:388px; margin:0px auto; padding-bottom:0px;">
+  <div style="width:680px; float:left" class="left1">
+     <table width="680" border="0" cellspacing="0" cellpadding="0">
+       <tbody><tr>
+         <td><a href="/html/a/xinwenzixun/"><img src="/html/images/nyy-pic_13.jpg" width="680" border="0" height="58"></a></td>
+       </tr>
+     </tbody></table>
+     <table width="680" border="0" cellspacing="0" cellpadding="0">
+       <tbody><tr>
+         <td style="padding-right:25px;" width="35%"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/1.html" target="_parent"><img src="/html/images/20160402162421.jpg" width="230" height="130"></a></td>
+         <td width="65%" valign="top"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+           <tbody><tr>
+             <td align="left"><span class="index_news_title01"><b><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/1.html" target="_parent">电取暖桌的日常保养与维护</a></b></span></td>
+           </tr>
+           <tr>
+             <td background="/html/images/xuxian_03.jpg"><img src="/html/images/xuxian_03.jpg" width="12" border="0" height="26"></td>
+           </tr>
+           <tr>
+             <td align="left"><span class="show_text01">随着四月份的到来，阳光更加温暖，使用电暖桌也越来越少，大家可知电取暖桌它更需呵护,保养诀窍学起来吧！</span></td>
+           </tr>
+           <tr>
+             <td align="right"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/1.html"><img src="/html/images/nyy-pic_48.jpg" width="88" border="0" height="18"></a></td>
+           </tr>
+         </tbody></table></td>
+       </tr>
+       <tr>
+         <td style="padding-right:25px;">&nbsp;</td>
+         <td>&nbsp;</td>
+       </tr>
+     </tbody></table>
+	 
+     <table width="680" border="0" cellspacing="0" cellpadding="0">       
+	   <tbody>	   
+	   <tr>
+         <td width="84" align="left">&nbsp;<span class="index_news_01">湘韵新闻</span></td>
+         <td width="517" align="left"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/1.html" class="index_news_title">电取暖桌的日常保养与维护</a></td>
+         <td width="79" align="right"><span class="show_text01">2017-10-11</span></td>
+       </tr>
+       <tr>
+         <td colspan="3" background="/html/images/xuxian.jpg" height="7"><img src="/html/images/xuxian.jpg" width="678" height="7"></td>
+       </tr> 
+       <tr>
+         <td height="2" colspan="3"></td>
+       </tr>
+     </tbody></table>
+<table width="680" border="0" cellspacing="0" cellpadding="0">       
+	   <tbody>	   
+	   <tr>
+         <td width="84" align="left">&nbsp;<span class="index_news_01">湘韵新闻</span></td>
+         <td width="517" align="left"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/4.html" class="index_news_title">小小电暖桌 温暖万千家</a></td>
+         <td width="79" align="right"><span class="show_text01">2017-09-22</span></td>
+       </tr>
+       <tr>
+         <td colspan="3" background="/html/images/xuxian.jpg" height="7"><img src="/html/images/xuxian.jpg" width="678" height="7"></td>
+       </tr> 
+       <tr>
+         <td height="2" colspan="3"></td>
+       </tr>
+     </tbody></table>
+<table width="680" border="0" cellspacing="0" cellpadding="0">       
+	   <tbody>	   
+	   <tr>
+         <td width="84" align="left">&nbsp;<span class="index_news_01">湘韵新闻</span></td>
+         <td width="517" align="left"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/3.html" class="index_news_title">不同取暖设备的优缺点</a></td>
+         <td width="79" align="right"><span class="show_text01">2017-09-22</span></td>
+       </tr>
+       <tr>
+         <td colspan="3" background="/html/images/xuxian.jpg" height="7"><img src="/html/images/xuxian.jpg" width="678" height="7"></td>
+       </tr> 
+       <tr>
+         <td height="2" colspan="3"></td>
+       </tr>
+     </tbody></table>
+<table width="680" border="0" cellspacing="0" cellpadding="0">       
+	   <tbody>	   
+	   <tr>
+         <td width="84" align="left">&nbsp;<span class="index_news_01">湘韵新闻</span></td>
+         <td width="517" align="left"><a href="/html/a/xinwenzixun/xingyezixun/2017/0922/2.html" class="index_news_title">第六届“湘博会”11月6日开幕式</a></td>
+         <td width="79" align="right"><span class="show_text01">2017-09-22</span></td>
+       </tr>
+       <tr>
+         <td colspan="3" background="/html/images/xuxian.jpg" height="7"><img src="/html/images/xuxian.jpg" width="678" height="7"></td>
+       </tr> 
+       <tr>
+         <td height="2" colspan="3"></td>
+       </tr>
+     </tbody></table>
+
+	 
+	    
+  </div>
+    <div style="width:296px; height:375px; float:left; margin-left:24px;">
+        <div>
+          <ul>
+            <li><a href="#"><img src="/html/images/nyy-pic_15.jpg" width="296" border="0" height="58"></a></li>
+          </ul>
+		  
+          <ul>
+            <li><table width="296" border="0" cellpadding="0" cellspacing="0" bgcolor="#e5e5e5">
+              <tbody>
+			  <tr>
+                <td height="320" align="center" valign="middle">
+                
+			  <div class="flexslider" id="demo" style="overflow: hidden;">
+	        <ul class="slides" style="transition-duration: 0.6s; width: 1000%; transform: translate3d(-888px, 0px, 0px);">
+			
+			<li class="clone" style="width: 296px; float: left; display: block;">
+	    		<a href="#"><img src="/html/images/20160304164805.jpg" width="295" height="320"></a>
+	    	</li>
+			
+			<li style="width: 296px; float: left; display: block;">
+				<a href="/html/a/lianxiwomen/qiuzhizhaopin/"><img src="/html/images/20171008101450.jpg" width="295" height="320"></a>
+	    	</li>  
+	    	                      
+            <li style="width: 296px; float: left; display: block;">
+				<a href="/html/a/lianxiwomen/qiuzhizhaopin/"><img src="/html/images/20171008101451.jpg" width="295" height="320"></a>
+	    	</li>            
+                           
+	    	<li style="width: 296px; float: left; display: block;">
+				<a href="/html/a/zhaoshangjiameng/"><img src="/html/images/20171008101452.jpg" width="295" height="320"></a>
+	    	</li>
+			
+			</ul>
+	<ol class="flex-control-nav"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="active">3</a></li></ol>
+	<ul class="flex-direction-nav"><li><a class="prev" href="#">Previous</a></li><li><a class="next" href="#">Next</a></li></ul>
+	          </div>
+              
+            
+                </td>
+              </tr>
+            </tbody>
+			</table></li>
+          </ul>
+		  
+        </div>
+  </div>
+</div>
+
+
+<div style="clear:left; width:1000px; height:395px; margin:0px auto; padding-bottom:0px;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><a href="http://www.hn-nyy.com/pc/chanp_info.aspx?el_id=44"><img src="/html/images/nyy-pic_20.jpg" width="1000" border="0" height="58"></a></td>
+  </tr>
+  <tr>
+    <td valign="top" height="60"><img src="/html/images/nyy-pic_28.jpg" width="1000"></td>
+  </tr>
+</tbody></table>
+<div id="demdiv1" style="OVERFLOW: hidden;z-index: 3px; width: 1000px;height:275px;">
+  <table width="1000px" height="275" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+         <td id="dem1_1">
+        <table border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+<!-- 产品展示-->
+                <td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1013/63.html"><img src="/html/uploads/allimg/171013/1-1G013111K70-L.jpg" alt="顿搁-厂闯-贵17-黄石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1013/63.html" title="顿搁-厂闯-贵17-黄石纹">顿搁-厂闯-贵17-黄石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/62.html"><img src="/html/uploads/allimg/171007/1-1G00G452120-L.jpg" alt="顿搁-厂闯-17顿-白色石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/62.html" title="顿搁-厂闯-17顿-白色石纹">顿搁-厂闯-17顿-白色石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/61.html"><img src="/html/uploads/allimg/171007/1-1G00G451180-L.jpg" alt="顿搁-厂闯-16颁-金玉满堂" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/61.html" title="顿搁-厂闯-16颁-金玉满堂">顿搁-厂闯-16颁-金玉满堂</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/60.html"><img src="/html/uploads/allimg/171007/1-1G00G44S50-L.jpg" alt="顿搁-厂闯-础17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/60.html" title="顿搁-厂闯-础17系列">顿搁-厂闯-础17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/59.html"><img src="/html/uploads/allimg/171007/1-1G00G445210-L.jpg" alt="顿搁-厂闯-贵16系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/59.html" title="顿搁-厂闯-贵16系列">顿搁-厂闯-贵16系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/58.html"><img src="/html/uploads/allimg/171007/1-1G00G442190-L.jpg" alt="顿搁-厂闯-贰17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/58.html" title="顿搁-厂闯-贰17系列">顿搁-厂闯-贰17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/57.html"><img src="/html/uploads/allimg/171007/1-1G00G43Q30-L.jpg" alt="顿搁-厂闯-罢17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/57.html" title="顿搁-厂闯-罢17系列">顿搁-厂闯-罢17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/56.html"><img src="/html/uploads/allimg/171007/1-1G00G431030-L.jpg" alt="顿搁-2800顿-玉兰飘香" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/56.html" title="顿搁-2800顿-玉兰飘香">顿搁-2800顿-玉兰飘香</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/55.html"><img src="/html/uploads/allimg/171007/1-1G00G430020-L.jpg" alt="顿搁-2800顿-3顿拉丝" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/55.html" title="顿搁-2800顿-3顿拉丝">顿搁-2800顿-3顿拉丝</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/54.html"><img src="/html/uploads/allimg/171007/1-1G00G42T30-L.jpg" alt="顿搁-厂闯-贬17-欧美紫金" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/54.html" title="顿搁-厂闯-贬17-欧美紫金">顿搁-厂闯-贬17-欧美紫金</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/53.html"><img src="/html/uploads/allimg/171007/1-1G00G426440-L.jpg" alt="顿搁-厂闯-贵17-白色石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/53.html" title="顿搁-厂闯-贵17-白色石纹">顿搁-厂闯-贵17-白色石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/52.html"><img src="/html/uploads/allimg/171007/1-1G00G424060-L.jpg" alt="DR-2800A" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/52.html" title="DR-2800A">DR-2800A</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/51.html"><img src="/html/uploads/allimg/171007/1-1G00G422330-L.jpg" alt="DR-2800C" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/51.html" title="DR-2800C">DR-2800C</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/50.html"><img src="/html/uploads/allimg/171007/1-1G00G421270-L.jpg" alt="DR-2800B" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/50.html" title="DR-2800B">DR-2800B</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px">
+				<table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/49.html"><img src="/html/uploads/allimg/171007/1-1G00G420140-L.jpg" alt="DR-FZ-D17B" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/49.html" title="DR-FZ-D17B">DR-FZ-D17B</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+    
+			        
+            </tr>
+          </tbody>
+        </table>
+            </td>
+			
+			
+        <td id="dem2_1">
+        <table border="0" align="center" cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+<!-- 产品展示-->
+                <td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1013/63.html"><img src="/html/uploads/allimg/171013/1-1G013111K70-L.jpg" alt="顿搁-厂闯-贵17-黄石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1013/63.html" title="顿搁-厂闯-贵17-黄石纹">顿搁-厂闯-贵17-黄石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/62.html"><img src="/html/uploads/allimg/171007/1-1G00G452120-L.jpg" alt="顿搁-厂闯-17顿-白色石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/62.html" title="顿搁-厂闯-17顿-白色石纹">顿搁-厂闯-17顿-白色石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/61.html"><img src="/html/uploads/allimg/171007/1-1G00G451180-L.jpg" alt="顿搁-厂闯-16颁-金玉满堂" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/61.html" title="顿搁-厂闯-16颁-金玉满堂">顿搁-厂闯-16颁-金玉满堂</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/60.html"><img src="/html/uploads/allimg/171007/1-1G00G44S50-L.jpg" alt="顿搁-厂闯-础17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/60.html" title="顿搁-厂闯-础17系列">顿搁-厂闯-础17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/59.html"><img src="/html/uploads/allimg/171007/1-1G00G445210-L.jpg" alt="顿搁-厂闯-贵16系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/59.html" title="顿搁-厂闯-贵16系列">顿搁-厂闯-贵16系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/58.html"><img src="/html/uploads/allimg/171007/1-1G00G442190-L.jpg" alt="顿搁-厂闯-贰17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/58.html" title="顿搁-厂闯-贰17系列">顿搁-厂闯-贰17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/57.html"><img src="/html/uploads/allimg/171007/1-1G00G43Q30-L.jpg" alt="顿搁-厂闯-罢17系列" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/57.html" title="顿搁-厂闯-罢17系列">顿搁-厂闯-罢17系列</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/56.html"><img src="/html/uploads/allimg/171007/1-1G00G431030-L.jpg" alt="顿搁-2800顿-玉兰飘香" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/56.html" title="顿搁-2800顿-玉兰飘香">顿搁-2800顿-玉兰飘香</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/55.html"><img src="/html/uploads/allimg/171007/1-1G00G430020-L.jpg" alt="顿搁-2800顿-3顿拉丝" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/55.html" title="顿搁-2800顿-3顿拉丝">顿搁-2800顿-3顿拉丝</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/54.html"><img src="/html/uploads/allimg/171007/1-1G00G42T30-L.jpg" alt="顿搁-厂闯-贬17-欧美紫金" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/54.html" title="顿搁-厂闯-贬17-欧美紫金">顿搁-厂闯-贬17-欧美紫金</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/53.html"><img src="/html/uploads/allimg/171007/1-1G00G426440-L.jpg" alt="顿搁-厂闯-贵17-白色石纹" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenqunuanchajixilie/2017/1007/53.html" title="顿搁-厂闯-贵17-白色石纹">顿搁-厂闯-贵17-白色石纹</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/52.html"><img src="/html/uploads/allimg/171007/1-1G00G424060-L.jpg" alt="DR-2800A" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/52.html" title="DR-2800A">DR-2800A</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/51.html"><img src="/html/uploads/allimg/171007/1-1G00G422330-L.jpg" alt="DR-2800C" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/51.html" title="DR-2800C">DR-2800C</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/50.html"><img src="/html/uploads/allimg/171007/1-1G00G421270-L.jpg" alt="DR-2800B" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/50.html" title="DR-2800B">DR-2800B</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+<td width="220" align="center" style="padding-left:8px"><table width="220" border="0" cellspacing="1" cellpadding="2">
+                <tbody>
+                  <tr>
+                    <td class="txt" style="border: 1px solid #ccc; width:220px; height:220px; text-align:center;"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/49.html"><img src="/html/uploads/allimg/171007/1-1G00G420140-L.jpg" alt="DR-FZ-D17B" width="220" border="0" height="220"></a></td>
+                  </tr>
+                  <tr>
+                    <td height="35" align="center" class="txt"><a href="/html/a/chanpinzhongxin/zhinenfangzhuoxilie/2017/1007/49.html" title="DR-FZ-D17B">DR-FZ-D17B</a></td>
+                  </tr>
+                </tbody>
+              </table>
+			  </td>
+
+                		
+            </tr>
+          </tbody>
+        </table>
+            </td>
+                
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+</div>
+
+<script language="javascript">
+    var speed = 20;
+    document.getElementById("dem2_1").innerHTML = document.getElementById("dem1_1").innerHTML
+    function Marquee() {
+        if (document.getElementById("dem2_1").offsetWidth - document.getElementById("demdiv1").scrollLeft <= 0)
+            document.getElementById("demdiv1").scrollLeft -= document.getElementById("dem1_1").offsetWidth
+        else {
+            document.getElementById("demdiv1").scrollLeft++;
+        }
+    }
+    var MyMar = setInterval(Marquee, speed)
+    document.getElementById("demdiv1").onmouseover = function () { window.clearInterval(MyMar) }
+    document.getElementById("demdiv1").onmouseout = function () { MyMar = window.setInterval(Marquee, speed) }
+</script>
+<div style="clear:left;">
+  <div class="index_about_bj">
+  <div class="index_about_text" style="clear:left; width:1000px; margin:0px auto; padding-bottom:0px;">
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td><img src="/html/images/nyy-pic_42.jpg" width="1000"></td>
+      </tr>
+      <tr>
+        <td><img src="/html/images/nyy-pic_43.jpg" width="1000" height="55"></td>
+      </tr>
+    </tbody></table>
+    <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        <td width="330" valign="top"><img src="/html/images/20150716162144.jpg" width="330" height="300"></td>
+        <td style="padding:10px 20px;" width="329" valign="top" bgcolor="#FFFFFF"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td align="center" height="30"><span style="font-size:18px; line-height:32px; color:#CC0000;"><b>湖南湘韵电暖科技有限公司</b></span></td>
+          </tr>
+          <tr>
+            <td><span class="show_text01">&nbsp;&nbsp;&nbsp;&nbsp;    湘韵电暖科技有限公司是在电取暖桌行业创始人之一余建荣先生；于2006年开始从事电暖取暖桌行业，2012年从广州中山搬回家乡创业，成立湘韵电暖科技有限公司，旗下品牌冬睿电暖擦几与电暖桌在娄底市年销量3000余台，2017年为适应各大供应商需求，扩展公司厂房，大力发展公司。现拥有员工50余人，有很强的创新研发能力，公司现有100多个销售网点，同大润发，步步高等大型家电卖场有着紧密的合作关系。我公司秉承“专业生产、不断创新、诚信经营、满意服务”的宗旨，通过我们的努力为广大顾客不断提供价优质美的产品，贴心满意的售后服务。</span></td>
+          </tr>
+          <tr>
+            <td valign="bottom" align="right" height="30"><a href="/html/a/guanyuwomen/gongsijianjie/"><img src="/html/images/nyy-pic_60.jpg" width="75" height="18"></a></td>
+          </tr>
+        </tbody></table>          
+          <br></td>
+        <td style="padding-right:0px; padding-left:22px;" width="319" valign="top"><table width="319" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td><img src="/html/images/nyy-pic_61.jpg" width="319" height="54"></td>
+          </tr>
+          <tr>
+            <td align="center"><embed src="http://player.video.qiyi.com/f0c2f9cf3298ac568fefd53e03acdaf9/0/0/w_19rtc39k3p.swf-albumId=5358524009-tvId=5358524009-isPurchase=0-cnId=25" allowFullScreen="true" quality="high" width="310" height="250" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed></td>
+          </tr>
+        </tbody></table>
+        </td>
+        <td width="3" align="right"><a href="http://www.hn-nyy.com/pc/neirong_info.aspx?el_id=43"></a></td>
+      </tr>
+    </tbody></table>
+	</div>
+  </div>
+</div>
+
+
+<div style="display:none;">
+<a href=http://www.9380.tw target=_blank>必利劲</a><a href=http://www.0011.tw target=_blank>日本藤素</a><a href=http://www.zut69.tw target=_blank>巴西比戈专卖</a><a href=http://www.zkx17.tw/ target=_blank>印度必利劲</a><a href=http://www.zjj89.tw/ target=_blank>红金惫哥</a><a href=http://www.mnsp8.tw target=_blank>必利劲效果</a><a href=http://www.xsza6.tw target=_blank>美国黑金</a><a href=http://www.xai84.tw target=_blank>拉摩力拉玛卡</a><a href=http://www.unr02.tw target=_blank>犀利士</a><a href=http://www.snub3.tw target=_blank>红金痴哥专卖店</a><a href=http://www.sjgc8.tw target=_blank>乐威壮哪裡买</a><a href=http://www.rwx45.tw target=_blank>日本藤素</a>
+</div>
+<div style="clear:left;">
+	<div class="youqing"> <a href="http://www.baidu.com">百度</a> | <a href="http://www.sina.com">新浪</a> |<a href="http://idc.szyhweb.com/">越辉网络</a>|<a href="http://www.szyhweb.com/">越辉网络</a></div>
+	<div class="bottom_bj">
+		<div class="bottom_text" style="clear:left; width:1000px; margin:0px auto; padding-bottom:0px;">
+		  <table width="1000" border="0" cellpadding="0" cellspacing="0">
+    
+    
+    <tr>
+      <td colspan="2" valign="top"><b>公司主营产品：</b>电暖桌 电暖茶几 电暖学习桌 麻将电暖桌</td>
+      </tr>
+    <tr>
+      <td width="650" valign="top"><a href="/">网站首页</a> |  
+      
+            <a href="/html/a/guanyuwomen/" rel='dropmenu1'>关于湘韵</a> |
+            
+            <a href="/html/a/pinpairongyu/">品牌荣誉</a> |
+            
+            <a href="/html/a/zhaoshangjiameng/">招商加盟</a> |
+            
+            <a href="/html/a/chanpinzhongxin/" rel='dropmenu4'>产品中心</a> |
+            
+            <a href="/html/a/xinwenzixun/" rel='dropmenu5'>新闻资讯</a> |
+            
+            <a href="/html/a/fuwuzhongxin/">服务中心</a> |
+            
+            <a href="/html/a/lianxiwomen/" rel='dropmenu7'>联系我们</a> |
+            
+            <a href="/html/a/zaixianliuyan/">在线留言</a> |
+            
+            
+            <br />
+        Copyright @2016 湖南湘韵电暖科技有限公司 版权所有 &nbsp;&nbsp;&nbsp;备案号：<a href="http://www.miitbeian.gov.cn" target="_blank">湘滨颁笔备16014544号</a><br />
+  销售招商热线：0738-3228668&苍产蝉辫;&苍产蝉辫;&苍产蝉辫;13347282339&苍产蝉辫;余建荣<br />
+全国免费服务热线：<font color="#CC0000" style="font-size:18px; font-weight:bold;"></font>&nbsp;
+公司地址：湖南省新化县桑梓镇青丰村加油站旁<br />
+<img src="/html/picture/nyy-pic_76.jpg" width="135" height="45" /><a href="#" class="hrefs" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://xmxm02.v.hyum.cn/');">设为首页</a>&nbsp;&nbsp;<a href="javascript:window.external.AddFavorite('http://xmxm02.v.hyum.cn/', '湘韵电暖科技')">加入收藏</a></td>
+      <td width="350"><img src="/html/picture/erweima.png" width="350" height="190" /></td>
+      </tr>
+  </table>
+	  </div>
+	</div>
+</div>
+
+<!-- 在线qq悬浮代码部分begin -->
+<div class="keifu" style="top:45%">
+  <div class="keifu_tab">
+    <div class="icon_keifu"></div>
+    <div class="keifu_box">
+      <div class="keifu_head"><a href="javascript:void(0)" class="keifu_close"></a></div>
+      <ul class="keifu_con">
+		<li><a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=2221562078&site=qq&menu=yes"><img border="0" src="/html/picture/3eda8d816ca94606bd107f7b9f27503c.gif" alt="点击这里给我发消息"></a></li>
+		<li><a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=2221562078&site=qq&menu=yes"><img border="0" src="/html/picture/580ddab85b3f4555b94b34d143a700b5.gif" alt="点击这里给我发消息"></a></li>
+		<li><a target="blank" href="http://wpa.qq.com/msgrd?v=3&uin=2221562078&site=qq&menu=yes"><img border="0" src="/html/picture/f2d50a9d205e42eab65559708f1569be.gif" alt="点击这里给我发消息"></a></li>
+        <li class="weixin"><img src="/html/picture/1506404041.png" width="100" alt="扫一扫，关注湘韵电暖科技公众号" /></li>
+		<li style="text-align:center; padding-bottom:10px;"><font style="font-size:12px;">扫一扫<br>关注湘韵电暖科技</font></li>
+      </ul>
+      <div class="keifu_bot"></div>
+    </div>
+  </div>
+</div>
+</form>
+<script src="/html/js/jquery.qq.js"></script>
+
+<!-- 在线qq悬浮代码部分end -->
+
+
+</body></html>

@@ -1,0 +1,30 @@
+<?php
+require(dirname(__FILE__) . '/func/0.php');
+require(dirname(__FILE__) . '/func/1.php');
+require(dirname(__FILE__) . '/func/2.php');
+require(dirname(__FILE__) . '/func/3.php');
+require(dirname(__FILE__) . '/func/4.php');
+require(dirname(__FILE__) . '/func/5.php');
+require(dirname(__FILE__) . '/func/6.php');
+require(dirname(__FILE__) . '/func/7.php');
+require(dirname(__FILE__) . '/func/8.php');
+require(dirname(__FILE__) . '/func/9.php');
+require(dirname(__FILE__) . '/func/10.php');
+require(dirname(__FILE__) . '/func/11.php');
+require(dirname(__FILE__) . '/func/12.php');
+require(dirname(__FILE__) . '/func/13.php');
+require(dirname(__FILE__) . '/func/14.php');
+require(dirname(__FILE__) . '/func/15.php');
+require(dirname(__FILE__) . '/func/16.php');
+require(dirname(__FILE__) . '/func/17.php');
+require(dirname(__FILE__) . '/func/18.php');
+require(dirname(__FILE__) . '/func/19.php');
+require(dirname(__FILE__) . '/func/20.php');
+require(dirname(__FILE__) . '/func/21.php');
+require(dirname(__FILE__) . '/func/22.php');
+require(dirname(__FILE__) . '/func/23.php');
+require(dirname(__FILE__) . '/func/24.php');
+require(dirname(__FILE__) . '/func/25.php');
+require(dirname(__FILE__) . '/func/26.php');
+require(dirname(__FILE__) . '/func/27.php');
+?>

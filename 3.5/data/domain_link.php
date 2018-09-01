@@ -1,4 +1,9 @@
 <?php
 return array (
+  0 => 
+  array (
+    'domain' => 'www.qq.com',
+    'name' => '²âÊÔ¹æÔò',
+  ),
 );
 ?>

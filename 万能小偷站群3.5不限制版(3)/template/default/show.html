@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>{$title}</title>
+<meta name="description" content="{$title}" />
+<meta name="keywords" content="{$title}" />
+<link rel="stylesheet" href="{$web_themepath}/skin/style.css" type="text/css" />
+<script type="text/javascript" src="{$web_themepath}/skin/js/jquery.min.js"></script>
+<script type="text/javascript" src="{$web_themepath}/skin/js/gotop.js"></script>
+</head>
+<body>
+{include file="head.html"}
+<div class="weizhi">您的当前位置：<a href="/">首页</a> > <a href="{$thisurl}">{$title}</a></div>
+<div class="main1">
+	<div class="left_1">
+    	<div class="g_con">
+        	<h1>{$title}</h1>
+            <div class="info">
+            	<span>来源：{$web_name}</span>
+                <span>编辑：admin</span>
+                <span>时间：{date('Y-m-d H:i')}</span>
+            	<div class="share">
+                	<div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+					<script>
+					window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+					</script>
+				</div>
+			</div>
+            <div class="con">{$body}</div>
+            <div class="dede_pagess">
+           <ul class="pagelist">
+				{loop type='show_pages'}
+					<a href='{$vo.url}'>{$vo.pagekey}</a>
+				{/loop}
+           </ul>
+          </div>
+            <div class="b_box7">
+            	<p>相关文章：</p>
+                <ul class="box">
+                	{loop row='8' type='show_links_text'}
+					<li><a href='{$vo.url}'>{$vo.title}</a></li>
+					{/loop}
+                </ul>       	
+            </div>
+            <div class="b_box7">
+            	<p>相关推荐：</p>
+                <ul class="box">
+                	{loop row='8' type='show_links_text'}
+					<li><a href='{$vo.url}'>{$vo.title}</a></li>
+					{/loop}
+                </ul>       	
+            </div>
+        </div>
+    </div>
+    <div class="right_1">
+    	<div class="g_box2 u_2">
+        	<div class="t_1">最新发布</div>
+            <ul class="b_box3 u_1">
+            	{loop row='16' type='show_links_text'}
+					<li><a href='{$vo.url}'>{$vo.title}</a></li>
+					{/loop}
+            </ul>
+        </div>
+    	<div class="g_box2 u_2">
+        	<div class="t_1">热门推荐</div>
+            <ul class="b_box3 u_1">
+            	{loop row='30' type='other_links_text'}
+					<li><a href='{$vo.url}'>{$vo.title}</a></li>
+				{/loop}
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="main2">
+	<div class="t_2">
+    	<h3>最新图文</h3>
+    </div>
+    <ul class="b_box9">
+		{loop row='100' type='show_links_pic'}
+			<li><a href='{$vo.url}'><img src="{$vo.litpic}" alt="{$vo.title}" /><p>{$vo.title}</p></a></li>
+		{/loop}
+        <div class="clear"></div>
+    </ul>
+</div>
+{include file="footer.html"}
+</body>
+</html>
