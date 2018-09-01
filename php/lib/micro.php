@@ -29,7 +29,7 @@ define('DRURLEXT',VV_DATA.DS."rules".DS."urlext".DS);
 define('VV_INIT', VV_INC .DS. 'init');
 
 //admin
-define('VV_ADMIN', WEB_ROOT .DS. 'admin');
+define('VV_ADMIN', WEB_ROOT .DS. '@admin');
 define('VV_PUBLIC', VV_ADMIN .DS. 'public_admin');
 define('VV_CAIJI', VV_ADMIN .DS. 'caiji'.DS);
 define('VV_XIUGAI_ADD', VV_CAIJI .DS. 'xiugai_add'.DS);

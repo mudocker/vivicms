@@ -2,15 +2,15 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.js(.*)$   js.php?/$1 [QSA,PT,L]
-RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.css(.*)$   css.php?/$1 [QSA,PT,L]
-RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(gif|jpg|png|jpeg)(.*)$  img.php?/$1 [QSA,PT,L]
-RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(ttf|woff)(.*)$  font.php?/$1 [QSA,PT,L]
-RewriteCond $1 !^(admin|public_admin)
-RewriteRule ^(.*)\.(html|htm)(.*)$  html.php?/$1 [QSA,PT,L]
-RewriteCond $1 !^(admin|public_admin)
+RewriteCond $1 !^(admin|public_admin|@admin)
+RewriteRule ^([^@]+)\.js(.*)$   js.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin|@admin)
+RewriteRule ^([^@]+)\.css(.*)$   css.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin|@admin)
+RewriteRule ^([^@]+)\.(gif|jpg|png|jpeg)(.*)$  img.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin|@admin)
+RewriteRule ^([^@]+)\.(ttf|woff)(.*)$  font.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin|@admin)
+RewriteRule ^([^@]+)\.(html|htm)(.*)$  html.php?/$1 [QSA,PT,L]
+RewriteCond $1 !^(admin|public_admin|@admin)
 </IfModule>
