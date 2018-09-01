@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.zip" beforeDir="false" afterPath="$PROJECT_DIR$/php.zip" afterDir="false" />
-    </list>
+    <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +68,8 @@
     <session id="-1610963567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.148" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -94,7 +91,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -223,7 +220,7 @@
         <entry file="file://$PROJECT_DIR$/php/img.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -429,11 +426,6 @@
               <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivicms" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vivicms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivicms" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -450,19 +442,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\all\php\vivicms\php" />
-      <recent name="D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\ssl" />
-      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
-      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
-      <recent name="D:\all\php\vivicms\php\data\conf" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
       <recent name="D:\all\php\vivicms\php\admin\caiji" />
       <recent name="D:\all\php\vivicms\php\data\conf" />
       <recent name="D:\all\php\vivicms\php\lib" />
       <recent name="D:\all\php\vivicms\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all\php\vivicms" />
+      <recent name="D:\all\php\vivicms\php" />
+      <recent name="D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\ssl" />
+      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
+      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2121,6 +2113,7 @@
       <workItem from="1535705566861" duration="9977000" />
       <workItem from="1535717813489" duration="4147000" />
       <workItem from="1535766693533" duration="1330000" />
+      <workItem from="1535768565576" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2133,7 +2126,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324253000" />
+    <option name="totallyTimeSpent" value="324312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2148,7 +2141,7 @@
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30724174" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31043664" />
       <window_info id="Structure" order="2" weight="0.24920128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.33045357" />
@@ -2162,7 +2155,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4968051" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.543131" side_tool="true" weight="0.32829374" />
       <window_info anchor="bottom" id="REST Client" order="11" sideWeight="0.4201278" weight="0.32829374" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.456869" visible="true" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.456869" visible="true" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2585,7 +2578,7 @@
     <entry file="file://$PROJECT_DIR$/php/img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
