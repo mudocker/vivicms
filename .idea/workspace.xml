@@ -1,255 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/data/replace/replace_wailian.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/@admin/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/@admin/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/check.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/checktime.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/share.dmhy.org.1/808176e357dba06874.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/share.dmhy.org.1/80f02bb426d617ec7d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80805dca4bd2cf2887.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080805dca4bd2cf2887.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/808091465a12e78ad657.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080b0daa6c0d99185a8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080b3dbedc17daec695.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080beae430929bdb58b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080c358d37e15b23f4b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080d133498a8d1b015f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080d281dc7a38ef3a75.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080dd76e7b4c0370c46.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8080e2d9f0f5c4fad4a7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/8091465a12e78ad657.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80b3dbedc17daec695.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80beae430929bdb58b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80d133498a8d1b015f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80d281dc7a38ef3a75.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80dd76e7b4c0370c46.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/css/www.ybdu.com.1/80e2d9f0f5c4fad4a7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/html/share.dmhy.org.1/8028/91/2891ee27779bd855.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/html/share.dmhy.org.1/8031/34/3134c2007c789130.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/html/share.dmhy.org.1/808e/19/8e19a6d5bde4b804.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/html/share.dmhy.org.1/80b3/04/b3046ec515d64c78.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/html/share.dmhy.org.1/80d6/e5/d6e541d5fabe1a7d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/0a/84/0a84ecd7b5a0aa55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/0d/be/0dbee3257089b444.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/0e/80/0e8025af7103abd8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/10/90/10905428747a7473.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/20/3c/203c88a5fbb79ab0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/22/f2/22f21de18962dfbf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/26/1d/261d946300de1276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/35/5d/355de9bcd074e366.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/36/49/364987d87ad6c9eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/3f/0e/3f0e38b33a82eaaa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/3f/7a/3f7ac0f1f8e83375.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/4c/10/4c103dbfbb432c0a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/55/46/55460780be6b9c1b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/57/c8/57c832f25284867a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/58/68/5868c71899f56264.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/5c/5e/5c5ed62bac370ba5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/61/a5/61a5b1aaab43a5a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/69/04/69046988d5cf7b65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/69/7f/697f1a5b8be79c40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/77/cb/77cb849e41da5183.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/78/9b/789be717b24a8061.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/7c/51/7c51b4bef2942318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/81/e2/81e269892756ea4a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/87/71/87715ef759eddd92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/8b/e8/8be819b161b85af9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/8c/51/8c5121b5cfdf4842.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/8e/ab/8eab684e1780a55d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/96/78/96783d456a3ea019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/a8/e7/a8e70e4e86d8f390.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/aa/49/aa49e353f8969402.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/ac/86/ac86e015fd9b197f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/b2/31/b231e70008c73a2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/d0/49/d04907e0cba615cd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/d3/89/d389f374695bb2b4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/e2/8b/e28bccc74ed3c112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/eb/c7/ebc7051ce65d0839.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/ec/79/ec79f0948b916554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/f1/34/f1347661ca27fcf6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/f2/e0/f2e040a15740a9d3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/f3/4c/f34ce9c8ceb8b876.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/f7/07/f707a92c98d6ee2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/img/f9/40/f940952b5a2268aa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/index/share.dmhy.org.1/80/88/5b/885b66ddc9e18a5c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/80802168fa4f587f9272.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/808041bf324e90e34deb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/808068b25963f9103210.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/8080744a0f8395bc5210.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/80809e0a6731f63289ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/8080a35d3c9e6ae88d0a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/8080dc96b13dd8798994.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/js/www.ybdu.com.1/8080e9232f187db01648.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/linksdata/f8/e8/f8e838c234ab85f3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180320.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180321.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180322.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180323.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180324.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180325.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180326.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180327.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180328.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180329.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180330.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180331.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180401.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180402.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180403.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180404.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180405.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180406.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180407.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180408.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180409.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180410.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180411.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180412.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180413.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180414.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180415.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180416.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180417.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180418.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180419.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180420.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180421.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180422.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180423.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180424.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180425.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180426.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180430.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180501.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180502.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180503.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180504.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180505.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180506.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180507.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180508.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180509.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180510.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180511.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180512.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180705.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180706.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180707.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180708.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180709.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180710.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180711.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180712.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180713.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180823.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180824.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180825.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180826.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180827.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180828.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180829.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180830.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/cache/zhizhu/20180831.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/data/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/config/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/data/config/1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/domain_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/data/domain_config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/data/domain_link.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/data/domain_link.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.5/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/3.5/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/cache/html/82/79/82795681125321b2.html" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/cache/html/82/79/82795681125321b2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/css/admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/css/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/button_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/inbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/input.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/load.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/loginsafe.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/success.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top11.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top13.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top15.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top20.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top21.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top22.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top23.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top24.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/top9.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/img/vip.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/en_vivi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/jquery-1.3.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/LGPLv3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/clipboard.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/src/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/magnifier.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/page_white_copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/printer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEditplus.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/syntaxhighlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/js/vivi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/multi-select/css/multi-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/multi-select/img/switch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/public1/multi-select/js/jquery.multi-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/rules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vivicms/data/rules_get.php" beforeDir="false" afterPath="$PROJECT_DIR$/vivicms/data/rules_get.php" afterDir="false" />
-    </list>
+    <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -369,7 +121,7 @@
           <entry key="log" value="78" />
           <entry key="log___jb_old___" value="1" />
           <entry key="md" value="13" />
-          <entry key="php" value="3858" />
+          <entry key="php" value="3864" />
           <entry key="pid" value="1" />
           <entry key="scgi_params" value="2" />
           <entry key="ttf" value="4" />
@@ -391,7 +143,7 @@
           <entry key="JavaScript" value="14" />
           <entry key="Log" value="78" />
           <entry key="Markdown" value="13" />
-          <entry key="PHP" value="3858" />
+          <entry key="PHP" value="3864" />
           <entry key="PLAIN_TEXT" value="38" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="201" />
@@ -446,17 +198,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -638,7 +380,7 @@
       <path value="$PROJECT_DIR$/php/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="476" />
     <option name="y" value="59" />
     <option name="width" value="1400" />
@@ -668,25 +410,25 @@
     <property name="Constants" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vivi3.5/e" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/xiaotou" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\all\php\vivicms" />
-      <recent name="D:\all\php\vivicms\php" />
-      <recent name="D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\ssl" />
-      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
-      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
       <recent name="D:\all\php\vivicms\php\admin\caiji" />
       <recent name="D:\all\php\vivicms\php\data\conf" />
       <recent name="D:\all\php\vivicms\php\lib" />
       <recent name="D:\all\php\vivicms\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\all\php\vivicms" />
+      <recent name="D:\all\php\vivicms\php" />
+      <recent name="D:\soft\bc\phpstudy\2018\PHPTutorial\nginx\conf\ssl" />
+      <recent name="D:\all\php\vivicms\php\admin\public_admin\js" />
+      <recent name="D:\all\php\vivicms\php\admin\caiji\xiugai_add" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2347,7 +2089,7 @@
       <workItem from="1535766693533" duration="1330000" />
       <workItem from="1535768565576" duration="59000" />
       <workItem from="1535769266722" duration="5713000" />
-      <workItem from="1535782186164" duration="6955000" />
+      <workItem from="1535782186164" duration="9506000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2360,7 +2102,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336980000" />
+    <option name="totallyTimeSpent" value="339531000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2373,7 +2115,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3168264" />
@@ -2388,9 +2129,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4968051" weight="0.32829374" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.543131" side_tool="true" visible="true" weight="0.32829374" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.54366344" side_tool="true" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="REST Client" order="11" sideWeight="0.4201278" weight="0.32829374" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.456869" weight="0.32829374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.45633653" visible="true" weight="0.32829374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2634,24 +2375,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/data/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/data/config/4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.aylhhg.com.conf" />
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/example.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -2767,13 +2490,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vivicms/vivicms/README.md" />
     <entry file="file://$PROJECT_DIR$/vivicms/vivicms/data/deltime.txt" />
-    <entry file="file://$PROJECT_DIR$/php/lib/micro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/data/cache/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -2908,6 +2624,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/lib/function.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/lib/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/lib/micro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/data/BaseGlobal.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/rules.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -2918,12 +2657,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/php/lib/FileDownload.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
