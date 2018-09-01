@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878b27b7-ba91-4cf8-be83-105de369af5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php.zip" beforeDir="false" afterPath="$PROJECT_DIR$/php.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/php/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/ng_rewrite.conf" beforeDir="false" afterPath="$PROJECT_DIR$/php/ng_rewrite.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +71,7 @@
     <session id="-1610963567">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.148" value="1" />
@@ -85,6 +84,7 @@
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.56" value="1" />
@@ -94,7 +94,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -122,7 +122,7 @@
           <entry key="log" value="78" />
           <entry key="log___jb_old___" value="1" />
           <entry key="md" value="12" />
-          <entry key="php" value="3828" />
+          <entry key="php" value="3829" />
           <entry key="pid" value="1" />
           <entry key="scgi_params" value="2" />
           <entry key="ttf" value="4" />
@@ -143,7 +143,7 @@
           <entry key="JavaScript" value="14" />
           <entry key="Log" value="78" />
           <entry key="Markdown" value="12" />
-          <entry key="PHP" value="3828" />
+          <entry key="PHP" value="3829" />
           <entry key="PLAIN_TEXT" value="32" />
           <entry key="Scratch" value="5" />
           <entry key="SmartyConfig" value="192" />
@@ -197,8 +197,8 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -213,8 +213,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="57">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/img.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -319,9 +328,6 @@
     <option name="RESET_MODE" value="MIXED" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response5.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -415,6 +421,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,14 +438,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Constants" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/soft/bc/phpstudy/2018/PHPTutorial/php" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vivi3.5/e" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
@@ -2114,6 +2120,7 @@
       <workItem from="1535698702983" duration="6236000" />
       <workItem from="1535705566861" duration="9977000" />
       <workItem from="1535717813489" duration="4147000" />
+      <workItem from="1535766693533" duration="1330000" />
     </task>
     <task id="LOCAL-00001" summary="dddd">
       <created>1535025694936</created>
@@ -2126,7 +2133,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322923000" />
+    <option name="totallyTimeSpent" value="324253000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2139,10 +2146,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30404687" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30724174" />
       <window_info id="Structure" order="2" weight="0.24920128" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4941427" weight="0.33045357" />
@@ -2406,7 +2412,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bjxjjdp.com.conf" />
     <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bqhdn.com.conf" />
     <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bsthbkj.com.conf" />
     <entry file="file://D:/soft/bc/phpstudy/2018/PHPTutorial/nginx/conf/www.bxtcsd.com.conf" />
@@ -2560,13 +2565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -2574,6 +2572,20 @@
             <caret line="14" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/ng_rewrite.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
